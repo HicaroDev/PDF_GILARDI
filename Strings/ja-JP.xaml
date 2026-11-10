@@ -3,7 +3,7 @@
                     xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
     <!-- ================================================================
-         KillerPDF  -  Japanese (ja-JP) strings
+         PDF Gilardi  -  Japanese (ja-JP) strings
          ================================================================ -->
 
     <!-- ── ツールバーのツールチップ ───────────────────────────────────── -->
@@ -125,7 +125,7 @@
     <sys:String x:Key="Str_TT_CollapseSidebar">サイドバーを折りたたむ (F9)</sys:String>
     <sys:String x:Key="Str_TT_ExpandSidebar">サイドバーを展開 (F9)</sys:String>
     <sys:String x:Key="Str_TT_KeyboardShortcuts">キーボードショートカット (F1)</sys:String>
-    <sys:String x:Key="Str_TT_About">KillerPDF について (F12)</sys:String>
+    <sys:String x:Key="Str_TT_About">PDF Gilardi について (F12)</sys:String>
 
     <!-- ── バージョン情報オーバーレイ ──────────────────────────────────── -->
     <sys:String x:Key="Str_About_Version">バージョン</sys:String>
@@ -233,7 +233,7 @@
     <sys:String x:Key="Str_Ready">準備完了</sys:String>
     <sys:String x:Key="Str_Status_Ready">準備完了</sys:String>
     <sys:String x:Key="Str_Portable">ポータブル</sys:String>
-    <sys:String x:Key="Str_InstallBtn">KillerPDF をインストール</sys:String>
+    <sys:String x:Key="Str_InstallBtn">PDF Gilardi をインストール</sys:String>
 
     <!-- ── ステータスメッセージ (書式指定文字列 - string.Formatを使用) ─────── -->
     <sys:String x:Key="Str_Opened">{0} を開きました - {1} ページ</sys:String>
@@ -251,18 +251,18 @@
     <sys:String x:Key="Str_Print_LowQuality_Prompt">「{0}」は低品質の印刷のみ許可されています。高品質で印刷するには所有者パスワードを入力してください。低品質で印刷する場合はキャンセルしてください。</sys:String>
     <sys:String x:Key="Str_Print_Refused_Certificate">印刷は許可されていません。この PDF の暗号化先の証明書では印刷が許可されておらず、パスワードでは解除できません。</sys:String>
     <sys:String x:Key="Str_Protection_Prompt">「{0}」には所有者が設定した制限があり、この操作では制限なしで書き出されます。続行するには所有者パスワードを入力してください。</sys:String>
-    <sys:String x:Key="Str_Protection_Refused">何も書き出されませんでした。結果にはこの PDF の所有者が設定した制限が残らないため、KillerPDF は所有者パスワードがある場合にのみ書き出します。</sys:String>
+    <sys:String x:Key="Str_Protection_Refused">何も書き出されませんでした。結果にはこの PDF の所有者が設定した制限が残らないため、PDF Gilardi は所有者パスワードがある場合にのみ書き出します。</sys:String>
     <sys:String x:Key="Str_Protection_Refused_Certificate">何も書き出されませんでした。結果にはお使いの証明書に設定された制限が残らず、この制限はパスワードでは解除できません。</sys:String>
-    <sys:String x:Key="Str_Protection_Unreadable">KillerPDF はこの PDF の保護を読み取れなかったため、保存も印刷も行っていません。{0} もう一度試すか、タブを閉じてファイルを開き直してください。</sys:String>
-    <sys:String x:Key="Str_Print_Refused">印刷は許可されていません。この PDF の所有者が印刷を制限しており、KillerPDF は所有者パスワードがある場合にのみ印刷します。</sys:String>
+    <sys:String x:Key="Str_Protection_Unreadable">PDF Gilardi はこの PDF の保護を読み取れなかったため、保存も印刷も行っていません。{0} もう一度試すか、タブを閉じてファイルを開き直してください。</sys:String>
+    <sys:String x:Key="Str_Print_Refused">印刷は許可されていません。この PDF の所有者が印刷を制限しており、PDF Gilardi は所有者パスワードがある場合にのみ印刷します。</sys:String>
     <sys:String x:Key="Str_Restricted_UnlockFailed">これは所有者パスワードですが、「{0}」のロックを解除できませんでした: {1}</sys:String>
     <sys:String x:Key="Str_St_SavedProtected">保護を維持して保存しました - {0}</sys:String>
     <sys:String x:Key="Str_Form_TwinsKept">同じ名前のフィールドの一部が値を受け入れられなかったため、値が異なっています: {0}</sys:String>
-    <sys:String x:Key="Str_Restricted_OwnerRequired">「{0}」は編集が制限されているため、KillerPDF で開くには所有者パスワードが必要です。</sys:String>
+    <sys:String x:Key="Str_Restricted_OwnerRequired">「{0}」は編集が制限されているため、PDF Gilardi で開くには所有者パスワードが必要です。</sys:String>
     <sys:String x:Key="Str_OpenedReadOnlyXRef">{0} を開きました (読み取り専用 - 非標準 XRef テーブル) - {1} ページ</sys:String>
     <sys:String x:Key="Str_OpenedRepaired">{0} を開きました (修復済みコピー - 変更を保存するには保存が必要) - {1} ページ</sys:String>
     <sys:String x:Key="Str_Save_ReferenceRepairs">壊れた参照を修復して保存しました。欠落した内容は復元されていません。</sys:String>
-    <sys:String x:Key="Str_Save_DamagedEncrypted">この PDF は破損しており、パスワードで保護されているため、KillerPDF では修復も保存もできません。元のファイルは変更されていません。</sys:String>
+    <sys:String x:Key="Str_Save_DamagedEncrypted">この PDF は破損しており、パスワードで保護されているため、PDF Gilardi では修復も保存もできません。元のファイルは変更されていません。</sys:String>
     <sys:String x:Key="Str_Save_DamagedSigned">この PDF は破損しており、デジタル署名が含まれています。保存すると署名が無効になるため、ファイルは変更されていません。</sys:String>
     <sys:String x:Key="Str_Save_DamagedCertified">この PDF は破損しており、作成者によって認定されています。保存すると認定が無効になるため、ファイルは変更されていません。</sys:String>
     <sys:String x:Key="Str_Save_DamagedUsageRights">この PDF は破損しており、Reader の使用権限が含まれています。保存するとそれらが無効になるため、ファイルは変更されていません。</sys:String>
@@ -342,37 +342,37 @@
 ここで保存するとファイルが上書きされ、その変更は失われます。残したい場合は先にもう一方のペインを保存してください。</sys:String>
     <sys:String x:Key="Str_St_SplitOn">分割表示オン - F10 で閉じる</sys:String>
     <sys:String x:Key="Str_St_SplitOff">分割表示オフ</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallTitle">KillerPDF をインストール</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallMsg">KillerPDF をこのコンピューターにインストールしますか？</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallTitle">PDF Gilardi をインストール</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallMsg">PDF Gilardi をこのコンピューターにインストールしますか？</sys:String>
     <sys:String x:Key="Str_Dlg_InstallBullets">インストールすると、アプリがプログラムフォルダーにコピーされて起動が速くなり、スタートメニューに項目が追加されます。このポータブル ファイルは、その後で残しても削除してもかまいません。</sys:String>
-    <sys:String x:Key="Str_Install_AlreadyAllUsers">KillerPDF はこのコンピューターのすべてのユーザー向けにすでにインストールされているため、そのコピーを更新します。Windows が許可を求めます。</sys:String>
+    <sys:String x:Key="Str_Install_AlreadyAllUsers">PDF Gilardi はこのコンピューターのすべてのユーザー向けにすでにインストールされているため、そのコピーを更新します。Windows が許可を求めます。</sys:String>
     <sys:String x:Key="Str_Dlg_SaveBeforeInstall">インストールする前に変更を保存してください。</sys:String>
-    <sys:String x:Key="Str_Dlg_UpdateMachineMsg" xml:space="preserve">全ユーザー向けの既存の KillerPDF インストールを更新しますか？
+    <sys:String x:Key="Str_Dlg_UpdateMachineMsg" xml:space="preserve">全ユーザー向けの既存の PDF Gilardi インストールを更新しますか？
 
-Program Files のコピーを、より高速なマルチファイル版に置き換えます。古いユーザーごとのコピーは削除され、KillerPDF は 1 つだけ表示されます。このポータブルファイルはその後、保持しても削除してもかまいません。</sys:String>
-    <sys:String x:Key="Str_Dlg_UpdateUserMsg" xml:space="preserve">既存の KillerPDF インストールを更新しますか？
+Program Files のコピーを、より高速なマルチファイル版に置き換えます。古いユーザーごとのコピーは削除され、PDF Gilardi は 1 つだけ表示されます。このポータブルファイルはその後、保持しても削除してもかまいません。</sys:String>
+    <sys:String x:Key="Str_Dlg_UpdateUserMsg" xml:space="preserve">既存の PDF Gilardi インストールを更新しますか？
 
 インストール済みのコピーを、より高速なマルチファイル版に置き換えます。このポータブルファイルはその後、保持しても削除してもかまいません。</sys:String>
-    <sys:String x:Key="Str_Dlg_OneInstallOnly" xml:space="preserve">KillerPDF はこのコンピューターの全ユーザー向けに既にインストールされています。ユーザーごとのインストールを選ぶ前に、そのインストールを更新するかアンインストールしてください。
+    <sys:String x:Key="Str_Dlg_OneInstallOnly" xml:space="preserve">PDF Gilardi はこのコンピューターの全ユーザー向けに既にインストールされています。ユーザーごとのインストールを選ぶ前に、そのインストールを更新するかアンインストールしてください。
 
-KillerPDF がインストール済みコピーを 2 つ作成することはありません。</sys:String>
+PDF Gilardi がインストール済みコピーを 2 つ作成することはありません。</sys:String>
     <sys:String x:Key="Str_Btn_DoInstall">インストール</sys:String>
     <sys:String x:Key="Str_Btn_DoUpdate">更新</sys:String>
     <sys:String x:Key="Str_Chk_Desktop">デスクトップにショートカットを追加</sys:String>
     <sys:String x:Key="Str_Chk_AllUsers">このコンピューターのすべてのユーザーにインストール (管理者権限が必要)</sys:String>
-    <sys:String x:Key="Str_Status_InstallFailed">インストールは完了しませんでした - KillerPDF はポータブルのまま実行中です。</sys:String>
-    <sys:String x:Key="Str_Status_RelaunchDeferred">インストールが完了しました。インストール中に変更された作業を保護するため、KillerPDF は開いたままになっています。</sys:String>
-    <sys:String x:Key="Str_Dlg_SetDefaultPdfMsg" xml:space="preserve">KillerPDF を既定の PDF ビューアーに設定しますか？
+    <sys:String x:Key="Str_Status_InstallFailed">インストールは完了しませんでした - PDF Gilardi はポータブルのまま実行中です。</sys:String>
+    <sys:String x:Key="Str_Status_RelaunchDeferred">インストールが完了しました。インストール中に変更された作業を保護するため、PDF Gilardi は開いたままになっています。</sys:String>
+    <sys:String x:Key="Str_Dlg_SetDefaultPdfMsg" xml:space="preserve">PDF Gilardi を既定の PDF ビューアーに設定しますか？
 
 Windows の設定 - 既定のアプリ を開きます。</sys:String>
     <sys:String x:Key="Str_Dlg_UnsavedClose">このファイルには保存されていない変更があります。閉じる前に保存しますか？</sys:String>
-    <sys:String x:Key="Str_Dlg_UnsavedExit">保存されていない変更があります。KillerPDF を終了する前に保存しますか？</sys:String>
+    <sys:String x:Key="Str_Dlg_UnsavedExit">保存されていない変更があります。PDF Gilardi を終了する前に保存しますか？</sys:String>
     <sys:String x:Key="Str_Dlg_PageOutOfRange" xml:space="preserve">この文書には、Adobe Reader が対応する範囲 (1 辺あたり 3～14,400 ポイント) 外のサイズのページが {0} ページあります。Adobe ではこれらのページは白紙で表示されます。
 
 対応するサイズに拡大・縮小しますか？ページの見た目と縦横比は変わりません。</sys:String>
     <sys:String x:Key="Str_Dlg_FailedOpen" xml:space="preserve">PDF を開けませんでした :
 {0}</sys:String>
-    <sys:String x:Key="Str_Dlg_AppTitle">KillerPDF</sys:String>
+    <sys:String x:Key="Str_Dlg_AppTitle">PDF Gilardi</sys:String>
     <sys:String x:Key="Str_Dlg_CloseAllDocs">{0} 個の開いているドキュメントがあります。アプリを終了するときにすべて閉じますか？</sys:String>
     <sys:String x:Key="Str_Dlg_CloseAllDocsOne">1個の開いているドキュメントがあります。アプリを終了するときに閉じますか？</sys:String>
     <sys:String x:Key="Str_Dlg_RememberChoice">この選択を記憶する</sys:String>
@@ -522,7 +522,7 @@ Windows の設定 - 既定のアプリ を開きます。</sys:String>
     <sys:String x:Key="Str_Pos_TopLeft">上部左</sys:String>
 
     <!-- ── 印刷ダイアログ ────────────────────────────────────────── -->
-    <sys:String x:Key="Str_Print_Title">KillerPDF - 印刷</sys:String>
+    <sys:String x:Key="Str_Print_Title">PDF Gilardi - 印刷</sys:String>
     <sys:String x:Key="Str_Print_Rendering">レンダリング中 {0} / {1}</sys:String>
     <sys:String x:Key="Str_Print_IncompletePages">一部の内容を正確に描画できませんでした。{0} ページは表示どおりに印刷されます。</sys:String>
     <sys:String x:Key="Str_Print_Printer">プリンター</sys:String>
@@ -790,7 +790,7 @@ Windows の設定 - 既定のアプリ を開きます。</sys:String>
     <sys:String x:Key="Str_Drop_RepairFailed">ファイルを修復できなかったため、何も結合されていません。</sys:String>
     <sys:String x:Key="Str_Import_NoPages">{0} にはページがないため、結合するものがありません。</sys:String>
     <sys:String x:Key="Str_Drop_ManyTabs">{0} 個のタブを個別に開きます。続行しますか？</sys:String>
-    <sys:String x:Key="Str_Drop_TooMany">このフォルダーまたはアーカイブには {0} 個のファイルがあります。KillerPDF は最初の {1} 個のみを開きます。続行しますか？</sys:String>
+    <sys:String x:Key="Str_Drop_TooMany">このフォルダーまたはアーカイブには {0} 個のファイルがあります。PDF Gilardi は最初の {1} 個のみを開きます。続行しますか？</sys:String>
     <sys:String x:Key="Str_Status_Merged">{0} 個のファイルを結合しました - 未保存です</sys:String>
     <sys:String x:Key="Str_Drop_Merging">ファイルを結合中...</sys:String>
     <sys:String x:Key="Str_Drop_MergeCanceled">結合をキャンセルしました</sys:String>
@@ -1000,14 +1000,14 @@ Windows の設定 - 既定のアプリ を開きます。</sys:String>
     <sys:String x:Key="Str_KS_FullScreen">全画面</sys:String>
     <sys:String x:Key="Str_FullScreen_Hint">F11 または Esc で全画面を終了します</sys:String>
     <!-- KillerFind-style quit prompt (family standard) -->
-    <sys:String x:Key="Str_Dlg_QuitMsg">KillerPDF を終了しますか？</sys:String>
+    <sys:String x:Key="Str_Dlg_QuitMsg">PDF Gilardi を終了しますか？</sys:String>
     <sys:String x:Key="Str_Chk_CloseTabs">開いているタブを閉じる</sys:String>
     <sys:String x:Key="Str_Btn_Quit">終了</sys:String>
     <sys:String x:Key="Str_Btn_CancelDlg">キャンセル</sys:String>
 
 
     <!-- ステータスバーおよびダイアログの文字列 (コードから抽出) -->
-    <sys:String x:Key="Str_St_DataCleared">すべての KillerPDF データを消去しました</sys:String>
+    <sys:String x:Key="Str_St_DataCleared">すべての PDF Gilardi データを消去しました</sys:String>
     <sys:String x:Key="Str_St_OcrRegionCanceled">OCR 領域の選択をキャンセルしました</sys:String>
     <sys:String x:Key="Str_St_Erased">消去しました</sys:String>
     <sys:String x:Key="Str_St_Ungrouped">グループを解除しました</sys:String>
@@ -1057,7 +1057,7 @@ Windows の設定 - 既定のアプリ を開きます。</sys:String>
 
     <!-- その他のダイアログ / メッセージボックス文字列（コードから抽出） -->
     <sys:String x:Key="Str_Dlg_SaveBeforeUpdate">更新する前に変更を保存してください。</sys:String>
-    <sys:String x:Key="Str_Dlg_Uninstalled">KillerPDF をアンインストールしました。</sys:String>
+    <sys:String x:Key="Str_Dlg_Uninstalled">PDF Gilardi をアンインストールしました。</sys:String>
     <sys:String x:Key="Str_Dlg_SelectExtract">抽出するページを選択してください。</sys:String>
     <sys:String x:Key="Str_Dlg_SelectDelete">削除するページを選択してください。</sys:String>
     <sys:String x:Key="Str_Dlg_NoPrinter">利用可能なプリンターがありません。</sys:String>
@@ -1234,7 +1234,7 @@ Windows の設定 - 既定のアプリ を開きます。</sys:String>
     <sys:String x:Key="Str_Err_DuplicateFailed">複製に失敗しました：</sys:String>
     <sys:String x:Key="Str_Err_RepairFailed">修復に失敗しました：</sys:String>
     <sys:String x:Key="Str_Err_OpenProtected">保護された PDF を開けませんでした：</sys:String>
-    <sys:String x:Key="Str_Err_WorkingCopy">KillerPDF はこの PDF の作業用コピーを書き込めませんでした。ディスクに空き容量があるか確認してください:</sys:String>
+    <sys:String x:Key="Str_Err_WorkingCopy">PDF Gilardi はこの PDF の作業用コピーを書き込めませんでした。ディスクに空き容量があるか確認してください:</sys:String>
     <sys:String x:Key="Str_Err_NewDocFailed">新しい文書を作成できませんでした：</sys:String>
     <sys:String x:Key="Str_Err_FileNotFound">ファイルが見つかりません：</sys:String>
     <sys:String x:Key="Str_Err_MergeFailed">結合に失敗しました：</sys:String>
@@ -1348,7 +1348,7 @@ Windows の設定 - 既定のアプリ を開きます。</sys:String>
     <sys:String x:Key="Str_ScanReview_Text">テキスト</sys:String>
     <sys:String x:Key="Str_Dlg_Repaired" xml:space="preserve">「{0}」の修復に成功しました。&#10;&#10;しおり、フォーム、その他のインタラクティブ機能は失われている可能性があります。名前を付けて保存で修復済みファイルを新しい場所に書き出してください。</sys:String>
     <sys:String x:Key="Str_Dlg_RepairedRaster" xml:space="preserve">「{0}」はページをラスタライズして修復されました。&#10;&#10;修復済みコピーではテキストを選択できません。名前を付けて保存で新しい場所に書き出してください。</sys:String>
-    <sys:String x:Key="Str_Dlg_RepairAsk" xml:space="preserve">「{0}」は構造が破損しているため追加できませんでした。&#10;&#10;KillerPDF で修復を試みますか？修復済みコピーが作成されます。元のファイルは変更されません。&#10;&#10;注意 : 修復済みファイルでは、しおり、フォーム、その他のインタラクティブ機能が失われる場合があります。</sys:String>
+    <sys:String x:Key="Str_Dlg_RepairAsk" xml:space="preserve">「{0}」は構造が破損しているため追加できませんでした。&#10;&#10;PDF Gilardi で修復を試みますか？修復済みコピーが作成されます。元のファイルは変更されません。&#10;&#10;注意 : 修復済みファイルでは、しおり、フォーム、その他のインタラクティブ機能が失われる場合があります。</sys:String>
     <sys:String x:Key="Str_Dlg_LangDownloadAsk" xml:space="preserve">OCR を実行するため、言語モデル（{0}）を今すぐダウンロードします。&#10;&#10;OCR メニューからいつでも言語を追加したり、より高品質なモデルに切り替えたりできます。</sys:String>
     <sys:String x:Key="Str_Bar_More">その他の設定</sys:String>
     <sys:String x:Key="Str_Bar_TT_Level">線を最も近い軸 (水平または垂直) に揃えます</sys:String>
@@ -1362,7 +1362,7 @@ Windows の設定 - 既定のアプリ を開きます。</sys:String>
     <sys:String x:Key="Str_TT_SaveOptions">保存オプション</sys:String>
     <sys:String x:Key="Str_TT_OcrOptions">OCR オプション</sys:String>
     <sys:String x:Key="Str_RecentHeading">最近</sys:String>
-    <sys:String x:Key="Str_KS_WindowTitle">KillerPDF - キーボード ショートカット</sys:String>
+    <sys:String x:Key="Str_KS_WindowTitle">PDF Gilardi - キーボード ショートカット</sys:String>
     <sys:String x:Key="Str_About_UpdateAvailable">更新があります: {0}</sys:String>
     <sys:String x:Key="Str_About_Unsigned">(not signed or chain failed)</sys:String>
     <sys:String x:Key="Str_About_Downloading">ダウンロード中...</sys:String>
@@ -1374,11 +1374,11 @@ Windows の設定 - 既定のアプリ を開きます。</sys:String>
     <sys:String x:Key="Str_About_NotNow">後で</sys:String>
     <sys:String x:Key="Str_About_AlwaysCheckOnStartup">起動時に常に更新を確認する</sys:String>
     <sys:String x:Key="Str_UpdateRestartPrepareFailed">更新を準備できませんでした。保存済みのPDFファイルは変更されていません。もう一度お試しください。</sys:String>
-    <sys:String x:Key="Str_UpdateRestartRestoreFailed">KillerPDFは前回の作業セッションを再度開けませんでした。保存済みのPDFファイルは変更されていません。</sys:String>
+    <sys:String x:Key="Str_UpdateRestartRestoreFailed">PDF Gilardiは前回の作業セッションを再度開けませんでした。保存済みのPDFファイルは変更されていません。</sys:String>
     <sys:String x:Key="Str_ClearAllData">すべてのデータを消去</sys:String>
     <sys:String x:Key="Str_ClearDataConfirm" xml:space="preserve">保存されたすべての設定、ダウンロード済みの OCR 言語パック、一時ファイルを削除します。&#10;&#10;PDF ファイルには影響しません。続行しますか？</sys:String>
-    <sys:String x:Key="Str_ClearDataDone" xml:space="preserve">設定、言語パック、一時ファイルを消去しました。&#10;&#10;このセッションで使用中のファイルの消去を完了するには、KillerPDF を再起動してください。</sys:String>
-    <sys:String x:Key="Str_Crash_Title">KillerPDF - 予期しないエラー</sys:String>
+    <sys:String x:Key="Str_ClearDataDone" xml:space="preserve">設定、言語パック、一時ファイルを消去しました。&#10;&#10;このセッションで使用中のファイルの消去を完了するには、PDF Gilardi を再起動してください。</sys:String>
+    <sys:String x:Key="Str_Crash_Title">PDF Gilardi - 予期しないエラー</sys:String>
     <sys:String x:Key="Str_Crash_Log">ログ : {0}</sys:String>
     <sys:String x:Key="Str_Crash_Copy">レポートをコピー</sys:String>
     <sys:String x:Key="Str_Crash_OpenLogs">ログを開く</sys:String>
@@ -1451,17 +1451,17 @@ Windows の設定 - 既定のアプリ を開きます。</sys:String>
     <sys:String x:Key="Str_Compare_DetailsTitle">PDF 比較の詳細</sys:String>
 
     <!-- ── Browser handoff refusals ────────────────────────────────────── -->
-    <sys:String x:Key="Str_Handoff_Failed">KillerPDF はブラウザーの PDF を開けませんでした。</sys:String>
-    <sys:String x:Key="Str_Handoff_UnknownCommand">そのブラウザーコマンドは KillerPDF には認識できません。</sys:String>
+    <sys:String x:Key="Str_Handoff_Failed">PDF Gilardi はブラウザーの PDF を開けませんでした。</sys:String>
+    <sys:String x:Key="Str_Handoff_UnknownCommand">そのブラウザーコマンドは PDF Gilardi には認識できません。</sys:String>
     <sys:String x:Key="Str_Handoff_MissingUrl">引き渡し情報に PDF のアドレスが含まれていませんでした。</sys:String>
     <sys:String x:Key="Str_Handoff_MalformedUrl">引き渡し情報内の PDF アドレスを読み取れませんでした。</sys:String>
-    <sys:String x:Key="Str_Handoff_SchemeNotAllowed">KillerPDF は https 経由のブラウザからの引き渡しのみを開きます。</sys:String>
+    <sys:String x:Key="Str_Handoff_SchemeNotAllowed">PDF Gilardi は https 経由のブラウザからの引き渡しのみを開きます。</sys:String>
     <sys:String x:Key="Str_Handoff_Unusable">ブラウザからの引き渡し情報を使用できませんでした。</sys:String>
     <sys:String x:Key="Str_Handoff_TooLarge">PDF がブラウザ引き渡しの上限である 256 MB を超えています。</sys:String>
     <sys:String x:Key="Str_Handoff_NotPdf">ダウンロードされたファイルは PDF ではありません。</sys:String>
-    <sys:String x:Key="Str_Handoff_DownloadFailed">KillerPDF は PDF をダウンロードできませんでした。</sys:String>
+    <sys:String x:Key="Str_Handoff_DownloadFailed">PDF Gilardi は PDF をダウンロードできませんでした。</sys:String>
     <sys:String x:Key="Str_Handoff_TimedOut">PDF のダウンロードがタイムアウトしました。</sys:String>
-    <sys:String x:Key="Str_Handoff_FileError">KillerPDF はダウンロードした PDF を保存または読み取ることができませんでした。</sys:String>
+    <sys:String x:Key="Str_Handoff_FileError">PDF Gilardi はダウンロードした PDF を保存または読み取ることができませんでした。</sys:String>
     <sys:String x:Key="Str_St_FormFieldDrag">ドラッグして入力可能なテキストフィールドを作成</sys:String>
     <sys:String x:Key="Str_St_FormFieldCanceled">入力可能なテキストフィールドの作成をキャンセルしました</sys:String>
     <sys:String x:Key="Str_St_FormFieldCreateFailed">入力可能なテキストフィールドを作成できませんでした</sys:String>
@@ -1606,7 +1606,7 @@ Windows の設定 - 既定のアプリ を開きます。</sys:String>
     <sys:String x:Key="Str_Macro_DeleteConfirm">マクロ「{0}」を削除しますか?</sys:String>
     <sys:String x:Key="Str_Macro_ImportFailed">マクロをインポートできませんでした:</sys:String>
     <sys:String x:Key="Str_Macro_ExportFailed">マクロをエクスポートできませんでした:</sys:String>
-    <sys:String x:Key="Str_Macro_Files">KillerPDF マクロ</sys:String>
+    <sys:String x:Key="Str_Macro_Files">PDF Gilardi マクロ</sys:String>
     <sys:String x:Key="Str_Macro_SelectOutput">マクロの出力先を選択</sys:String>
     <sys:String x:Key="Str_Macro_Preview" xml:space="preserve">マクロ: {0}&#10;入力: {1}&#10;出力: {2}&#10;&#10;ステップ:&#10;{3}&#10;&#10;このマクロを実行しますか?</sys:String>
     <sys:String x:Key="Str_Macro_Running">マクロを実行しています...</sys:String>
@@ -1632,18 +1632,18 @@ Windows の設定 - 既定のアプリ を開きます。</sys:String>
     <sys:String x:Key="Str_Sig_RemoveSignature">署名を削除</sys:String>
     <sys:String x:Key="Str_Sig_ChangeInitials">イニシャルを変更</sys:String>
     <sys:String x:Key="Str_Sig_RemoveInitials">イニシャルを削除</sys:String>
-    <sys:String x:Key="Str_Dlg_DuplicateInstallTitle">KillerPDF の重複インストール</sys:String>
-    <sys:String x:Key="Str_Dlg_DuplicateInstallMachine" xml:space="preserve">このコンピューターに KillerPDF のインストール済みコピーが 2 つ見つかりました。&#10;&#10;現在実行しているのは全ユーザー向けのインストールです。通常は以前の更新時に使用中だったため、古いユーザーごとのコピーも残っています。&#10;&#10;使用していないユーザーごとのコピーを今すぐ削除しますか？設定と PDF ファイルは削除されません。</sys:String>
-    <sys:String x:Key="Str_Dlg_DuplicateInstallUser" xml:space="preserve">このコンピューターに KillerPDF のインストール済みコピーが 2 つ見つかりました。&#10;&#10;現在実行しているのはユーザーごとのインストールです。全ユーザー向けのコピーもあります。&#10;&#10;使用していない全ユーザー向けのコピーを今すぐ削除しますか？Windows が管理者の許可を求めます。設定と PDF ファイルは削除されません。</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallUnsigned" xml:space="preserve">インストールを拒否しました: 実行中の EXE に有効な Authenticode 署名がありません。&#10;&#10;インストールできるのは署名済みの KillerPDF ビルドだけです。</sys:String>
+    <sys:String x:Key="Str_Dlg_DuplicateInstallTitle">PDF Gilardi の重複インストール</sys:String>
+    <sys:String x:Key="Str_Dlg_DuplicateInstallMachine" xml:space="preserve">このコンピューターに PDF Gilardi のインストール済みコピーが 2 つ見つかりました。&#10;&#10;現在実行しているのは全ユーザー向けのインストールです。通常は以前の更新時に使用中だったため、古いユーザーごとのコピーも残っています。&#10;&#10;使用していないユーザーごとのコピーを今すぐ削除しますか？設定と PDF ファイルは削除されません。</sys:String>
+    <sys:String x:Key="Str_Dlg_DuplicateInstallUser" xml:space="preserve">このコンピューターに PDF Gilardi のインストール済みコピーが 2 つ見つかりました。&#10;&#10;現在実行しているのはユーザーごとのインストールです。全ユーザー向けのコピーもあります。&#10;&#10;使用していない全ユーザー向けのコピーを今すぐ削除しますか？Windows が管理者の許可を求めます。設定と PDF ファイルは削除されません。</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallUnsigned" xml:space="preserve">インストールを拒否しました: 実行中の EXE に有効な Authenticode 署名がありません。&#10;&#10;インストールできるのは署名済みの PDF Gilardi ビルドだけです。</sys:String>
     <sys:String x:Key="Str_Dlg_InstallDowngrade" xml:space="preserve">インストール済みのバージョン ({1}) に古いバージョン ({0}) を上書きインストールしようとしています。&#10;&#10;それでも古いバージョンに戻しますか？</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallWriteFailed" xml:space="preserve">インストール済みコピーを書き込めませんでした:&#10;{0}&#10;&#10;開いている KillerPDF のウィンドウをすべて閉じて (タスク マネージャーで KillerPDF.exe も確認してください)、インストーラーをもう一度実行してください。</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallWriteFailed" xml:space="preserve">インストール済みコピーを書き込めませんでした:&#10;{0}&#10;&#10;開いている PDF Gilardi のウィンドウをすべて閉じて (タスク マネージャーで PDF Gilardi.exe も確認してください)、インストーラーをもう一度実行してください。</sys:String>
     <sys:String x:Key="Str_Dlg_InstallFailed" xml:space="preserve">インストールに失敗しました:&#10;{0}</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallNoDesktopShortcut" xml:space="preserve">KillerPDF はインストールされましたが、Windows がデスクトップのショートカットを許可しませんでした:&#10;{0}&#10;&#10;スタート メニューから KillerPDF を開いてください。</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallNoDesktopShortcut" xml:space="preserve">PDF Gilardi はインストールされましたが、Windows がデスクトップのショートカットを許可しませんでした:&#10;{0}&#10;&#10;スタート メニューから PDF Gilardi を開いてください。</sys:String>
     <sys:String x:Key="Str_Dlg_UninstallElevationFailed" xml:space="preserve">アンインストールに必要な管理者アクセスを要求できませんでした:&#10;{0}</sys:String>
-    <sys:String x:Key="Str_Dlg_UninstallConfirm">このコンピューターから KillerPDF をアンインストールしますか？</sys:String>
-    <sys:String x:Key="Str_Dlg_UninstallStillRunning" xml:space="preserve">KillerPDF はまだ実行中です。&#10;終了してから、もう一度アンインストールしてください。</sys:String>
-    <sys:String x:Key="Str_Dlg_UninstallNotInstalled" xml:space="preserve">この KillerPDF はここにインストールされたものではないため、何も削除されませんでした。&#10;不要であればフォルダーを手動で削除してください。</sys:String>
+    <sys:String x:Key="Str_Dlg_UninstallConfirm">このコンピューターから PDF Gilardi をアンインストールしますか？</sys:String>
+    <sys:String x:Key="Str_Dlg_UninstallStillRunning" xml:space="preserve">PDF Gilardi はまだ実行中です。&#10;終了してから、もう一度アンインストールしてください。</sys:String>
+    <sys:String x:Key="Str_Dlg_UninstallNotInstalled" xml:space="preserve">この PDF Gilardi はここにインストールされたものではないため、何も削除されませんでした。&#10;不要であればフォルダーを手動で削除してください。</sys:String>
     <sys:String x:Key="Str_Btn_Uninstall">アンインストール</sys:String>
     <!-- Measure tool: types, scale, units, report -->
     <sys:String x:Key="Str_Measure_Distance">距離</sys:String>
@@ -1841,7 +1841,7 @@ Windows の設定 - 既定のアプリ を開きます。</sys:String>
     <sys:String x:Key="Str_Tray_Exit">終了</sys:String>
     <sys:String x:Key="Str_Watch_Title">自動処理フォルダー</sys:String>
     <sys:String x:Key="Str_Watch_Intro">入力フォルダーに PDF を置くと、保存済みマクロを実行して出力フォルダーに新しいコピーを保存します。</sys:String>
-    <sys:String x:Key="Str_Watch_RunningNote">KillerPDF が開いている間は、システム トレイ内でも動作します。元のファイルと既存の出力ファイルは保持されます。</sys:String>
+    <sys:String x:Key="Str_Watch_RunningNote">PDF Gilardi が開いている間は、システム トレイ内でも動作します。元のファイルと既存の出力ファイルは保持されます。</sys:String>
     <sys:String x:Key="Str_Watch_Input">入力フォルダー</sys:String>
     <sys:String x:Key="Str_Watch_Output">出力フォルダー</sys:String>
     <sys:String x:Key="Str_Watch_Filter">ファイル名フィルター</sys:String>
@@ -1949,11 +1949,11 @@ Windows の設定 - 既定のアプリ を開きます。</sys:String>
     <sys:String x:Key="Str_CmpRpt_Summary">変更されたページ: {0}、欠落したページ: {1}、一致したページ: {2}</sys:String>
     <sys:String x:Key="Str_Read_Comment">コメント: {0}</sys:String>
     <sys:String x:Key="Str_Read_CommentBy">{0} のコメント: {1}</sys:String>
-    <sys:String x:Key="Str_Dlg_RenderRecovered">ウィンドウを表示できなくなったため、KillerPDF を再起動しました。未保存の変更は復元され、保存できる状態で再び開かれています。&#10;&#10;コピーは {0} にも保存されています。このセッションではソフトウェア レンダリングを使用します。</sys:String>
+    <sys:String x:Key="Str_Dlg_RenderRecovered">ウィンドウを表示できなくなったため、PDF Gilardi を再起動しました。未保存の変更は復元され、保存できる状態で再び開かれています。&#10;&#10;コピーは {0} にも保存されています。このセッションではソフトウェア レンダリングを使用します。</sys:String>
     <sys:String x:Key="Str_Dlg_RenderRecoveryIncomplete">一部の文書を完全に復元できませんでした。&#10;{0}&#10;&#10;利用可能な復元ファイルは {1} に保存されています。保存する前に、復元されたコピーを確認してください。</sys:String>
     <sys:String x:Key="Str_Dlg_RenderRecoveryNotReopened">一部の文書を完全に復元できませんでした。&#10;{0}&#10;&#10;利用可能な復元ファイルは {1} に保存されています。</sys:String>
     <sys:String x:Key="Str_Dlg_RenderRecoveryNoFolder">回復用コピーに使えるフォルダーがなかったため、保存されていない変更を保持できませんでした。</sys:String>
-    <sys:String x:Key="Str_Dlg_RenderRestarted">ウィンドウを表示できなくなったため、KillerPDF を再起動しました。開いていたドキュメントを再び開きました。このセッションではソフトウェア レンダリングを使用します。</sys:String>
+    <sys:String x:Key="Str_Dlg_RenderRestarted">ウィンドウを表示できなくなったため、PDF Gilardi を再起動しました。開いていたドキュメントを再び開きました。このセッションではソフトウェア レンダリングを使用します。</sys:String>
     <sys:String x:Key="Str_Read_MarkedText">マークされたテキスト:「{0}」</sys:String>
     <sys:String x:Key="Str_Read_MarkedNoText">マークされたテキスト</sys:String>
     <sys:String x:Key="Str_Read_Drawing">描画</sys:String>
@@ -1967,7 +1967,7 @@ Windows の設定 - 既定のアプリ を開きます。</sys:String>
     <sys:String x:Key="Str_Color_Yellow">黄</sys:String>
     <sys:String x:Key="Str_Color_Magenta">マゼンタ</sys:String>
     <sys:String x:Key="Str_CertCatalog_Title">証明書</sys:String>
-    <sys:String x:Key="Str_CertCatalog_Hint">Windows の証明書は読み取り専用です。インポートした証明書は KillerPDF にのみ保存されます。インポートしただけでは証明書は信頼されません。</sys:String>
+    <sys:String x:Key="Str_CertCatalog_Hint">Windows の証明書は読み取り専用です。インポートした証明書は PDF Gilardi にのみ保存されます。インポートしただけでは証明書は信頼されません。</sys:String>
     <sys:String x:Key="Str_CertCatalog_Search">証明書を検索</sys:String>
     <sys:String x:Key="Str_CertCatalog_Empty">検索条件に一致する証明書はありません。</sys:String>
     <sys:String x:Key="Str_CertCatalog_Import">証明書をインポート</sys:String>
@@ -1985,21 +1985,21 @@ Windows の設定 - 既定のアプリ を開きます。</sys:String>
     <sys:String x:Key="Str_CertCatalog_WindowsMachineRoots">Windows: コンピューターのルート証明書</sys:String>
     <sys:String x:Key="Str_CertCatalog_WindowsUserIntermediates">Windows: 現在のユーザーの中間証明書</sys:String>
     <sys:String x:Key="Str_CertCatalog_WindowsMachineIntermediates">Windows: コンピューターの中間証明書</sys:String>
-    <sys:String x:Key="Str_CertCatalog_Local">KillerPDF</sys:String>
+    <sys:String x:Key="Str_CertCatalog_Local">PDF Gilardi</sys:String>
     <sys:String x:Key="Str_CertCatalog_Trusted">信頼されたルート</sys:String>
     <sys:String x:Key="Str_CertCatalog_Untrusted">信頼されていません</sys:String>
     <sys:String x:Key="Str_CertCatalog_Expired">有効期限切れ</sys:String>
     <sys:String x:Key="Str_CertCatalog_NotYetValid">まだ有効ではありません</sys:String>
-    <sys:String x:Key="Str_CertCatalog_TrustPrompt">KillerPDF で「{0}」をルートとして信頼しますか？ この証明書が発行した証明書は、署名の検証時に受け入れられるようになります。Windows の信頼設定は変更されません。</sys:String>
-    <sys:String x:Key="Str_CertCatalog_RemovePrompt">KillerPDF の証明書カタログから「{0}」を削除しますか？</sys:String>
+    <sys:String x:Key="Str_CertCatalog_TrustPrompt">PDF Gilardi で「{0}」をルートとして信頼しますか？ この証明書が発行した証明書は、署名の検証時に受け入れられるようになります。Windows の信頼設定は変更されません。</sys:String>
+    <sys:String x:Key="Str_CertCatalog_RemovePrompt">PDF Gilardi の証明書カタログから「{0}」を削除しますか？</sys:String>
     <sys:String x:Key="Str_CertCatalog_Error">証明書カタログを更新できませんでした:</sys:String>
     <sys:String x:Key="Str_CertCatalog_LoadError">証明書の一覧を読み込めませんでした:</sys:String>
     <sys:String x:Key="Str_CertCatalog_WrongFileType">公開証明書ファイル (.cer、.crt、.pem) を選択してください。</sys:String>
     <sys:String x:Key="Str_CertCatalog_NotACertificate">このファイルには読み取り可能な公開証明書が含まれていません。</sys:String>
     <sys:String x:Key="Str_CertCatalog_PrivateKey">秘密キーと PFX ファイルは受け付けません。公開証明書のみをインポートしてください。</sys:String>
     <sys:String x:Key="Str_CertCatalog_TooLarge">証明書ファイルが空か、大きすぎます。</sys:String>
-    <sys:String x:Key="Str_CertCatalog_Full">KillerPDF に保存できるインポート済み証明書は {0} 件までです。</sys:String>
-    <sys:String x:Key="Str_CertCatalog_Damaged">KillerPDF の証明書カタログを読み取れないため、変更せずに残しました。署名は Windows の信頼のみで検証されます。最初からやり直すには {0} を削除してください。</sys:String>
+    <sys:String x:Key="Str_CertCatalog_Full">PDF Gilardi に保存できるインポート済み証明書は {0} 件までです。</sys:String>
+    <sys:String x:Key="Str_CertCatalog_Damaged">PDF Gilardi の証明書カタログを読み取れないため、変更せずに残しました。署名は Windows の信頼のみで検証されます。最初からやり直すには {0} を削除してください。</sys:String>
     <sys:String x:Key="Str_CertCatalog_Imported">{0} 件の証明書をインポートしました。「ルートとして信頼」を選ぶ前にルート証明書を確認してください。</sys:String>
     <sys:String x:Key="Str_CertCatalog_ReadOnly">Windows によって管理されています。</sys:String>
     <sys:String x:Key="Str_CertCatalog_Type">証明書の種類</sys:String>
@@ -2033,7 +2033,7 @@ Windows の設定 - 既定のアプリ を開きます。</sys:String>
     <sys:String x:Key="Str_Filter_Json">JSON ドキュメント</sys:String>
     <sys:String x:Key="Str_Dlg_RepairAskOpen">「{0}」は構造が破損している可能性があるため、開けませんでした。
 
-KillerPDF で修復を試みますか？修復済みコピーが作成されます。元のファイルは変更されません。
+PDF Gilardi で修復を試みますか？修復済みコピーが作成されます。元のファイルは変更されません。
 
 注意 : 修復済みファイルでは、しおり、フォーム、その他のインタラクティブ機能が失われる場合があります。</sys:String>
     <sys:String x:Key="Str_Dlg_OpenedReadOnlyXRef">「{0}」は標準以外の構造のため、読み取り専用で開きました。

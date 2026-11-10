@@ -77,7 +77,10 @@ namespace KillerPDF.Services
             }
             else
             {
-                _current = LocaleForCulture(CultureInfo.CurrentUICulture);
+                // PDF Gilardi: default to Italian on first run instead of auto-detecting the
+                // Windows display language. The language picker still lets the user switch and
+                // save a different choice afterward.
+                _current = Locale.ItIT;
                 ThemeManager.SetSetting("Locale", _current.ToString());
             }
             ApplyInternal(_current);

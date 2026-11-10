@@ -3,7 +3,7 @@
                     xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
     <!-- ================================================================
-         KillerPDF  -  Norsk bokmål (nb-NO) strings
+         PDF Gilardi  -  Norsk bokmål (nb-NO) strings
          ================================================================ -->
 
     <!-- ── Toolbar tooltips ─────────────────────────────────────────── -->
@@ -125,7 +125,7 @@ Siden kan erstattes med et bilde av seg selv der de markerte områdene er sverte
     <sys:String x:Key="Str_TT_CollapseSidebar">Skjul sidepanelet (F9)</sys:String>
     <sys:String x:Key="Str_TT_ExpandSidebar">Vis sidepanelet (F9)</sys:String>
     <sys:String x:Key="Str_TT_KeyboardShortcuts">Hurtigtaster (F1)</sys:String>
-    <sys:String x:Key="Str_TT_About">Om KillerPDF (F12)</sys:String>
+    <sys:String x:Key="Str_TT_About">Om PDF Gilardi (F12)</sys:String>
 
     <!-- ── About overlay ─────────────────────────────────────────────── -->
     <sys:String x:Key="Str_About_Version">VERSJON</sys:String>
@@ -233,7 +233,7 @@ Siden kan erstattes med et bilde av seg selv der de markerte områdene er sverte
     <sys:String x:Key="Str_Ready">Klar</sys:String>
     <sys:String x:Key="Str_Status_Ready">Klar</sys:String>
     <sys:String x:Key="Str_Portable">BÆRBAR</sys:String>
-    <sys:String x:Key="Str_InstallBtn">Installer KillerPDF</sys:String>
+    <sys:String x:Key="Str_InstallBtn">Installer PDF Gilardi</sys:String>
 
     <!-- ── Status messages (format strings - use string.Format) ─────── -->
     <sys:String x:Key="Str_Opened">Åpnet {0} - {1} side(r)</sys:String>
@@ -251,18 +251,18 @@ Siden kan erstattes med et bilde av seg selv der de markerte områdene er sverte
     <sys:String x:Key="Str_Print_LowQuality_Prompt">«{0}» tillater bare utskrift i lav kvalitet. Skriv inn eierpassordet for å skrive ut i full kvalitet, eller avbryt for å skrive ut i lav kvalitet.</sys:String>
     <sys:String x:Key="Str_Print_Refused_Certificate">Utskrift er ikke tillatt. Sertifikatet denne PDF-en er kryptert for, tillater ikke utskrift, og ingen passord opphever det.</sys:String>
     <sys:String x:Key="Str_Protection_Prompt">«{0}» har begrensninger satt av eieren, og dette ville skrive den uten dem. Skriv inn eierpassordet for å fortsette.</sys:String>
-    <sys:String x:Key="Str_Protection_Refused">Ingenting ble skrevet. Resultatet ville ikke beholde begrensningene eieren av denne PDF-en har satt, og KillerPDF skriver det bare med eierpassordet.</sys:String>
+    <sys:String x:Key="Str_Protection_Refused">Ingenting ble skrevet. Resultatet ville ikke beholde begrensningene eieren av denne PDF-en har satt, og PDF Gilardi skriver det bare med eierpassordet.</sys:String>
     <sys:String x:Key="Str_Protection_Refused_Certificate">Ingenting ble skrevet. Resultatet ville ikke beholde begrensningene som er satt for sertifikatet ditt, og ingen passord opphever dem.</sys:String>
-    <sys:String x:Key="Str_Protection_Unreadable">KillerPDF kunne ikke lese beskyttelsen av denne PDF-en, så ingenting ble lagret eller skrevet ut. {0} Prøv igjen, eller lukk fanen og åpne filen på nytt.</sys:String>
-    <sys:String x:Key="Str_Print_Refused">Utskrift er ikke tillatt. Eieren av denne PDF-en har begrenset utskrift, og KillerPDF skriver den bare ut med eierpassordet.</sys:String>
+    <sys:String x:Key="Str_Protection_Unreadable">PDF Gilardi kunne ikke lese beskyttelsen av denne PDF-en, så ingenting ble lagret eller skrevet ut. {0} Prøv igjen, eller lukk fanen og åpne filen på nytt.</sys:String>
+    <sys:String x:Key="Str_Print_Refused">Utskrift er ikke tillatt. Eieren av denne PDF-en har begrenset utskrift, og PDF Gilardi skriver den bare ut med eierpassordet.</sys:String>
     <sys:String x:Key="Str_Restricted_UnlockFailed">Det er eierpassordet, men «{0}» kunne ikke låses opp: {1}</sys:String>
     <sys:String x:Key="Str_St_SavedProtected">Lagret med beskyttelsen - {0}</sys:String>
     <sys:String x:Key="Str_Form_TwinsKept">Felt med samme navn kunne ikke alle ta verdien, så de er nå ulike: {0}</sys:String>
-    <sys:String x:Key="Str_Restricted_OwnerRequired">«{0}» begrenser redigering, så KillerPDF trenger eierpassordet for å åpne den.</sys:String>
+    <sys:String x:Key="Str_Restricted_OwnerRequired">«{0}» begrenser redigering, så PDF Gilardi trenger eierpassordet for å åpne den.</sys:String>
     <sys:String x:Key="Str_OpenedReadOnlyXRef">Åpnet {0} (skrivebeskyttet, ikke-standard XRef-tabell) - {1} side(r)</sys:String>
     <sys:String x:Key="Str_OpenedRepaired">Åpnet {0} (reparert kopi, lagre for å beholde endringer) - {1} side(r)</sys:String>
     <sys:String x:Key="Str_Save_ReferenceRepairs">Lagret med reparasjoner av ugyldige referanser. Manglende innhold ble ikke gjenopprettet.</sys:String>
-    <sys:String x:Key="Str_Save_DamagedEncrypted">Denne PDF-en er skadet og passordbeskyttet, så KillerPDF kan verken reparere eller lagre den. Den opprinnelige filen er ikke endret.</sys:String>
+    <sys:String x:Key="Str_Save_DamagedEncrypted">Denne PDF-en er skadet og passordbeskyttet, så PDF Gilardi kan verken reparere eller lagre den. Den opprinnelige filen er ikke endret.</sys:String>
     <sys:String x:Key="Str_Save_DamagedSigned">Denne PDF-en er skadet og har en digital signatur. Lagring ville ødelagt signaturen, så filen er ikke endret.</sys:String>
     <sys:String x:Key="Str_Save_DamagedCertified">Denne PDF-en er skadet og sertifisert av forfatteren. Lagring ville ødelagt sertifiseringen, så filen er ikke endret.</sys:String>
     <sys:String x:Key="Str_Save_DamagedUsageRights">Denne PDF-en er skadet og har Reader-bruksrettigheter. Lagring ville ødelagt dem, så filen er ikke endret.</sys:String>
@@ -342,39 +342,39 @@ Hvis du lagrer, erstattes filen, og signaturen fjernes. Avbryt og bruk Lagre som
 Hvis du lagrer nå, overskrives filen, og disse endringene går tapt. Lagre det andre panelet først hvis du vil beholde dem.</sys:String>
     <sys:String x:Key="Str_St_SplitOn">Delt panel er på. Trykk F10 for å lukke</sys:String>
     <sys:String x:Key="Str_St_SplitOff">Delt panel er av</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallTitle">Installer KillerPDF</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallMsg">Vil du installere KillerPDF på denne datamaskinen?</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallTitle">Installer PDF Gilardi</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallMsg">Vil du installere PDF Gilardi på denne datamaskinen?</sys:String>
     <sys:String x:Key="Str_Dlg_InstallBullets">Installasjonen kopierer appen til programmappen din for raskere oppstart og legger til en oppføring i Start-menyen. Du kan beholde eller slette denne bærbare filen etterpå.</sys:String>
-    <sys:String x:Key="Str_Install_AlreadyAllUsers">KillerPDF er allerede installert for alle brukere på denne datamaskinen, så denne kopien oppdateres. Windows ber om tillatelse.</sys:String>
+    <sys:String x:Key="Str_Install_AlreadyAllUsers">PDF Gilardi er allerede installert for alle brukere på denne datamaskinen, så denne kopien oppdateres. Windows ber om tillatelse.</sys:String>
     <sys:String x:Key="Str_Dlg_SaveBeforeInstall">Lagre endringene før du installerer.</sys:String>
-    <sys:String x:Key="Str_Dlg_UpdateMachineMsg" xml:space="preserve">Vil du oppdatere den eksisterende installasjonen av KillerPDF for alle brukere?
+    <sys:String x:Key="Str_Dlg_UpdateMachineMsg" xml:space="preserve">Vil du oppdatere den eksisterende installasjonen av PDF Gilardi for alle brukere?
 
-Dette erstatter kopien i Program Files med den raskere versjonen med flere filer. Eventuelle eldre kopier for enkeltbrukere fjernes slik at KillerPDF bare vises én gang. Du kan beholde eller slette denne bærbare filen etterpå.</sys:String>
-    <sys:String x:Key="Str_Dlg_UpdateUserMsg" xml:space="preserve">Vil du oppdatere den eksisterende installasjonen av KillerPDF?
+Dette erstatter kopien i Program Files med den raskere versjonen med flere filer. Eventuelle eldre kopier for enkeltbrukere fjernes slik at PDF Gilardi bare vises én gang. Du kan beholde eller slette denne bærbare filen etterpå.</sys:String>
+    <sys:String x:Key="Str_Dlg_UpdateUserMsg" xml:space="preserve">Vil du oppdatere den eksisterende installasjonen av PDF Gilardi?
 
 Dette erstatter den installerte kopien med den raskere versjonen med flere filer. Du kan beholde eller slette denne bærbare filen etterpå.</sys:String>
-    <sys:String x:Key="Str_Dlg_OneInstallOnly" xml:space="preserve">KillerPDF er allerede installert for alle på denne datamaskinen. Oppdater den installasjonen, eller avinstaller den før du velger installasjon for én bruker.
+    <sys:String x:Key="Str_Dlg_OneInstallOnly" xml:space="preserve">PDF Gilardi er allerede installert for alle på denne datamaskinen. Oppdater den installasjonen, eller avinstaller den før du velger installasjon for én bruker.
 
-KillerPDF oppretter ikke to installerte kopier.</sys:String>
+PDF Gilardi oppretter ikke to installerte kopier.</sys:String>
     <sys:String x:Key="Str_Btn_DoInstall">Installer</sys:String>
     <sys:String x:Key="Str_Btn_DoUpdate">Oppdater</sys:String>
     <sys:String x:Key="Str_Chk_Desktop">Legg til snarvei på skrivebordet</sys:String>
     <sys:String x:Key="Str_Chk_AllUsers">Installer for alle på denne datamaskinen (krever administrator)</sys:String>
-    <sys:String x:Key="Str_Status_InstallFailed">Installasjonen ble ikke fullført. KillerPDF kjører fortsatt som bærbar.</sys:String>
-    <sys:String x:Key="Str_Status_RelaunchDeferred">Installasjonen er fullført. KillerPDF forble åpen for å beskytte arbeid som ble endret under installasjonen.</sys:String>
-    <sys:String x:Key="Str_Dlg_SetDefaultPdfMsg" xml:space="preserve">Vil du angi KillerPDF som standard PDF-leser?
+    <sys:String x:Key="Str_Status_InstallFailed">Installasjonen ble ikke fullført. PDF Gilardi kjører fortsatt som bærbar.</sys:String>
+    <sys:String x:Key="Str_Status_RelaunchDeferred">Installasjonen er fullført. PDF Gilardi forble åpen for å beskytte arbeid som ble endret under installasjonen.</sys:String>
+    <sys:String x:Key="Str_Dlg_SetDefaultPdfMsg" xml:space="preserve">Vil du angi PDF Gilardi som standard PDF-leser?
 
 Åpner Windows-innstillinger, Standardapper.</sys:String>
     <sys:String x:Key="Str_Dlg_UnsavedClose">Denne filen har ulagrede endringer. Vil du lagre dem før du lukker den?</sys:String>
-    <sys:String x:Key="Str_Dlg_UnsavedExit">Du har ulagrede endringer. Vil du lagre dem før du lukker KillerPDF?</sys:String>
+    <sys:String x:Key="Str_Dlg_UnsavedExit">Du har ulagrede endringer. Vil du lagre dem før du lukker PDF Gilardi?</sys:String>
     <sys:String x:Key="Str_Dlg_PageOutOfRange" xml:space="preserve">Dette dokumentet har {0} side(r) med størrelse utenfor det Adobe Reader støtter (3 til 14 400 punkter per side). Adobe viser disse som tomme sider.
 
 Vil du skalere dem til en støttet størrelse? Sidene beholder utseende og proporsjoner.</sys:String>
     <sys:String x:Key="Str_Dlg_FailedOpen" xml:space="preserve">Kunne ikke åpne PDF:
 {0}</sys:String>
-    <sys:String x:Key="Str_Dlg_AppTitle">KillerPDF</sys:String>
-    <sys:String x:Key="Str_Dlg_CloseAllDocs">Du har {0} åpne dokumenter. Vil du at KillerPDF skal lukke dem alle når du avslutter appen?</sys:String>
-    <sys:String x:Key="Str_Dlg_CloseAllDocsOne">Du har 1 åpent dokument. Vil du at KillerPDF skal lukke det når du avslutter appen?</sys:String>
+    <sys:String x:Key="Str_Dlg_AppTitle">PDF Gilardi</sys:String>
+    <sys:String x:Key="Str_Dlg_CloseAllDocs">Du har {0} åpne dokumenter. Vil du at PDF Gilardi skal lukke dem alle når du avslutter appen?</sys:String>
+    <sys:String x:Key="Str_Dlg_CloseAllDocsOne">Du har 1 åpent dokument. Vil du at PDF Gilardi skal lukke det når du avslutter appen?</sys:String>
     <sys:String x:Key="Str_Dlg_RememberChoice">Husk valget mitt</sys:String>
 
 
@@ -522,7 +522,7 @@ Vil du skalere dem til en støttet størrelse? Sidene beholder utseende og propo
     <sys:String x:Key="Str_Pos_TopLeft">Øverst til venstre</sys:String>
 
     <!-- ── Print dialog ───────────────────────────────────────────────── -->
-    <sys:String x:Key="Str_Print_Title">KillerPDF - Skriv ut</sys:String>
+    <sys:String x:Key="Str_Print_Title">PDF Gilardi - Skriv ut</sys:String>
     <sys:String x:Key="Str_Print_Rendering">Gjengir {0} / {1}</sys:String>
     <sys:String x:Key="Str_Print_IncompletePages">Noe innhold kunne ikke tegnes nøyaktig. Sidene {0} skrives ut slik de vises.</sys:String>
     <sys:String x:Key="Str_Print_Printer">Skriver</sys:String>
@@ -790,7 +790,7 @@ Vil du skalere dem til en støttet størrelse? Sidene beholder utseende og propo
     <sys:String x:Key="Str_Drop_RepairFailed">Filen kunne ikke repareres, så ingenting ble slått sammen.</sys:String>
     <sys:String x:Key="Str_Import_NoPages">{0} har ingen sider, så det er ingenting å slå sammen.</sys:String>
     <sys:String x:Key="Str_Drop_ManyTabs">Dette åpner {0} separate faner. Vil du fortsette?</sys:String>
-    <sys:String x:Key="Str_Drop_TooMany">Denne mappen eller dette arkivet har {0} filer. KillerPDF åpner bare de første {1}. Vil du fortsette?</sys:String>
+    <sys:String x:Key="Str_Drop_TooMany">Denne mappen eller dette arkivet har {0} filer. PDF Gilardi åpner bare de første {1}. Vil du fortsette?</sys:String>
     <sys:String x:Key="Str_Status_Merged">Slo sammen {0} filer - ikke lagret ennå</sys:String>
     <sys:String x:Key="Str_Drop_Merging">Slår sammen filer...</sys:String>
     <sys:String x:Key="Str_Drop_MergeCanceled">Sammenslåingen er avbrutt</sys:String>
@@ -1000,14 +1000,14 @@ Vil du skalere dem til en støttet størrelse? Sidene beholder utseende og propo
     <sys:String x:Key="Str_KS_FullScreen">Fullskjerm</sys:String>
     <sys:String x:Key="Str_FullScreen_Hint">Trykk F11 eller Esc for å avslutte fullskjerm</sys:String>
     <!-- Quit prompt (family standard) -->
-    <sys:String x:Key="Str_Dlg_QuitMsg">Avslutte KillerPDF?</sys:String>
+    <sys:String x:Key="Str_Dlg_QuitMsg">Avslutte PDF Gilardi?</sys:String>
     <sys:String x:Key="Str_Chk_CloseTabs">Lukk de åpne fanene mine</sys:String>
     <sys:String x:Key="Str_Btn_Quit">Avslutt</sys:String>
     <sys:String x:Key="Str_Btn_CancelDlg">Avbryt</sys:String>
 
 
     <!-- Status-bar messages (extracted from code) -->
-    <sys:String x:Key="Str_St_DataCleared">Alle KillerPDF-data er tømt</sys:String>
+    <sys:String x:Key="Str_St_DataCleared">Alle PDF Gilardi-data er tømt</sys:String>
     <sys:String x:Key="Str_St_OcrRegionCanceled">OCR-område avbrutt</sys:String>
     <sys:String x:Key="Str_St_Erased">Visket ut</sys:String>
     <sys:String x:Key="Str_St_Ungrouped">Gruppering opphevet</sys:String>
@@ -1057,7 +1057,7 @@ Vil du skalere dem til en støttet størrelse? Sidene beholder utseende og propo
 
     <!-- Dialog / message-box strings (extracted from code) -->
     <sys:String x:Key="Str_Dlg_SaveBeforeUpdate">Lagre endringene dine før du oppdaterer.</sys:String>
-    <sys:String x:Key="Str_Dlg_Uninstalled">KillerPDF er avinstallert.</sys:String>
+    <sys:String x:Key="Str_Dlg_Uninstalled">PDF Gilardi er avinstallert.</sys:String>
     <sys:String x:Key="Str_Dlg_SelectExtract">Velg sider som skal trekkes ut.</sys:String>
     <sys:String x:Key="Str_Dlg_SelectDelete">Velg sider som skal slettes.</sys:String>
     <sys:String x:Key="Str_Dlg_NoPrinter">Ingen skriver er tilgjengelig.</sys:String>
@@ -1234,7 +1234,7 @@ Vil du skalere dem til en støttet størrelse? Sidene beholder utseende og propo
     <sys:String x:Key="Str_Err_DuplicateFailed">Duplisering mislyktes:</sys:String>
     <sys:String x:Key="Str_Err_RepairFailed">Reparasjonen mislyktes:</sys:String>
     <sys:String x:Key="Str_Err_OpenProtected">Kunne ikke åpne den beskyttede PDF-en:</sys:String>
-    <sys:String x:Key="Str_Err_WorkingCopy">KillerPDF kunne ikke skrive arbeidskopien av denne PDF-en. Kontroller at det er ledig plass på disken:</sys:String>
+    <sys:String x:Key="Str_Err_WorkingCopy">PDF Gilardi kunne ikke skrive arbeidskopien av denne PDF-en. Kontroller at det er ledig plass på disken:</sys:String>
     <sys:String x:Key="Str_Err_NewDocFailed">Kunne ikke opprette nytt dokument:</sys:String>
     <sys:String x:Key="Str_Err_FileNotFound">Filen ble ikke funnet:</sys:String>
     <sys:String x:Key="Str_Err_MergeFailed">Sammenslåingen mislyktes:</sys:String>
@@ -1348,7 +1348,7 @@ Vil du skalere dem til en støttet størrelse? Sidene beholder utseende og propo
     <sys:String x:Key="Str_ScanReview_Text">Tekst</sys:String>
     <sys:String x:Key="Str_Dlg_Repaired" xml:space="preserve">«{0}» ble reparert.&#10;&#10;Bokmerker, skjemaer og andre interaktive funksjoner kan ha gått tapt. Bruk Lagre som for å skrive den reparerte filen til et nytt sted.</sys:String>
     <sys:String x:Key="Str_Dlg_RepairedRaster" xml:space="preserve">«{0}» ble reparert ved å rasterisere sidene.&#10;&#10;Tekst kan ikke markeres i den reparerte kopien. Bruk Lagre som for å skrive den til et nytt sted.</sys:String>
-    <sys:String x:Key="Str_Dlg_RepairAsk" xml:space="preserve">«{0}» har en skadet struktur og kunne ikke legges til.&#10;&#10;Vil du at KillerPDF skal prøve å reparere den? Det opprettes en reparert kopi, og originalfilen endres ikke.&#10;&#10;Merk: reparerte filer kan mangle bokmerker, skjemaer og andre interaktive funksjoner.</sys:String>
+    <sys:String x:Key="Str_Dlg_RepairAsk" xml:space="preserve">«{0}» har en skadet struktur og kunne ikke legges til.&#10;&#10;Vil du at PDF Gilardi skal prøve å reparere den? Det opprettes en reparert kopi, og originalfilen endres ikke.&#10;&#10;Merk: reparerte filer kan mangle bokmerker, skjemaer og andre interaktive funksjoner.</sys:String>
     <sys:String x:Key="Str_Dlg_LangDownloadAsk" xml:space="preserve">En språkmodell ({0}) lastes ned nå slik at OCR kan kjøre.&#10;&#10;Du kan når som helst legge til flere språk eller bytte til modeller med høyere kvalitet fra OCR-menyen.</sys:String>
     <sys:String x:Key="Str_Bar_More">Flere innstillinger</sys:String>
     <sys:String x:Key="Str_Bar_TT_Level">Hold linjen på nærmeste akse (vannrett eller loddrett)</sys:String>
@@ -1362,7 +1362,7 @@ Vil du skalere dem til en støttet størrelse? Sidene beholder utseende og propo
     <sys:String x:Key="Str_TT_SaveOptions">Lagringsvalg</sys:String>
     <sys:String x:Key="Str_TT_OcrOptions">OCR-valg</sys:String>
     <sys:String x:Key="Str_RecentHeading">NYLIG</sys:String>
-    <sys:String x:Key="Str_KS_WindowTitle">KillerPDF - Hurtigtaster</sys:String>
+    <sys:String x:Key="Str_KS_WindowTitle">PDF Gilardi - Hurtigtaster</sys:String>
     <sys:String x:Key="Str_About_UpdateAvailable">Oppdatering tilgjengelig: {0}</sys:String>
     <sys:String x:Key="Str_About_Unsigned">(not signed or chain failed)</sys:String>
     <sys:String x:Key="Str_About_Downloading">Laster ned...</sys:String>
@@ -1374,11 +1374,11 @@ Vil du skalere dem til en støttet størrelse? Sidene beholder utseende og propo
     <sys:String x:Key="Str_About_NotNow">Ikke nå</sys:String>
     <sys:String x:Key="Str_About_AlwaysCheckOnStartup">Se alltid etter ved oppstart</sys:String>
     <sys:String x:Key="Str_UpdateRestartPrepareFailed">Oppdateringen kunne ikke klargjøres. De lagrede PDF-filene dine er uendret. Prøv igjen.</sys:String>
-    <sys:String x:Key="Str_UpdateRestartRestoreFailed">KillerPDF kunne ikke åpne den forrige økten din på nytt. De lagrede PDF-filene dine er uendret.</sys:String>
+    <sys:String x:Key="Str_UpdateRestartRestoreFailed">PDF Gilardi kunne ikke åpne den forrige økten din på nytt. De lagrede PDF-filene dine er uendret.</sys:String>
     <sys:String x:Key="Str_ClearAllData">Tøm alle data</sys:String>
     <sys:String x:Key="Str_ClearDataConfirm" xml:space="preserve">Dette sletter alle lagrede innstillinger, nedlastede OCR-språkpakker og midlertidige filer.&#10;&#10;PDF-filene dine påvirkes ikke. Vil du fortsette?</sys:String>
-    <sys:String x:Key="Str_ClearDataDone" xml:space="preserve">Innstillinger, språkpakker og midlertidige filer er tømt.&#10;&#10;Start KillerPDF på nytt for å fullføre tømmingen av filer som fortsatt er i bruk i denne økten.</sys:String>
-    <sys:String x:Key="Str_Crash_Title">KillerPDF - Uventet feil</sys:String>
+    <sys:String x:Key="Str_ClearDataDone" xml:space="preserve">Innstillinger, språkpakker og midlertidige filer er tømt.&#10;&#10;Start PDF Gilardi på nytt for å fullføre tømmingen av filer som fortsatt er i bruk i denne økten.</sys:String>
+    <sys:String x:Key="Str_Crash_Title">PDF Gilardi - Uventet feil</sys:String>
     <sys:String x:Key="Str_Crash_Log">Logg: {0}</sys:String>
     <sys:String x:Key="Str_Crash_Copy">Kopier rapport</sys:String>
     <sys:String x:Key="Str_Crash_OpenLogs">Åpne logger</sys:String>
@@ -1451,17 +1451,17 @@ Vil du skalere dem til en støttet størrelse? Sidene beholder utseende og propo
     <sys:String x:Key="Str_Compare_DetailsTitle">Detaljer om PDF-sammenligning</sys:String>
 
     <!-- ── Browser handoff refusals ────────────────────────────────────── -->
-    <sys:String x:Key="Str_Handoff_Failed">KillerPDF kunne ikke åpne nettleser-PDF-en.</sys:String>
-    <sys:String x:Key="Str_Handoff_UnknownCommand">Den nettleserkommandoen er ukjent for KillerPDF.</sys:String>
+    <sys:String x:Key="Str_Handoff_Failed">PDF Gilardi kunne ikke åpne nettleser-PDF-en.</sys:String>
+    <sys:String x:Key="Str_Handoff_UnknownCommand">Den nettleserkommandoen er ukjent for PDF Gilardi.</sys:String>
     <sys:String x:Key="Str_Handoff_MissingUrl">Overleveringen inneholdt ingen PDF-adresse.</sys:String>
     <sys:String x:Key="Str_Handoff_MalformedUrl">PDF-adressen i overleveringen kunne ikke leses.</sys:String>
-    <sys:String x:Key="Str_Handoff_SchemeNotAllowed">KillerPDF åpner bare nettleseroverleveringer over https.</sys:String>
+    <sys:String x:Key="Str_Handoff_SchemeNotAllowed">PDF Gilardi åpner bare nettleseroverleveringer over https.</sys:String>
     <sys:String x:Key="Str_Handoff_Unusable">Nettleseroverleveringen kunne ikke brukes.</sys:String>
     <sys:String x:Key="Str_Handoff_TooLarge">PDF-en er større enn grensen på 256 MB for nettleseroverlevering.</sys:String>
     <sys:String x:Key="Str_Handoff_NotPdf">Den nedlastede filen er ikke en PDF.</sys:String>
-    <sys:String x:Key="Str_Handoff_DownloadFailed">KillerPDF kunne ikke laste ned PDF-en.</sys:String>
+    <sys:String x:Key="Str_Handoff_DownloadFailed">PDF Gilardi kunne ikke laste ned PDF-en.</sys:String>
     <sys:String x:Key="Str_Handoff_TimedOut">PDF-nedlastingen fikk tidsavbrudd.</sys:String>
-    <sys:String x:Key="Str_Handoff_FileError">KillerPDF kunne ikke lagre eller lese den nedlastede PDF-en.</sys:String>
+    <sys:String x:Key="Str_Handoff_FileError">PDF Gilardi kunne ikke lagre eller lese den nedlastede PDF-en.</sys:String>
     <sys:String x:Key="Str_St_FormFieldDrag">Dra for å opprette et fyllbart tekstfelt</sys:String>
     <sys:String x:Key="Str_St_FormFieldCanceled">Fyllbart tekstfelt er avbrutt</sys:String>
     <sys:String x:Key="Str_St_FormFieldCreateFailed">Kunne ikke opprette det fyllbare tekstfeltet</sys:String>
@@ -1606,7 +1606,7 @@ Vil du skalere dem til en støttet størrelse? Sidene beholder utseende og propo
     <sys:String x:Key="Str_Macro_DeleteConfirm">Slette makroen «{0}»?</sys:String>
     <sys:String x:Key="Str_Macro_ImportFailed">Kunne ikke importere makroen:</sys:String>
     <sys:String x:Key="Str_Macro_ExportFailed">Kunne ikke eksportere makroen:</sys:String>
-    <sys:String x:Key="Str_Macro_Files">KillerPDF-makro</sys:String>
+    <sys:String x:Key="Str_Macro_Files">PDF Gilardi-makro</sys:String>
     <sys:String x:Key="Str_Macro_SelectOutput">Velg utdata for makro</sys:String>
     <sys:String x:Key="Str_Macro_Preview" xml:space="preserve">Makro: {0}&#10;Inndata: {1}&#10;Utdata: {2}&#10;&#10;Trinn:&#10;{3}&#10;&#10;Kjøre denne makroen?</sys:String>
     <sys:String x:Key="Str_Macro_Running">Kjører makro...</sys:String>
@@ -1632,18 +1632,18 @@ Vil du skalere dem til en støttet størrelse? Sidene beholder utseende og propo
     <sys:String x:Key="Str_Sig_RemoveSignature">Fjern signatur</sys:String>
     <sys:String x:Key="Str_Sig_ChangeInitials">Endre initialer</sys:String>
     <sys:String x:Key="Str_Sig_RemoveInitials">Fjern initialer</sys:String>
-    <sys:String x:Key="Str_Dlg_DuplicateInstallTitle">Dobbel KillerPDF-installasjon</sys:String>
-    <sys:String x:Key="Str_Dlg_DuplicateInstallMachine" xml:space="preserve">KillerPDF fant to installerte kopier på denne datamaskinen.&#10;&#10;Du bruker installasjonen for alle brukere. Det finnes også en eldre kopi for én bruker, vanligvis fordi den var i bruk under en tidligere oppdatering.&#10;&#10;Vil du fjerne den ubrukte kopien for én bruker nå? Innstillingene og PDF-filene dine blir ikke fjernet.</sys:String>
-    <sys:String x:Key="Str_Dlg_DuplicateInstallUser" xml:space="preserve">KillerPDF fant to installerte kopier på denne datamaskinen.&#10;&#10;Du bruker installasjonen for én bruker. Det finnes også en kopi for alle brukere.&#10;&#10;Vil du fjerne den ubrukte kopien for alle brukere nå? Windows ber om administratortillatelse. Innstillingene og PDF-filene dine blir ikke fjernet.</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallUnsigned" xml:space="preserve">Installasjonen ble avvist: EXE-filen som kjører, har ikke en gyldig Authenticode-signatur.&#10;&#10;Bare signerte versjoner av KillerPDF kan installeres.</sys:String>
+    <sys:String x:Key="Str_Dlg_DuplicateInstallTitle">Dobbel PDF Gilardi-installasjon</sys:String>
+    <sys:String x:Key="Str_Dlg_DuplicateInstallMachine" xml:space="preserve">PDF Gilardi fant to installerte kopier på denne datamaskinen.&#10;&#10;Du bruker installasjonen for alle brukere. Det finnes også en eldre kopi for én bruker, vanligvis fordi den var i bruk under en tidligere oppdatering.&#10;&#10;Vil du fjerne den ubrukte kopien for én bruker nå? Innstillingene og PDF-filene dine blir ikke fjernet.</sys:String>
+    <sys:String x:Key="Str_Dlg_DuplicateInstallUser" xml:space="preserve">PDF Gilardi fant to installerte kopier på denne datamaskinen.&#10;&#10;Du bruker installasjonen for én bruker. Det finnes også en kopi for alle brukere.&#10;&#10;Vil du fjerne den ubrukte kopien for alle brukere nå? Windows ber om administratortillatelse. Innstillingene og PDF-filene dine blir ikke fjernet.</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallUnsigned" xml:space="preserve">Installasjonen ble avvist: EXE-filen som kjører, har ikke en gyldig Authenticode-signatur.&#10;&#10;Bare signerte versjoner av PDF Gilardi kan installeres.</sys:String>
     <sys:String x:Key="Str_Dlg_InstallDowngrade" xml:space="preserve">Du er i ferd med å installere en eldre versjon ({0}) over den installerte versjonen ({1}).&#10;&#10;Vil du gå tilbake til den eldre versjonen likevel?</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallWriteFailed" xml:space="preserve">Kunne ikke skrive den installerte kopien til:&#10;{0}&#10;&#10;Lukk alle åpne KillerPDF-vinduer (og se etter KillerPDF.exe i Oppgavebehandling), og kjør installasjonsprogrammet på nytt.</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallWriteFailed" xml:space="preserve">Kunne ikke skrive den installerte kopien til:&#10;{0}&#10;&#10;Lukk alle åpne PDF Gilardi-vinduer (og se etter PDF Gilardi.exe i Oppgavebehandling), og kjør installasjonsprogrammet på nytt.</sys:String>
     <sys:String x:Key="Str_Dlg_InstallFailed" xml:space="preserve">Installasjonen mislyktes:&#10;{0}</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallNoDesktopShortcut" xml:space="preserve">KillerPDF er installert, men Windows tillot ikke snarveien på skrivebordet:&#10;{0}&#10;&#10;Åpne KillerPDF fra Start-menyen.</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallNoDesktopShortcut" xml:space="preserve">PDF Gilardi er installert, men Windows tillot ikke snarveien på skrivebordet:&#10;{0}&#10;&#10;Åpne PDF Gilardi fra Start-menyen.</sys:String>
     <sys:String x:Key="Str_Dlg_UninstallElevationFailed" xml:space="preserve">Avinstalleringen kunne ikke be om administratortilgang:&#10;{0}</sys:String>
-    <sys:String x:Key="Str_Dlg_UninstallConfirm">Vil du avinstallere KillerPDF fra denne datamaskinen?</sys:String>
-    <sys:String x:Key="Str_Dlg_UninstallStillRunning" xml:space="preserve">KillerPDF kjører fortsatt.&#10;Lukk programmet, og prøv å avinstallere på nytt.</sys:String>
-    <sys:String x:Key="Str_Dlg_UninstallNotInstalled" xml:space="preserve">Denne KillerPDF ble ikke installert her, så ingenting ble fjernet.&#10;Slett mappen selv hvis du ikke vil ha den lenger.</sys:String>
+    <sys:String x:Key="Str_Dlg_UninstallConfirm">Vil du avinstallere PDF Gilardi fra denne datamaskinen?</sys:String>
+    <sys:String x:Key="Str_Dlg_UninstallStillRunning" xml:space="preserve">PDF Gilardi kjører fortsatt.&#10;Lukk programmet, og prøv å avinstallere på nytt.</sys:String>
+    <sys:String x:Key="Str_Dlg_UninstallNotInstalled" xml:space="preserve">Denne PDF Gilardi ble ikke installert her, så ingenting ble fjernet.&#10;Slett mappen selv hvis du ikke vil ha den lenger.</sys:String>
     <sys:String x:Key="Str_Btn_Uninstall">Avinstaller</sys:String>
     <!-- Measure tool: types, scale, units, report -->
     <sys:String x:Key="Str_Measure_Distance">Avstand</sys:String>
@@ -1841,7 +1841,7 @@ Vil du skalere dem til en støttet størrelse? Sidene beholder utseende og propo
     <sys:String x:Key="Str_Tray_Exit">Avslutt</sys:String>
     <sys:String x:Key="Str_Watch_Title">Automatiske mapper</sys:String>
     <sys:String x:Key="Str_Watch_Intro">Legg PDF-er i inndatamappen for å kjøre en lagret makro og lagre nye kopier i utdatamappen.</sys:String>
-    <sys:String x:Key="Str_Watch_RunningNote">Kjører mens KillerPDF er åpen, også i systemstatusfeltet. Originaler og eksisterende utdatafiler beholdes.</sys:String>
+    <sys:String x:Key="Str_Watch_RunningNote">Kjører mens PDF Gilardi er åpen, også i systemstatusfeltet. Originaler og eksisterende utdatafiler beholdes.</sys:String>
     <sys:String x:Key="Str_Watch_Input">Inndatamappe</sys:String>
     <sys:String x:Key="Str_Watch_Output">Utdatamappe</sys:String>
     <sys:String x:Key="Str_Watch_Filter">Filnavnfilter</sys:String>
@@ -1949,11 +1949,11 @@ Vil du skalere dem til en støttet størrelse? Sidene beholder utseende og propo
     <sys:String x:Key="Str_CmpRpt_Summary">Endrede sider: {0}, manglende sider: {1}, like sider: {2}</sys:String>
     <sys:String x:Key="Str_Read_Comment">Kommentar: {0}</sys:String>
     <sys:String x:Key="Str_Read_CommentBy">Kommentar fra {0}: {1}</sys:String>
-    <sys:String x:Key="Str_Dlg_RenderRecovered">KillerPDF startet på nytt fordi vinduet ikke lenger kunne vise noe. Endringene som ikke var lagret, ble gjenopprettet og er åpne igjen, klare til lagring.&#10;&#10;Kopier ligger også i {0}. Denne økten bruker programvaregjengivelse.</sys:String>
+    <sys:String x:Key="Str_Dlg_RenderRecovered">PDF Gilardi startet på nytt fordi vinduet ikke lenger kunne vise noe. Endringene som ikke var lagret, ble gjenopprettet og er åpne igjen, klare til lagring.&#10;&#10;Kopier ligger også i {0}. Denne økten bruker programvaregjengivelse.</sys:String>
     <sys:String x:Key="Str_Dlg_RenderRecoveryIncomplete">Noen dokumenter kunne ikke gjenopprettes fullstendig:&#10;{0}&#10;&#10;Tilgjengelige gjenopprettingsfiler er lagret i {1}. Kontroller de gjenopprettede kopiene før du lagrer.</sys:String>
     <sys:String x:Key="Str_Dlg_RenderRecoveryNotReopened">Noen dokumenter kunne ikke gjenopprettes fullstendig:&#10;{0}&#10;&#10;Tilgjengelige gjenopprettingsfiler er lagret i {1}.</sys:String>
     <sys:String x:Key="Str_Dlg_RenderRecoveryNoFolder">Ingen mappe var tilgjengelig for en gjenopprettingskopi, så de ulagrede endringene kunne ikke beholdes.</sys:String>
-    <sys:String x:Key="Str_Dlg_RenderRestarted">KillerPDF startet på nytt fordi vinduet ikke lenger kunne vise noe. De åpne dokumentene ble åpnet igjen. Denne økten bruker programvaregjengivelse.</sys:String>
+    <sys:String x:Key="Str_Dlg_RenderRestarted">PDF Gilardi startet på nytt fordi vinduet ikke lenger kunne vise noe. De åpne dokumentene ble åpnet igjen. Denne økten bruker programvaregjengivelse.</sys:String>
     <sys:String x:Key="Str_Read_MarkedText">Merket tekst: «{0}»</sys:String>
     <sys:String x:Key="Str_Read_MarkedNoText">Merket tekst</sys:String>
     <sys:String x:Key="Str_Read_Drawing">Tegning</sys:String>
@@ -1967,7 +1967,7 @@ Vil du skalere dem til en støttet størrelse? Sidene beholder utseende og propo
     <sys:String x:Key="Str_Color_Yellow">Gul</sys:String>
     <sys:String x:Key="Str_Color_Magenta">Magenta</sys:String>
     <sys:String x:Key="Str_CertCatalog_Title">Sertifikater</sys:String>
-    <sys:String x:Key="Str_CertCatalog_Hint">Windows-sertifikater er skrivebeskyttet. Importerte sertifikater lagres bare i KillerPDF. Import gjør ikke et sertifikat klarert.</sys:String>
+    <sys:String x:Key="Str_CertCatalog_Hint">Windows-sertifikater er skrivebeskyttet. Importerte sertifikater lagres bare i PDF Gilardi. Import gjør ikke et sertifikat klarert.</sys:String>
     <sys:String x:Key="Str_CertCatalog_Search">Søk i sertifikater</sys:String>
     <sys:String x:Key="Str_CertCatalog_Empty">Ingen sertifikater samsvarer med søket.</sys:String>
     <sys:String x:Key="Str_CertCatalog_Import">Importer sertifikat</sys:String>
@@ -1985,21 +1985,21 @@ Vil du skalere dem til en støttet størrelse? Sidene beholder utseende og propo
     <sys:String x:Key="Str_CertCatalog_WindowsMachineRoots">Windows: rotsertifikater for datamaskinen</sys:String>
     <sys:String x:Key="Str_CertCatalog_WindowsUserIntermediates">Windows: mellomliggende sertifikater for gjeldende bruker</sys:String>
     <sys:String x:Key="Str_CertCatalog_WindowsMachineIntermediates">Windows: mellomliggende sertifikater for datamaskinen</sys:String>
-    <sys:String x:Key="Str_CertCatalog_Local">KillerPDF</sys:String>
+    <sys:String x:Key="Str_CertCatalog_Local">PDF Gilardi</sys:String>
     <sys:String x:Key="Str_CertCatalog_Trusted">Klarert rot</sys:String>
     <sys:String x:Key="Str_CertCatalog_Untrusted">Ikke klarert</sys:String>
     <sys:String x:Key="Str_CertCatalog_Expired">Utløpt</sys:String>
     <sys:String x:Key="Str_CertCatalog_NotYetValid">Ikke gyldig ennå</sys:String>
-    <sys:String x:Key="Str_CertCatalog_TrustPrompt">Klarer "{0}" som rot i KillerPDF? Sertifikater det utsteder, kan da godtas ved signaturverifisering. Klareringsinnstillingene i Windows forblir uendret.</sys:String>
-    <sys:String x:Key="Str_CertCatalog_RemovePrompt">Fjerne "{0}" fra sertifikatkatalogen i KillerPDF?</sys:String>
+    <sys:String x:Key="Str_CertCatalog_TrustPrompt">Klarer "{0}" som rot i PDF Gilardi? Sertifikater det utsteder, kan da godtas ved signaturverifisering. Klareringsinnstillingene i Windows forblir uendret.</sys:String>
+    <sys:String x:Key="Str_CertCatalog_RemovePrompt">Fjerne "{0}" fra sertifikatkatalogen i PDF Gilardi?</sys:String>
     <sys:String x:Key="Str_CertCatalog_Error">Kunne ikke oppdatere sertifikatkatalogen:</sys:String>
     <sys:String x:Key="Str_CertCatalog_LoadError">Kunne ikke lese sertifikatlisten:</sys:String>
     <sys:String x:Key="Str_CertCatalog_WrongFileType">Velg en offentlig sertifikatfil (.cer, .crt eller .pem).</sys:String>
     <sys:String x:Key="Str_CertCatalog_NotACertificate">Filen inneholder ikke et lesbart offentlig sertifikat.</sys:String>
     <sys:String x:Key="Str_CertCatalog_PrivateKey">Private nøkler og PFX-filer godtas ikke. Importer bare offentlige sertifikater.</sys:String>
     <sys:String x:Key="Str_CertCatalog_TooLarge">Sertifikatfilen er tom eller for stor.</sys:String>
-    <sys:String x:Key="Str_CertCatalog_Full">KillerPDF kan lagre opptil {0} importerte sertifikater.</sys:String>
-    <sys:String x:Key="Str_CertCatalog_Damaged">Sertifikatkatalogen til KillerPDF kan ikke leses og ble ikke endret. Signaturer kontrolleres bare mot Windows-klarering. Slett {0} for å begynne på nytt.</sys:String>
+    <sys:String x:Key="Str_CertCatalog_Full">PDF Gilardi kan lagre opptil {0} importerte sertifikater.</sys:String>
+    <sys:String x:Key="Str_CertCatalog_Damaged">Sertifikatkatalogen til PDF Gilardi kan ikke leses og ble ikke endret. Signaturer kontrolleres bare mot Windows-klarering. Slett {0} for å begynne på nytt.</sys:String>
     <sys:String x:Key="Str_CertCatalog_Imported">Importerte {0} sertifikater. Gjennomgå et rotsertifikat før du velger Klarer som rot.</sys:String>
     <sys:String x:Key="Str_CertCatalog_ReadOnly">Administreres av Windows.</sys:String>
     <sys:String x:Key="Str_CertCatalog_Type">Sertifikattype</sys:String>
@@ -2033,7 +2033,7 @@ Vil du skalere dem til en støttet størrelse? Sidene beholder utseende og propo
     <sys:String x:Key="Str_Filter_Json">JSON-dokument</sys:String>
     <sys:String x:Key="Str_Dlg_RepairAskOpen">«{0}» kunne ikke åpnes fordi strukturen kan være skadet.
 
-Vil du at KillerPDF skal prøve å reparere den? Det opprettes en reparert kopi, og originalfilen endres ikke.
+Vil du at PDF Gilardi skal prøve å reparere den? Det opprettes en reparert kopi, og originalfilen endres ikke.
 
 Merk: reparerte filer kan mangle bokmerker, skjemaer og andre interaktive funksjoner.</sys:String>
     <sys:String x:Key="Str_Dlg_OpenedReadOnlyXRef">«{0}» har en ikke-standard struktur og ble åpnet skrivebeskyttet.

@@ -3,7 +3,7 @@
                     xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
     <!-- ================================================================
-         KillerPDF  -  Українська (uk-UA)
+         PDF Gilardi  -  Українська (uk-UA)
          ================================================================ -->
 
     <!-- ── Toolbar tooltips ─────────────────────────────────────────── -->
@@ -125,7 +125,7 @@
     <sys:String x:Key="Str_TT_CollapseSidebar">Згорнути бічну панель (F9)</sys:String>
     <sys:String x:Key="Str_TT_ExpandSidebar">Розгорнути бічну панель (F9)</sys:String>
     <sys:String x:Key="Str_TT_KeyboardShortcuts">Комбінації клавіш (F1)</sys:String>
-    <sys:String x:Key="Str_TT_About">Про KillerPDF (F12)</sys:String>
+    <sys:String x:Key="Str_TT_About">Про PDF Gilardi (F12)</sys:String>
 
     <!-- ── About overlay ─────────────────────────────────────────────── -->
     <sys:String x:Key="Str_About_Version">ВЕРСІЯ</sys:String>
@@ -233,7 +233,7 @@
     <sys:String x:Key="Str_Ready">Готово</sys:String>
     <sys:String x:Key="Str_Status_Ready">Готово</sys:String>
     <sys:String x:Key="Str_Portable">ПОРТАТИВНА</sys:String>
-    <sys:String x:Key="Str_InstallBtn">Установити KillerPDF</sys:String>
+    <sys:String x:Key="Str_InstallBtn">Установити PDF Gilardi</sys:String>
 
     <!-- ── Status messages (format strings - use string.Format) ─────── -->
     <sys:String x:Key="Str_Opened">Відкрито {0} - сторінок: {1}</sys:String>
@@ -251,18 +251,18 @@
     <sys:String x:Key="Str_Print_LowQuality_Prompt">«{0}» дозволяє друк лише в низькій якості. Введіть пароль власника, щоб друкувати в повній якості, або скасуйте, щоб друкувати в низькій якості.</sys:String>
     <sys:String x:Key="Str_Print_Refused_Certificate">Друк заборонено. Сертифікат, для якого зашифровано цей PDF, не дозволяє друк, і жоден пароль цього не зніме.</sys:String>
     <sys:String x:Key="Str_Protection_Prompt">У «{0}» є обмеження власника, а ця дія записала б файл без них. Введіть пароль власника, щоб продовжити.</sys:String>
-    <sys:String x:Key="Str_Protection_Refused">Нічого не записано. Результат не зберіг би обмеження власника цього PDF, і KillerPDF записує його лише з паролем власника.</sys:String>
+    <sys:String x:Key="Str_Protection_Refused">Нічого не записано. Результат не зберіг би обмеження власника цього PDF, і PDF Gilardi записує його лише з паролем власника.</sys:String>
     <sys:String x:Key="Str_Protection_Refused_Certificate">Нічого не записано. Результат не зберіг би обмеження, задані для вашого сертифіката, а жоден пароль їх не зніме.</sys:String>
-    <sys:String x:Key="Str_Protection_Unreadable">KillerPDF не вдалося прочитати захист цього PDF, тому нічого не збережено й не надруковано. {0} Повторіть спробу або закрийте вкладку й відкрийте файл знову.</sys:String>
-    <sys:String x:Key="Str_Print_Refused">Друк заборонено. Власник цього PDF обмежив друк, і KillerPDF друкує його лише з паролем власника.</sys:String>
+    <sys:String x:Key="Str_Protection_Unreadable">PDF Gilardi не вдалося прочитати захист цього PDF, тому нічого не збережено й не надруковано. {0} Повторіть спробу або закрийте вкладку й відкрийте файл знову.</sys:String>
+    <sys:String x:Key="Str_Print_Refused">Друк заборонено. Власник цього PDF обмежив друк, і PDF Gilardi друкує його лише з паролем власника.</sys:String>
     <sys:String x:Key="Str_Restricted_UnlockFailed">Це пароль власника, але розблокувати «{0}» не вдалося: {1}</sys:String>
     <sys:String x:Key="Str_St_SavedProtected">Збережено із захистом - {0}</sys:String>
     <sys:String x:Key="Str_Form_TwinsKept">Не всі поля з однаковою назвою прийняли значення, тому тепер вони відрізняються: {0}</sys:String>
-    <sys:String x:Key="Str_Restricted_OwnerRequired">«{0}» обмежує редагування, тому KillerPDF потрібен пароль власника, щоб відкрити його.</sys:String>
+    <sys:String x:Key="Str_Restricted_OwnerRequired">«{0}» обмежує редагування, тому PDF Gilardi потрібен пароль власника, щоб відкрити його.</sys:String>
     <sys:String x:Key="Str_OpenedReadOnlyXRef">Відкрито {0} (лише для читання - нестандартна таблиця XRef) - сторінок: {1}</sys:String>
     <sys:String x:Key="Str_OpenedRepaired">Відкрито {0} (відновлена копія - збережіть, щоб зберегти зміни) - сторінок: {1}</sys:String>
     <sys:String x:Key="Str_Save_ReferenceRepairs">Збережено з виправленням некоректних посилань на об’єкти. Відсутній вміст не відновлено.</sys:String>
-    <sys:String x:Key="Str_Save_DamagedEncrypted">Цей PDF пошкоджено та захищено паролем, тому KillerPDF не може його відновити чи зберегти. Початковий файл не змінено.</sys:String>
+    <sys:String x:Key="Str_Save_DamagedEncrypted">Цей PDF пошкоджено та захищено паролем, тому PDF Gilardi не може його відновити чи зберегти. Початковий файл не змінено.</sys:String>
     <sys:String x:Key="Str_Save_DamagedSigned">Цей PDF пошкоджено, і він містить цифровий підпис. Збереження порушило б підпис, тому файл не змінено.</sys:String>
     <sys:String x:Key="Str_Save_DamagedCertified">Цей PDF пошкоджено, і його сертифікував автор. Збереження порушило б сертифікацію, тому файл не змінено.</sys:String>
     <sys:String x:Key="Str_Save_DamagedUsageRights">Цей PDF пошкоджено, і він містить права на використання Reader. Збереження порушило б їх, тому файл не змінено.</sys:String>
@@ -342,39 +342,39 @@
 Якщо зберегти зараз, файл буде перезаписано, а ці зміни втрачено. Спершу збережіть іншу панель, якщо хочете їх зберегти.</sys:String>
     <sys:String x:Key="Str_St_SplitOn">Розділену панель увімкнено - F10, щоб закрити</sys:String>
     <sys:String x:Key="Str_St_SplitOff">Розділену панель вимкнено</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallTitle">Установлення KillerPDF</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallMsg">Установити KillerPDF на цей комп'ютер?</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallTitle">Установлення PDF Gilardi</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallMsg">Установити PDF Gilardi на цей комп'ютер?</sys:String>
     <sys:String x:Key="Str_Dlg_InstallBullets">Установлення копіює програму до папки «Програми» для швидшого запуску та додає пункт у меню «Пуск». Після цього цей портативний файл можна залишити або видалити.</sys:String>
-    <sys:String x:Key="Str_Install_AlreadyAllUsers">KillerPDF уже встановлено для всіх користувачів цього комп'ютера, тому буде оновлено цю копію. Windows попросить дозвіл.</sys:String>
+    <sys:String x:Key="Str_Install_AlreadyAllUsers">PDF Gilardi уже встановлено для всіх користувачів цього комп'ютера, тому буде оновлено цю копію. Windows попросить дозвіл.</sys:String>
     <sys:String x:Key="Str_Dlg_SaveBeforeInstall">Збережіть зміни перед встановленням.</sys:String>
-    <sys:String x:Key="Str_Dlg_UpdateMachineMsg" xml:space="preserve">Оновити наявну установку KillerPDF для всіх користувачів?
+    <sys:String x:Key="Str_Dlg_UpdateMachineMsg" xml:space="preserve">Оновити наявну установку PDF Gilardi для всіх користувачів?
 
-Це замінить копію в Program Files швидшою версією з кількох файлів. Будь-яку старішу копію для окремого користувача буде видалено, щоб KillerPDF відображався лише один раз. Після цього цей портативний файл можна залишити або видалити.</sys:String>
-    <sys:String x:Key="Str_Dlg_UpdateUserMsg" xml:space="preserve">Оновити наявну установку KillerPDF?
+Це замінить копію в Program Files швидшою версією з кількох файлів. Будь-яку старішу копію для окремого користувача буде видалено, щоб PDF Gilardi відображався лише один раз. Після цього цей портативний файл можна залишити або видалити.</sys:String>
+    <sys:String x:Key="Str_Dlg_UpdateUserMsg" xml:space="preserve">Оновити наявну установку PDF Gilardi?
 
 Це замінить установлену копію швидшою версією з кількох файлів. Після цього цей портативний файл можна залишити або видалити.</sys:String>
-    <sys:String x:Key="Str_Dlg_OneInstallOnly" xml:space="preserve">KillerPDF уже встановлено для всіх користувачів цього комп'ютера. Оновіть цю установку або видаліть її перед тим, як вибрати установку для окремого користувача.
+    <sys:String x:Key="Str_Dlg_OneInstallOnly" xml:space="preserve">PDF Gilardi уже встановлено для всіх користувачів цього комп'ютера. Оновіть цю установку або видаліть її перед тим, як вибрати установку для окремого користувача.
 
-KillerPDF не створюватиме двох установлених копій.</sys:String>
+PDF Gilardi не створюватиме двох установлених копій.</sys:String>
     <sys:String x:Key="Str_Btn_DoInstall">Установити</sys:String>
     <sys:String x:Key="Str_Btn_DoUpdate">Оновити</sys:String>
     <sys:String x:Key="Str_Chk_Desktop">Додати ярлик на робочий стіл</sys:String>
     <sys:String x:Key="Str_Chk_AllUsers">Установити для всіх користувачів цього комп'ютера (потрібні права адміністратора)</sys:String>
-    <sys:String x:Key="Str_Status_InstallFailed">Установлення не завершено - KillerPDF і далі працює як портативна програма.</sys:String>
-    <sys:String x:Key="Str_Status_RelaunchDeferred">Встановлення завершено. KillerPDF залишився відкритим, щоб зберегти роботу, змінену під час встановлення.</sys:String>
-    <sys:String x:Key="Str_Dlg_SetDefaultPdfMsg" xml:space="preserve">Бажаєте зробити KillerPDF програмою перегляду PDF за промовчанням?
+    <sys:String x:Key="Str_Status_InstallFailed">Установлення не завершено - PDF Gilardi і далі працює як портативна програма.</sys:String>
+    <sys:String x:Key="Str_Status_RelaunchDeferred">Встановлення завершено. PDF Gilardi залишився відкритим, щоб зберегти роботу, змінену під час встановлення.</sys:String>
+    <sys:String x:Key="Str_Dlg_SetDefaultPdfMsg" xml:space="preserve">Бажаєте зробити PDF Gilardi програмою перегляду PDF за промовчанням?
 
 Відкриє «Параметри Windows» - «Програми за промовчанням».</sys:String>
     <sys:String x:Key="Str_Dlg_UnsavedClose">У цьому файлі є незбережені зміни. Зберегти їх перед закриттям?</sys:String>
-    <sys:String x:Key="Str_Dlg_UnsavedExit">Є незбережені зміни. Зберегти їх перед закриттям KillerPDF?</sys:String>
+    <sys:String x:Key="Str_Dlg_UnsavedExit">Є незбережені зміни. Зберегти їх перед закриттям PDF Gilardi?</sys:String>
     <sys:String x:Key="Str_Dlg_PageOutOfRange" xml:space="preserve">У цьому документі є сторінки (кількість: {0}), розмір яких виходить за межі, що підтримує Adobe Reader (від 3 до 14 400 пунктів на сторону). Adobe показує їх як порожні.
 
 Змінити їх до підтримуваного розміру? Вигляд і пропорції сторінок збережуться.</sys:String>
     <sys:String x:Key="Str_Dlg_FailedOpen" xml:space="preserve">Не вдалося відкрити PDF:
 {0}</sys:String>
-    <sys:String x:Key="Str_Dlg_AppTitle">KillerPDF</sys:String>
-    <sys:String x:Key="Str_Dlg_CloseAllDocs">Відкрито документів: {0}. Закрити їх усі, коли ви вийдете з KillerPDF?</sys:String>
-    <sys:String x:Key="Str_Dlg_CloseAllDocsOne">Відкрито 1 документ. Закрити його, коли ви вийдете з KillerPDF?</sys:String>
+    <sys:String x:Key="Str_Dlg_AppTitle">PDF Gilardi</sys:String>
+    <sys:String x:Key="Str_Dlg_CloseAllDocs">Відкрито документів: {0}. Закрити їх усі, коли ви вийдете з PDF Gilardi?</sys:String>
+    <sys:String x:Key="Str_Dlg_CloseAllDocsOne">Відкрито 1 документ. Закрити його, коли ви вийдете з PDF Gilardi?</sys:String>
     <sys:String x:Key="Str_Dlg_RememberChoice">Запам'ятати мій вибір</sys:String>
 
 
@@ -522,7 +522,7 @@ KillerPDF не створюватиме двох установлених коп
     <sys:String x:Key="Str_Pos_TopLeft">Зверху ліворуч</sys:String>
 
     <!-- ── Print dialog ───────────────────────────────────────────────── -->
-    <sys:String x:Key="Str_Print_Title">KillerPDF - Друк</sys:String>
+    <sys:String x:Key="Str_Print_Title">PDF Gilardi - Друк</sys:String>
     <sys:String x:Key="Str_Print_Rendering">Відтворення {0} / {1}</sys:String>
     <sys:String x:Key="Str_Print_IncompletePages">Частину вмісту не вдалося відобразити точно. Сторінки {0} буде надруковано так, як показано.</sys:String>
     <sys:String x:Key="Str_Print_Printer">Принтер</sys:String>
@@ -790,7 +790,7 @@ KillerPDF не створюватиме двох установлених коп
     <sys:String x:Key="Str_Drop_RepairFailed">Файл не вдалося відновити, тому нічого не об’єднано.</sys:String>
     <sys:String x:Key="Str_Import_NoPages">У файлі {0} немає сторінок, тому об’єднувати нічого.</sys:String>
     <sys:String x:Key="Str_Drop_ManyTabs">Буде відкрито окремих вкладок: {0}. Продовжити?</sys:String>
-    <sys:String x:Key="Str_Drop_TooMany">У цій папці або архіві файлів: {0}. KillerPDF відкриє лише перші {1}. Продовжити?</sys:String>
+    <sys:String x:Key="Str_Drop_TooMany">У цій папці або архіві файлів: {0}. PDF Gilardi відкриє лише перші {1}. Продовжити?</sys:String>
     <sys:String x:Key="Str_Status_Merged">Об'єднано файлів: {0} - ще не збережено</sys:String>
     <sys:String x:Key="Str_Drop_Merging">Об'єднання файлів...</sys:String>
     <sys:String x:Key="Str_Drop_MergeCanceled">Об'єднання скасовано</sys:String>
@@ -1000,14 +1000,14 @@ KillerPDF не створюватиме двох установлених коп
     <sys:String x:Key="Str_KS_FullScreen">На весь екран</sys:String>
     <sys:String x:Key="Str_FullScreen_Hint">Натисніть F11 або Esc, щоб вийти з повноекранного режиму</sys:String>
     <!-- Quit prompt (family standard) -->
-    <sys:String x:Key="Str_Dlg_QuitMsg">Вийти з KillerPDF?</sys:String>
+    <sys:String x:Key="Str_Dlg_QuitMsg">Вийти з PDF Gilardi?</sys:String>
     <sys:String x:Key="Str_Chk_CloseTabs">Закрити мої відкриті вкладки</sys:String>
     <sys:String x:Key="Str_Btn_Quit">Вийти</sys:String>
     <sys:String x:Key="Str_Btn_CancelDlg">Скасувати</sys:String>
 
 
     <!-- Status-bar messages (extracted from code) -->
-    <sys:String x:Key="Str_St_DataCleared">Усі дані KillerPDF очищено</sys:String>
+    <sys:String x:Key="Str_St_DataCleared">Усі дані PDF Gilardi очищено</sys:String>
     <sys:String x:Key="Str_St_OcrRegionCanceled">OCR області скасовано</sys:String>
     <sys:String x:Key="Str_St_Erased">Стерто</sys:String>
     <sys:String x:Key="Str_St_Ungrouped">Розгруповано</sys:String>
@@ -1057,7 +1057,7 @@ KillerPDF не створюватиме двох установлених коп
 
     <!-- Dialog / message-box strings (extracted from code) -->
     <sys:String x:Key="Str_Dlg_SaveBeforeUpdate">Збережіть зміни перед оновленням.</sys:String>
-    <sys:String x:Key="Str_Dlg_Uninstalled">KillerPDF видалено.</sys:String>
+    <sys:String x:Key="Str_Dlg_Uninstalled">PDF Gilardi видалено.</sys:String>
     <sys:String x:Key="Str_Dlg_SelectExtract">Виберіть сторінки для видобування.</sys:String>
     <sys:String x:Key="Str_Dlg_SelectDelete">Виберіть сторінки для видалення.</sys:String>
     <sys:String x:Key="Str_Dlg_NoPrinter">Немає доступного принтера.</sys:String>
@@ -1234,7 +1234,7 @@ KillerPDF не створюватиме двох установлених коп
     <sys:String x:Key="Str_Err_DuplicateFailed">Не вдалося дублювати:</sys:String>
     <sys:String x:Key="Str_Err_RepairFailed">Не вдалося відновити:</sys:String>
     <sys:String x:Key="Str_Err_OpenProtected">Не вдалося відкрити захищений PDF:</sys:String>
-    <sys:String x:Key="Str_Err_WorkingCopy">KillerPDF не вдалося записати робочу копію цього PDF. Перевірте, чи є на диску вільне місце:</sys:String>
+    <sys:String x:Key="Str_Err_WorkingCopy">PDF Gilardi не вдалося записати робочу копію цього PDF. Перевірте, чи є на диску вільне місце:</sys:String>
     <sys:String x:Key="Str_Err_NewDocFailed">Не вдалося створити новий документ:</sys:String>
     <sys:String x:Key="Str_Err_FileNotFound">Файл не знайдено:</sys:String>
     <sys:String x:Key="Str_Err_MergeFailed">Не вдалося об'єднати:</sys:String>
@@ -1348,7 +1348,7 @@ KillerPDF не створюватиме двох установлених коп
     <sys:String x:Key="Str_ScanReview_Text">Текст</sys:String>
     <sys:String x:Key="Str_Dlg_Repaired" xml:space="preserve">«{0}» успішно відновлено.&#10;&#10;Закладки, форми та інші інтерактивні функції могли бути втрачені. Скористайтеся «Зберегти як», щоб записати відновлений файл в інше місце.</sys:String>
     <sys:String x:Key="Str_Dlg_RepairedRaster" xml:space="preserve">«{0}» відновлено растеризацією сторінок.&#10;&#10;У відновленій копії текст не виділяється. Скористайтеся «Зберегти як», щоб записати її в інше місце.</sys:String>
-    <sys:String x:Key="Str_Dlg_RepairAsk" xml:space="preserve">«{0}» має пошкоджену структуру й не може бути доданий.&#10;&#10;Спробувати відновити його в KillerPDF? Буде створено відновлену копію. Оригінальний файл не зміниться.&#10;&#10;Примітка: у відновлених файлах можуть бути відсутні закладки, форми та інші інтерактивні функції.</sys:String>
+    <sys:String x:Key="Str_Dlg_RepairAsk" xml:space="preserve">«{0}» має пошкоджену структуру й не може бути доданий.&#10;&#10;Спробувати відновити його в PDF Gilardi? Буде створено відновлену копію. Оригінальний файл не зміниться.&#10;&#10;Примітка: у відновлених файлах можуть бути відсутні закладки, форми та інші інтерактивні функції.</sys:String>
     <sys:String x:Key="Str_Dlg_LangDownloadAsk" xml:space="preserve">Зараз буде завантажено мовну модель ({0}), щоб можна було запустити OCR.&#10;&#10;Додати більше мов або перейти на моделі вищої якості можна будь-коли в меню OCR.</sys:String>
     <sys:String x:Key="Str_Bar_More">Більше параметрів</sys:String>
     <sys:String x:Key="Str_Bar_TT_Level">Утримувати лінію на найближчій осі (горизонтальній або вертикальній)</sys:String>
@@ -1362,7 +1362,7 @@ KillerPDF не створюватиме двох установлених коп
     <sys:String x:Key="Str_TT_SaveOptions">Параметри збереження</sys:String>
     <sys:String x:Key="Str_TT_OcrOptions">Параметри OCR</sys:String>
     <sys:String x:Key="Str_RecentHeading">НЕЩОДАВНІ</sys:String>
-    <sys:String x:Key="Str_KS_WindowTitle">KillerPDF - Комбінації клавіш</sys:String>
+    <sys:String x:Key="Str_KS_WindowTitle">PDF Gilardi - Комбінації клавіш</sys:String>
     <sys:String x:Key="Str_About_UpdateAvailable">Доступне оновлення: {0}</sys:String>
     <sys:String x:Key="Str_About_Unsigned">(not signed or chain failed)</sys:String>
     <sys:String x:Key="Str_About_Downloading">Завантаження...</sys:String>
@@ -1374,11 +1374,11 @@ KillerPDF не створюватиме двох установлених коп
     <sys:String x:Key="Str_About_NotNow">Не зараз</sys:String>
     <sys:String x:Key="Str_About_AlwaysCheckOnStartup">Завжди перевіряти під час запуску</sys:String>
     <sys:String x:Key="Str_UpdateRestartPrepareFailed">Не вдалося підготувати оновлення. Ваші збережені PDF-файли не змінено. Спробуйте ще раз.</sys:String>
-    <sys:String x:Key="Str_UpdateRestartRestoreFailed">KillerPDF не вдалося знову відкрити попередній сеанс роботи. Ваші збережені PDF-файли не змінено.</sys:String>
+    <sys:String x:Key="Str_UpdateRestartRestoreFailed">PDF Gilardi не вдалося знову відкрити попередній сеанс роботи. Ваші збережені PDF-файли не змінено.</sys:String>
     <sys:String x:Key="Str_ClearAllData">Очистити всі дані</sys:String>
     <sys:String x:Key="Str_ClearDataConfirm" xml:space="preserve">Буде видалено всі збережені параметри, завантажені мовні пакети OCR і тимчасові файли.&#10;&#10;Ваші файли PDF не постраждають. Продовжити?</sys:String>
-    <sys:String x:Key="Str_ClearDataDone" xml:space="preserve">Параметри, мовні пакети й тимчасові файли очищено.&#10;&#10;Перезапустіть KillerPDF, щоб завершити очищення файлів, які ще використовуються в цьому сеансі.</sys:String>
-    <sys:String x:Key="Str_Crash_Title">KillerPDF - Неочікувана помилка</sys:String>
+    <sys:String x:Key="Str_ClearDataDone" xml:space="preserve">Параметри, мовні пакети й тимчасові файли очищено.&#10;&#10;Перезапустіть PDF Gilardi, щоб завершити очищення файлів, які ще використовуються в цьому сеансі.</sys:String>
+    <sys:String x:Key="Str_Crash_Title">PDF Gilardi - Неочікувана помилка</sys:String>
     <sys:String x:Key="Str_Crash_Log">Журнал: {0}</sys:String>
     <sys:String x:Key="Str_Crash_Copy">Копіювати звіт</sys:String>
     <sys:String x:Key="Str_Crash_OpenLogs">Відкрити журнали</sys:String>
@@ -1451,17 +1451,17 @@ KillerPDF не створюватиме двох установлених коп
     <sys:String x:Key="Str_Compare_DetailsTitle">Подробиці порівняння PDF</sys:String>
 
     <!-- ── Browser handoff refusals ────────────────────────────────────── -->
-    <sys:String x:Key="Str_Handoff_Failed">KillerPDF не зміг відкрити PDF із браузера.</sys:String>
-    <sys:String x:Key="Str_Handoff_UnknownCommand">KillerPDF не знає цієї команди браузера.</sys:String>
+    <sys:String x:Key="Str_Handoff_Failed">PDF Gilardi не зміг відкрити PDF із браузера.</sys:String>
+    <sys:String x:Key="Str_Handoff_UnknownCommand">PDF Gilardi не знає цієї команди браузера.</sys:String>
     <sys:String x:Key="Str_Handoff_MissingUrl">Передача не містила адреси PDF.</sys:String>
     <sys:String x:Key="Str_Handoff_MalformedUrl">Не вдалося прочитати адресу PDF у переданих даних.</sys:String>
-    <sys:String x:Key="Str_Handoff_SchemeNotAllowed">KillerPDF відкриває передачі з браузера лише через https.</sys:String>
+    <sys:String x:Key="Str_Handoff_SchemeNotAllowed">PDF Gilardi відкриває передачі з браузера лише через https.</sys:String>
     <sys:String x:Key="Str_Handoff_Unusable">Передачу з браузера не вдалося використати.</sys:String>
     <sys:String x:Key="Str_Handoff_TooLarge">PDF перевищує обмеження передачі з браузера в 256 МБ.</sys:String>
     <sys:String x:Key="Str_Handoff_NotPdf">Завантажений файл не є PDF.</sys:String>
-    <sys:String x:Key="Str_Handoff_DownloadFailed">KillerPDF не зміг завантажити PDF.</sys:String>
+    <sys:String x:Key="Str_Handoff_DownloadFailed">PDF Gilardi не зміг завантажити PDF.</sys:String>
     <sys:String x:Key="Str_Handoff_TimedOut">Час завантаження PDF вичерпано.</sys:String>
-    <sys:String x:Key="Str_Handoff_FileError">KillerPDF не зміг зберегти або прочитати завантажений PDF.</sys:String>
+    <sys:String x:Key="Str_Handoff_FileError">PDF Gilardi не зміг зберегти або прочитати завантажений PDF.</sys:String>
     <sys:String x:Key="Str_St_FormFieldDrag">Перетягніть, щоб створити текстове поле для заповнення</sys:String>
     <sys:String x:Key="Str_St_FormFieldCanceled">Створення текстового поля для заповнення скасовано</sys:String>
     <sys:String x:Key="Str_St_FormFieldCreateFailed">Не вдалося створити текстове поле для заповнення</sys:String>
@@ -1606,7 +1606,7 @@ KillerPDF не створюватиме двох установлених коп
     <sys:String x:Key="Str_Macro_DeleteConfirm">Видалити макрос &quot;{0}&quot;?</sys:String>
     <sys:String x:Key="Str_Macro_ImportFailed">Не вдалося імпортувати макрос:</sys:String>
     <sys:String x:Key="Str_Macro_ExportFailed">Не вдалося експортувати макрос:</sys:String>
-    <sys:String x:Key="Str_Macro_Files">Макрос KillerPDF</sys:String>
+    <sys:String x:Key="Str_Macro_Files">Макрос PDF Gilardi</sys:String>
     <sys:String x:Key="Str_Macro_SelectOutput">Виберіть вихідний файл макросу</sys:String>
     <sys:String x:Key="Str_Macro_Preview" xml:space="preserve">Макрос: {0}&#10;Вхід: {1}&#10;Вихід: {2}&#10;&#10;Кроки:&#10;{3}&#10;&#10;Виконати цей макрос?</sys:String>
     <sys:String x:Key="Str_Macro_Running">Виконання макросу...</sys:String>
@@ -1632,18 +1632,18 @@ KillerPDF не створюватиме двох установлених коп
     <sys:String x:Key="Str_Sig_RemoveSignature">Видалити підпис</sys:String>
     <sys:String x:Key="Str_Sig_ChangeInitials">Змінити ініціали</sys:String>
     <sys:String x:Key="Str_Sig_RemoveInitials">Видалити ініціали</sys:String>
-    <sys:String x:Key="Str_Dlg_DuplicateInstallTitle">Дві установки KillerPDF</sys:String>
-    <sys:String x:Key="Str_Dlg_DuplicateInstallMachine" xml:space="preserve">KillerPDF виявив на цьому комп'ютері дві встановлені копії.&#10;&#10;Зараз запущено установку для всіх користувачів. Також є старіша копія для окремого користувача, зазвичай тому, що вона використовувалася під час попереднього оновлення.&#10;&#10;Видалити невикористовувану копію для окремого користувача зараз? Ваші налаштування та PDF-файли не буде видалено.</sys:String>
-    <sys:String x:Key="Str_Dlg_DuplicateInstallUser" xml:space="preserve">KillerPDF виявив на цьому комп'ютері дві встановлені копії.&#10;&#10;Зараз запущено установку для окремого користувача. Також є копія для всіх користувачів.&#10;&#10;Видалити невикористовувану копію для всіх користувачів зараз? Windows попросить дозвіл адміністратора. Ваші налаштування та PDF-файли не буде видалено.</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallUnsigned" xml:space="preserve">Установлення відхилено: запущений EXE-файл не має дійсного підпису Authenticode.&#10;&#10;Установлювати можна лише підписані збірки KillerPDF.</sys:String>
+    <sys:String x:Key="Str_Dlg_DuplicateInstallTitle">Дві установки PDF Gilardi</sys:String>
+    <sys:String x:Key="Str_Dlg_DuplicateInstallMachine" xml:space="preserve">PDF Gilardi виявив на цьому комп'ютері дві встановлені копії.&#10;&#10;Зараз запущено установку для всіх користувачів. Також є старіша копія для окремого користувача, зазвичай тому, що вона використовувалася під час попереднього оновлення.&#10;&#10;Видалити невикористовувану копію для окремого користувача зараз? Ваші налаштування та PDF-файли не буде видалено.</sys:String>
+    <sys:String x:Key="Str_Dlg_DuplicateInstallUser" xml:space="preserve">PDF Gilardi виявив на цьому комп'ютері дві встановлені копії.&#10;&#10;Зараз запущено установку для окремого користувача. Також є копія для всіх користувачів.&#10;&#10;Видалити невикористовувану копію для всіх користувачів зараз? Windows попросить дозвіл адміністратора. Ваші налаштування та PDF-файли не буде видалено.</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallUnsigned" xml:space="preserve">Установлення відхилено: запущений EXE-файл не має дійсного підпису Authenticode.&#10;&#10;Установлювати можна лише підписані збірки PDF Gilardi.</sys:String>
     <sys:String x:Key="Str_Dlg_InstallDowngrade" xml:space="preserve">Ви збираєтеся встановити старішу версію ({0}) поверх установленої версії ({1}).&#10;&#10;Усе одно повернутися до старішої версії?</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallWriteFailed" xml:space="preserve">Не вдалося записати встановлену копію в:&#10;{0}&#10;&#10;Закрийте всі відкриті вікна KillerPDF (і перевірте KillerPDF.exe у диспетчері завдань), а потім знову запустіть інсталятор.</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallWriteFailed" xml:space="preserve">Не вдалося записати встановлену копію в:&#10;{0}&#10;&#10;Закрийте всі відкриті вікна PDF Gilardi (і перевірте PDF Gilardi.exe у диспетчері завдань), а потім знову запустіть інсталятор.</sys:String>
     <sys:String x:Key="Str_Dlg_InstallFailed" xml:space="preserve">Помилка встановлення:&#10;{0}</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallNoDesktopShortcut" xml:space="preserve">KillerPDF встановлено, але Windows не дозволила ярлик на робочому столі:&#10;{0}&#10;&#10;Відкрийте KillerPDF з меню «Пуск».</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallNoDesktopShortcut" xml:space="preserve">PDF Gilardi встановлено, але Windows не дозволила ярлик на робочому столі:&#10;{0}&#10;&#10;Відкрийте PDF Gilardi з меню «Пуск».</sys:String>
     <sys:String x:Key="Str_Dlg_UninstallElevationFailed" xml:space="preserve">Не вдалося запитати права адміністратора для видалення:&#10;{0}</sys:String>
-    <sys:String x:Key="Str_Dlg_UninstallConfirm">Видалити KillerPDF із цього комп'ютера?</sys:String>
-    <sys:String x:Key="Str_Dlg_UninstallStillRunning" xml:space="preserve">KillerPDF усе ще працює.&#10;Закрийте його та спробуйте видалити знову.</sys:String>
-    <sys:String x:Key="Str_Dlg_UninstallNotInstalled" xml:space="preserve">Цей KillerPDF не було встановлено тут, тому нічого не видалено.&#10;Якщо він більше не потрібен, видаліть теку самостійно.</sys:String>
+    <sys:String x:Key="Str_Dlg_UninstallConfirm">Видалити PDF Gilardi із цього комп'ютера?</sys:String>
+    <sys:String x:Key="Str_Dlg_UninstallStillRunning" xml:space="preserve">PDF Gilardi усе ще працює.&#10;Закрийте його та спробуйте видалити знову.</sys:String>
+    <sys:String x:Key="Str_Dlg_UninstallNotInstalled" xml:space="preserve">Цей PDF Gilardi не було встановлено тут, тому нічого не видалено.&#10;Якщо він більше не потрібен, видаліть теку самостійно.</sys:String>
     <sys:String x:Key="Str_Btn_Uninstall">Видалити</sys:String>
     <!-- Measure tool: types, scale, units, report -->
     <sys:String x:Key="Str_Measure_Distance">Відстань</sys:String>
@@ -1841,7 +1841,7 @@ KillerPDF не створюватиме двох установлених коп
     <sys:String x:Key="Str_Tray_Exit">Вийти</sys:String>
     <sys:String x:Key="Str_Watch_Title">Автоматичні папки</sys:String>
     <sys:String x:Key="Str_Watch_Intro">Додайте PDF до папки вхідних файлів, щоб виконати збережений макрос і зберегти нові копії в папці результатів.</sys:String>
-    <sys:String x:Key="Str_Watch_RunningNote">Працює, поки KillerPDF відкрито, зокрема в системному треї. Оригінали та наявні результати зберігаються.</sys:String>
+    <sys:String x:Key="Str_Watch_RunningNote">Працює, поки PDF Gilardi відкрито, зокрема в системному треї. Оригінали та наявні результати зберігаються.</sys:String>
     <sys:String x:Key="Str_Watch_Input">Папка вхідних файлів</sys:String>
     <sys:String x:Key="Str_Watch_Output">Папка результатів</sys:String>
     <sys:String x:Key="Str_Watch_Filter">Фільтр назв файлів</sys:String>
@@ -1949,11 +1949,11 @@ KillerPDF не створюватиме двох установлених коп
     <sys:String x:Key="Str_CmpRpt_Summary">Змінені сторінки: {0}, відсутні сторінки: {1}, однакові сторінки: {2}</sys:String>
     <sys:String x:Key="Str_Read_Comment">Коментар: {0}</sys:String>
     <sys:String x:Key="Str_Read_CommentBy">Коментар від {0}: {1}</sys:String>
-    <sys:String x:Key="Str_Dlg_RenderRecovered">KillerPDF перезапущено, бо вікно більше не могло нічого показувати. Незбережені зміни відновлено й знову відкрито, їх можна зберегти.&#10;&#10;Копії також збережено в {0}. Цей сеанс використовує програмне відтворення.</sys:String>
+    <sys:String x:Key="Str_Dlg_RenderRecovered">PDF Gilardi перезапущено, бо вікно більше не могло нічого показувати. Незбережені зміни відновлено й знову відкрито, їх можна зберегти.&#10;&#10;Копії також збережено в {0}. Цей сеанс використовує програмне відтворення.</sys:String>
     <sys:String x:Key="Str_Dlg_RenderRecoveryIncomplete">Деякі документи не вдалося повністю відновити:&#10;{0}&#10;&#10;Доступні файли відновлення зберігаються в {1}. Перевірте відновлені копії перед збереженням.</sys:String>
     <sys:String x:Key="Str_Dlg_RenderRecoveryNotReopened">Деякі документи не вдалося повністю відновити:&#10;{0}&#10;&#10;Доступні файли відновлення зберігаються в {1}.</sys:String>
     <sys:String x:Key="Str_Dlg_RenderRecoveryNoFolder">Не знайшлося папки для копії відновлення, тому незбережені зміни зберегти не вдалося.</sys:String>
-    <sys:String x:Key="Str_Dlg_RenderRestarted">KillerPDF перезапущено, бо вікно більше не могло нічого показувати. Відкриті документи знову відкрито. Цей сеанс використовує програмне відтворення.</sys:String>
+    <sys:String x:Key="Str_Dlg_RenderRestarted">PDF Gilardi перезапущено, бо вікно більше не могло нічого показувати. Відкриті документи знову відкрито. Цей сеанс використовує програмне відтворення.</sys:String>
     <sys:String x:Key="Str_Read_MarkedText">Позначений текст: «{0}»</sys:String>
     <sys:String x:Key="Str_Read_MarkedNoText">Позначений текст</sys:String>
     <sys:String x:Key="Str_Read_Drawing">Малюнок</sys:String>
@@ -1967,7 +1967,7 @@ KillerPDF не створюватиме двох установлених коп
     <sys:String x:Key="Str_Color_Yellow">Жовтий</sys:String>
     <sys:String x:Key="Str_Color_Magenta">Пурпуровий</sys:String>
     <sys:String x:Key="Str_CertCatalog_Title">Сертифікати</sys:String>
-    <sys:String x:Key="Str_CertCatalog_Hint">Сертифікати Windows доступні лише для читання. Імпортовані сертифікати зберігаються лише в KillerPDF. Імпорт не робить сертифікат довіреним.</sys:String>
+    <sys:String x:Key="Str_CertCatalog_Hint">Сертифікати Windows доступні лише для читання. Імпортовані сертифікати зберігаються лише в PDF Gilardi. Імпорт не робить сертифікат довіреним.</sys:String>
     <sys:String x:Key="Str_CertCatalog_Search">Пошук сертифікатів</sys:String>
     <sys:String x:Key="Str_CertCatalog_Empty">Немає сертифікатів, що відповідають запиту.</sys:String>
     <sys:String x:Key="Str_CertCatalog_Import">Імпортувати сертифікат</sys:String>
@@ -1985,21 +1985,21 @@ KillerPDF не створюватиме двох установлених коп
     <sys:String x:Key="Str_CertCatalog_WindowsMachineRoots">Windows: кореневі сертифікати комп'ютера</sys:String>
     <sys:String x:Key="Str_CertCatalog_WindowsUserIntermediates">Windows: проміжні сертифікати поточного користувача</sys:String>
     <sys:String x:Key="Str_CertCatalog_WindowsMachineIntermediates">Windows: проміжні сертифікати комп'ютера</sys:String>
-    <sys:String x:Key="Str_CertCatalog_Local">KillerPDF</sys:String>
+    <sys:String x:Key="Str_CertCatalog_Local">PDF Gilardi</sys:String>
     <sys:String x:Key="Str_CertCatalog_Trusted">Довірений кореневий сертифікат</sys:String>
     <sys:String x:Key="Str_CertCatalog_Untrusted">Недовірений</sys:String>
     <sys:String x:Key="Str_CertCatalog_Expired">Термін дії минув</sys:String>
     <sys:String x:Key="Str_CertCatalog_NotYetValid">Ще не чинний</sys:String>
-    <sys:String x:Key="Str_CertCatalog_TrustPrompt">Довіряти сертифікату "{0}" як кореневому в KillerPDF? Видані ним сертифікати зможуть прийматися під час перевірки підписів. Налаштування довіри Windows залишаться без змін.</sys:String>
-    <sys:String x:Key="Str_CertCatalog_RemovePrompt">Видалити "{0}" з каталогу сертифікатів KillerPDF?</sys:String>
+    <sys:String x:Key="Str_CertCatalog_TrustPrompt">Довіряти сертифікату "{0}" як кореневому в PDF Gilardi? Видані ним сертифікати зможуть прийматися під час перевірки підписів. Налаштування довіри Windows залишаться без змін.</sys:String>
+    <sys:String x:Key="Str_CertCatalog_RemovePrompt">Видалити "{0}" з каталогу сертифікатів PDF Gilardi?</sys:String>
     <sys:String x:Key="Str_CertCatalog_Error">Не вдалося оновити каталог сертифікатів:</sys:String>
     <sys:String x:Key="Str_CertCatalog_LoadError">Не вдалося прочитати список сертифікатів:</sys:String>
     <sys:String x:Key="Str_CertCatalog_WrongFileType">Виберіть файл відкритого сертифіката (.cer, .crt або .pem).</sys:String>
     <sys:String x:Key="Str_CertCatalog_NotACertificate">Файл не містить придатного для читання відкритого сертифіката.</sys:String>
     <sys:String x:Key="Str_CertCatalog_PrivateKey">Закриті ключі та файли PFX не приймаються. Імпортуйте лише відкриті сертифікати.</sys:String>
     <sys:String x:Key="Str_CertCatalog_TooLarge">Файл сертифіката порожній або завеликий.</sys:String>
-    <sys:String x:Key="Str_CertCatalog_Full">KillerPDF може зберігати до {0} імпортованих сертифікатів.</sys:String>
-    <sys:String x:Key="Str_CertCatalog_Damaged">Каталог сертифікатів KillerPDF не вдається прочитати, тому його залишено без змін. Підписи перевіряються лише за довірою Windows. Щоб почати спочатку, видаліть {0}.</sys:String>
+    <sys:String x:Key="Str_CertCatalog_Full">PDF Gilardi може зберігати до {0} імпортованих сертифікатів.</sys:String>
+    <sys:String x:Key="Str_CertCatalog_Damaged">Каталог сертифікатів PDF Gilardi не вдається прочитати, тому його залишено без змін. Підписи перевіряються лише за довірою Windows. Щоб почати спочатку, видаліть {0}.</sys:String>
     <sys:String x:Key="Str_CertCatalog_Imported">Імпортовано сертифікатів: {0}. Перевірте кореневий сертифікат, перш ніж вибрати «Довіряти як кореневому».</sys:String>
     <sys:String x:Key="Str_CertCatalog_ReadOnly">Керується Windows.</sys:String>
     <sys:String x:Key="Str_CertCatalog_Type">Тип сертифіката</sys:String>
@@ -2033,7 +2033,7 @@ KillerPDF не створюватиме двох установлених коп
     <sys:String x:Key="Str_Filter_Json">Документ JSON</sys:String>
     <sys:String x:Key="Str_Dlg_RepairAskOpen">«{0}» не вдалося відкрити, бо його структура може бути пошкоджена.
 
-Спробувати відновити його в KillerPDF? Буде створено відновлену копію. Оригінальний файл не зміниться.
+Спробувати відновити його в PDF Gilardi? Буде створено відновлену копію. Оригінальний файл не зміниться.
 
 Примітка: у відновлених файлах можуть бути відсутні закладки, форми та інші інтерактивні функції.</sys:String>
     <sys:String x:Key="Str_Dlg_OpenedReadOnlyXRef">«{0}» має нестандартну структуру й відкритий лише для читання.

@@ -3,7 +3,7 @@
                     xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
     <!-- ================================================================
-         KillerPDF  -  Chuỗi tiếng Việt (vi-VN)
+         PDF Gilardi  -  Chuỗi tiếng Việt (vi-VN)
          ================================================================ -->
 
     <!-- ── Chú thích công cụ trên thanh công cụ ─────────────────────── -->
@@ -125,7 +125,7 @@ Có thể thay trang bằng hình ảnh của chính nó với các vùng đã �
     <sys:String x:Key="Str_TT_CollapseSidebar">Thu gọn thanh bên (F9)</sys:String>
     <sys:String x:Key="Str_TT_ExpandSidebar">Mở rộng thanh bên (F9)</sys:String>
     <sys:String x:Key="Str_TT_KeyboardShortcuts">Phím tắt (F1)</sys:String>
-    <sys:String x:Key="Str_TT_About">Giới thiệu về KillerPDF (F12)</sys:String>
+    <sys:String x:Key="Str_TT_About">Giới thiệu về PDF Gilardi (F12)</sys:String>
 
     <!-- ── Lớp thông tin Giới thiệu ─────────────────────────────────── -->
     <sys:String x:Key="Str_About_Version">PHIÊN BẢN</sys:String>
@@ -233,7 +233,7 @@ Có thể thay trang bằng hình ảnh của chính nó với các vùng đã �
     <sys:String x:Key="Str_Ready">Sẵn sàng</sys:String>
     <sys:String x:Key="Str_Status_Ready">Sẵn sàng</sys:String>
     <sys:String x:Key="Str_Portable">DI ĐỘNG (PORTABLE)</sys:String>
-    <sys:String x:Key="Str_InstallBtn">Cài đặt KillerPDF</sys:String>
+    <sys:String x:Key="Str_InstallBtn">Cài đặt PDF Gilardi</sys:String>
 
     <!-- ── Thông báo trạng thái (chuỗi định dạng - sử dụng string.Format) ── -->
     <sys:String x:Key="Str_Opened">Đã mở {0} - {1} trang</sys:String>
@@ -251,18 +251,18 @@ Có thể thay trang bằng hình ảnh của chính nó với các vùng đã �
     <sys:String x:Key="Str_Print_LowQuality_Prompt">“{0}” chỉ cho phép in ở chất lượng thấp. Nhập mật khẩu chủ sở hữu để in ở chất lượng đầy đủ, hoặc hủy để in ở chất lượng thấp.</sys:String>
     <sys:String x:Key="Str_Print_Refused_Certificate">Không được phép in. Chứng chỉ mà PDF này được mã hóa cho không cho phép in, và không mật khẩu nào gỡ được hạn chế đó.</sys:String>
     <sys:String x:Key="Str_Protection_Prompt">“{0}” có các giới hạn do chủ sở hữu đặt, và thao tác này sẽ ghi tệp mà không có chúng. Nhập mật khẩu chủ sở hữu để tiếp tục.</sys:String>
-    <sys:String x:Key="Str_Protection_Refused">Chưa có gì được ghi. Kết quả sẽ không giữ các giới hạn do chủ sở hữu PDF này đặt, và KillerPDF chỉ ghi khi có mật khẩu chủ sở hữu.</sys:String>
+    <sys:String x:Key="Str_Protection_Refused">Chưa có gì được ghi. Kết quả sẽ không giữ các giới hạn do chủ sở hữu PDF này đặt, và PDF Gilardi chỉ ghi khi có mật khẩu chủ sở hữu.</sys:String>
     <sys:String x:Key="Str_Protection_Refused_Certificate">Chưa có gì được ghi. Kết quả sẽ không giữ các giới hạn đặt cho chứng chỉ của bạn, và không mật khẩu nào gỡ được chúng.</sys:String>
-    <sys:String x:Key="Str_Protection_Unreadable">KillerPDF không đọc được bảo vệ của PDF này nên chưa lưu hoặc in gì. {0} Hãy thử lại, hoặc đóng thẻ rồi mở lại tệp.</sys:String>
-    <sys:String x:Key="Str_Print_Refused">Không được phép in. Chủ sở hữu PDF này đã hạn chế việc in và KillerPDF chỉ in khi có mật khẩu chủ sở hữu.</sys:String>
+    <sys:String x:Key="Str_Protection_Unreadable">PDF Gilardi không đọc được bảo vệ của PDF này nên chưa lưu hoặc in gì. {0} Hãy thử lại, hoặc đóng thẻ rồi mở lại tệp.</sys:String>
+    <sys:String x:Key="Str_Print_Refused">Không được phép in. Chủ sở hữu PDF này đã hạn chế việc in và PDF Gilardi chỉ in khi có mật khẩu chủ sở hữu.</sys:String>
     <sys:String x:Key="Str_Restricted_UnlockFailed">Đây đúng là mật khẩu chủ sở hữu, nhưng không thể mở khóa “{0}”: {1}</sys:String>
     <sys:String x:Key="Str_St_SavedProtected">Đã lưu cùng bảo vệ của tệp - {0}</sys:String>
     <sys:String x:Key="Str_Form_TwinsKept">Không phải mọi trường cùng tên đều nhận được giá trị nên giờ chúng khác nhau: {0}</sys:String>
-    <sys:String x:Key="Str_Restricted_OwnerRequired">“{0}” hạn chế chỉnh sửa, nên KillerPDF cần mật khẩu chủ sở hữu để mở.</sys:String>
+    <sys:String x:Key="Str_Restricted_OwnerRequired">“{0}” hạn chế chỉnh sửa, nên PDF Gilardi cần mật khẩu chủ sở hữu để mở.</sys:String>
     <sys:String x:Key="Str_OpenedReadOnlyXRef">Đã mở {0} (chỉ đọc - bảng XRef không chuẩn) - {1} trang</sys:String>
     <sys:String x:Key="Str_OpenedRepaired">Đã mở {0} (bản sao đã sửa chữa - hãy lưu lại để giữ các thay đổi) - {1} trang</sys:String>
     <sys:String x:Key="Str_Save_ReferenceRepairs">Đã lưu sau khi sửa các tham chiếu bị hỏng. Nội dung bị thiếu không được khôi phục.</sys:String>
-    <sys:String x:Key="Str_Save_DamagedEncrypted">PDF này bị hỏng và được bảo vệ bằng mật khẩu, nên KillerPDF không thể sửa hoặc lưu. Tệp gốc chưa bị thay đổi.</sys:String>
+    <sys:String x:Key="Str_Save_DamagedEncrypted">PDF này bị hỏng và được bảo vệ bằng mật khẩu, nên PDF Gilardi không thể sửa hoặc lưu. Tệp gốc chưa bị thay đổi.</sys:String>
     <sys:String x:Key="Str_Save_DamagedSigned">PDF này bị hỏng và có chữ ký số. Lưu sẽ làm hỏng chữ ký, nên tệp chưa bị thay đổi.</sys:String>
     <sys:String x:Key="Str_Save_DamagedCertified">PDF này bị hỏng và đã được tác giả chứng nhận. Lưu sẽ làm mất chứng nhận, nên tệp chưa bị thay đổi.</sys:String>
     <sys:String x:Key="Str_Save_DamagedUsageRights">PDF này bị hỏng và có quyền sử dụng của Reader. Lưu sẽ làm mất các quyền này, nên tệp chưa bị thay đổi.</sys:String>
@@ -342,39 +342,39 @@ Lưu sẽ thay thế tệp và xóa chữ ký của tệp. Để giữ lại t�
 Lưu ngay bây giờ sẽ ghi đè lên tệp và các thay đổi đó sẽ bị mất. Hãy lưu khung bên kia trước nếu bạn muốn giữ lại chúng.</sys:String>
     <sys:String x:Key="Str_St_SplitOn">Đã bật chia đôi khung - Nhấn F10 để đóng</sys:String>
     <sys:String x:Key="Str_St_SplitOff">Đã tắt chia đôi khung</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallTitle">Cài đặt KillerPDF</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallMsg">Cài đặt KillerPDF trên máy tính này?</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallTitle">Cài đặt PDF Gilardi</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallMsg">Cài đặt PDF Gilardi trên máy tính này?</sys:String>
     <sys:String x:Key="Str_Dlg_InstallBullets">Việc cài đặt sẽ sao chép ứng dụng vào thư mục Chương trình (Programs) của bạn để khởi động nhanh hơn và thêm lối tắt vào menu Bắt đầu (Start menu). Bạn có thể giữ lại hoặc xóa tệp di động này sau đó.</sys:String>
-    <sys:String x:Key="Str_Install_AlreadyAllUsers">KillerPDF đã được cài đặt cho mọi người dùng trên máy tính này, nên bản đó sẽ được cập nhật. Windows sẽ yêu cầu cấp quyền.</sys:String>
+    <sys:String x:Key="Str_Install_AlreadyAllUsers">PDF Gilardi đã được cài đặt cho mọi người dùng trên máy tính này, nên bản đó sẽ được cập nhật. Windows sẽ yêu cầu cấp quyền.</sys:String>
     <sys:String x:Key="Str_Dlg_SaveBeforeInstall">Vui lòng lưu các thay đổi trước khi cài đặt.</sys:String>
-    <sys:String x:Key="Str_Dlg_UpdateMachineMsg" xml:space="preserve">Cập nhật bản cài đặt KillerPDF hiện tại cho tất cả người dùng?
+    <sys:String x:Key="Str_Dlg_UpdateMachineMsg" xml:space="preserve">Cập nhật bản cài đặt PDF Gilardi hiện tại cho tất cả người dùng?
 
-Thao tác này sẽ thay thế bản sao trong Program Files bằng phiên bản nhiều tệp nhanh hơn. Mọi bản sao cũ dành cho từng người dùng sẽ bị xóa để KillerPDF chỉ xuất hiện một lần duy nhất. Bạn có thể giữ lại hoặc xóa tệp di động này sau đó.</sys:String>
-    <sys:String x:Key="Str_Dlg_UpdateUserMsg" xml:space="preserve">Cập nhật bản cài đặt KillerPDF hiện tại của bạn?
+Thao tác này sẽ thay thế bản sao trong Program Files bằng phiên bản nhiều tệp nhanh hơn. Mọi bản sao cũ dành cho từng người dùng sẽ bị xóa để PDF Gilardi chỉ xuất hiện một lần duy nhất. Bạn có thể giữ lại hoặc xóa tệp di động này sau đó.</sys:String>
+    <sys:String x:Key="Str_Dlg_UpdateUserMsg" xml:space="preserve">Cập nhật bản cài đặt PDF Gilardi hiện tại của bạn?
 
 Thao tác này sẽ thay thế bản đã cài đặt bằng phiên bản nhiều tệp nhanh hơn. Bạn có thể giữ lại hoặc xóa tệp di động này sau đó.</sys:String>
-    <sys:String x:Key="Str_Dlg_OneInstallOnly" xml:space="preserve">KillerPDF đã được cài đặt cho mọi người dùng trên máy tính này. Hãy cập nhật bản cài đặt đó, hoặc gỡ cài đặt trước khi chọn cài đặt cho riêng người dùng hiện tại.
+    <sys:String x:Key="Str_Dlg_OneInstallOnly" xml:space="preserve">PDF Gilardi đã được cài đặt cho mọi người dùng trên máy tính này. Hãy cập nhật bản cài đặt đó, hoặc gỡ cài đặt trước khi chọn cài đặt cho riêng người dùng hiện tại.
 
-KillerPDF sẽ không tạo ra hai bản sao đã cài đặt.</sys:String>
+PDF Gilardi sẽ không tạo ra hai bản sao đã cài đặt.</sys:String>
     <sys:String x:Key="Str_Btn_DoInstall">Cài đặt</sys:String>
     <sys:String x:Key="Str_Btn_DoUpdate">Cập nhật</sys:String>
     <sys:String x:Key="Str_Chk_Desktop">Thêm lối tắt trên màn hình nền</sys:String>
     <sys:String x:Key="Str_Chk_AllUsers">Cài đặt cho mọi người dùng trên máy tính này (cần quyền quản trị viên)</sys:String>
-    <sys:String x:Key="Str_Status_InstallFailed">Cài đặt không hoàn tất - KillerPDF vẫn đang chạy ở chế độ di động (portable).</sys:String>
-    <sys:String x:Key="Str_Status_RelaunchDeferred">Đã cài đặt xong. KillerPDF vẫn mở để bảo vệ phần công việc đã thay đổi trong lúc cài đặt.</sys:String>
-    <sys:String x:Key="Str_Dlg_SetDefaultPdfMsg" xml:space="preserve">Bạn có muốn đặt KillerPDF làm trình xem PDF mặc định không?
+    <sys:String x:Key="Str_Status_InstallFailed">Cài đặt không hoàn tất - PDF Gilardi vẫn đang chạy ở chế độ di động (portable).</sys:String>
+    <sys:String x:Key="Str_Status_RelaunchDeferred">Đã cài đặt xong. PDF Gilardi vẫn mở để bảo vệ phần công việc đã thay đổi trong lúc cài đặt.</sys:String>
+    <sys:String x:Key="Str_Dlg_SetDefaultPdfMsg" xml:space="preserve">Bạn có muốn đặt PDF Gilardi làm trình xem PDF mặc định không?
 
 Sẽ mở Cài đặt Windows - Ứng dụng mặc định.</sys:String>
     <sys:String x:Key="Str_Dlg_UnsavedClose">Tệp này có các thay đổi chưa được lưu. Lưu chúng trước khi đóng?</sys:String>
-    <sys:String x:Key="Str_Dlg_UnsavedExit">Bạn có các thay đổi chưa được lưu. Lưu chúng trước khi đóng KillerPDF?</sys:String>
+    <sys:String x:Key="Str_Dlg_UnsavedExit">Bạn có các thay đổi chưa được lưu. Lưu chúng trước khi đóng PDF Gilardi?</sys:String>
     <sys:String x:Key="Str_Dlg_PageOutOfRange" xml:space="preserve">Tài liệu này có {0} trang có kích thước nằm ngoài mức hỗ trợ của Adobe Reader (3 đến 14.400 điểm mỗi cạnh) - Adobe hiển thị các trang này là trang trống.
 
 Thu phóng chúng về kích thước được hỗ trợ? Các trang vẫn giữ nguyên giao diện và tỷ lệ.</sys:String>
     <sys:String x:Key="Str_Dlg_FailedOpen" xml:space="preserve">Không thể mở tệp PDF:
 {0}</sys:String>
-    <sys:String x:Key="Str_Dlg_AppTitle">KillerPDF</sys:String>
-    <sys:String x:Key="Str_Dlg_CloseAllDocs">Bạn có {0} tài liệu đang mở. Bạn có muốn KillerPDF đóng tất cả khi thoát ứng dụng không?</sys:String>
-    <sys:String x:Key="Str_Dlg_CloseAllDocsOne">Bạn có 1 tài liệu đang mở. Bạn có muốn KillerPDF đóng tài liệu đó khi thoát ứng dụng không?</sys:String>
+    <sys:String x:Key="Str_Dlg_AppTitle">PDF Gilardi</sys:String>
+    <sys:String x:Key="Str_Dlg_CloseAllDocs">Bạn có {0} tài liệu đang mở. Bạn có muốn PDF Gilardi đóng tất cả khi thoát ứng dụng không?</sys:String>
+    <sys:String x:Key="Str_Dlg_CloseAllDocsOne">Bạn có 1 tài liệu đang mở. Bạn có muốn PDF Gilardi đóng tài liệu đó khi thoát ứng dụng không?</sys:String>
     <sys:String x:Key="Str_Dlg_RememberChoice">Nhớ lựa chọn của tôi</sys:String>
 
 
@@ -522,7 +522,7 @@ Thu phóng chúng về kích thước được hỗ trợ? Các trang vẫn gi�
     <sys:String x:Key="Str_Pos_TopLeft">Trái trên</sys:String>
 
     <!-- ── Hộp thoại In ───────────────────────────────────────────────── -->
-    <sys:String x:Key="Str_Print_Title">KillerPDF - In</sys:String>
+    <sys:String x:Key="Str_Print_Title">PDF Gilardi - In</sys:String>
     <sys:String x:Key="Str_Print_Rendering">Đang kết xuất {0} / {1}</sys:String>
     <sys:String x:Key="Str_Print_IncompletePages">Không thể vẽ chính xác một số nội dung. Các trang {0} sẽ được in như đang hiển thị.</sys:String>
     <sys:String x:Key="Str_Print_Printer">Máy in</sys:String>
@@ -790,7 +790,7 @@ Thu phóng chúng về kích thước được hỗ trợ? Các trang vẫn gi�
     <sys:String x:Key="Str_Drop_RepairFailed">Không thể sửa tệp, nên chưa gộp gì cả.</sys:String>
     <sys:String x:Key="Str_Import_NoPages">{0} không có trang nào, nên không có gì để gộp.</sys:String>
     <sys:String x:Key="Str_Drop_ManyTabs">Thao tác này sẽ mở {0} tab riêng biệt. Tiếp tục?</sys:String>
-    <sys:String x:Key="Str_Drop_TooMany">Thư mục hoặc tệp lưu trữ này có {0} tệp. KillerPDF sẽ chỉ mở {1} tệp đầu tiên. Tiếp tục?</sys:String>
+    <sys:String x:Key="Str_Drop_TooMany">Thư mục hoặc tệp lưu trữ này có {0} tệp. PDF Gilardi sẽ chỉ mở {1} tệp đầu tiên. Tiếp tục?</sys:String>
     <sys:String x:Key="Str_Status_Merged">Đã gộp {0} tệp - chưa được lưu</sys:String>
     <sys:String x:Key="Str_Drop_Merging">Đang gộp các tệp...</sys:String>
     <sys:String x:Key="Str_Drop_MergeCanceled">Đã hủy gộp</sys:String>
@@ -1000,14 +1000,14 @@ Thu phóng chúng về kích thước được hỗ trợ? Các trang vẫn gi�
     <sys:String x:Key="Str_KS_FullScreen">Toàn màn hình</sys:String>
     <sys:String x:Key="Str_FullScreen_Hint">Nhấn F11 hoặc Esc để thoát chế độ toàn màn hình</sys:String>
     <!-- Thông báo thoát (tiêu chuẩn gia đình) -->
-    <sys:String x:Key="Str_Dlg_QuitMsg">Thoát KillerPDF?</sys:String>
+    <sys:String x:Key="Str_Dlg_QuitMsg">Thoát PDF Gilardi?</sys:String>
     <sys:String x:Key="Str_Chk_CloseTabs">Đóng các tab đang mở của tôi</sys:String>
     <sys:String x:Key="Str_Btn_Quit">Thoát</sys:String>
     <sys:String x:Key="Str_Btn_CancelDlg">Hủy</sys:String>
 
 
     <!-- Status-bar messages (extracted from code) -->
-    <sys:String x:Key="Str_St_DataCleared">Đã xóa toàn bộ dữ liệu của KillerPDF</sys:String>
+    <sys:String x:Key="Str_St_DataCleared">Đã xóa toàn bộ dữ liệu của PDF Gilardi</sys:String>
     <sys:String x:Key="Str_St_OcrRegionCanceled">Đã hủy chọn vùng OCR</sys:String>
     <sys:String x:Key="Str_St_Erased">Đã tẩy</sys:String>
     <sys:String x:Key="Str_St_Ungrouped">Đã bỏ nhóm</sys:String>
@@ -1057,7 +1057,7 @@ Thu phóng chúng về kích thước được hỗ trợ? Các trang vẫn gi�
 
     <!-- Dialog / message-box strings (extracted from code) -->
     <sys:String x:Key="Str_Dlg_SaveBeforeUpdate">Vui lòng lưu các thay đổi trước khi cập nhật.</sys:String>
-    <sys:String x:Key="Str_Dlg_Uninstalled">KillerPDF đã được gỡ cài đặt.</sys:String>
+    <sys:String x:Key="Str_Dlg_Uninstalled">PDF Gilardi đã được gỡ cài đặt.</sys:String>
     <sys:String x:Key="Str_Dlg_SelectExtract">Chọn các trang để trích xuất.</sys:String>
     <sys:String x:Key="Str_Dlg_SelectDelete">Chọn các trang để xóa.</sys:String>
     <sys:String x:Key="Str_Dlg_NoPrinter">Không có máy in khả dụng.</sys:String>
@@ -1234,7 +1234,7 @@ Thu phóng chúng về kích thước được hỗ trợ? Các trang vẫn gi�
     <sys:String x:Key="Str_Err_DuplicateFailed">Nhân bản thất bại:</sys:String>
     <sys:String x:Key="Str_Err_RepairFailed">Sửa chữa thất bại:</sys:String>
     <sys:String x:Key="Str_Err_OpenProtected">Không thể mở tệp PDF được bảo vệ:</sys:String>
-    <sys:String x:Key="Str_Err_WorkingCopy">KillerPDF không thể ghi bản sao làm việc của PDF này. Hãy kiểm tra xem ổ đĩa còn dung lượng trống không:</sys:String>
+    <sys:String x:Key="Str_Err_WorkingCopy">PDF Gilardi không thể ghi bản sao làm việc của PDF này. Hãy kiểm tra xem ổ đĩa còn dung lượng trống không:</sys:String>
     <sys:String x:Key="Str_Err_NewDocFailed">Không thể tạo tài liệu mới:</sys:String>
     <sys:String x:Key="Str_Err_FileNotFound">Không tìm thấy tệp:</sys:String>
     <sys:String x:Key="Str_Err_MergeFailed">Hợp nhất thất bại:</sys:String>
@@ -1348,7 +1348,7 @@ Thu phóng chúng về kích thước được hỗ trợ? Các trang vẫn gi�
     <sys:String x:Key="Str_ScanReview_Text">Văn bản</sys:String>
     <sys:String x:Key="Str_Dlg_Repaired" xml:space="preserve">"{0}" đã được sửa chữa thành công.&#10;&#10;Dấu trang, biểu mẫu và các tính năng tương tác khác có thể đã bị mất. Sử dụng Lưu thành để ghi tệp đã sửa chữa vào một vị trí mới.</sys:String>
     <sys:String x:Key="Str_Dlg_RepairedRaster" xml:space="preserve">"{0}" đã được sửa chữa bằng cách raster hóa các trang.&#10;&#10;Không thể chọn văn bản trong bản sao đã sửa chữa. Sử dụng Lưu thành để ghi tệp vào một vị trí mới.</sys:String>
-    <sys:String x:Key="Str_Dlg_RepairAsk" xml:space="preserve">"{0}" có cấu trúc bị hỏng và không thể thêm được.&#10;&#10;Bạn có muốn KillerPDF thử sửa chữa không? Một bản sao đã sửa chữa sẽ được tạo. Tệp gốc sẽ không bị thay đổi.&#10;&#10;Lưu ý: các tệp được sửa chữa có thể bị mất dấu trang, biểu mẫu và các tính năng tương tác khác.</sys:String>
+    <sys:String x:Key="Str_Dlg_RepairAsk" xml:space="preserve">"{0}" có cấu trúc bị hỏng và không thể thêm được.&#10;&#10;Bạn có muốn PDF Gilardi thử sửa chữa không? Một bản sao đã sửa chữa sẽ được tạo. Tệp gốc sẽ không bị thay đổi.&#10;&#10;Lưu ý: các tệp được sửa chữa có thể bị mất dấu trang, biểu mẫu và các tính năng tương tác khác.</sys:String>
     <sys:String x:Key="Str_Dlg_LangDownloadAsk" xml:space="preserve">Một mô hình ngôn ngữ ({0}) sẽ được tải xuống ngay bây giờ để OCR có thể chạy.&#10;&#10;Bạn có thể thêm nhiều ngôn ngữ hơn hoặc chuyển sang các mô hình chất lượng cao hơn bất cứ lúc nào từ menu OCR.</sys:String>
     <sys:String x:Key="Str_Bar_More">Thêm cài đặt</sys:String>
     <sys:String x:Key="Str_Bar_TT_Level">Giữ đường thẳng trên trục gần nhất (ngang hoặc dọc)</sys:String>
@@ -1362,7 +1362,7 @@ Thu phóng chúng về kích thước được hỗ trợ? Các trang vẫn gi�
     <sys:String x:Key="Str_TT_SaveOptions">Tùy chọn lưu</sys:String>
     <sys:String x:Key="Str_TT_OcrOptions">Tùy chọn OCR</sys:String>
     <sys:String x:Key="Str_RecentHeading">GẦN ĐÂY</sys:String>
-    <sys:String x:Key="Str_KS_WindowTitle">KillerPDF - Phím tắt</sys:String>
+    <sys:String x:Key="Str_KS_WindowTitle">PDF Gilardi - Phím tắt</sys:String>
     <sys:String x:Key="Str_About_UpdateAvailable">Có bản cập nhật: {0}</sys:String>
     <sys:String x:Key="Str_About_Unsigned">(not signed or chain failed)</sys:String>
     <sys:String x:Key="Str_About_Downloading">Đang tải xuống...</sys:String>
@@ -1374,11 +1374,11 @@ Thu phóng chúng về kích thước được hỗ trợ? Các trang vẫn gi�
     <sys:String x:Key="Str_About_NotNow">Để sau</sys:String>
     <sys:String x:Key="Str_About_AlwaysCheckOnStartup">Luôn kiểm tra khi khởi động</sys:String>
     <sys:String x:Key="Str_UpdateRestartPrepareFailed">Không thể chuẩn bị bản cập nhật. Các tệp PDF đã lưu của bạn không bị thay đổi. Vui lòng thử lại.</sys:String>
-    <sys:String x:Key="Str_UpdateRestartRestoreFailed">KillerPDF không thể mở lại phiên làm việc trước đó của bạn. Các tệp PDF đã lưu của bạn không bị thay đổi.</sys:String>
+    <sys:String x:Key="Str_UpdateRestartRestoreFailed">PDF Gilardi không thể mở lại phiên làm việc trước đó của bạn. Các tệp PDF đã lưu của bạn không bị thay đổi.</sys:String>
     <sys:String x:Key="Str_ClearAllData">Xóa toàn bộ dữ liệu</sys:String>
     <sys:String x:Key="Str_ClearDataConfirm" xml:space="preserve">Thao tác này sẽ xóa tất cả cài đặt đã lưu, gói ngôn ngữ OCR đã tải xuống và các tệp tạm thời.&#10;&#10;Các tệp PDF của bạn sẽ không bị ảnh hưởng. Bạn có muốn tiếp tục không?</sys:String>
-    <sys:String x:Key="Str_ClearDataDone" xml:space="preserve">Đã xóa cài đặt, gói ngôn ngữ và tệp tạm thời.&#10;&#10;Hãy khởi động lại KillerPDF để hoàn tất việc dọn dẹp mọi tệp vẫn đang được sử dụng trong phiên này.</sys:String>
-    <sys:String x:Key="Str_Crash_Title">KillerPDF - Lỗi không mong muốn</sys:String>
+    <sys:String x:Key="Str_ClearDataDone" xml:space="preserve">Đã xóa cài đặt, gói ngôn ngữ và tệp tạm thời.&#10;&#10;Hãy khởi động lại PDF Gilardi để hoàn tất việc dọn dẹp mọi tệp vẫn đang được sử dụng trong phiên này.</sys:String>
+    <sys:String x:Key="Str_Crash_Title">PDF Gilardi - Lỗi không mong muốn</sys:String>
     <sys:String x:Key="Str_Crash_Log">Nhật ký: {0}</sys:String>
     <sys:String x:Key="Str_Crash_Copy">Sao chép báo cáo</sys:String>
     <sys:String x:Key="Str_Crash_OpenLogs">Mở nhật ký</sys:String>
@@ -1451,17 +1451,17 @@ Thu phóng chúng về kích thước được hỗ trợ? Các trang vẫn gi�
     <sys:String x:Key="Str_Compare_DetailsTitle">Chi tiết so sánh PDF</sys:String>
 
     <!-- ── Từ chối chuyển giao trình duyệt ────────────────────────────────────── -->
-    <sys:String x:Key="Str_Handoff_Failed">KillerPDF không thể mở tệp PDF trên trình duyệt.</sys:String>
-    <sys:String x:Key="Str_Handoff_UnknownCommand">KillerPDF không nhận ra lệnh trình duyệt đó.</sys:String>
+    <sys:String x:Key="Str_Handoff_Failed">PDF Gilardi không thể mở tệp PDF trên trình duyệt.</sys:String>
+    <sys:String x:Key="Str_Handoff_UnknownCommand">PDF Gilardi không nhận ra lệnh trình duyệt đó.</sys:String>
     <sys:String x:Key="Str_Handoff_MissingUrl">Quá trình chuyển đổi không bao gồm địa chỉ PDF.</sys:String>
     <sys:String x:Key="Str_Handoff_MalformedUrl">Không thể đọc địa chỉ PDF trong quá trình chuyển đổi.</sys:String>
-    <sys:String x:Key="Str_Handoff_SchemeNotAllowed">KillerPDF chỉ mở các thao tác chuyển đổi trên trình duyệt qua giao thức https.</sys:String>
+    <sys:String x:Key="Str_Handoff_SchemeNotAllowed">PDF Gilardi chỉ mở các thao tác chuyển đổi trên trình duyệt qua giao thức https.</sys:String>
     <sys:String x:Key="Str_Handoff_Unusable">Không thể sử dụng tính năng chuyển đổi trên trình duyệt.</sys:String>
     <sys:String x:Key="Str_Handoff_TooLarge">Tệp PDF lớn hơn giới hạn 256 MB cho phép của trình duyệt.</sys:String>
     <sys:String x:Key="Str_Handoff_NotPdf">Tệp đã tải xuống không phải là tệp PDF.</sys:String>
-    <sys:String x:Key="Str_Handoff_DownloadFailed">KillerPDF không thể tải xuống tệp PDF.</sys:String>
+    <sys:String x:Key="Str_Handoff_DownloadFailed">PDF Gilardi không thể tải xuống tệp PDF.</sys:String>
     <sys:String x:Key="Str_Handoff_TimedOut">Quá thời gian tải xuống tệp PDF.</sys:String>
-    <sys:String x:Key="Str_Handoff_FileError">KillerPDF không thể lưu hoặc đọc tệp PDF đã tải xuống.</sys:String>
+    <sys:String x:Key="Str_Handoff_FileError">PDF Gilardi không thể lưu hoặc đọc tệp PDF đã tải xuống.</sys:String>
     <sys:String x:Key="Str_St_FormFieldDrag">Kéo để tạo trường văn bản có thể điền (&amp;D)</sys:String>
     <sys:String x:Key="Str_St_FormFieldCanceled">Đã hủy trường văn bản có thể điền</sys:String>
     <sys:String x:Key="Str_St_FormFieldCreateFailed">Không thể tạo trường văn bản có thể điền</sys:String>
@@ -1606,7 +1606,7 @@ Thu phóng chúng về kích thước được hỗ trợ? Các trang vẫn gi�
     <sys:String x:Key="Str_Macro_DeleteConfirm">Xóa macro &quot;{0}&quot;?</sys:String>
     <sys:String x:Key="Str_Macro_ImportFailed">Không thể nhập macro:</sys:String>
     <sys:String x:Key="Str_Macro_ExportFailed">Không thể xuất macro:</sys:String>
-    <sys:String x:Key="Str_Macro_Files">Macro KillerPDF</sys:String>
+    <sys:String x:Key="Str_Macro_Files">Macro PDF Gilardi</sys:String>
     <sys:String x:Key="Str_Macro_SelectOutput">Chọn đầu ra macro</sys:String>
     <sys:String x:Key="Str_Macro_Preview" xml:space="preserve">Macro: {0}&#10;Đầu vào: {1}&#10;Đầu ra: {2}&#10;&#10;Các bước:&#10;{3}&#10;&#10;Chạy macro này?</sys:String>
     <sys:String x:Key="Str_Macro_Running">Đang chạy macro...</sys:String>
@@ -1632,18 +1632,18 @@ Thu phóng chúng về kích thước được hỗ trợ? Các trang vẫn gi�
     <sys:String x:Key="Str_Sig_RemoveSignature">Xóa chữ ký</sys:String>
     <sys:String x:Key="Str_Sig_ChangeInitials">Đổi chữ ký tắt</sys:String>
     <sys:String x:Key="Str_Sig_RemoveInitials">Xóa chữ ký tắt</sys:String>
-    <sys:String x:Key="Str_Dlg_DuplicateInstallTitle">KillerPDF bị cài đặt trùng lặp</sys:String>
-    <sys:String x:Key="Str_Dlg_DuplicateInstallMachine" xml:space="preserve">KillerPDF tìm thấy hai bản sao đã cài đặt trên máy tính này.&#10;&#10;Bạn đang chạy bản cài đặt cho mọi người dùng. Còn có một bản sao cũ hơn cài cho riêng người dùng, thường vì nó đang được sử dụng trong một lần cập nhật trước.&#10;&#10;Gỡ bản sao cài cho riêng người dùng không dùng đến ngay bây giờ? Cài đặt và tệp PDF của bạn sẽ không bị xóa.</sys:String>
-    <sys:String x:Key="Str_Dlg_DuplicateInstallUser" xml:space="preserve">KillerPDF tìm thấy hai bản sao đã cài đặt trên máy tính này.&#10;&#10;Bạn đang chạy bản cài đặt cho riêng người dùng. Còn có một bản sao cài cho mọi người dùng.&#10;&#10;Gỡ bản sao cài cho mọi người dùng không dùng đến ngay bây giờ? Windows sẽ yêu cầu quyền quản trị viên. Cài đặt và tệp PDF của bạn sẽ không bị xóa.</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallUnsigned" xml:space="preserve">Đã từ chối cài đặt: tệp EXE đang chạy không có chữ ký Authenticode hợp lệ.&#10;&#10;Chỉ có thể cài đặt các bản dựng KillerPDF đã được ký.</sys:String>
+    <sys:String x:Key="Str_Dlg_DuplicateInstallTitle">PDF Gilardi bị cài đặt trùng lặp</sys:String>
+    <sys:String x:Key="Str_Dlg_DuplicateInstallMachine" xml:space="preserve">PDF Gilardi tìm thấy hai bản sao đã cài đặt trên máy tính này.&#10;&#10;Bạn đang chạy bản cài đặt cho mọi người dùng. Còn có một bản sao cũ hơn cài cho riêng người dùng, thường vì nó đang được sử dụng trong một lần cập nhật trước.&#10;&#10;Gỡ bản sao cài cho riêng người dùng không dùng đến ngay bây giờ? Cài đặt và tệp PDF của bạn sẽ không bị xóa.</sys:String>
+    <sys:String x:Key="Str_Dlg_DuplicateInstallUser" xml:space="preserve">PDF Gilardi tìm thấy hai bản sao đã cài đặt trên máy tính này.&#10;&#10;Bạn đang chạy bản cài đặt cho riêng người dùng. Còn có một bản sao cài cho mọi người dùng.&#10;&#10;Gỡ bản sao cài cho mọi người dùng không dùng đến ngay bây giờ? Windows sẽ yêu cầu quyền quản trị viên. Cài đặt và tệp PDF của bạn sẽ không bị xóa.</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallUnsigned" xml:space="preserve">Đã từ chối cài đặt: tệp EXE đang chạy không có chữ ký Authenticode hợp lệ.&#10;&#10;Chỉ có thể cài đặt các bản dựng PDF Gilardi đã được ký.</sys:String>
     <sys:String x:Key="Str_Dlg_InstallDowngrade" xml:space="preserve">Bạn sắp cài đặt một phiên bản cũ hơn ({0}) đè lên phiên bản đã cài đặt ({1}).&#10;&#10;Vẫn hạ cấp?</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallWriteFailed" xml:space="preserve">Không thể ghi bản sao đã cài đặt vào:&#10;{0}&#10;&#10;Hãy đóng mọi cửa sổ KillerPDF đang mở (và kiểm tra KillerPDF.exe trong Trình quản lý tác vụ), rồi chạy lại trình cài đặt.</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallWriteFailed" xml:space="preserve">Không thể ghi bản sao đã cài đặt vào:&#10;{0}&#10;&#10;Hãy đóng mọi cửa sổ PDF Gilardi đang mở (và kiểm tra PDF Gilardi.exe trong Trình quản lý tác vụ), rồi chạy lại trình cài đặt.</sys:String>
     <sys:String x:Key="Str_Dlg_InstallFailed" xml:space="preserve">Cài đặt không thành công:&#10;{0}</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallNoDesktopShortcut" xml:space="preserve">KillerPDF đã được cài đặt, nhưng Windows không cho phép tạo lối tắt trên màn hình nền:&#10;{0}&#10;&#10;Hãy mở KillerPDF từ menu Start.</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallNoDesktopShortcut" xml:space="preserve">PDF Gilardi đã được cài đặt, nhưng Windows không cho phép tạo lối tắt trên màn hình nền:&#10;{0}&#10;&#10;Hãy mở PDF Gilardi từ menu Start.</sys:String>
     <sys:String x:Key="Str_Dlg_UninstallElevationFailed" xml:space="preserve">Không thể yêu cầu quyền quản trị viên để gỡ cài đặt:&#10;{0}</sys:String>
-    <sys:String x:Key="Str_Dlg_UninstallConfirm">Gỡ cài đặt KillerPDF khỏi máy tính này?</sys:String>
-    <sys:String x:Key="Str_Dlg_UninstallStillRunning" xml:space="preserve">KillerPDF vẫn đang chạy.&#10;Hãy đóng ứng dụng, rồi thử gỡ cài đặt lại.</sys:String>
-    <sys:String x:Key="Str_Dlg_UninstallNotInstalled" xml:space="preserve">KillerPDF này không được cài đặt ở đây nên không có gì bị gỡ.&#10;Hãy tự xóa thư mục nếu bạn không còn cần nữa.</sys:String>
+    <sys:String x:Key="Str_Dlg_UninstallConfirm">Gỡ cài đặt PDF Gilardi khỏi máy tính này?</sys:String>
+    <sys:String x:Key="Str_Dlg_UninstallStillRunning" xml:space="preserve">PDF Gilardi vẫn đang chạy.&#10;Hãy đóng ứng dụng, rồi thử gỡ cài đặt lại.</sys:String>
+    <sys:String x:Key="Str_Dlg_UninstallNotInstalled" xml:space="preserve">PDF Gilardi này không được cài đặt ở đây nên không có gì bị gỡ.&#10;Hãy tự xóa thư mục nếu bạn không còn cần nữa.</sys:String>
     <sys:String x:Key="Str_Btn_Uninstall">Gỡ cài đặt</sys:String>
     <!-- Measure tool: types, scale, units, report -->
     <sys:String x:Key="Str_Measure_Distance">Khoảng cách</sys:String>
@@ -1841,7 +1841,7 @@ Thu phóng chúng về kích thước được hỗ trợ? Các trang vẫn gi�
     <sys:String x:Key="Str_Tray_Exit">Thoát</sys:String>
     <sys:String x:Key="Str_Watch_Title">Thư mục tự động</sys:String>
     <sys:String x:Key="Str_Watch_Intro">Thả PDF vào thư mục đầu vào để chạy macro đã lưu và lưu các bản sao mới vào thư mục đầu ra.</sys:String>
-    <sys:String x:Key="Str_Watch_RunningNote">Chạy khi KillerPDF đang mở, kể cả trong khay hệ thống. Bản gốc và các tệp đầu ra hiện có được giữ lại.</sys:String>
+    <sys:String x:Key="Str_Watch_RunningNote">Chạy khi PDF Gilardi đang mở, kể cả trong khay hệ thống. Bản gốc và các tệp đầu ra hiện có được giữ lại.</sys:String>
     <sys:String x:Key="Str_Watch_Input">Thư mục đầu vào</sys:String>
     <sys:String x:Key="Str_Watch_Output">Thư mục đầu ra</sys:String>
     <sys:String x:Key="Str_Watch_Filter">Bộ lọc tên tệp</sys:String>
@@ -1949,11 +1949,11 @@ Thu phóng chúng về kích thước được hỗ trợ? Các trang vẫn gi�
     <sys:String x:Key="Str_CmpRpt_Summary">Trang đã thay đổi: {0}, trang bị thiếu: {1}, trang khớp: {2}</sys:String>
     <sys:String x:Key="Str_Read_Comment">Nhận xét: {0}</sys:String>
     <sys:String x:Key="Str_Read_CommentBy">Nhận xét của {0}: {1}</sys:String>
-    <sys:String x:Key="Str_Dlg_RenderRecovered">KillerPDF đã khởi động lại vì cửa sổ không thể hiển thị được nữa. Các thay đổi chưa lưu đã được khôi phục và mở lại, sẵn sàng để lưu.&#10;&#10;Bản sao cũng được giữ trong {0}. Phiên này dùng kết xuất bằng phần mềm.</sys:String>
+    <sys:String x:Key="Str_Dlg_RenderRecovered">PDF Gilardi đã khởi động lại vì cửa sổ không thể hiển thị được nữa. Các thay đổi chưa lưu đã được khôi phục và mở lại, sẵn sàng để lưu.&#10;&#10;Bản sao cũng được giữ trong {0}. Phiên này dùng kết xuất bằng phần mềm.</sys:String>
     <sys:String x:Key="Str_Dlg_RenderRecoveryIncomplete">Không thể khôi phục hoàn toàn một số tài liệu:&#10;{0}&#10;&#10;Các tệp khôi phục hiện có được lưu trong {1}. Hãy kiểm tra các bản sao đã khôi phục trước khi lưu.</sys:String>
     <sys:String x:Key="Str_Dlg_RenderRecoveryNotReopened">Không thể khôi phục hoàn toàn một số tài liệu:&#10;{0}&#10;&#10;Các tệp khôi phục hiện có được lưu trong {1}.</sys:String>
     <sys:String x:Key="Str_Dlg_RenderRecoveryNoFolder">Không có thư mục nào để lưu bản sao khôi phục, vì vậy không thể giữ lại các thay đổi chưa lưu.</sys:String>
-    <sys:String x:Key="Str_Dlg_RenderRestarted">KillerPDF đã khởi động lại vì cửa sổ không thể hiển thị được nữa. Các tài liệu đang mở đã được mở lại. Phiên này dùng kết xuất bằng phần mềm.</sys:String>
+    <sys:String x:Key="Str_Dlg_RenderRestarted">PDF Gilardi đã khởi động lại vì cửa sổ không thể hiển thị được nữa. Các tài liệu đang mở đã được mở lại. Phiên này dùng kết xuất bằng phần mềm.</sys:String>
     <sys:String x:Key="Str_Read_MarkedText">Văn bản được đánh dấu: &quot;{0}&quot;</sys:String>
     <sys:String x:Key="Str_Read_MarkedNoText">Văn bản được đánh dấu</sys:String>
     <sys:String x:Key="Str_Read_Drawing">Hình vẽ</sys:String>
@@ -1967,7 +1967,7 @@ Thu phóng chúng về kích thước được hỗ trợ? Các trang vẫn gi�
     <sys:String x:Key="Str_Color_Yellow">Vàng</sys:String>
     <sys:String x:Key="Str_Color_Magenta">Hồng tím</sys:String>
     <sys:String x:Key="Str_CertCatalog_Title">Chứng chỉ</sys:String>
-    <sys:String x:Key="Str_CertCatalog_Hint">Chứng chỉ Windows ở chế độ chỉ đọc. Chứng chỉ được nhập chỉ được lưu trong KillerPDF. Việc nhập không làm cho chứng chỉ trở nên đáng tin cậy.</sys:String>
+    <sys:String x:Key="Str_CertCatalog_Hint">Chứng chỉ Windows ở chế độ chỉ đọc. Chứng chỉ được nhập chỉ được lưu trong PDF Gilardi. Việc nhập không làm cho chứng chỉ trở nên đáng tin cậy.</sys:String>
     <sys:String x:Key="Str_CertCatalog_Search">Tìm kiếm chứng chỉ</sys:String>
     <sys:String x:Key="Str_CertCatalog_Empty">Không có chứng chỉ nào khớp với tìm kiếm.</sys:String>
     <sys:String x:Key="Str_CertCatalog_Import">Nhập chứng chỉ</sys:String>
@@ -1985,21 +1985,21 @@ Thu phóng chúng về kích thước được hỗ trợ? Các trang vẫn gi�
     <sys:String x:Key="Str_CertCatalog_WindowsMachineRoots">Windows: chứng chỉ gốc của máy tính</sys:String>
     <sys:String x:Key="Str_CertCatalog_WindowsUserIntermediates">Windows: chứng chỉ trung gian của người dùng hiện tại</sys:String>
     <sys:String x:Key="Str_CertCatalog_WindowsMachineIntermediates">Windows: chứng chỉ trung gian của máy tính</sys:String>
-    <sys:String x:Key="Str_CertCatalog_Local">KillerPDF</sys:String>
+    <sys:String x:Key="Str_CertCatalog_Local">PDF Gilardi</sys:String>
     <sys:String x:Key="Str_CertCatalog_Trusted">Chứng chỉ gốc đáng tin cậy</sys:String>
     <sys:String x:Key="Str_CertCatalog_Untrusted">Không đáng tin cậy</sys:String>
     <sys:String x:Key="Str_CertCatalog_Expired">Đã hết hạn</sys:String>
     <sys:String x:Key="Str_CertCatalog_NotYetValid">Chưa có hiệu lực</sys:String>
-    <sys:String x:Key="Str_CertCatalog_TrustPrompt">Tin cậy "{0}" làm chứng chỉ gốc trong KillerPDF? Các chứng chỉ do chứng chỉ này cấp sau đó có thể được chấp nhận khi xác minh chữ ký. Cài đặt tin cậy của Windows sẽ không thay đổi.</sys:String>
-    <sys:String x:Key="Str_CertCatalog_RemovePrompt">Xóa "{0}" khỏi danh mục chứng chỉ của KillerPDF?</sys:String>
+    <sys:String x:Key="Str_CertCatalog_TrustPrompt">Tin cậy "{0}" làm chứng chỉ gốc trong PDF Gilardi? Các chứng chỉ do chứng chỉ này cấp sau đó có thể được chấp nhận khi xác minh chữ ký. Cài đặt tin cậy của Windows sẽ không thay đổi.</sys:String>
+    <sys:String x:Key="Str_CertCatalog_RemovePrompt">Xóa "{0}" khỏi danh mục chứng chỉ của PDF Gilardi?</sys:String>
     <sys:String x:Key="Str_CertCatalog_Error">Không thể cập nhật danh mục chứng chỉ:</sys:String>
     <sys:String x:Key="Str_CertCatalog_LoadError">Không thể đọc danh sách chứng chỉ:</sys:String>
     <sys:String x:Key="Str_CertCatalog_WrongFileType">Hãy chọn một tệp chứng chỉ công khai (.cer, .crt hoặc .pem).</sys:String>
     <sys:String x:Key="Str_CertCatalog_NotACertificate">Tệp không chứa chứng chỉ công khai có thể đọc được.</sys:String>
     <sys:String x:Key="Str_CertCatalog_PrivateKey">Không chấp nhận khóa riêng và tệp PFX. Chỉ nhập chứng chỉ công khai.</sys:String>
     <sys:String x:Key="Str_CertCatalog_TooLarge">Tệp chứng chỉ trống hoặc quá lớn.</sys:String>
-    <sys:String x:Key="Str_CertCatalog_Full">KillerPDF có thể lưu tối đa {0} chứng chỉ đã nhập.</sys:String>
-    <sys:String x:Key="Str_CertCatalog_Damaged">Không thể đọc danh mục chứng chỉ của KillerPDF nên danh mục được giữ nguyên. Chữ ký chỉ được kiểm tra theo độ tin cậy của Windows. Để bắt đầu lại, hãy xóa {0}.</sys:String>
+    <sys:String x:Key="Str_CertCatalog_Full">PDF Gilardi có thể lưu tối đa {0} chứng chỉ đã nhập.</sys:String>
+    <sys:String x:Key="Str_CertCatalog_Damaged">Không thể đọc danh mục chứng chỉ của PDF Gilardi nên danh mục được giữ nguyên. Chữ ký chỉ được kiểm tra theo độ tin cậy của Windows. Để bắt đầu lại, hãy xóa {0}.</sys:String>
     <sys:String x:Key="Str_CertCatalog_Imported">Đã nhập {0} chứng chỉ. Hãy xem xét chứng chỉ gốc trước khi chọn Tin cậy làm gốc.</sys:String>
     <sys:String x:Key="Str_CertCatalog_ReadOnly">Do Windows quản lý.</sys:String>
     <sys:String x:Key="Str_CertCatalog_Type">Loại chứng chỉ</sys:String>
@@ -2033,7 +2033,7 @@ Thu phóng chúng về kích thước được hỗ trợ? Các trang vẫn gi�
     <sys:String x:Key="Str_Filter_Json">Tài liệu JSON</sys:String>
     <sys:String x:Key="Str_Dlg_RepairAskOpen">Không thể mở "{0}" vì cấu trúc của tệp có thể bị hỏng.
 
-Bạn có muốn KillerPDF thử sửa chữa không? Một bản sao đã sửa chữa sẽ được tạo. Tệp gốc sẽ không bị thay đổi.
+Bạn có muốn PDF Gilardi thử sửa chữa không? Một bản sao đã sửa chữa sẽ được tạo. Tệp gốc sẽ không bị thay đổi.
 
 Lưu ý: các tệp được sửa chữa có thể bị mất dấu trang, biểu mẫu và các tính năng tương tác khác.</sys:String>
     <sys:String x:Key="Str_Dlg_OpenedReadOnlyXRef">"{0}" có cấu trúc không chuẩn và đã được mở ở chế độ chỉ đọc.

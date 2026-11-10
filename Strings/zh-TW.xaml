@@ -3,7 +3,7 @@
                     xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
     <!-- ================================================================
-         KillerPDF  -  Traditional Chinese (zh-TW) strings
+         PDF Gilardi  -  Traditional Chinese (zh-TW) strings
          Stub file - translations to be provided by leox243 (PR #61).
          All keys fall back to English until filled in.
          ================================================================ -->
@@ -125,7 +125,7 @@
     <sys:String x:Key="Str_TT_CollapseSidebar">收合側邊欄 (F9)</sys:String>
     <sys:String x:Key="Str_TT_ExpandSidebar">展開側邊欄 (F9)</sys:String>
     <sys:String x:Key="Str_TT_KeyboardShortcuts">鍵盤快速鍵 (F1)</sys:String>
-    <sys:String x:Key="Str_TT_About">關於 KillerPDF (F12)</sys:String>
+    <sys:String x:Key="Str_TT_About">關於 PDF Gilardi (F12)</sys:String>
 
     <!-- ── About overlay ─────────────────────────────────────────────── -->
     <sys:String x:Key="Str_About_Version">版本</sys:String>
@@ -217,7 +217,7 @@
     <sys:String x:Key="Str_Ready">就緒</sys:String>
     <sys:String x:Key="Str_Status_Ready">就緒</sys:String>
     <sys:String x:Key="Str_Portable">可攜版</sys:String>
-    <sys:String x:Key="Str_InstallBtn">安裝 KillerPDF</sys:String>
+    <sys:String x:Key="Str_InstallBtn">安裝 PDF Gilardi</sys:String>
 
     <!-- ── Status messages (format strings - use string.Format) ─────── -->
     <sys:String x:Key="Str_Opened">已開啟 {0} - {1} 頁</sys:String>
@@ -235,18 +235,18 @@
     <sys:String x:Key="Str_Print_LowQuality_Prompt">「{0}」僅允許以低品質列印。輸入擁有者密碼可按完整品質列印，取消則以低品質列印。</sys:String>
     <sys:String x:Key="Str_Print_Refused_Certificate">不允許列印。此 PDF 所針對的憑證不允許列印，任何密碼都無法解除。</sys:String>
     <sys:String x:Key="Str_Protection_Prompt">「{0}」帶有擁有者設定的限制，此操作寫出的檔案將不帶這些限制。輸入擁有者密碼以繼續。</sys:String>
-    <sys:String x:Key="Str_Protection_Refused">未寫出任何內容。結果不會保留此 PDF 擁有者設定的限制，KillerPDF 只有在提供擁有者密碼時才會寫出。</sys:String>
+    <sys:String x:Key="Str_Protection_Refused">未寫出任何內容。結果不會保留此 PDF 擁有者設定的限制，PDF Gilardi 只有在提供擁有者密碼時才會寫出。</sys:String>
     <sys:String x:Key="Str_Protection_Refused_Certificate">未寫出任何內容。結果不會保留為您的憑證設定的限制，任何密碼都無法解除這些限制。</sys:String>
-    <sys:String x:Key="Str_Protection_Unreadable">KillerPDF 無法讀取此 PDF 的保護，因此沒有儲存或列印任何內容。{0} 請重試，或關閉分頁後重新開啟檔案。</sys:String>
-    <sys:String x:Key="Str_Print_Refused">不允許列印。此 PDF 的擁有者限制了列印，KillerPDF 只有在提供擁有者密碼時才會列印。</sys:String>
+    <sys:String x:Key="Str_Protection_Unreadable">PDF Gilardi 無法讀取此 PDF 的保護，因此沒有儲存或列印任何內容。{0} 請重試，或關閉分頁後重新開啟檔案。</sys:String>
+    <sys:String x:Key="Str_Print_Refused">不允許列印。此 PDF 的擁有者限制了列印，PDF Gilardi 只有在提供擁有者密碼時才會列印。</sys:String>
     <sys:String x:Key="Str_Restricted_UnlockFailed">這是擁有者密碼，但無法解鎖「{0}」：{1}</sys:String>
     <sys:String x:Key="Str_St_SavedProtected">已儲存，保護不變 - {0}</sys:String>
     <sys:String x:Key="Str_Form_TwinsKept">同名欄位未能全部接受該值，現在它們的值不同：{0}</sys:String>
-    <sys:String x:Key="Str_Restricted_OwnerRequired">「{0}」限制了編輯，因此 KillerPDF 需要擁有者密碼才能開啟。</sys:String>
+    <sys:String x:Key="Str_Restricted_OwnerRequired">「{0}」限制了編輯，因此 PDF Gilardi 需要擁有者密碼才能開啟。</sys:String>
     <sys:String x:Key="Str_OpenedReadOnlyXRef">已開啟 {0}（唯讀 - 非標準 XRef 表）- {1} 頁</sys:String>
     <sys:String x:Key="Str_OpenedRepaired">已開啟 {0}（已修復副本 - 請儲存以保留變更）- {1} 頁</sys:String>
     <sys:String x:Key="Str_Save_ReferenceRepairs">已修復損壞的參照並儲存。遺失的內容並未復原。</sys:String>
-    <sys:String x:Key="Str_Save_DamagedEncrypted">此 PDF 已損壞且受密碼保護，因此 KillerPDF 無法修復或儲存。原始檔案未被變更。</sys:String>
+    <sys:String x:Key="Str_Save_DamagedEncrypted">此 PDF 已損壞且受密碼保護，因此 PDF Gilardi 無法修復或儲存。原始檔案未被變更。</sys:String>
     <sys:String x:Key="Str_Save_DamagedSigned">此 PDF 已損壞且帶有數位簽章。儲存會破壞簽章，因此檔案未被變更。</sys:String>
     <sys:String x:Key="Str_Save_DamagedCertified">此 PDF 已損壞且經作者認證。儲存會破壞認證，因此檔案未被變更。</sys:String>
     <sys:String x:Key="Str_Save_DamagedUsageRights">此 PDF 已損壞且帶有 Reader 使用權限。儲存會破壞這些權限，因此檔案未被變更。</sys:String>
@@ -280,39 +280,39 @@
 現在儲存會覆寫該檔案，那些變更將會遺失。若要保留，請先儲存另一個窗格。</sys:String>
     <sys:String x:Key="Str_St_SplitOn">分割檢視已開啟 - 按 F10 關閉</sys:String>
     <sys:String x:Key="Str_St_SplitOff">分割檢視已關閉</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallTitle">安裝 KillerPDF</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallMsg">要將 KillerPDF 安裝到這台電腦嗎？</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallTitle">安裝 PDF Gilardi</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallMsg">要將 PDF Gilardi 安裝到這台電腦嗎？</sys:String>
     <sys:String x:Key="Str_Dlg_InstallBullets">安裝會將應用程式複製到您的程式資料夾以加快啟動速度，並新增開始功能表項目。之後您可以保留或刪除這個可攜檔案。</sys:String>
-    <sys:String x:Key="Str_Install_AlreadyAllUsers">KillerPDF 已為此電腦上的所有使用者安裝，因此將更新該複本。Windows 會要求權限。</sys:String>
+    <sys:String x:Key="Str_Install_AlreadyAllUsers">PDF Gilardi 已為此電腦上的所有使用者安裝，因此將更新該複本。Windows 會要求權限。</sys:String>
     <sys:String x:Key="Str_Dlg_SaveBeforeInstall">請在安裝前儲存變更。</sys:String>
     <sys:String x:Key="Str_Btn_DoInstall">安裝</sys:String>
     <sys:String x:Key="Str_Btn_DoUpdate">更新</sys:String>
-    <sys:String x:Key="Str_Dlg_UpdateUserMsg" xml:space="preserve">更新現有的 KillerPDF 安裝？
+    <sys:String x:Key="Str_Dlg_UpdateUserMsg" xml:space="preserve">更新現有的 PDF Gilardi 安裝？
 
 這會將已安裝的複本替換為更快的多檔案版本。之後您可以保留或刪除此可攜檔案。</sys:String>
-    <sys:String x:Key="Str_Dlg_UpdateMachineMsg" xml:space="preserve">更新現有的 KillerPDF 全使用者安裝？
+    <sys:String x:Key="Str_Dlg_UpdateMachineMsg" xml:space="preserve">更新現有的 PDF Gilardi 全使用者安裝？
 
-這會將 Program Files 中的複本替換為更快的多檔案版本。舊的單一使用者複本將被移除，使 KillerPDF 只出現一次。之後您可以保留或刪除此可攜檔案。</sys:String>
-    <sys:String x:Key="Str_Dlg_OneInstallOnly" xml:space="preserve">KillerPDF 已為此電腦上的所有使用者安裝。請更新該安裝，或先解除安裝，再選擇單一使用者安裝。
+這會將 Program Files 中的複本替換為更快的多檔案版本。舊的單一使用者複本將被移除，使 PDF Gilardi 只出現一次。之後您可以保留或刪除此可攜檔案。</sys:String>
+    <sys:String x:Key="Str_Dlg_OneInstallOnly" xml:space="preserve">PDF Gilardi 已為此電腦上的所有使用者安裝。請更新該安裝，或先解除安裝，再選擇單一使用者安裝。
 
-KillerPDF 不會建立兩個已安裝的複本。</sys:String>
+PDF Gilardi 不會建立兩個已安裝的複本。</sys:String>
     <sys:String x:Key="Str_Chk_Desktop">新增桌面捷徑</sys:String>
     <sys:String x:Key="Str_Chk_AllUsers">為這台電腦上的所有使用者安裝（需要系統管理員）</sys:String>
-    <sys:String x:Key="Str_Status_InstallFailed">安裝未完成 - KillerPDF 仍以可攜方式執行。</sys:String>
-    <sys:String x:Key="Str_Status_RelaunchDeferred">安裝已完成。為保護安裝期間變更的工作，KillerPDF 保持開啟。</sys:String>
-    <sys:String x:Key="Str_Dlg_SetDefaultPdfMsg" xml:space="preserve">要將 KillerPDF 設為預設 PDF 檢視器嗎？
+    <sys:String x:Key="Str_Status_InstallFailed">安裝未完成 - PDF Gilardi 仍以可攜方式執行。</sys:String>
+    <sys:String x:Key="Str_Status_RelaunchDeferred">安裝已完成。為保護安裝期間變更的工作，PDF Gilardi 保持開啟。</sys:String>
+    <sys:String x:Key="Str_Dlg_SetDefaultPdfMsg" xml:space="preserve">要將 PDF Gilardi 設為預設 PDF 檢視器嗎？
 
 將開啟 Windows 設定 - 預設應用程式。</sys:String>
     <sys:String x:Key="Str_Dlg_UnsavedClose">此檔案有未儲存的變更。要在關閉之前儲存嗎？</sys:String>
-    <sys:String x:Key="Str_Dlg_UnsavedExit">您有未儲存的變更。要在關閉 KillerPDF 之前儲存嗎？</sys:String>
+    <sys:String x:Key="Str_Dlg_UnsavedExit">您有未儲存的變更。要在關閉 PDF Gilardi 之前儲存嗎？</sys:String>
     <sys:String x:Key="Str_Dlg_PageOutOfRange" xml:space="preserve">此文件有 {0} 個頁面的尺寸超出 Adobe Reader 支援的範圍（每邊 3 到 14400 點），Adobe 會將這些頁面顯示為空白。
 
 要將它們縮放至支援的尺寸嗎？頁面的外觀和比例保持不變。</sys:String>
     <sys:String x:Key="Str_Dlg_FailedOpen" xml:space="preserve">無法開啟 PDF：
 {0}</sys:String>
-    <sys:String x:Key="Str_Dlg_AppTitle">KillerPDF</sys:String>
-    <sys:String x:Key="Str_Dlg_CloseAllDocs">您有 {0} 個開啟的文件。結束應用程式時是否讓 KillerPDF 全部關閉？</sys:String>
-    <sys:String x:Key="Str_Dlg_CloseAllDocsOne">您有 1 個開啟的文件。結束應用程式時是否讓 KillerPDF 將其關閉？</sys:String>
+    <sys:String x:Key="Str_Dlg_AppTitle">PDF Gilardi</sys:String>
+    <sys:String x:Key="Str_Dlg_CloseAllDocs">您有 {0} 個開啟的文件。結束應用程式時是否讓 PDF Gilardi 全部關閉？</sys:String>
+    <sys:String x:Key="Str_Dlg_CloseAllDocsOne">您有 1 個開啟的文件。結束應用程式時是否讓 PDF Gilardi 將其關閉？</sys:String>
     <sys:String x:Key="Str_Dlg_RememberChoice">記住我的選擇</sys:String>
 
 
@@ -448,7 +448,7 @@ KillerPDF 不會建立兩個已安裝的複本。</sys:String>
     <sys:String x:Key="Str_Pos_TopLeft">左上</sys:String>
 
     <!-- ── Print dialog ───────────────────────────────────────────────── -->
-    <sys:String x:Key="Str_Print_Title">KillerPDF - 列印</sys:String>
+    <sys:String x:Key="Str_Print_Title">PDF Gilardi - 列印</sys:String>
     <sys:String x:Key="Str_Print_Rendering">正在轉譯 {0} / {1}</sys:String>
     <sys:String x:Key="Str_Print_IncompletePages">部分內容無法精確繪製。第 {0} 頁將依顯示效果列印。</sys:String>
     <sys:String x:Key="Str_Print_Printer">印表機</sys:String>
@@ -706,7 +706,7 @@ KillerPDF 不會建立兩個已安裝的複本。</sys:String>
     <sys:String x:Key="Str_Drop_RepairFailed">無法修復該檔案，因此未合併任何內容。</sys:String>
     <sys:String x:Key="Str_Import_NoPages">{0} 沒有頁面，因此沒有可合併的內容。</sys:String>
     <sys:String x:Key="Str_Drop_ManyTabs">這將開啟 {0} 個獨立分頁。要繼續嗎？</sys:String>
-    <sys:String x:Key="Str_Drop_TooMany">此資料夾或壓縮檔包含 {0} 個檔案。KillerPDF 只會開啟前 {1} 個。要繼續嗎？</sys:String>
+    <sys:String x:Key="Str_Drop_TooMany">此資料夾或壓縮檔包含 {0} 個檔案。PDF Gilardi 只會開啟前 {1} 個。要繼續嗎？</sys:String>
     <sys:String x:Key="Str_Status_Merged">已合併 {0} 個檔案 - 尚未儲存</sys:String>
     <sys:String x:Key="Str_Drop_Merging">正在合併檔案...</sys:String>
     <sys:String x:Key="Str_Drop_MergeCanceled">已取消合併</sys:String>
@@ -915,14 +915,14 @@ KillerPDF 不會建立兩個已安裝的複本。</sys:String>
     <sys:String x:Key="Str_KS_FullScreen">全螢幕</sys:String>
     <sys:String x:Key="Str_FullScreen_Hint">按 F11 或 Esc 離開全螢幕</sys:String>
     <!-- Quit prompt -->
-    <sys:String x:Key="Str_Dlg_QuitMsg">結束 KillerPDF？</sys:String>
+    <sys:String x:Key="Str_Dlg_QuitMsg">結束 PDF Gilardi？</sys:String>
     <sys:String x:Key="Str_Chk_CloseTabs">關閉我開啟的分頁</sys:String>
     <sys:String x:Key="Str_Btn_Quit">結束</sys:String>
     <sys:String x:Key="Str_Btn_CancelDlg">取消</sys:String>
 
 
     <!-- Status-bar + dialog strings (extracted from code) -->
-    <sys:String x:Key="Str_St_DataCleared">已清除所有 KillerPDF 資料</sys:String>
+    <sys:String x:Key="Str_St_DataCleared">已清除所有 PDF Gilardi 資料</sys:String>
     <sys:String x:Key="Str_St_OcrRegionCanceled">已取消 OCR 區域</sys:String>
     <sys:String x:Key="Str_St_Erased">已擦除</sys:String>
     <sys:String x:Key="Str_St_Ungrouped">已取消群組</sys:String>
@@ -970,7 +970,7 @@ KillerPDF 不會建立兩個已安裝的複本。</sys:String>
     <sys:String x:Key="Str_St_PastedText">已貼上文字-拖曳以重新定位，按 Delete 移除</sys:String>
     <sys:String x:Key="Str_St_ClipEmpty">剪貼簿中沒有可貼上的內容</sys:String>
     <sys:String x:Key="Str_Dlg_SaveBeforeUpdate">請先儲存變更再進行更新。</sys:String>
-    <sys:String x:Key="Str_Dlg_Uninstalled">KillerPDF 已解除安裝。</sys:String>
+    <sys:String x:Key="Str_Dlg_Uninstalled">PDF Gilardi 已解除安裝。</sys:String>
     <sys:String x:Key="Str_Dlg_SelectExtract">請選取要擷取的頁面。</sys:String>
     <sys:String x:Key="Str_Dlg_SelectDelete">請選取要刪除的頁面。</sys:String>
     <sys:String x:Key="Str_Dlg_NoPrinter">沒有可用的印表機。</sys:String>
@@ -1223,7 +1223,7 @@ KillerPDF 不會建立兩個已安裝的複本。</sys:String>
     <sys:String x:Key="Str_Err_DuplicateFailed">複製頁面失敗：</sys:String>
     <sys:String x:Key="Str_Err_RepairFailed">修復失敗：</sys:String>
     <sys:String x:Key="Str_Err_OpenProtected">無法開啟受保護的 PDF：</sys:String>
-    <sys:String x:Key="Str_Err_WorkingCopy">KillerPDF 無法寫入此 PDF 的工作副本。請檢查磁碟是否有可用空間:</sys:String>
+    <sys:String x:Key="Str_Err_WorkingCopy">PDF Gilardi 無法寫入此 PDF 的工作副本。請檢查磁碟是否有可用空間:</sys:String>
     <sys:String x:Key="Str_Err_NewDocFailed">無法建立新文件：</sys:String>
     <sys:String x:Key="Str_Err_FileNotFound">找不到檔案：</sys:String>
     <sys:String x:Key="Str_Err_MergeFailed">合併失敗：</sys:String>
@@ -1331,7 +1331,7 @@ KillerPDF 不會建立兩個已安裝的複本。</sys:String>
     <sys:String x:Key="Str_ScanReview_Text">文字</sys:String>
     <sys:String x:Key="Str_Dlg_Repaired" xml:space="preserve">「{0}」已成功修復。&#10;&#10;書籤、表單和其他互動功能可能已遺失。請使用另存新檔將修復後的檔案寫入新位置。</sys:String>
     <sys:String x:Key="Str_Dlg_RepairedRaster" xml:space="preserve">「{0}」已透過點陣化頁面修復。&#10;&#10;修復副本中的文字無法選取。請使用另存新檔將其寫入新位置。</sys:String>
-    <sys:String x:Key="Str_Dlg_RepairAsk" xml:space="preserve">「{0}」的結構已損壞，無法加入。&#10;&#10;要讓 KillerPDF 嘗試修復嗎？將建立修復副本，原始檔案不會被變更。&#10;&#10;注意：修復後的檔案可能缺少書籤、表單和其他互動功能。</sys:String>
+    <sys:String x:Key="Str_Dlg_RepairAsk" xml:space="preserve">「{0}」的結構已損壞，無法加入。&#10;&#10;要讓 PDF Gilardi 嘗試修復嗎？將建立修復副本，原始檔案不會被變更。&#10;&#10;注意：修復後的檔案可能缺少書籤、表單和其他互動功能。</sys:String>
     <sys:String x:Key="Str_Dlg_LangDownloadAsk" xml:space="preserve">現在將下載語言模型（{0}）以便執行 OCR。&#10;&#10;您可以隨時在 OCR 選單中新增更多語言或切換到更高品質的模型。</sys:String>
     <sys:String x:Key="Str_Bar_More">更多設定</sys:String>
     <sys:String x:Key="Str_Bar_TT_Level">使線條保持在最近的軸上（水平或垂直）</sys:String>
@@ -1345,7 +1345,7 @@ KillerPDF 不會建立兩個已安裝的複本。</sys:String>
     <sys:String x:Key="Str_TT_SaveOptions">儲存選項</sys:String>
     <sys:String x:Key="Str_TT_OcrOptions">OCR 選項</sys:String>
     <sys:String x:Key="Str_RecentHeading">最近</sys:String>
-    <sys:String x:Key="Str_KS_WindowTitle">KillerPDF - 鍵盤快速鍵</sys:String>
+    <sys:String x:Key="Str_KS_WindowTitle">PDF Gilardi - 鍵盤快速鍵</sys:String>
     <sys:String x:Key="Str_About_UpdateAvailable">有可用更新: {0}</sys:String>
     <sys:String x:Key="Str_About_Unsigned">(not signed or chain failed)</sys:String>
     <sys:String x:Key="Str_About_Downloading">下載中...</sys:String>
@@ -1357,11 +1357,11 @@ KillerPDF 不會建立兩個已安裝的複本。</sys:String>
     <sys:String x:Key="Str_About_NotNow">稍後再說</sys:String>
     <sys:String x:Key="Str_About_AlwaysCheckOnStartup">啟動時一律檢查更新</sys:String>
     <sys:String x:Key="Str_UpdateRestartPrepareFailed">無法準備更新。已儲存的 PDF 檔案未變更。請再試一次。</sys:String>
-    <sys:String x:Key="Str_UpdateRestartRestoreFailed">KillerPDF 無法重新開啟上次的工作階段。已儲存的 PDF 檔案未變更。</sys:String>
+    <sys:String x:Key="Str_UpdateRestartRestoreFailed">PDF Gilardi 無法重新開啟上次的工作階段。已儲存的 PDF 檔案未變更。</sys:String>
     <sys:String x:Key="Str_ClearAllData">清除所有資料</sys:String>
     <sys:String x:Key="Str_ClearDataConfirm" xml:space="preserve">這會刪除所有已儲存的設定、已下載的 OCR 語言包和暫存檔案。&#10;&#10;您的 PDF 檔案不受影響。要繼續嗎?</sys:String>
-    <sys:String x:Key="Str_ClearDataDone" xml:space="preserve">設定、語言包和暫存檔案已清除。&#10;&#10;請重新啟動 KillerPDF，以完成清除本次工作階段中仍在使用的檔案。</sys:String>
-    <sys:String x:Key="Str_Crash_Title">KillerPDF - 未預期的錯誤</sys:String>
+    <sys:String x:Key="Str_ClearDataDone" xml:space="preserve">設定、語言包和暫存檔案已清除。&#10;&#10;請重新啟動 PDF Gilardi，以完成清除本次工作階段中仍在使用的檔案。</sys:String>
+    <sys:String x:Key="Str_Crash_Title">PDF Gilardi - 未預期的錯誤</sys:String>
     <sys:String x:Key="Str_Crash_Log">記錄: {0}</sys:String>
     <sys:String x:Key="Str_Crash_Copy">複製報告</sys:String>
     <sys:String x:Key="Str_Crash_OpenLogs">開啟記錄</sys:String>
@@ -1433,17 +1433,17 @@ KillerPDF 不會建立兩個已安裝的複本。</sys:String>
     <sys:String x:Key="Str_Compare_DetailsTitle">PDF比較詳情</sys:String>
 
     <!-- ── Browser handoff refusals ────────────────────────────────────── -->
-    <sys:String x:Key="Str_Handoff_Failed">KillerPDF無法開啟瀏覽器PDF。</sys:String>
-    <sys:String x:Key="Str_Handoff_UnknownCommand">那個瀏覽器命令不是KillerPDF所知道的。</sys:String>
+    <sys:String x:Key="Str_Handoff_Failed">PDF Gilardi無法開啟瀏覽器PDF。</sys:String>
+    <sys:String x:Key="Str_Handoff_UnknownCommand">那個瀏覽器命令不是PDF Gilardi所知道的。</sys:String>
     <sys:String x:Key="Str_Handoff_MissingUrl">交接不包含PDF地址。</sys:String>
     <sys:String x:Key="Str_Handoff_MalformedUrl">無法讀取交接單中的PDF地址。</sys:String>
-    <sys:String x:Key="Str_Handoff_SchemeNotAllowed">KillerPDF僅透過https開啟瀏覽器切換。</sys:String>
+    <sys:String x:Key="Str_Handoff_SchemeNotAllowed">PDF Gilardi僅透過https開啟瀏覽器切換。</sys:String>
     <sys:String x:Key="Str_Handoff_Unusable">無法使用瀏覽器交接。</sys:String>
     <sys:String x:Key="Str_Handoff_TooLarge">PDF檔大於256 MB的瀏覽器切換限制。</sys:String>
     <sys:String x:Key="Str_Handoff_NotPdf">下載的檔案不是PDF。</sys:String>
-    <sys:String x:Key="Str_Handoff_DownloadFailed">KillerPDF無法下載PDF。</sys:String>
+    <sys:String x:Key="Str_Handoff_DownloadFailed">PDF Gilardi無法下載PDF。</sys:String>
     <sys:String x:Key="Str_Handoff_TimedOut">PDF下載逾時。</sys:String>
-    <sys:String x:Key="Str_Handoff_FileError">KillerPDF無法儲存或讀取下載的PDF。</sys:String>
+    <sys:String x:Key="Str_Handoff_FileError">PDF Gilardi無法儲存或讀取下載的PDF。</sys:String>
     <sys:String x:Key="Str_St_FormFieldDrag">拖曳以建立可填寫文字欄位</sys:String>
     <sys:String x:Key="Str_St_FormFieldCanceled">已取消建立可填寫文字欄位</sys:String>
     <sys:String x:Key="Str_St_FormFieldCreateFailed">無法建立可填寫文字欄位</sys:String>
@@ -1588,7 +1588,7 @@ KillerPDF 不會建立兩個已安裝的複本。</sys:String>
     <sys:String x:Key="Str_Macro_DeleteConfirm">刪除巨集「{0}」?</sys:String>
     <sys:String x:Key="Str_Macro_ImportFailed">無法匯入巨集:</sys:String>
     <sys:String x:Key="Str_Macro_ExportFailed">無法匯出巨集:</sys:String>
-    <sys:String x:Key="Str_Macro_Files">KillerPDF 巨集</sys:String>
+    <sys:String x:Key="Str_Macro_Files">PDF Gilardi 巨集</sys:String>
     <sys:String x:Key="Str_Macro_SelectOutput">選擇巨集輸出</sys:String>
     <sys:String x:Key="Str_Macro_Preview" xml:space="preserve">巨集: {0}&#10;輸入: {1}&#10;輸出: {2}&#10;&#10;步驟:&#10;{3}&#10;&#10;執行此巨集?</sys:String>
     <sys:String x:Key="Str_Macro_Running">正在執行巨集...</sys:String>
@@ -1614,18 +1614,18 @@ KillerPDF 不會建立兩個已安裝的複本。</sys:String>
     <sys:String x:Key="Str_Sig_RemoveSignature">移除簽名</sys:String>
     <sys:String x:Key="Str_Sig_ChangeInitials">變更姓名縮寫</sys:String>
     <sys:String x:Key="Str_Sig_RemoveInitials">移除姓名縮寫</sys:String>
-    <sys:String x:Key="Str_Dlg_DuplicateInstallTitle">KillerPDF 重複安裝</sys:String>
-    <sys:String x:Key="Str_Dlg_DuplicateInstallMachine" xml:space="preserve">KillerPDF 在這部電腦上找到兩個已安裝的複本。&#10;&#10;您目前執行的是供所有使用者使用的安裝。另外還有一個較舊的單一使用者複本，通常是因為它在先前的更新期間正在使用。&#10;&#10;要立即移除未使用的單一使用者複本嗎？您的設定和 PDF 檔案不會被移除。</sys:String>
-    <sys:String x:Key="Str_Dlg_DuplicateInstallUser" xml:space="preserve">KillerPDF 在這部電腦上找到兩個已安裝的複本。&#10;&#10;您目前執行的是單一使用者安裝。另外還有一個供所有使用者使用的複本。&#10;&#10;要立即移除未使用的所有使用者複本嗎？Windows 會要求系統管理員權限。您的設定和 PDF 檔案不會被移除。</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallUnsigned" xml:space="preserve">已拒絕安裝：執行中的 EXE 沒有有效的 Authenticode 簽章。&#10;&#10;只能安裝已簽署的 KillerPDF 組建。</sys:String>
+    <sys:String x:Key="Str_Dlg_DuplicateInstallTitle">PDF Gilardi 重複安裝</sys:String>
+    <sys:String x:Key="Str_Dlg_DuplicateInstallMachine" xml:space="preserve">PDF Gilardi 在這部電腦上找到兩個已安裝的複本。&#10;&#10;您目前執行的是供所有使用者使用的安裝。另外還有一個較舊的單一使用者複本，通常是因為它在先前的更新期間正在使用。&#10;&#10;要立即移除未使用的單一使用者複本嗎？您的設定和 PDF 檔案不會被移除。</sys:String>
+    <sys:String x:Key="Str_Dlg_DuplicateInstallUser" xml:space="preserve">PDF Gilardi 在這部電腦上找到兩個已安裝的複本。&#10;&#10;您目前執行的是單一使用者安裝。另外還有一個供所有使用者使用的複本。&#10;&#10;要立即移除未使用的所有使用者複本嗎？Windows 會要求系統管理員權限。您的設定和 PDF 檔案不會被移除。</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallUnsigned" xml:space="preserve">已拒絕安裝：執行中的 EXE 沒有有效的 Authenticode 簽章。&#10;&#10;只能安裝已簽署的 PDF Gilardi 組建。</sys:String>
     <sys:String x:Key="Str_Dlg_InstallDowngrade" xml:space="preserve">您即將在已安裝的版本 ({1}) 上安裝較舊的版本 ({0})。&#10;&#10;仍要降級嗎？</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallWriteFailed" xml:space="preserve">無法寫入已安裝的複本：&#10;{0}&#10;&#10;請關閉所有開啟的 KillerPDF 視窗（並在工作管理員中檢查 KillerPDF.exe），然後重新執行安裝程式。</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallWriteFailed" xml:space="preserve">無法寫入已安裝的複本：&#10;{0}&#10;&#10;請關閉所有開啟的 PDF Gilardi 視窗（並在工作管理員中檢查 PDF Gilardi.exe），然後重新執行安裝程式。</sys:String>
     <sys:String x:Key="Str_Dlg_InstallFailed" xml:space="preserve">安裝失敗：&#10;{0}</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallNoDesktopShortcut" xml:space="preserve">KillerPDF 已安裝，但 Windows 不允許建立桌面捷徑:&#10;{0}&#10;&#10;請從「開始」功能表開啟 KillerPDF。</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallNoDesktopShortcut" xml:space="preserve">PDF Gilardi 已安裝，但 Windows 不允許建立桌面捷徑:&#10;{0}&#10;&#10;請從「開始」功能表開啟 PDF Gilardi。</sys:String>
     <sys:String x:Key="Str_Dlg_UninstallElevationFailed" xml:space="preserve">解除安裝無法要求系統管理員權限：&#10;{0}</sys:String>
-    <sys:String x:Key="Str_Dlg_UninstallConfirm">要從這部電腦解除安裝 KillerPDF 嗎？</sys:String>
-    <sys:String x:Key="Str_Dlg_UninstallStillRunning" xml:space="preserve">KillerPDF 仍在執行。&#10;請關閉它，然後再試一次解除安裝。</sys:String>
-    <sys:String x:Key="Str_Dlg_UninstallNotInstalled" xml:space="preserve">此 KillerPDF 並非安裝於此處，因此未移除任何內容。&#10;如果不再需要，請自行刪除該資料夾。</sys:String>
+    <sys:String x:Key="Str_Dlg_UninstallConfirm">要從這部電腦解除安裝 PDF Gilardi 嗎？</sys:String>
+    <sys:String x:Key="Str_Dlg_UninstallStillRunning" xml:space="preserve">PDF Gilardi 仍在執行。&#10;請關閉它，然後再試一次解除安裝。</sys:String>
+    <sys:String x:Key="Str_Dlg_UninstallNotInstalled" xml:space="preserve">此 PDF Gilardi 並非安裝於此處，因此未移除任何內容。&#10;如果不再需要，請自行刪除該資料夾。</sys:String>
     <sys:String x:Key="Str_Btn_Uninstall">解除安裝</sys:String>
     <!-- Measure tool: types, scale, units, report -->
     <sys:String x:Key="Str_Measure_Distance">距離</sys:String>
@@ -1823,7 +1823,7 @@ KillerPDF 不會建立兩個已安裝的複本。</sys:String>
     <sys:String x:Key="Str_Tray_Exit">結束</sys:String>
     <sys:String x:Key="Str_Watch_Title">自動處理資料夾</sys:String>
     <sys:String x:Key="Str_Watch_Intro">將 PDF 放入輸入資料夾，即可執行已儲存的巨集，並在輸出資料夾中儲存新副本。</sys:String>
-    <sys:String x:Key="Str_Watch_RunningNote">KillerPDF 開啟時即可執行，在系統匣中也可執行。原始檔案和現有的輸出檔案都會保留。</sys:String>
+    <sys:String x:Key="Str_Watch_RunningNote">PDF Gilardi 開啟時即可執行，在系統匣中也可執行。原始檔案和現有的輸出檔案都會保留。</sys:String>
     <sys:String x:Key="Str_Watch_Input">輸入資料夾</sys:String>
     <sys:String x:Key="Str_Watch_Output">輸出資料夾</sys:String>
     <sys:String x:Key="Str_Watch_Filter">檔名篩選器</sys:String>
@@ -1931,11 +1931,11 @@ KillerPDF 不會建立兩個已安裝的複本。</sys:String>
     <sys:String x:Key="Str_CmpRpt_Summary">已變更頁面：{0}，缺少頁面：{1}，相同頁面：{2}</sys:String>
     <sys:String x:Key="Str_Read_Comment">註解：{0}</sys:String>
     <sys:String x:Key="Str_Read_CommentBy">{0} 的註解：{1}</sys:String>
-    <sys:String x:Key="Str_Dlg_RenderRecovered">視窗無法再顯示內容，KillerPDF 已重新啟動。未儲存的變更已復原並重新開啟，可以儲存。&#10;&#10;副本也保留在 {0}。本次工作階段使用軟體轉譯。</sys:String>
+    <sys:String x:Key="Str_Dlg_RenderRecovered">視窗無法再顯示內容，PDF Gilardi 已重新啟動。未儲存的變更已復原並重新開啟，可以儲存。&#10;&#10;副本也保留在 {0}。本次工作階段使用軟體轉譯。</sys:String>
     <sys:String x:Key="Str_Dlg_RenderRecoveryIncomplete">部分文件無法完整復原：&#10;{0}&#10;&#10;可用的復原檔案保存在 {1}。請在儲存前檢查已復原的副本。</sys:String>
     <sys:String x:Key="Str_Dlg_RenderRecoveryNotReopened">部分文件無法完整復原：&#10;{0}&#10;&#10;可用的復原檔案保存在 {1}。</sys:String>
     <sys:String x:Key="Str_Dlg_RenderRecoveryNoFolder">沒有可用於復原副本的資料夾，因此無法保留未儲存的變更。</sys:String>
-    <sys:String x:Key="Str_Dlg_RenderRestarted">視窗無法再顯示內容，KillerPDF 已重新啟動。已重新開啟你開啟的文件。本次工作階段使用軟體轉譯。</sys:String>
+    <sys:String x:Key="Str_Dlg_RenderRestarted">視窗無法再顯示內容，PDF Gilardi 已重新啟動。已重新開啟你開啟的文件。本次工作階段使用軟體轉譯。</sys:String>
     <sys:String x:Key="Str_Read_MarkedText">標記的文字：「{0}」</sys:String>
     <sys:String x:Key="Str_Read_MarkedNoText">標記的文字</sys:String>
     <sys:String x:Key="Str_Read_Drawing">繪圖</sys:String>
@@ -1949,7 +1949,7 @@ KillerPDF 不會建立兩個已安裝的複本。</sys:String>
     <sys:String x:Key="Str_Color_Yellow">黃色</sys:String>
     <sys:String x:Key="Str_Color_Magenta">洋紅</sys:String>
     <sys:String x:Key="Str_CertCatalog_Title">憑證</sys:String>
-    <sys:String x:Key="Str_CertCatalog_Hint">Windows 憑證為唯讀。匯入的憑證只會儲存在 KillerPDF 中。匯入憑證並不代表信任該憑證。</sys:String>
+    <sys:String x:Key="Str_CertCatalog_Hint">Windows 憑證為唯讀。匯入的憑證只會儲存在 PDF Gilardi 中。匯入憑證並不代表信任該憑證。</sys:String>
     <sys:String x:Key="Str_CertCatalog_Search">搜尋憑證</sys:String>
     <sys:String x:Key="Str_CertCatalog_Empty">沒有符合搜尋條件的憑證。</sys:String>
     <sys:String x:Key="Str_CertCatalog_Import">匯入憑證</sys:String>
@@ -1967,21 +1967,21 @@ KillerPDF 不會建立兩個已安裝的複本。</sys:String>
     <sys:String x:Key="Str_CertCatalog_WindowsMachineRoots">Windows：電腦的根憑證</sys:String>
     <sys:String x:Key="Str_CertCatalog_WindowsUserIntermediates">Windows：目前使用者的中繼憑證</sys:String>
     <sys:String x:Key="Str_CertCatalog_WindowsMachineIntermediates">Windows：電腦的中繼憑證</sys:String>
-    <sys:String x:Key="Str_CertCatalog_Local">KillerPDF</sys:String>
+    <sys:String x:Key="Str_CertCatalog_Local">PDF Gilardi</sys:String>
     <sys:String x:Key="Str_CertCatalog_Trusted">受信任的根憑證</sys:String>
     <sys:String x:Key="Str_CertCatalog_Untrusted">不受信任</sys:String>
     <sys:String x:Key="Str_CertCatalog_Expired">已過期</sys:String>
     <sys:String x:Key="Str_CertCatalog_NotYetValid">尚未生效</sys:String>
-    <sys:String x:Key="Str_CertCatalog_TrustPrompt">要在 KillerPDF 中將「{0}」信任為根憑證嗎？此憑證簽發的憑證之後可被接受用於簽章驗證。Windows 的信任設定將維持不變。</sys:String>
-    <sys:String x:Key="Str_CertCatalog_RemovePrompt">要從 KillerPDF 憑證目錄中移除「{0}」嗎？</sys:String>
+    <sys:String x:Key="Str_CertCatalog_TrustPrompt">要在 PDF Gilardi 中將「{0}」信任為根憑證嗎？此憑證簽發的憑證之後可被接受用於簽章驗證。Windows 的信任設定將維持不變。</sys:String>
+    <sys:String x:Key="Str_CertCatalog_RemovePrompt">要從 PDF Gilardi 憑證目錄中移除「{0}」嗎？</sys:String>
     <sys:String x:Key="Str_CertCatalog_Error">無法更新憑證目錄：</sys:String>
     <sys:String x:Key="Str_CertCatalog_LoadError">無法讀取憑證清單:</sys:String>
     <sys:String x:Key="Str_CertCatalog_WrongFileType">請選擇公開憑證檔案 (.cer、.crt 或 .pem)。</sys:String>
     <sys:String x:Key="Str_CertCatalog_NotACertificate">此檔案不包含可讀取的公開憑證。</sys:String>
     <sys:String x:Key="Str_CertCatalog_PrivateKey">不接受私密金鑰和 PFX 檔案。請只匯入公開憑證。</sys:String>
     <sys:String x:Key="Str_CertCatalog_TooLarge">憑證檔案是空的或太大。</sys:String>
-    <sys:String x:Key="Str_CertCatalog_Full">KillerPDF 最多可儲存 {0} 個匯入的憑證。</sys:String>
-    <sys:String x:Key="Str_CertCatalog_Damaged">無法讀取 KillerPDF 憑證目錄，已保持不變。簽章僅依 Windows 信任進行檢查。若要重新開始，請刪除 {0}。</sys:String>
+    <sys:String x:Key="Str_CertCatalog_Full">PDF Gilardi 最多可儲存 {0} 個匯入的憑證。</sys:String>
+    <sys:String x:Key="Str_CertCatalog_Damaged">無法讀取 PDF Gilardi 憑證目錄，已保持不變。簽章僅依 Windows 信任進行檢查。若要重新開始，請刪除 {0}。</sys:String>
     <sys:String x:Key="Str_CertCatalog_Imported">已匯入 {0} 個憑證。選擇「信任為根憑證」之前，請先檢查該根憑證。</sys:String>
     <sys:String x:Key="Str_CertCatalog_ReadOnly">由 Windows 管理。</sys:String>
     <sys:String x:Key="Str_CertCatalog_Type">憑證類型</sys:String>
@@ -2015,7 +2015,7 @@ KillerPDF 不會建立兩個已安裝的複本。</sys:String>
     <sys:String x:Key="Str_Filter_Json">JSON 文件</sys:String>
     <sys:String x:Key="Str_Dlg_RepairAskOpen">無法開啟「{0}」，因為其結構可能已損壞。
 
-要讓 KillerPDF 嘗試修復嗎？將建立修復副本，原始檔案不會被變更。
+要讓 PDF Gilardi 嘗試修復嗎？將建立修復副本，原始檔案不會被變更。
 
 注意：修復後的檔案可能缺少書籤、表單和其他互動功能。</sys:String>
     <sys:String x:Key="Str_Dlg_OpenedReadOnlyXRef">「{0}」的結構不標準，已以唯讀方式開啟。

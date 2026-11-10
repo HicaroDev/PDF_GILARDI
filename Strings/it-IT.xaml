@@ -3,7 +3,7 @@
                     xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
     <!-- ================================================================
-         KillerPDF  -  Italian (it-IT) strings - Revised: 15.09.2026
+         PDF Gilardi  -  Italian (it-IT) strings - Revised: 15.09.2026
          ================================================================ -->
 
     <!-- ── Toolbar tooltips ─────────────────────────────────────────── -->
@@ -125,7 +125,7 @@ La pagina può essere sostituita da un'immagine di sé stessa con le aree contra
     <sys:String x:Key="Str_TT_CollapseSidebar">Riduci barra laterale (F9)</sys:String>
     <sys:String x:Key="Str_TT_ExpandSidebar">Espandi barra laterale (F9)</sys:String>
     <sys:String x:Key="Str_TT_KeyboardShortcuts">Scorciatoie tastiera (F1)</sys:String>
-    <sys:String x:Key="Str_TT_About">Info su KillerPDF (F12)</sys:String>
+    <sys:String x:Key="Str_TT_About">Info su PDF Gilardi (F12)</sys:String>
 
     <!-- ── About overlay ─────────────────────────────────────────────── -->
     <sys:String x:Key="Str_About_Version">VERSIONE</sys:String>
@@ -233,7 +233,7 @@ La pagina può essere sostituita da un'immagine di sé stessa con le aree contra
     <sys:String x:Key="Str_Ready">Pronto</sys:String>
     <sys:String x:Key="Str_Status_Ready">Pronto</sys:String>
     <sys:String x:Key="Str_Portable">PORTATILE</sys:String>
-    <sys:String x:Key="Str_InstallBtn">Installa KillerPDF</sys:String>
+    <sys:String x:Key="Str_InstallBtn">Installa PDF Gilardi</sys:String>
 
     <!-- ── Status messages (format strings - use string.Format) ─────── -->
     <sys:String x:Key="Str_Opened">Aperto {0} - {1} pagine</sys:String>
@@ -251,18 +251,18 @@ La pagina può essere sostituita da un'immagine di sé stessa con le aree contra
     <sys:String x:Key="Str_Print_LowQuality_Prompt">'{0}' consente la stampa solo in bassa qualità. Inserisci la password del proprietario per stampare in piena qualità, oppure annulla per stampare in bassa qualità.</sys:String>
     <sys:String x:Key="Str_Print_Refused_Certificate">La stampa non è consentita. Il certificato per cui questo PDF è cifrato non permette la stampa e nessuna password rimuove il limite.</sys:String>
     <sys:String x:Key="Str_Protection_Prompt">'{0}' ha limiti impostati dal proprietario e questa azione lo scriverebbe senza di essi. Inserisci la password del proprietario per continuare.</sys:String>
-    <sys:String x:Key="Str_Protection_Refused">Non è stato scritto nulla. Il risultato non manterrebbe i limiti impostati dal proprietario di questo PDF e KillerPDF lo scrive solo con la password del proprietario.</sys:String>
+    <sys:String x:Key="Str_Protection_Refused">Non è stato scritto nulla. Il risultato non manterrebbe i limiti impostati dal proprietario di questo PDF e PDF Gilardi lo scrive solo con la password del proprietario.</sys:String>
     <sys:String x:Key="Str_Protection_Refused_Certificate">Non è stato scritto nulla. Il risultato non manterrebbe i limiti impostati per il tuo certificato e nessuna password li rimuove.</sys:String>
-    <sys:String x:Key="Str_Protection_Unreadable">KillerPDF non è riuscito a leggere la protezione di questo PDF, quindi non è stato salvato o stampato nulla. {0} Riprova, oppure chiudi la scheda e riapri il file.</sys:String>
-    <sys:String x:Key="Str_Print_Refused">La stampa non è consentita. Il proprietario di questo PDF ha limitato la stampa e KillerPDF lo stampa solo con la password del proprietario.</sys:String>
+    <sys:String x:Key="Str_Protection_Unreadable">PDF Gilardi non è riuscito a leggere la protezione di questo PDF, quindi non è stato salvato o stampato nulla. {0} Riprova, oppure chiudi la scheda e riapri il file.</sys:String>
+    <sys:String x:Key="Str_Print_Refused">La stampa non è consentita. Il proprietario di questo PDF ha limitato la stampa e PDF Gilardi lo stampa solo con la password del proprietario.</sys:String>
     <sys:String x:Key="Str_Restricted_UnlockFailed">Questa è la password del proprietario, ma non è stato possibile sbloccare '{0}': {1}</sys:String>
     <sys:String x:Key="Str_St_SavedProtected">Salvato con la sua protezione - {0}</sys:String>
     <sys:String x:Key="Str_Form_TwinsKept">Non tutti i campi con lo stesso nome hanno accettato il valore, quindi ora sono diversi: {0}</sys:String>
-    <sys:String x:Key="Str_Restricted_OwnerRequired">'{0}' limita la modifica, quindi KillerPDF richiede la password del proprietario per aprirlo.</sys:String>
+    <sys:String x:Key="Str_Restricted_OwnerRequired">'{0}' limita la modifica, quindi PDF Gilardi richiede la password del proprietario per aprirlo.</sys:String>
     <sys:String x:Key="Str_OpenedReadOnlyXRef">Aperto {0} (sola lettura - tabella XRef non standard) - {1} pagine</sys:String>
     <sys:String x:Key="Str_OpenedRepaired">Aperto {0} (copia riparata - salva per mantenere le modifiche) - {1} pagine</sys:String>
     <sys:String x:Key="Str_Save_ReferenceRepairs">Salvato con riparazioni ai riferimenti non validi. Il contenuto mancante non è stato recuperato.</sys:String>
-    <sys:String x:Key="Str_Save_DamagedEncrypted">Questo PDF è danneggiato e protetto da password, quindi KillerPDF non può ripararlo né salvarlo. Il file originale non è stato modificato.</sys:String>
+    <sys:String x:Key="Str_Save_DamagedEncrypted">Questo PDF è danneggiato e protetto da password, quindi PDF Gilardi non può ripararlo né salvarlo. Il file originale non è stato modificato.</sys:String>
     <sys:String x:Key="Str_Save_DamagedSigned">Questo PDF è danneggiato e contiene una firma digitale. Il salvataggio invaliderebbe la firma, quindi il file non è stato modificato.</sys:String>
     <sys:String x:Key="Str_Save_DamagedCertified">Questo PDF è danneggiato e certificato dal suo autore. Il salvataggio invaliderebbe la certificazione, quindi il file non è stato modificato.</sys:String>
     <sys:String x:Key="Str_Save_DamagedUsageRights">Questo PDF è danneggiato e contiene diritti di utilizzo di Reader. Il salvataggio li invaliderebbe, quindi il file non è stato modificato.</sys:String>
@@ -342,39 +342,39 @@ Il salvataggio sostituisce il file e ne rimuove la firma. Per conservare il file
 Il salvataggio sovrascrive il file e quelle modifiche andranno perse. Se desideri mantenerle, salva prima l'altro riquadro.</sys:String>
     <sys:String x:Key="Str_St_SplitOn">Pannello suddivisione on - F10 per chiudere</sys:String>
     <sys:String x:Key="Str_St_SplitOff">Pannello suddivisione off</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallTitle">Installa KillerPDF</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallMsg">Vuoi installare KillerPDF in questo computer?</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallTitle">Installa PDF Gilardi</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallMsg">Vuoi installare PDF Gilardi in questo computer?</sys:String>
     <sys:String x:Key="Str_Dlg_InstallBullets">L'installazione copia l'app nella cartella Programmi per un avvio più rapido e aggiunge una voce al menu Start. Dopo puoi tenere o eliminare questo file portatile.</sys:String>
-    <sys:String x:Key="Str_Install_AlreadyAllUsers">KillerPDF è già installato per tutti gli utenti di questo computer, quindi verrà aggiornata quella copia. Windows chiederà l'autorizzazione.</sys:String>
+    <sys:String x:Key="Str_Install_AlreadyAllUsers">PDF Gilardi è già installato per tutti gli utenti di questo computer, quindi verrà aggiornata quella copia. Windows chiederà l'autorizzazione.</sys:String>
     <sys:String x:Key="Str_Dlg_SaveBeforeInstall">Salva le modifiche prima di installare.</sys:String>
-    <sys:String x:Key="Str_Dlg_UpdateMachineMsg" xml:space="preserve">Vuoi aggiornare l'installazione esistente di KillerPDF per tutti gli utenti?
+    <sys:String x:Key="Str_Dlg_UpdateMachineMsg" xml:space="preserve">Vuoi aggiornare l'installazione esistente di PDF Gilardi per tutti gli utenti?
 
-Verrà sostituita la copia in Programmi con la versione multi-file più veloce.&#10;Qualsiasi copia precedente per utente viene rimossa in modo che KillerPDF venga visualizzato solo una volta. Successivamente potrai conservare o eliminare questo file portatile.</sys:String>
-    <sys:String x:Key="Str_Dlg_UpdateUserMsg" xml:space="preserve">Vuoi aggiornare l'installazione esistente di KillerPDF?
+Verrà sostituita la copia in Programmi con la versione multi-file più veloce.&#10;Qualsiasi copia precedente per utente viene rimossa in modo che PDF Gilardi venga visualizzato solo una volta. Successivamente potrai conservare o eliminare questo file portatile.</sys:String>
+    <sys:String x:Key="Str_Dlg_UpdateUserMsg" xml:space="preserve">Vuoi aggiornare l'installazione esistente di PDF Gilardi?
 
 Verrà sostituita la copia installata con la versione multi-file più veloce.&#10;Successivamente potrai conservare o eliminare questo file portatile.</sys:String>
-    <sys:String x:Key="Str_Dlg_OneInstallOnly" xml:space="preserve">KillerPDF è già installato in questo computer per tutti gli utenti. Prima di scegliere un'installazione per utente aggiorna l'installazione o disinstalla l'applicazione.
+    <sys:String x:Key="Str_Dlg_OneInstallOnly" xml:space="preserve">PDF Gilardi è già installato in questo computer per tutti gli utenti. Prima di scegliere un'installazione per utente aggiorna l'installazione o disinstalla l'applicazione.
 
-KillerPDF non creerà due copie installate.</sys:String>
+PDF Gilardi non creerà due copie installate.</sys:String>
     <sys:String x:Key="Str_Btn_DoInstall">Installa</sys:String>
     <sys:String x:Key="Str_Btn_DoUpdate">Aggiorna</sys:String>
     <sys:String x:Key="Str_Chk_Desktop">Aggiungi un collegamento sul desktop</sys:String>
     <sys:String x:Key="Str_Chk_AllUsers">Installa per tutti gli utenti (necessario amministratore)</sys:String>
-    <sys:String x:Key="Str_Status_InstallFailed">L'installazione non è stata completata: KillerPDF è ancora in esecuzione in modo portatile.</sys:String>
-    <sys:String x:Key="Str_Status_RelaunchDeferred">L’installazione è terminata. KillerPDF è rimasto aperto per proteggere il lavoro modificato durante l’installazione.</sys:String>
-    <sys:String x:Key="Str_Dlg_SetDefaultPdfMsg" xml:space="preserve">Vuoi impostare KillerPDF come visualizzatore PDF predefinito?
+    <sys:String x:Key="Str_Status_InstallFailed">L'installazione non è stata completata: PDF Gilardi è ancora in esecuzione in modo portatile.</sys:String>
+    <sys:String x:Key="Str_Status_RelaunchDeferred">L’installazione è terminata. PDF Gilardi è rimasto aperto per proteggere il lavoro modificato durante l’installazione.</sys:String>
+    <sys:String x:Key="Str_Dlg_SetDefaultPdfMsg" xml:space="preserve">Vuoi impostare PDF Gilardi come visualizzatore PDF predefinito?
 
 Verrà aperta la sezione App predefinite nelle Impostazioni di Windows.</sys:String>
     <sys:String x:Key="Str_Dlg_UnsavedClose">Questo file contiene modifiche non salvate. Vuoi salvarle prima di chiuderlo?</sys:String>
-    <sys:String x:Key="Str_Dlg_UnsavedExit">Sono presenti modifiche non salvate. Vuoi salvarle prima di chiudere KillerPDF?</sys:String>
+    <sys:String x:Key="Str_Dlg_UnsavedExit">Sono presenti modifiche non salvate. Vuoi salvarle prima di chiudere PDF Gilardi?</sys:String>
     <sys:String x:Key="Str_Dlg_PageOutOfRange" xml:space="preserve">Questo documento ha {0} pagine di dimensioni al di fuori di quelle supportate da Adobe Reader (da 3 a 14.400 punti per lato): Adobe le visualizza come pagine vuote.
 
 Vuoi ridimensionare le pagine a una dimensione supportata? Le pagine manterranno il loro aspetto e le loro proporzioni.</sys:String>
     <sys:String x:Key="Str_Dlg_FailedOpen" xml:space="preserve">Impossibile aprire il PDF:
 {0}</sys:String>
-    <sys:String x:Key="Str_Dlg_AppTitle">KillerPDF</sys:String>
-    <sys:String x:Key="Str_Dlg_CloseAllDocs">Hai {0} documenti aperti. Vuoi che KillerPDF li chiuda tutti quando esci dall'app?</sys:String>
-    <sys:String x:Key="Str_Dlg_CloseAllDocsOne">Hai 1 documento aperto. Vuoi che KillerPDF lo chiuda quando esci dall'app?</sys:String>
+    <sys:String x:Key="Str_Dlg_AppTitle">PDF Gilardi</sys:String>
+    <sys:String x:Key="Str_Dlg_CloseAllDocs">Hai {0} documenti aperti. Vuoi che PDF Gilardi li chiuda tutti quando esci dall'app?</sys:String>
+    <sys:String x:Key="Str_Dlg_CloseAllDocsOne">Hai 1 documento aperto. Vuoi che PDF Gilardi lo chiuda quando esci dall'app?</sys:String>
     <sys:String x:Key="Str_Dlg_RememberChoice">Ricorda la mia scelta</sys:String>
 
 
@@ -522,7 +522,7 @@ Vuoi ridimensionare le pagine a una dimensione supportata? Le pagine manterranno
     <sys:String x:Key="Str_Pos_TopLeft">In alto a sinistra</sys:String>
 
     <!-- ── Print dialog ───────────────────────────────────────────────── -->
-    <sys:String x:Key="Str_Print_Title">KillerPDF - Stampa</sys:String>
+    <sys:String x:Key="Str_Print_Title">PDF Gilardi - Stampa</sys:String>
     <sys:String x:Key="Str_Print_Rendering">Elaborazione {0} / {1}</sys:String>
     <sys:String x:Key="Str_Print_IncompletePages">Alcuni contenuti non sono stati disegnati con esattezza. Le pagine {0} vengono stampate come visualizzate.</sys:String>
     <sys:String x:Key="Str_Print_Printer">Stampante</sys:String>
@@ -790,7 +790,7 @@ Vuoi ridimensionare le pagine a una dimensione supportata? Le pagine manterranno
     <sys:String x:Key="Str_Drop_RepairFailed">Non è stato possibile riparare il file, quindi nulla è stato unito.</sys:String>
     <sys:String x:Key="Str_Import_NoPages">{0} non contiene pagine, quindi non c’è nulla da unire.</sys:String>
     <sys:String x:Key="Str_Drop_ManyTabs">Verranno aperte {0} schede separate. Vuoi continuare?</sys:String>
-    <sys:String x:Key="Str_Drop_TooMany">Questa cartella o archivio contiene {0} file. KillerPDF aprirà solo i primi {1}. Vuoi continuare?</sys:String>
+    <sys:String x:Key="Str_Drop_TooMany">Questa cartella o archivio contiene {0} file. PDF Gilardi aprirà solo i primi {1}. Vuoi continuare?</sys:String>
     <sys:String x:Key="Str_Status_Merged">Uniti {0} file: non ancora salvati</sys:String>
     <sys:String x:Key="Str_Drop_Merging">Unione file...</sys:String>
     <sys:String x:Key="Str_Drop_MergeCanceled">Unione annullata</sys:String>
@@ -1000,14 +1000,14 @@ Vuoi ridimensionare le pagine a una dimensione supportata? Le pagine manterranno
     <sys:String x:Key="Str_KS_FullScreen">Schermo pieno</sys:String>
     <sys:String x:Key="Str_FullScreen_Hint">Per uscire dallo schermo intero premi F11 o Esc</sys:String>
     <!-- Quit prompt (family standard) -->
-    <sys:String x:Key="Str_Dlg_QuitMsg">Vuoi uscire da KillerPDF?</sys:String>
+    <sys:String x:Key="Str_Dlg_QuitMsg">Vuoi uscire da PDF Gilardi?</sys:String>
     <sys:String x:Key="Str_Chk_CloseTabs">Chiudi le schede aperte</sys:String>
     <sys:String x:Key="Str_Btn_Quit">Esci</sys:String>
     <sys:String x:Key="Str_Btn_CancelDlg">Annulla</sys:String>
 
 
     <!-- Status-bar messages (extracted from code) -->
-    <sys:String x:Key="Str_St_DataCleared">Tutti i dati KillerPDF sono stati cancellati</sys:String>
+    <sys:String x:Key="Str_St_DataCleared">Tutti i dati PDF Gilardi sono stati cancellati</sys:String>
     <sys:String x:Key="Str_St_OcrRegionCanceled">Regione OCR annullata</sys:String>
     <sys:String x:Key="Str_St_Erased">Cancellata</sys:String>
     <sys:String x:Key="Str_St_Ungrouped">Separati</sys:String>
@@ -1057,7 +1057,7 @@ Vuoi ridimensionare le pagine a una dimensione supportata? Le pagine manterranno
 
     <!-- Dialog / message-box strings (extracted from code) -->
     <sys:String x:Key="Str_Dlg_SaveBeforeUpdate">Salva le modifiche prima dell'aggiornamento.</sys:String>
-    <sys:String x:Key="Str_Dlg_Uninstalled">KillerPDF è stato disinstallato.</sys:String>
+    <sys:String x:Key="Str_Dlg_Uninstalled">PDF Gilardi è stato disinstallato.</sys:String>
     <sys:String x:Key="Str_Dlg_SelectExtract">Seleziona le pagine da estrarre.</sys:String>
     <sys:String x:Key="Str_Dlg_SelectDelete">Seleziona le pagine da eliminare.</sys:String>
     <sys:String x:Key="Str_Dlg_NoPrinter">Nessuna stampante disponibile.</sys:String>
@@ -1234,7 +1234,7 @@ Vuoi ridimensionare le pagine a una dimensione supportata? Le pagine manterranno
     <sys:String x:Key="Str_Err_DuplicateFailed">Duplicazione non riuscita:</sys:String>
     <sys:String x:Key="Str_Err_RepairFailed">Riparazione non riuscita:</sys:String>
     <sys:String x:Key="Str_Err_OpenProtected">Impossibile aprire il PDF protetto:</sys:String>
-    <sys:String x:Key="Str_Err_WorkingCopy">KillerPDF non è riuscito a scrivere la copia di lavoro di questo PDF. Verifica che ci sia spazio libero sul disco:</sys:String>
+    <sys:String x:Key="Str_Err_WorkingCopy">PDF Gilardi non è riuscito a scrivere la copia di lavoro di questo PDF. Verifica che ci sia spazio libero sul disco:</sys:String>
     <sys:String x:Key="Str_Err_NewDocFailed">Impossibile creare un nuovo documento:</sys:String>
     <sys:String x:Key="Str_Err_FileNotFound">File non trovato:</sys:String>
     <sys:String x:Key="Str_Err_MergeFailed">Unione non riuscita:</sys:String>
@@ -1348,7 +1348,7 @@ Vuoi ridimensionare le pagine a una dimensione supportata? Le pagine manterranno
     <sys:String x:Key="Str_ScanReview_Text">Testo</sys:String>
     <sys:String x:Key="Str_Dlg_Repaired" xml:space="preserve">'{0}' è stato correttamente riparato.&#10;&#10;Segnalibri, moduli, e altre funzionalità interattive potrebbero essere andate perse.&#10;Usa 'Salva con nome' per salvare il file riparato in una nuova posizione.</sys:String>
     <sys:String x:Key="Str_Dlg_RepairedRaster" xml:space="preserve">'{0}' è stato riparato rasterizzandone le pagine.&#10;&#10;Il testo non è selezionabile nella copia riparata.&#10;Usa 'Salva con nome' per salvare il file riparato in una nuova posizione.</sys:String>
-    <sys:String x:Key="Str_Dlg_RepairAsk" xml:space="preserve">'{0}' ha una struttura danneggiata e non è stato possibile aggiungerlo.&#10;&#10;Vuoi che KillerPDF tenti una riparazione?&#10;Verrà creata una copia riparata: il file originale non verrà modificato.&#10;&#10;Nota: nei file riparati potrebbero mancare segnalibri, moduli e altre funzionalità interattive.</sys:String>
+    <sys:String x:Key="Str_Dlg_RepairAsk" xml:space="preserve">'{0}' ha una struttura danneggiata e non è stato possibile aggiungerlo.&#10;&#10;Vuoi che PDF Gilardi tenti una riparazione?&#10;Verrà creata una copia riparata: il file originale non verrà modificato.&#10;&#10;Nota: nei file riparati potrebbero mancare segnalibri, moduli e altre funzionalità interattive.</sys:String>
     <sys:String x:Key="Str_Dlg_LangDownloadAsk" xml:space="preserve">Per poter eseguire l'OCR verrà scaricato un modello lingua ({0}).&#10;&#10;Puoi aggiungere più lingue o passare a modelli in qualità superiore in qualsiasi momento dal menu OCR.</sys:String>
     <sys:String x:Key="Str_Bar_More">Altre impostazioni</sys:String>
     <sys:String x:Key="Str_Bar_TT_Level">Mantieni la linea sull'asse più vicino (orizzontale o verticale)</sys:String>
@@ -1362,7 +1362,7 @@ Vuoi ridimensionare le pagine a una dimensione supportata? Le pagine manterranno
     <sys:String x:Key="Str_TT_SaveOptions">Opzioni salvataggio</sys:String>
     <sys:String x:Key="Str_TT_OcrOptions">Opzioni OCR</sys:String>
     <sys:String x:Key="Str_RecentHeading">RECENTI</sys:String>
-    <sys:String x:Key="Str_KS_WindowTitle">KillerPDF - Scorciatoie tastiera</sys:String>
+    <sys:String x:Key="Str_KS_WindowTitle">PDF Gilardi - Scorciatoie tastiera</sys:String>
     <sys:String x:Key="Str_About_UpdateAvailable">Aggiornamento disponibile: {0}</sys:String>
     <sys:String x:Key="Str_About_Unsigned">(not signed or chain failed)</sys:String>
     <sys:String x:Key="Str_About_Downloading">Download in corso...</sys:String>
@@ -1374,11 +1374,11 @@ Vuoi ridimensionare le pagine a una dimensione supportata? Le pagine manterranno
     <sys:String x:Key="Str_About_NotNow">Non ora</sys:String>
     <sys:String x:Key="Str_About_AlwaysCheckOnStartup">All'avvio controlla sempre aggiornamenti</sys:String>
     <sys:String x:Key="Str_UpdateRestartPrepareFailed">Non è stato possibile preparare l'aggiornamento. I tuoi file PDF salvati sono rimasti invariati. Riprova.</sys:String>
-    <sys:String x:Key="Str_UpdateRestartRestoreFailed">KillerPDF non è riuscito a riaprire la sessione precedente. I tuoi file PDF salvati sono rimasti invariati.</sys:String>
+    <sys:String x:Key="Str_UpdateRestartRestoreFailed">PDF Gilardi non è riuscito a riaprire la sessione precedente. I tuoi file PDF salvati sono rimasti invariati.</sys:String>
     <sys:String x:Key="Str_ClearAllData">Cancella tutti i dati</sys:String>
     <sys:String x:Key="Str_ClearDataConfirm" xml:space="preserve">Ciò eliminerà tutte le impostazioni salvate, i pacchetti lingua OCR scaricati e i file temporanei.&#10;&#10;I file PDF non sono interessati.&#10;Vuoi continuare?</sys:String>
-    <sys:String x:Key="Str_ClearDataDone" xml:space="preserve">Sono state cancellate le impostazioni, i pacchetti lingua e i file temporanei.&#10;&#10;Per completare la cancellazione di tutti i file ancora in uso in questa sessione riavvia KillerPDF.</sys:String>
-    <sys:String x:Key="Str_Crash_Title">KillerPDF - Errore imprevisto</sys:String>
+    <sys:String x:Key="Str_ClearDataDone" xml:space="preserve">Sono state cancellate le impostazioni, i pacchetti lingua e i file temporanei.&#10;&#10;Per completare la cancellazione di tutti i file ancora in uso in questa sessione riavvia PDF Gilardi.</sys:String>
+    <sys:String x:Key="Str_Crash_Title">PDF Gilardi - Errore imprevisto</sys:String>
     <sys:String x:Key="Str_Crash_Log">Registro: {0}</sys:String>
     <sys:String x:Key="Str_Crash_Copy">Copia rapporto</sys:String>
     <sys:String x:Key="Str_Crash_OpenLogs">Apri registri</sys:String>
@@ -1451,17 +1451,17 @@ Vuoi ridimensionare le pagine a una dimensione supportata? Le pagine manterranno
     <sys:String x:Key="Str_Compare_DetailsTitle">Dettagli confronto PDF</sys:String>
 
     <!-- ── Browser handoff refusals ────────────────────────────────────── -->
-    <sys:String x:Key="Str_Handoff_Failed">KillerPDF non è riuscito ad aprire il PDF nel browser.</sys:String>
-    <sys:String x:Key="Str_Handoff_UnknownCommand">Quel comando del browser non è uno di quelli che KillerPDF conosce.</sys:String>
+    <sys:String x:Key="Str_Handoff_Failed">PDF Gilardi non è riuscito ad aprire il PDF nel browser.</sys:String>
+    <sys:String x:Key="Str_Handoff_UnknownCommand">Quel comando del browser non è uno di quelli che PDF Gilardi conosce.</sys:String>
     <sys:String x:Key="Str_Handoff_MissingUrl">Il trasferimento non includeva un indirizzo PDF.</sys:String>
     <sys:String x:Key="Str_Handoff_MalformedUrl">Impossibile leggere l'indirizzo PDF nel trasferimento.</sys:String>
-    <sys:String x:Key="Str_Handoff_SchemeNotAllowed">KillerPDF apre i trasferimenti nel browser solo in https.</sys:String>
+    <sys:String x:Key="Str_Handoff_SchemeNotAllowed">PDF Gilardi apre i trasferimenti nel browser solo in https.</sys:String>
     <sys:String x:Key="Str_Handoff_Unusable">Impossibile usare il trasferimento nel browser.</sys:String>
     <sys:String x:Key="Str_Handoff_TooLarge">Il PDF supera il limite di trasferimento di 256 MB del browser.</sys:String>
     <sys:String x:Key="Str_Handoff_NotPdf">Il file scaricato non è un PDF.</sys:String>
-    <sys:String x:Key="Str_Handoff_DownloadFailed">KillerPDF non è riuscito a scaricare il PDF.</sys:String>
+    <sys:String x:Key="Str_Handoff_DownloadFailed">PDF Gilardi non è riuscito a scaricare il PDF.</sys:String>
     <sys:String x:Key="Str_Handoff_TimedOut">Timeout per il download del PDF.</sys:String>
-    <sys:String x:Key="Str_Handoff_FileError">KillerPDF non è riuscito a salvare o leggere il PDF scaricato.</sys:String>
+    <sys:String x:Key="Str_Handoff_FileError">PDF Gilardi non è riuscito a salvare o leggere il PDF scaricato.</sys:String>
     <sys:String x:Key="Str_St_FormFieldDrag">Trascina per creare un campo testo compilabile</sys:String>
     <sys:String x:Key="Str_St_FormFieldCanceled">Creazione campo testo annullata</sys:String>
     <sys:String x:Key="Str_St_FormFieldCreateFailed">Impossibile creare il campo di testo compilabile</sys:String>
@@ -1606,7 +1606,7 @@ Vuoi ridimensionare le pagine a una dimensione supportata? Le pagine manterranno
     <sys:String x:Key="Str_Macro_DeleteConfirm">Eliminare la macro &quot;{0}&quot;?</sys:String>
     <sys:String x:Key="Str_Macro_ImportFailed">Impossibile importare la macro:</sys:String>
     <sys:String x:Key="Str_Macro_ExportFailed">Impossibile esportare la macro:</sys:String>
-    <sys:String x:Key="Str_Macro_Files">Macro KillerPDF</sys:String>
+    <sys:String x:Key="Str_Macro_Files">Macro PDF Gilardi</sys:String>
     <sys:String x:Key="Str_Macro_SelectOutput">Scegli output macro</sys:String>
     <sys:String x:Key="Str_Macro_Preview" xml:space="preserve">Macro: {0}&#10;Input: {1}&#10;Output: {2}&#10;&#10;Passaggi:&#10;{3}&#10;&#10;Eseguire questa macro?</sys:String>
     <sys:String x:Key="Str_Macro_Running">Esecuzione macro...</sys:String>
@@ -1632,18 +1632,18 @@ Vuoi ridimensionare le pagine a una dimensione supportata? Le pagine manterranno
     <sys:String x:Key="Str_Sig_RemoveSignature">Rimuovi firma</sys:String>
     <sys:String x:Key="Str_Sig_ChangeInitials">Cambia iniziali</sys:String>
     <sys:String x:Key="Str_Sig_RemoveInitials">Rimuovi iniziali</sys:String>
-    <sys:String x:Key="Str_Dlg_DuplicateInstallTitle">Installazione di KillerPDF duplicata</sys:String>
-    <sys:String x:Key="Str_Dlg_DuplicateInstallMachine" xml:space="preserve">KillerPDF ha trovato due copie installate in questo computer.&#10;&#10;Stai usando l'installazione per tutti gli utenti. È presente anche una vecchia copia per utente, di solito perché era in uso durante un aggiornamento precedente.&#10;&#10;Rimuovere ora la copia per utente inutilizzata? Le impostazioni e i file PDF non verranno rimossi.</sys:String>
-    <sys:String x:Key="Str_Dlg_DuplicateInstallUser" xml:space="preserve">KillerPDF ha trovato due copie installate in questo computer.&#10;&#10;Stai usando l'installazione per utente. È presente anche una copia per tutti gli utenti.&#10;&#10;Rimuovere ora la copia per tutti gli utenti inutilizzata? Windows chiederà l'autorizzazione di amministratore. Le impostazioni e i file PDF non verranno rimossi.</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallUnsigned" xml:space="preserve">Installazione rifiutata: l'EXE in esecuzione non ha una firma Authenticode valida.&#10;&#10;Si possono installare solo build firmate di KillerPDF.</sys:String>
+    <sys:String x:Key="Str_Dlg_DuplicateInstallTitle">Installazione di PDF Gilardi duplicata</sys:String>
+    <sys:String x:Key="Str_Dlg_DuplicateInstallMachine" xml:space="preserve">PDF Gilardi ha trovato due copie installate in questo computer.&#10;&#10;Stai usando l'installazione per tutti gli utenti. È presente anche una vecchia copia per utente, di solito perché era in uso durante un aggiornamento precedente.&#10;&#10;Rimuovere ora la copia per utente inutilizzata? Le impostazioni e i file PDF non verranno rimossi.</sys:String>
+    <sys:String x:Key="Str_Dlg_DuplicateInstallUser" xml:space="preserve">PDF Gilardi ha trovato due copie installate in questo computer.&#10;&#10;Stai usando l'installazione per utente. È presente anche una copia per tutti gli utenti.&#10;&#10;Rimuovere ora la copia per tutti gli utenti inutilizzata? Windows chiederà l'autorizzazione di amministratore. Le impostazioni e i file PDF non verranno rimossi.</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallUnsigned" xml:space="preserve">Installazione rifiutata: l'EXE in esecuzione non ha una firma Authenticode valida.&#10;&#10;Si possono installare solo build firmate di PDF Gilardi.</sys:String>
     <sys:String x:Key="Str_Dlg_InstallDowngrade" xml:space="preserve">Stai per installare una versione precedente ({0}) al posto della versione installata ({1}).&#10;&#10;Tornare comunque alla versione precedente?</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallWriteFailed" xml:space="preserve">Impossibile scrivere la copia installata in:&#10;{0}&#10;&#10;Chiudi le finestre di KillerPDF aperte (e controlla KillerPDF.exe in Gestione attività), poi esegui di nuovo il programma di installazione.</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallWriteFailed" xml:space="preserve">Impossibile scrivere la copia installata in:&#10;{0}&#10;&#10;Chiudi le finestre di PDF Gilardi aperte (e controlla PDF Gilardi.exe in Gestione attività), poi esegui di nuovo il programma di installazione.</sys:String>
     <sys:String x:Key="Str_Dlg_InstallFailed" xml:space="preserve">Installazione non riuscita:&#10;{0}</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallNoDesktopShortcut" xml:space="preserve">KillerPDF è installato, ma Windows non ha consentito il collegamento sul desktop:&#10;{0}&#10;&#10;Apri KillerPDF dal menu Start.</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallNoDesktopShortcut" xml:space="preserve">PDF Gilardi è installato, ma Windows non ha consentito il collegamento sul desktop:&#10;{0}&#10;&#10;Apri PDF Gilardi dal menu Start.</sys:String>
     <sys:String x:Key="Str_Dlg_UninstallElevationFailed" xml:space="preserve">La disinstallazione non ha potuto richiedere l'accesso di amministratore:&#10;{0}</sys:String>
-    <sys:String x:Key="Str_Dlg_UninstallConfirm">Disinstallare KillerPDF da questo computer?</sys:String>
-    <sys:String x:Key="Str_Dlg_UninstallStillRunning" xml:space="preserve">KillerPDF è ancora in esecuzione.&#10;Chiudilo, poi riprova la disinstallazione.</sys:String>
-    <sys:String x:Key="Str_Dlg_UninstallNotInstalled" xml:space="preserve">Questo KillerPDF non è stato installato qui, quindi non è stato rimosso nulla.&#10;Elimina la cartella manualmente se non la vuoi più.</sys:String>
+    <sys:String x:Key="Str_Dlg_UninstallConfirm">Disinstallare PDF Gilardi da questo computer?</sys:String>
+    <sys:String x:Key="Str_Dlg_UninstallStillRunning" xml:space="preserve">PDF Gilardi è ancora in esecuzione.&#10;Chiudilo, poi riprova la disinstallazione.</sys:String>
+    <sys:String x:Key="Str_Dlg_UninstallNotInstalled" xml:space="preserve">Questo PDF Gilardi non è stato installato qui, quindi non è stato rimosso nulla.&#10;Elimina la cartella manualmente se non la vuoi più.</sys:String>
     <sys:String x:Key="Str_Btn_Uninstall">Disinstalla</sys:String>
     <!-- Measure tool: types, scale, units, report -->
     <sys:String x:Key="Str_Measure_Distance">Distanza</sys:String>
@@ -1841,7 +1841,7 @@ Vuoi ridimensionare le pagine a una dimensione supportata? Le pagine manterranno
     <sys:String x:Key="Str_Tray_Exit">Esci</sys:String>
     <sys:String x:Key="Str_Watch_Title">Cartelle automatiche</sys:String>
     <sys:String x:Key="Str_Watch_Intro">Inserisci i PDF nella cartella di input per eseguire una macro salvata e salvare nuove copie nella cartella di output.</sys:String>
-    <sys:String x:Key="Str_Watch_RunningNote">Funziona mentre KillerPDF è aperto, anche nell'area di notifica. Gli originali e i file di output esistenti vengono conservati.</sys:String>
+    <sys:String x:Key="Str_Watch_RunningNote">Funziona mentre PDF Gilardi è aperto, anche nell'area di notifica. Gli originali e i file di output esistenti vengono conservati.</sys:String>
     <sys:String x:Key="Str_Watch_Input">Cartella di input</sys:String>
     <sys:String x:Key="Str_Watch_Output">Cartella di output</sys:String>
     <sys:String x:Key="Str_Watch_Filter">Filtro nomi file</sys:String>
@@ -1949,11 +1949,11 @@ Vuoi ridimensionare le pagine a una dimensione supportata? Le pagine manterranno
     <sys:String x:Key="Str_CmpRpt_Summary">Pagine modificate: {0}, pagine mancanti: {1}, pagine uguali: {2}</sys:String>
     <sys:String x:Key="Str_Read_Comment">Commento: {0}</sys:String>
     <sys:String x:Key="Str_Read_CommentBy">Commento di {0}: {1}</sys:String>
-    <sys:String x:Key="Str_Dlg_RenderRecovered">KillerPDF si è riavviato perché la finestra non riusciva più a visualizzare nulla. Le modifiche non salvate sono state recuperate e sono di nuovo aperte, pronte per essere salvate.&#10;&#10;Le copie sono conservate anche in {0}. Questa sessione usa il rendering software.</sys:String>
+    <sys:String x:Key="Str_Dlg_RenderRecovered">PDF Gilardi si è riavviato perché la finestra non riusciva più a visualizzare nulla. Le modifiche non salvate sono state recuperate e sono di nuovo aperte, pronte per essere salvate.&#10;&#10;Le copie sono conservate anche in {0}. Questa sessione usa il rendering software.</sys:String>
     <sys:String x:Key="Str_Dlg_RenderRecoveryIncomplete">Non è stato possibile recuperare completamente alcuni documenti:&#10;{0}&#10;&#10;I file di recupero disponibili sono conservati in {1}. Controllare le copie recuperate prima di salvarle.</sys:String>
     <sys:String x:Key="Str_Dlg_RenderRecoveryNotReopened">Non è stato possibile recuperare completamente alcuni documenti:&#10;{0}&#10;&#10;I file di recupero disponibili sono conservati in {1}.</sys:String>
     <sys:String x:Key="Str_Dlg_RenderRecoveryNoFolder">Non era disponibile alcuna cartella per una copia di ripristino, quindi le modifiche non salvate non sono state conservate.</sys:String>
-    <sys:String x:Key="Str_Dlg_RenderRestarted">KillerPDF si è riavviato perché la finestra non riusciva più a visualizzare nulla. I documenti aperti sono stati riaperti. Questa sessione usa il rendering software.</sys:String>
+    <sys:String x:Key="Str_Dlg_RenderRestarted">PDF Gilardi si è riavviato perché la finestra non riusciva più a visualizzare nulla. I documenti aperti sono stati riaperti. Questa sessione usa il rendering software.</sys:String>
     <sys:String x:Key="Str_Read_MarkedText">Testo contrassegnato: &quot;{0}&quot;</sys:String>
     <sys:String x:Key="Str_Read_MarkedNoText">Testo contrassegnato</sys:String>
     <sys:String x:Key="Str_Read_Drawing">Disegno</sys:String>
@@ -1967,7 +1967,7 @@ Vuoi ridimensionare le pagine a una dimensione supportata? Le pagine manterranno
     <sys:String x:Key="Str_Color_Yellow">Giallo</sys:String>
     <sys:String x:Key="Str_Color_Magenta">Magenta</sys:String>
     <sys:String x:Key="Str_CertCatalog_Title">Certificati</sys:String>
-    <sys:String x:Key="Str_CertCatalog_Hint">I certificati di Windows sono di sola lettura. I certificati importati vengono archiviati solo in KillerPDF. L'importazione non rende attendibile un certificato.</sys:String>
+    <sys:String x:Key="Str_CertCatalog_Hint">I certificati di Windows sono di sola lettura. I certificati importati vengono archiviati solo in PDF Gilardi. L'importazione non rende attendibile un certificato.</sys:String>
     <sys:String x:Key="Str_CertCatalog_Search">Cerca certificati</sys:String>
     <sys:String x:Key="Str_CertCatalog_Empty">Nessun certificato corrisponde alla ricerca.</sys:String>
     <sys:String x:Key="Str_CertCatalog_Import">Importa certificato</sys:String>
@@ -1985,21 +1985,21 @@ Vuoi ridimensionare le pagine a una dimensione supportata? Le pagine manterranno
     <sys:String x:Key="Str_CertCatalog_WindowsMachineRoots">Windows: radici del computer</sys:String>
     <sys:String x:Key="Str_CertCatalog_WindowsUserIntermediates">Windows: certificati intermedi dell'utente corrente</sys:String>
     <sys:String x:Key="Str_CertCatalog_WindowsMachineIntermediates">Windows: certificati intermedi del computer</sys:String>
-    <sys:String x:Key="Str_CertCatalog_Local">KillerPDF</sys:String>
+    <sys:String x:Key="Str_CertCatalog_Local">PDF Gilardi</sys:String>
     <sys:String x:Key="Str_CertCatalog_Trusted">Radice attendibile</sys:String>
     <sys:String x:Key="Str_CertCatalog_Untrusted">Non attendibile</sys:String>
     <sys:String x:Key="Str_CertCatalog_Expired">Scaduto</sys:String>
     <sys:String x:Key="Str_CertCatalog_NotYetValid">Non ancora valido</sys:String>
-    <sys:String x:Key="Str_CertCatalog_TrustPrompt">Considerare "{0}" attendibile come radice in KillerPDF? I certificati che emette potranno essere accettati per la verifica delle firme. Le impostazioni di attendibilità di Windows resteranno invariate.</sys:String>
-    <sys:String x:Key="Str_CertCatalog_RemovePrompt">Rimuovere "{0}" dal catalogo dei certificati di KillerPDF?</sys:String>
+    <sys:String x:Key="Str_CertCatalog_TrustPrompt">Considerare "{0}" attendibile come radice in PDF Gilardi? I certificati che emette potranno essere accettati per la verifica delle firme. Le impostazioni di attendibilità di Windows resteranno invariate.</sys:String>
+    <sys:String x:Key="Str_CertCatalog_RemovePrompt">Rimuovere "{0}" dal catalogo dei certificati di PDF Gilardi?</sys:String>
     <sys:String x:Key="Str_CertCatalog_Error">Impossibile aggiornare il catalogo dei certificati:</sys:String>
     <sys:String x:Key="Str_CertCatalog_LoadError">Impossibile leggere l'elenco dei certificati:</sys:String>
     <sys:String x:Key="Str_CertCatalog_WrongFileType">Scegli un file di certificato pubblico (.cer, .crt o .pem).</sys:String>
     <sys:String x:Key="Str_CertCatalog_NotACertificate">Il file non contiene un certificato pubblico leggibile.</sys:String>
     <sys:String x:Key="Str_CertCatalog_PrivateKey">Chiavi private e file PFX non sono accettati. Importa solo certificati pubblici.</sys:String>
     <sys:String x:Key="Str_CertCatalog_TooLarge">Il file del certificato è vuoto o troppo grande.</sys:String>
-    <sys:String x:Key="Str_CertCatalog_Full">KillerPDF può archiviare fino a {0} certificati importati.</sys:String>
-    <sys:String x:Key="Str_CertCatalog_Damaged">Il catalogo dei certificati di KillerPDF non è leggibile ed è stato lasciato invariato. Le firme vengono verificate solo con l'attendibilità di Windows. Per ricominciare, elimina {0}.</sys:String>
+    <sys:String x:Key="Str_CertCatalog_Full">PDF Gilardi può archiviare fino a {0} certificati importati.</sys:String>
+    <sys:String x:Key="Str_CertCatalog_Damaged">Il catalogo dei certificati di PDF Gilardi non è leggibile ed è stato lasciato invariato. Le firme vengono verificate solo con l'attendibilità di Windows. Per ricominciare, elimina {0}.</sys:String>
     <sys:String x:Key="Str_CertCatalog_Imported">Importati {0} certificati. Esamina una radice prima di scegliere Considera attendibile come radice.</sys:String>
     <sys:String x:Key="Str_CertCatalog_ReadOnly">Gestito da Windows.</sys:String>
     <sys:String x:Key="Str_CertCatalog_Type">Tipo di certificato</sys:String>
@@ -2033,7 +2033,7 @@ Vuoi ridimensionare le pagine a una dimensione supportata? Le pagine manterranno
     <sys:String x:Key="Str_Filter_Json">Documento JSON</sys:String>
     <sys:String x:Key="Str_Dlg_RepairAskOpen">Non è stato possibile aprire '{0}' perché la sua struttura potrebbe essere danneggiata.
 
-Vuoi che KillerPDF tenti una riparazione?
+Vuoi che PDF Gilardi tenti una riparazione?
 Verrà creata una copia riparata: il file originale non verrà modificato.
 
 Nota: nei file riparati potrebbero mancare segnalibri, moduli e altre funzionalità interattive.</sys:String>

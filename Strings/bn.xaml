@@ -3,7 +3,7 @@
                     xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
     <!-- ================================================================
-         KillerPDF  -  Bengali (bn) strings
+         PDF Gilardi  -  Bengali (bn) strings
          ================================================================ -->
 
     <!-- ── Toolbar tooltips ─────────────────────────────────────────── -->
@@ -123,7 +123,7 @@
     <sys:String x:Key="Str_TT_CollapseSidebar">সাইডবার সংকুচিত করুন (F9)</sys:String>
     <sys:String x:Key="Str_TT_ExpandSidebar">সাইডবার প্রসারিত করুন (F9)</sys:String>
     <sys:String x:Key="Str_TT_KeyboardShortcuts">কীবোর্ড শর্টকাট (F1)</sys:String>
-    <sys:String x:Key="Str_TT_About">KillerPDF সম্পর্কে (F12)</sys:String>
+    <sys:String x:Key="Str_TT_About">PDF Gilardi সম্পর্কে (F12)</sys:String>
 
     <!-- ── About overlay ─────────────────────────────────────────────── -->
     <sys:String x:Key="Str_About_Version">সংস্করণ</sys:String>
@@ -215,7 +215,7 @@
     <sys:String x:Key="Str_Ready">প্রস্তুত</sys:String>
     <sys:String x:Key="Str_Status_Ready">প্রস্তুত</sys:String>
     <sys:String x:Key="Str_Portable">পোর্টেবল</sys:String>
-    <sys:String x:Key="Str_InstallBtn">KillerPDF ইনস্টল করুন</sys:String>
+    <sys:String x:Key="Str_InstallBtn">PDF Gilardi ইনস্টল করুন</sys:String>
 
     <!-- ── Status messages (format strings - use string.Format) ─────── -->
     <sys:String x:Key="Str_Opened">{0} খোলা হয়েছে - {1} পৃষ্ঠা</sys:String>
@@ -233,18 +233,18 @@
     <sys:String x:Key="Str_Print_LowQuality_Prompt">“{0}” শুধু নিম্ন মানে মুদ্রণের অনুমতি দেয়। পূর্ণ মানে মুদ্রণ করতে মালিকের পাসওয়ার্ড দিন, অথবা নিম্ন মানে মুদ্রণ করতে বাতিল করুন।</sys:String>
     <sys:String x:Key="Str_Print_Refused_Certificate">মুদ্রণের অনুমতি নেই। এই PDF যে সার্টিফিকেটের জন্য এনক্রিপ্ট করা, সেটি মুদ্রণের অনুমতি দেয় না, আর কোনো পাসওয়ার্ড দিয়ে এই সীমা তোলা যায় না।</sys:String>
     <sys:String x:Key="Str_Protection_Prompt">“{0}”-এ এর মালিকের দেওয়া সীমা আছে, আর এই কাজে সেই সীমা ছাড়াই ফাইলটি লেখা হবে। এগিয়ে যেতে মালিকের পাসওয়ার্ড দিন।</sys:String>
-    <sys:String x:Key="Str_Protection_Refused">কিছুই লেখা হয়নি। ফলাফলে এই PDF-এর মালিকের দেওয়া সীমা থাকত না, আর KillerPDF এটি শুধু মালিকের পাসওয়ার্ড দিলেই লেখে।</sys:String>
+    <sys:String x:Key="Str_Protection_Refused">কিছুই লেখা হয়নি। ফলাফলে এই PDF-এর মালিকের দেওয়া সীমা থাকত না, আর PDF Gilardi এটি শুধু মালিকের পাসওয়ার্ড দিলেই লেখে।</sys:String>
     <sys:String x:Key="Str_Protection_Refused_Certificate">কিছুই লেখা হয়নি। ফলাফলে আপনার সার্টিফিকেটের জন্য দেওয়া সীমা থাকত না, আর কোনো পাসওয়ার্ড দিয়ে সেই সীমা তোলা যায় না।</sys:String>
-    <sys:String x:Key="Str_Protection_Unreadable">KillerPDF এই PDF-এর সুরক্ষা পড়তে পারেনি, তাই কিছুই সংরক্ষণ বা মুদ্রণ করা হয়নি। {0} আবার চেষ্টা করুন, অথবা ট্যাবটি বন্ধ করে ফাইলটি আবার খুলুন।</sys:String>
-    <sys:String x:Key="Str_Print_Refused">মুদ্রণের অনুমতি নেই। এই PDF-এর মালিক মুদ্রণ সীমিত করেছেন, আর KillerPDF এটি শুধু মালিকের পাসওয়ার্ড দিলেই মুদ্রণ করে।</sys:String>
+    <sys:String x:Key="Str_Protection_Unreadable">PDF Gilardi এই PDF-এর সুরক্ষা পড়তে পারেনি, তাই কিছুই সংরক্ষণ বা মুদ্রণ করা হয়নি। {0} আবার চেষ্টা করুন, অথবা ট্যাবটি বন্ধ করে ফাইলটি আবার খুলুন।</sys:String>
+    <sys:String x:Key="Str_Print_Refused">মুদ্রণের অনুমতি নেই। এই PDF-এর মালিক মুদ্রণ সীমিত করেছেন, আর PDF Gilardi এটি শুধু মালিকের পাসওয়ার্ড দিলেই মুদ্রণ করে।</sys:String>
     <sys:String x:Key="Str_Restricted_UnlockFailed">এটিই মালিকের পাসওয়ার্ড, কিন্তু “{0}” আনলক করা যায়নি: {1}</sys:String>
     <sys:String x:Key="Str_St_SavedProtected">সুরক্ষাসহ সংরক্ষিত - {0}</sys:String>
     <sys:String x:Key="Str_Form_TwinsKept">একই নামের সব ক্ষেত্র মানটি নিতে পারেনি, তাই এখন সেগুলো আলাদা: {0}</sys:String>
-    <sys:String x:Key="Str_Restricted_OwnerRequired">“{0}” সম্পাদনা সীমিত করে, তাই এটি খুলতে KillerPDF-এর মালিকের পাসওয়ার্ড প্রয়োজন।</sys:String>
+    <sys:String x:Key="Str_Restricted_OwnerRequired">“{0}” সম্পাদনা সীমিত করে, তাই এটি খুলতে PDF Gilardi-এর মালিকের পাসওয়ার্ড প্রয়োজন।</sys:String>
     <sys:String x:Key="Str_OpenedReadOnlyXRef">{0} খোলা হয়েছে (শুধুমাত্র পঠনযোগ্য - অ-মানক XRef টেবিল) - {1} পৃষ্ঠা</sys:String>
     <sys:String x:Key="Str_OpenedRepaired">{0} খোলা হয়েছে (মেরামত করা কপি - পরিবর্তন রাখতে সংরক্ষণ করুন) - {1} পৃষ্ঠা</sys:String>
     <sys:String x:Key="Str_Save_ReferenceRepairs">অকার্যকর রেফারেন্স মেরামত করে সংরক্ষণ করা হয়েছে। অনুপস্থিত বিষয়বস্তু পুনরুদ্ধার করা হয়নি।</sys:String>
-    <sys:String x:Key="Str_Save_DamagedEncrypted">এই PDF ক্ষতিগ্রস্ত এবং পাসওয়ার্ড দিয়ে সুরক্ষিত, তাই KillerPDF এটি মেরামত বা সংরক্ষণ করতে পারবে না। মূল ফাইলটি পরিবর্তন করা হয়নি।</sys:String>
+    <sys:String x:Key="Str_Save_DamagedEncrypted">এই PDF ক্ষতিগ্রস্ত এবং পাসওয়ার্ড দিয়ে সুরক্ষিত, তাই PDF Gilardi এটি মেরামত বা সংরক্ষণ করতে পারবে না। মূল ফাইলটি পরিবর্তন করা হয়নি।</sys:String>
     <sys:String x:Key="Str_Save_DamagedSigned">এই PDF ক্ষতিগ্রস্ত এবং এতে ডিজিটাল স্বাক্ষর আছে। সংরক্ষণ করলে স্বাক্ষরটি নষ্ট হয়ে যাবে, তাই ফাইলটি পরিবর্তন করা হয়নি।</sys:String>
     <sys:String x:Key="Str_Save_DamagedCertified">এই PDF ক্ষতিগ্রস্ত এবং লেখক কর্তৃক প্রত্যয়িত। সংরক্ষণ করলে প্রত্যয়ন নষ্ট হয়ে যাবে, তাই ফাইলটি পরিবর্তন করা হয়নি।</sys:String>
     <sys:String x:Key="Str_Save_DamagedUsageRights">এই PDF ক্ষতিগ্রস্ত এবং এতে Reader-এর ব্যবহারের অধিকার আছে। সংরক্ষণ করলে সেগুলো নষ্ট হয়ে যাবে, তাই ফাইলটি পরিবর্তন করা হয়নি।</sys:String>
@@ -278,39 +278,39 @@
 এখন সংরক্ষণ করলে ফাইলটি ওভাররাইট হবে এবং সেই পরিবর্তনগুলি হারিয়ে যাবে। রাখতে চাইলে আগে অন্য প্যানটি সংরক্ষণ করুন।</sys:String>
     <sys:String x:Key="Str_St_SplitOn">স্প্লিট প্যান চালু - বন্ধ করতে F10</sys:String>
     <sys:String x:Key="Str_St_SplitOff">স্প্লিট প্যান বন্ধ</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallTitle">KillerPDF ইনস্টল করুন</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallMsg">এই কম্পিউটারে KillerPDF ইনস্টল করবেন?</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallTitle">PDF Gilardi ইনস্টল করুন</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallMsg">এই কম্পিউটারে PDF Gilardi ইনস্টল করবেন?</sys:String>
     <sys:String x:Key="Str_Dlg_InstallBullets">ইনস্টল করলে দ্রুত চালুর জন্য অ্যাপটি আপনার প্রোগ্রাম ফোল্ডারে কপি করা হবে এবং একটি স্টার্ট মেনু এন্ট্রি যোগ করা হবে। এরপর এই পোর্টেবল ফাইলটি রাখতে বা মুছে ফেলতে পারবেন।</sys:String>
-    <sys:String x:Key="Str_Install_AlreadyAllUsers">KillerPDF এই কম্পিউটারে সব ব্যবহারকারীর জন্য আগে থেকেই ইনস্টল করা আছে, তাই এটি সেই কপিটি আপডেট করবে। Windows অনুমতি চাইবে।</sys:String>
+    <sys:String x:Key="Str_Install_AlreadyAllUsers">PDF Gilardi এই কম্পিউটারে সব ব্যবহারকারীর জন্য আগে থেকেই ইনস্টল করা আছে, তাই এটি সেই কপিটি আপডেট করবে। Windows অনুমতি চাইবে।</sys:String>
     <sys:String x:Key="Str_Dlg_SaveBeforeInstall">ইনস্টল করার আগে আপনার পরিবর্তনগুলো সংরক্ষণ করুন।</sys:String>
     <sys:String x:Key="Str_Btn_DoInstall">ইনস্টল করুন</sys:String>
     <sys:String x:Key="Str_Btn_DoUpdate">আপডেট</sys:String>
-    <sys:String x:Key="Str_Dlg_UpdateUserMsg" xml:space="preserve">বিদ্যমান KillerPDF ইনস্টলেশন আপডেট করবেন?
+    <sys:String x:Key="Str_Dlg_UpdateUserMsg" xml:space="preserve">বিদ্যমান PDF Gilardi ইনস্টলেশন আপডেট করবেন?
 
 এটি ইনস্টল করা কপিটিকে দ্রুততর মাল্টি-ফাইল সংস্করণ দিয়ে প্রতিস্থাপন করে। এরপর এই পোর্টেবল ফাইলটি রাখতে বা মুছতে পারেন।</sys:String>
-    <sys:String x:Key="Str_Dlg_UpdateMachineMsg" xml:space="preserve">সব ব্যবহারকারীর জন্য বিদ্যমান KillerPDF ইনস্টলেশন আপডেট করবেন?
+    <sys:String x:Key="Str_Dlg_UpdateMachineMsg" xml:space="preserve">সব ব্যবহারকারীর জন্য বিদ্যমান PDF Gilardi ইনস্টলেশন আপডেট করবেন?
 
-এটি Program Files-এর কপিটিকে দ্রুততর মাল্টি-ফাইল সংস্করণ দিয়ে প্রতিস্থাপন করে। পুরোনো প্রতি-ব্যবহারকারী কপি সরিয়ে ফেলা হয়, যাতে KillerPDF শুধু একবারই দেখা যায়। এরপর এই পোর্টেবল ফাইলটি রাখতে বা মুছতে পারেন।</sys:String>
-    <sys:String x:Key="Str_Dlg_OneInstallOnly" xml:space="preserve">KillerPDF ইতিমধ্যে এই কম্পিউটারের সবার জন্য ইনস্টল করা আছে। প্রতি-ব্যবহারকারী ইনস্টল বেছে নেওয়ার আগে সেই ইনস্টলেশন আপডেট করুন, অথবা আনইনস্টল করুন।
+এটি Program Files-এর কপিটিকে দ্রুততর মাল্টি-ফাইল সংস্করণ দিয়ে প্রতিস্থাপন করে। পুরোনো প্রতি-ব্যবহারকারী কপি সরিয়ে ফেলা হয়, যাতে PDF Gilardi শুধু একবারই দেখা যায়। এরপর এই পোর্টেবল ফাইলটি রাখতে বা মুছতে পারেন।</sys:String>
+    <sys:String x:Key="Str_Dlg_OneInstallOnly" xml:space="preserve">PDF Gilardi ইতিমধ্যে এই কম্পিউটারের সবার জন্য ইনস্টল করা আছে। প্রতি-ব্যবহারকারী ইনস্টল বেছে নেওয়ার আগে সেই ইনস্টলেশন আপডেট করুন, অথবা আনইনস্টল করুন।
 
-KillerPDF দুটি ইনস্টল করা কপি তৈরি করবে না।</sys:String>
+PDF Gilardi দুটি ইনস্টল করা কপি তৈরি করবে না।</sys:String>
     <sys:String x:Key="Str_Chk_Desktop">ডেস্কটপ শর্টকাট যোগ করুন</sys:String>
     <sys:String x:Key="Str_Chk_AllUsers">এই কম্পিউটারের সব ব্যবহারকারীর জন্য ইনস্টল করুন (অ্যাডমিন লাগবে)</sys:String>
-    <sys:String x:Key="Str_Status_InstallFailed">ইনস্টল সম্পূর্ণ হয়নি - KillerPDF এখনও পোর্টেবল হিসেবে চলছে।</sys:String>
-    <sys:String x:Key="Str_Status_RelaunchDeferred">ইনস্টলেশন শেষ হয়েছে। ইনস্টলেশনের সময় করা কাজের পরিবর্তন সুরক্ষিত রাখতে KillerPDF খোলা রয়েছে।</sys:String>
-    <sys:String x:Key="Str_Dlg_SetDefaultPdfMsg" xml:space="preserve">KillerPDF-কে আপনার ডিফল্ট PDF ভিউয়ার হিসেবে সেট করতে চান?
+    <sys:String x:Key="Str_Status_InstallFailed">ইনস্টল সম্পূর্ণ হয়নি - PDF Gilardi এখনও পোর্টেবল হিসেবে চলছে।</sys:String>
+    <sys:String x:Key="Str_Status_RelaunchDeferred">ইনস্টলেশন শেষ হয়েছে। ইনস্টলেশনের সময় করা কাজের পরিবর্তন সুরক্ষিত রাখতে PDF Gilardi খোলা রয়েছে।</sys:String>
+    <sys:String x:Key="Str_Dlg_SetDefaultPdfMsg" xml:space="preserve">PDF Gilardi-কে আপনার ডিফল্ট PDF ভিউয়ার হিসেবে সেট করতে চান?
 
 Windows সেটিংস - ডিফল্ট অ্যাপ খুলবে।</sys:String>
     <sys:String x:Key="Str_Dlg_UnsavedClose">এই ফাইলে অসংরক্ষিত পরিবর্তন রয়েছে। বন্ধ করার আগে সেগুলো সংরক্ষণ করবেন?</sys:String>
-    <sys:String x:Key="Str_Dlg_UnsavedExit">আপনার অসংরক্ষিত পরিবর্তন রয়েছে। KillerPDF বন্ধ করার আগে সেগুলো সংরক্ষণ করবেন?</sys:String>
+    <sys:String x:Key="Str_Dlg_UnsavedExit">আপনার অসংরক্ষিত পরিবর্তন রয়েছে। PDF Gilardi বন্ধ করার আগে সেগুলো সংরক্ষণ করবেন?</sys:String>
     <sys:String x:Key="Str_Dlg_PageOutOfRange" xml:space="preserve">এই ডকুমেন্টে {0}টি পৃষ্ঠার আকার Adobe Reader-এর সমর্থিত সীমার (প্রতি পাশে 3 থেকে 14,400 পয়েন্ট) বাইরে - Adobe এই পৃষ্ঠাগুলিকে ফাঁকা দেখায়।
 
 এগুলিকে সমর্থিত আকারে স্কেল করবেন? পৃষ্ঠার চেহারা ও অনুপাত একই থাকবে।</sys:String>
     <sys:String x:Key="Str_Dlg_FailedOpen" xml:space="preserve">PDF খুলতে ব্যর্থ হয়েছে:
 {0}</sys:String>
-    <sys:String x:Key="Str_Dlg_AppTitle">KillerPDF</sys:String>
-    <sys:String x:Key="Str_Dlg_CloseAllDocs">আপনার {0}টি নথি খোলা আছে। অ্যাপ বন্ধ করার সময় KillerPDF কি সেগুলি সব বন্ধ করে দেবে?</sys:String>
-    <sys:String x:Key="Str_Dlg_CloseAllDocsOne">আপনার 1টি নথি খোলা আছে। অ্যাপ বন্ধ করার সময় KillerPDF কি সেটি বন্ধ করে দেবে?</sys:String>
+    <sys:String x:Key="Str_Dlg_AppTitle">PDF Gilardi</sys:String>
+    <sys:String x:Key="Str_Dlg_CloseAllDocs">আপনার {0}টি নথি খোলা আছে। অ্যাপ বন্ধ করার সময় PDF Gilardi কি সেগুলি সব বন্ধ করে দেবে?</sys:String>
+    <sys:String x:Key="Str_Dlg_CloseAllDocsOne">আপনার 1টি নথি খোলা আছে। অ্যাপ বন্ধ করার সময় PDF Gilardi কি সেটি বন্ধ করে দেবে?</sys:String>
     <sys:String x:Key="Str_Dlg_RememberChoice">আমার পছন্দ মনে রাখুন</sys:String>
 
 
@@ -446,7 +446,7 @@ Windows সেটিংস - ডিফল্ট অ্যাপ খুলবে�
     <sys:String x:Key="Str_Pos_TopLeft">উপরে বামে</sys:String>
 
     <!-- ── Print dialog ───────────────────────────────────────────────── -->
-    <sys:String x:Key="Str_Print_Title">KillerPDF - মুদ্রণ</sys:String>
+    <sys:String x:Key="Str_Print_Title">PDF Gilardi - মুদ্রণ</sys:String>
     <sys:String x:Key="Str_Print_Rendering">রেন্ডার হচ্ছে {0} / {1}</sys:String>
     <sys:String x:Key="Str_Print_IncompletePages">কিছু বিষয়বস্তু হুবহু আঁকা যায়নি। পৃষ্ঠা {0} যেমন দেখা যাচ্ছে তেমনই মুদ্রিত হবে।</sys:String>
     <sys:String x:Key="Str_Print_Printer">প্রিন্টার</sys:String>
@@ -704,7 +704,7 @@ Windows সেটিংস - ডিফল্ট অ্যাপ খুলবে�
     <sys:String x:Key="Str_Drop_RepairFailed">ফাইলটি মেরামত করা যায়নি, তাই কিছু একত্র করা হয়নি।</sys:String>
     <sys:String x:Key="Str_Import_NoPages">{0}-এ কোনো পৃষ্ঠা নেই, তাই একত্র করার মতো কিছু নেই।</sys:String>
     <sys:String x:Key="Str_Drop_ManyTabs">এটি {0}টি আলাদা ট্যাব খুলবে। চালিয়ে যাবেন?</sys:String>
-    <sys:String x:Key="Str_Drop_TooMany">এই ফোল্ডার বা আর্কাইভে {0}টি ফাইল আছে। KillerPDF শুধু প্রথম {1}টি খুলবে। চালিয়ে যাবেন?</sys:String>
+    <sys:String x:Key="Str_Drop_TooMany">এই ফোল্ডার বা আর্কাইভে {0}টি ফাইল আছে। PDF Gilardi শুধু প্রথম {1}টি খুলবে। চালিয়ে যাবেন?</sys:String>
     <sys:String x:Key="Str_Status_Merged">{0}টি ফাইল একত্র করা হয়েছে - এখনও সংরক্ষণ করা হয়নি</sys:String>
     <sys:String x:Key="Str_Drop_Merging">ফাইল একত্র করা হচ্ছে...</sys:String>
     <sys:String x:Key="Str_Drop_MergeCanceled">একত্রীকরণ বাতিল করা হয়েছে</sys:String>
@@ -913,14 +913,14 @@ Windows সেটিংস - ডিফল্ট অ্যাপ খুলবে�
     <sys:String x:Key="Str_KS_FullScreen">পূর্ণ স্ক্রিন</sys:String>
     <sys:String x:Key="Str_FullScreen_Hint">পূর্ণ স্ক্রিন থেকে বের হতে F11 বা Esc চাপুন</sys:String>
     <!-- Quit prompt -->
-    <sys:String x:Key="Str_Dlg_QuitMsg">KillerPDF থেকে বেরোবেন?</sys:String>
+    <sys:String x:Key="Str_Dlg_QuitMsg">PDF Gilardi থেকে বেরোবেন?</sys:String>
     <sys:String x:Key="Str_Chk_CloseTabs">আমার খোলা ট্যাব বন্ধ করুন</sys:String>
     <sys:String x:Key="Str_Btn_Quit">বেরোন</sys:String>
     <sys:String x:Key="Str_Btn_CancelDlg">বাতিল</sys:String>
 
 
     <!-- Status-bar + dialog strings (extracted from code) -->
-    <sys:String x:Key="Str_St_DataCleared">সমস্ত KillerPDF ডেটা মুছে ফেলা হয়েছে</sys:String>
+    <sys:String x:Key="Str_St_DataCleared">সমস্ত PDF Gilardi ডেটা মুছে ফেলা হয়েছে</sys:String>
     <sys:String x:Key="Str_St_OcrRegionCanceled">OCR অঞ্চল বাতিল করা হয়েছে</sys:String>
     <sys:String x:Key="Str_St_Erased">মুছে ফেলা হয়েছে</sys:String>
     <sys:String x:Key="Str_St_Ungrouped">গ্রুপ বাতিল করা হয়েছে</sys:String>
@@ -968,7 +968,7 @@ Windows সেটিংস - ডিফল্ট অ্যাপ খুলবে�
     <sys:String x:Key="Str_St_PastedText">টেক্সট পেস্ট করা হয়েছে - পুনরায় স্থাপন করতে টেনে আনুন, সরাতে Delete</sys:String>
     <sys:String x:Key="Str_St_ClipEmpty">পেস্ট করার মতো ক্লিপবোর্ডে কিছু নেই</sys:String>
     <sys:String x:Key="Str_Dlg_SaveBeforeUpdate">আপডেট করার আগে অনুগ্রহ করে আপনার পরিবর্তনগুলি সংরক্ষণ করুন।</sys:String>
-    <sys:String x:Key="Str_Dlg_Uninstalled">KillerPDF আনইনস্টল করা হয়েছে।</sys:String>
+    <sys:String x:Key="Str_Dlg_Uninstalled">PDF Gilardi আনইনস্টল করা হয়েছে।</sys:String>
     <sys:String x:Key="Str_Dlg_SelectExtract">নিষ্কাশন করার জন্য পৃষ্ঠা নির্বাচন করুন।</sys:String>
     <sys:String x:Key="Str_Dlg_SelectDelete">মুছে ফেলার জন্য পৃষ্ঠা নির্বাচন করুন।</sys:String>
     <sys:String x:Key="Str_Dlg_NoPrinter">কোনো প্রিন্টার উপলব্ধ নেই।</sys:String>
@@ -1221,7 +1221,7 @@ Windows সেটিংস - ডিফল্ট অ্যাপ খুলবে�
     <sys:String x:Key="Str_Err_DuplicateFailed">অনুলিপি ব্যর্থ হয়েছে:</sys:String>
     <sys:String x:Key="Str_Err_RepairFailed">মেরামত ব্যর্থ হয়েছে:</sys:String>
     <sys:String x:Key="Str_Err_OpenProtected">সুরক্ষিত PDF খোলা যায়নি:</sys:String>
-    <sys:String x:Key="Str_Err_WorkingCopy">KillerPDF এই PDF-এর কার্যকরী কপি লিখতে পারেনি। ডিস্কে খালি জায়গা আছে কিনা দেখুন:</sys:String>
+    <sys:String x:Key="Str_Err_WorkingCopy">PDF Gilardi এই PDF-এর কার্যকরী কপি লিখতে পারেনি। ডিস্কে খালি জায়গা আছে কিনা দেখুন:</sys:String>
     <sys:String x:Key="Str_Err_NewDocFailed">নতুন নথি তৈরি করা যায়নি:</sys:String>
     <sys:String x:Key="Str_Err_FileNotFound">ফাইল পাওয়া যায়নি:</sys:String>
     <sys:String x:Key="Str_Err_MergeFailed">একত্রীকরণ ব্যর্থ হয়েছে:</sys:String>
@@ -1329,7 +1329,7 @@ Windows সেটিংস - ডিফল্ট অ্যাপ খুলবে�
     <sys:String x:Key="Str_ScanReview_Text">টেক্সট</sys:String>
     <sys:String x:Key="Str_Dlg_Repaired" xml:space="preserve">"{0}" সফলভাবে মেরামত হয়েছে।&#10;&#10;বুকমার্ক, ফর্ম ও অন্যান্য ইন্টারঅ্যাক্টিভ বৈশিষ্ট্য হারিয়ে যেতে পারে। মেরামত করা ফাইলটি নতুন জায়গায় লিখতে Save As ব্যবহার করুন।</sys:String>
     <sys:String x:Key="Str_Dlg_RepairedRaster" xml:space="preserve">"{0}" এর পৃষ্ঠাগুলো রাস্টারাইজ করে মেরামত হয়েছে।&#10;&#10;মেরামত করা কপিতে টেক্সট নির্বাচন করা যায় না। নতুন জায়গায় লিখতে Save As ব্যবহার করুন।</sys:String>
-    <sys:String x:Key="Str_Dlg_RepairAsk" xml:space="preserve">"{0}"-এর কাঠামো ক্ষতিগ্রস্ত, তাই যোগ করা যায়নি।&#10;&#10;KillerPDF কি মেরামতের চেষ্টা করবে? একটি মেরামত করা কপি তৈরি হবে। মূল ফাইল বদলাবে না।&#10;&#10;দ্রষ্টব্য: মেরামত করা ফাইলে বুকমার্ক, ফর্ম ও অন্যান্য ইন্টারঅ্যাক্টিভ বৈশিষ্ট্য নাও থাকতে পারে।</sys:String>
+    <sys:String x:Key="Str_Dlg_RepairAsk" xml:space="preserve">"{0}"-এর কাঠামো ক্ষতিগ্রস্ত, তাই যোগ করা যায়নি।&#10;&#10;PDF Gilardi কি মেরামতের চেষ্টা করবে? একটি মেরামত করা কপি তৈরি হবে। মূল ফাইল বদলাবে না।&#10;&#10;দ্রষ্টব্য: মেরামত করা ফাইলে বুকমার্ক, ফর্ম ও অন্যান্য ইন্টারঅ্যাক্টিভ বৈশিষ্ট্য নাও থাকতে পারে।</sys:String>
     <sys:String x:Key="Str_Dlg_LangDownloadAsk" xml:space="preserve">OCR চালানোর জন্য এখন একটি ভাষার মডেল ({0}) ডাউনলোড হবে।&#10;&#10;OCR মেনু থেকে যেকোনো সময় আরও ভাষা যোগ করতে বা উচ্চমানের মডেলে যেতে পারবেন।</sys:String>
     <sys:String x:Key="Str_Bar_More">আরও সেটিংস</sys:String>
     <sys:String x:Key="Str_Bar_TT_Level">লাইনটিকে নিকটতম অক্ষে রাখে (অনুভূমিক বা উল্লম্ব)</sys:String>
@@ -1343,7 +1343,7 @@ Windows সেটিংস - ডিফল্ট অ্যাপ খুলবে�
     <sys:String x:Key="Str_TT_SaveOptions">সংরক্ষণের বিকল্প</sys:String>
     <sys:String x:Key="Str_TT_OcrOptions">OCR বিকল্প</sys:String>
     <sys:String x:Key="Str_RecentHeading">সাম্প্রতিক</sys:String>
-    <sys:String x:Key="Str_KS_WindowTitle">KillerPDF - কীবোর্ড শর্টকাট</sys:String>
+    <sys:String x:Key="Str_KS_WindowTitle">PDF Gilardi - কীবোর্ড শর্টকাট</sys:String>
     <sys:String x:Key="Str_About_UpdateAvailable">আপডেট আছে: {0}</sys:String>
     <sys:String x:Key="Str_About_Unsigned">(not signed or chain failed)</sys:String>
     <sys:String x:Key="Str_About_Downloading">ডাউনলোড হচ্ছে...</sys:String>
@@ -1355,11 +1355,11 @@ Windows সেটিংস - ডিফল্ট অ্যাপ খুলবে�
     <sys:String x:Key="Str_About_NotNow">এখন নয়</sys:String>
     <sys:String x:Key="Str_About_AlwaysCheckOnStartup">অ্যাপ চালু হলে সর্বদা আপডেট পরীক্ষা করুন</sys:String>
     <sys:String x:Key="Str_UpdateRestartPrepareFailed">আপডেটটি প্রস্তুত করা যায়নি। আপনার সংরক্ষিত PDF ফাইলগুলো অপরিবর্তিত আছে। অনুগ্রহ করে আবার চেষ্টা করুন।</sys:String>
-    <sys:String x:Key="Str_UpdateRestartRestoreFailed">KillerPDF আপনার আগের কাজের সেশনটি আবার খুলতে পারেনি। আপনার সংরক্ষিত PDF ফাইলগুলো অপরিবর্তিত আছে।</sys:String>
+    <sys:String x:Key="Str_UpdateRestartRestoreFailed">PDF Gilardi আপনার আগের কাজের সেশনটি আবার খুলতে পারেনি। আপনার সংরক্ষিত PDF ফাইলগুলো অপরিবর্তিত আছে।</sys:String>
     <sys:String x:Key="Str_ClearAllData">সব ডেটা মুছুন</sys:String>
     <sys:String x:Key="Str_ClearDataConfirm" xml:space="preserve">এটি সংরক্ষিত সব সেটিংস, ডাউনলোড করা OCR ভাষা প্যাক এবং অস্থায়ী ফাইল মুছে ফেলবে।&#10;&#10;আপনার PDF ফাইলগুলি প্রভাবিত হবে না। চালিয়ে যাবেন?</sys:String>
-    <sys:String x:Key="Str_ClearDataDone" xml:space="preserve">সেটিংস, ভাষা প্যাক এবং অস্থায়ী ফাইল মুছে ফেলা হয়েছে।&#10;&#10;এই সেশনে এখনও ব্যবহৃত ফাইলগুলি মোছা সম্পূর্ণ করতে KillerPDF পুনরায় চালু করুন।</sys:String>
-    <sys:String x:Key="Str_Crash_Title">KillerPDF - অপ্রত্যাশিত ত্রুটি</sys:String>
+    <sys:String x:Key="Str_ClearDataDone" xml:space="preserve">সেটিংস, ভাষা প্যাক এবং অস্থায়ী ফাইল মুছে ফেলা হয়েছে।&#10;&#10;এই সেশনে এখনও ব্যবহৃত ফাইলগুলি মোছা সম্পূর্ণ করতে PDF Gilardi পুনরায় চালু করুন।</sys:String>
+    <sys:String x:Key="Str_Crash_Title">PDF Gilardi - অপ্রত্যাশিত ত্রুটি</sys:String>
     <sys:String x:Key="Str_Crash_Log">লগ: {0}</sys:String>
     <sys:String x:Key="Str_Crash_Copy">রিপোর্ট কপি করুন</sys:String>
     <sys:String x:Key="Str_Crash_OpenLogs">লগ খুলুন</sys:String>
@@ -1431,17 +1431,17 @@ Windows সেটিংস - ডিফল্ট অ্যাপ খুলবে�
     <sys:String x:Key="Str_Compare_DetailsTitle">পিডিএফের তুলনামূলক বিবরণ</sys:String>
 
     <!-- ── Browser handoff refusals ────────────────────────────────────── -->
-    <sys:String x:Key="Str_Handoff_Failed">KillerPDF ব্রাউজার পিডিএফ খুলতে পারেনি ।</sys:String>
-    <sys:String x:Key="Str_Handoff_UnknownCommand">সেই ব্রাউজার কমান্ডটি KillerPDF চেনে না।</sys:String>
+    <sys:String x:Key="Str_Handoff_Failed">PDF Gilardi ব্রাউজার পিডিএফ খুলতে পারেনি ।</sys:String>
+    <sys:String x:Key="Str_Handoff_UnknownCommand">সেই ব্রাউজার কমান্ডটি PDF Gilardi চেনে না।</sys:String>
     <sys:String x:Key="Str_Handoff_MissingUrl">হ্যান্ডঅফটিতে কোনও পিডিএফ ঠিকানা অন্তর্ভুক্ত করা হয়নি ।</sys:String>
     <sys:String x:Key="Str_Handoff_MalformedUrl">হ্যান্ডঅফের পিডিএফ ঠিকানাটি পড়া যায়নি ।</sys:String>
-    <sys:String x:Key="Str_Handoff_SchemeNotAllowed">KillerPDF শুধুমাত্র HTTPS এর মাধ্যমে ব্রাউজার হ্যান্ডঅফগুলি খোলে ।</sys:String>
+    <sys:String x:Key="Str_Handoff_SchemeNotAllowed">PDF Gilardi শুধুমাত্র HTTPS এর মাধ্যমে ব্রাউজার হ্যান্ডঅফগুলি খোলে ।</sys:String>
     <sys:String x:Key="Str_Handoff_Unusable">ব্রাউজার হ্যান্ডঅফ ব্যবহার করা যায়নি ।</sys:String>
     <sys:String x:Key="Str_Handoff_TooLarge">পিডিএফ 256 এমবি ব্রাউজার হ্যান্ডঅফ সীমার চেয়ে বড় ।</sys:String>
     <sys:String x:Key="Str_Handoff_NotPdf">ডাউনলোড করা ফাইলটি পিডিএফ নয় ।</sys:String>
-    <sys:String x:Key="Str_Handoff_DownloadFailed">KillerPDF পিডিএফ ডাউনলোড করতে পারেনি ।</sys:String>
+    <sys:String x:Key="Str_Handoff_DownloadFailed">PDF Gilardi পিডিএফ ডাউনলোড করতে পারেনি ।</sys:String>
     <sys:String x:Key="Str_Handoff_TimedOut">পিডিএফ ডাউনলোডের সময় শেষ হয়েছে ।</sys:String>
-    <sys:String x:Key="Str_Handoff_FileError">KillerPDF ডাউনলোড করা পিডিএফ সংরক্ষণ বা পড়তে পারেনি ।</sys:String>
+    <sys:String x:Key="Str_Handoff_FileError">PDF Gilardi ডাউনলোড করা পিডিএফ সংরক্ষণ বা পড়তে পারেনি ।</sys:String>
     <sys:String x:Key="Str_St_FormFieldDrag">পূরণযোগ্য পাঠ্য ক্ষেত্র তৈরি করতে টানুন</sys:String>
     <sys:String x:Key="Str_St_FormFieldCanceled">পূরণযোগ্য পাঠ্য ক্ষেত্র তৈরি বাতিল হয়েছে</sys:String>
     <sys:String x:Key="Str_St_FormFieldCreateFailed">পূরণযোগ্য পাঠ্য ক্ষেত্র তৈরি করা যায়নি</sys:String>
@@ -1586,7 +1586,7 @@ Windows সেটিংস - ডিফল্ট অ্যাপ খুলবে�
     <sys:String x:Key="Str_Macro_DeleteConfirm">&quot;{0}&quot; ম্যাক্রোটি মুছবেন?</sys:String>
     <sys:String x:Key="Str_Macro_ImportFailed">ম্যাক্রো আমদানি করা যায়নি:</sys:String>
     <sys:String x:Key="Str_Macro_ExportFailed">ম্যাক্রো রপ্তানি করা যায়নি:</sys:String>
-    <sys:String x:Key="Str_Macro_Files">KillerPDF ম্যাক্রো</sys:String>
+    <sys:String x:Key="Str_Macro_Files">PDF Gilardi ম্যাক্রো</sys:String>
     <sys:String x:Key="Str_Macro_SelectOutput">ম্যাক্রোর আউটপুট বেছে নিন</sys:String>
     <sys:String x:Key="Str_Macro_Preview" xml:space="preserve">ম্যাক্রো: {0}&#10;ইনপুট: {1}&#10;আউটপুট: {2}&#10;&#10;ধাপ:&#10;{3}&#10;&#10;এই ম্যাক্রো চালাবেন?</sys:String>
     <sys:String x:Key="Str_Macro_Running">ম্যাক্রো চলছে...</sys:String>
@@ -1612,18 +1612,18 @@ Windows সেটিংস - ডিফল্ট অ্যাপ খুলবে�
     <sys:String x:Key="Str_Sig_RemoveSignature">স্বাক্ষর সরান</sys:String>
     <sys:String x:Key="Str_Sig_ChangeInitials">আদ্যক্ষর পরিবর্তন করুন</sys:String>
     <sys:String x:Key="Str_Sig_RemoveInitials">আদ্যক্ষর সরান</sys:String>
-    <sys:String x:Key="Str_Dlg_DuplicateInstallTitle">KillerPDF-এর দ্বৈত ইনস্টলেশন</sys:String>
-    <sys:String x:Key="Str_Dlg_DuplicateInstallMachine" xml:space="preserve">KillerPDF এই কম্পিউটারে দুটি ইনস্টল করা কপি পেয়েছে।&#10;&#10;আপনি এখন সব ব্যবহারকারীর জন্য করা ইনস্টলেশন চালাচ্ছেন। একটি পুরোনো প্রতি-ব্যবহারকারী কপিও আছে, সাধারণত কারণ আগের কোনো আপডেটের সময় সেটি ব্যবহৃত হচ্ছিল।&#10;&#10;অব্যবহৃত প্রতি-ব্যবহারকারী কপিটি এখন সরাবেন? আপনার সেটিংস ও PDF ফাইল সরানো হবে না।</sys:String>
-    <sys:String x:Key="Str_Dlg_DuplicateInstallUser" xml:space="preserve">KillerPDF এই কম্পিউটারে দুটি ইনস্টল করা কপি পেয়েছে।&#10;&#10;আপনি এখন প্রতি-ব্যবহারকারী ইনস্টলেশন চালাচ্ছেন। সব ব্যবহারকারীর জন্য একটি কপিও আছে।&#10;&#10;সব ব্যবহারকারীর অব্যবহৃত কপিটি এখন সরাবেন? Windows প্রশাসকের অনুমতি চাইবে। আপনার সেটিংস ও PDF ফাইল সরানো হবে না।</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallUnsigned" xml:space="preserve">ইনস্টলেশন প্রত্যাখ্যাত: চলমান EXE-তে বৈধ Authenticode স্বাক্ষর নেই।&#10;&#10;শুধু স্বাক্ষরিত KillerPDF বিল্ড ইনস্টল করা যায়।</sys:String>
+    <sys:String x:Key="Str_Dlg_DuplicateInstallTitle">PDF Gilardi-এর দ্বৈত ইনস্টলেশন</sys:String>
+    <sys:String x:Key="Str_Dlg_DuplicateInstallMachine" xml:space="preserve">PDF Gilardi এই কম্পিউটারে দুটি ইনস্টল করা কপি পেয়েছে।&#10;&#10;আপনি এখন সব ব্যবহারকারীর জন্য করা ইনস্টলেশন চালাচ্ছেন। একটি পুরোনো প্রতি-ব্যবহারকারী কপিও আছে, সাধারণত কারণ আগের কোনো আপডেটের সময় সেটি ব্যবহৃত হচ্ছিল।&#10;&#10;অব্যবহৃত প্রতি-ব্যবহারকারী কপিটি এখন সরাবেন? আপনার সেটিংস ও PDF ফাইল সরানো হবে না।</sys:String>
+    <sys:String x:Key="Str_Dlg_DuplicateInstallUser" xml:space="preserve">PDF Gilardi এই কম্পিউটারে দুটি ইনস্টল করা কপি পেয়েছে।&#10;&#10;আপনি এখন প্রতি-ব্যবহারকারী ইনস্টলেশন চালাচ্ছেন। সব ব্যবহারকারীর জন্য একটি কপিও আছে।&#10;&#10;সব ব্যবহারকারীর অব্যবহৃত কপিটি এখন সরাবেন? Windows প্রশাসকের অনুমতি চাইবে। আপনার সেটিংস ও PDF ফাইল সরানো হবে না।</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallUnsigned" xml:space="preserve">ইনস্টলেশন প্রত্যাখ্যাত: চলমান EXE-তে বৈধ Authenticode স্বাক্ষর নেই।&#10;&#10;শুধু স্বাক্ষরিত PDF Gilardi বিল্ড ইনস্টল করা যায়।</sys:String>
     <sys:String x:Key="Str_Dlg_InstallDowngrade" xml:space="preserve">আপনি ইনস্টল করা সংস্করণের ({1}) ওপর একটি পুরোনো সংস্করণ ({0}) ইনস্টল করতে চলেছেন।&#10;&#10;তবুও পুরোনো সংস্করণে ফিরবেন?</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallWriteFailed" xml:space="preserve">ইনস্টল করা কপিটি এখানে লেখা যায়নি:&#10;{0}&#10;&#10;খোলা সব KillerPDF উইন্ডো বন্ধ করুন (এবং টাস্ক ম্যানেজারে KillerPDF.exe আছে কি না দেখুন), তারপর আবার ইনস্টলার চালান।</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallWriteFailed" xml:space="preserve">ইনস্টল করা কপিটি এখানে লেখা যায়নি:&#10;{0}&#10;&#10;খোলা সব PDF Gilardi উইন্ডো বন্ধ করুন (এবং টাস্ক ম্যানেজারে PDF Gilardi.exe আছে কি না দেখুন), তারপর আবার ইনস্টলার চালান।</sys:String>
     <sys:String x:Key="Str_Dlg_InstallFailed" xml:space="preserve">ইনস্টলেশন ব্যর্থ হয়েছে:&#10;{0}</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallNoDesktopShortcut" xml:space="preserve">KillerPDF ইনস্টল হয়েছে, কিন্তু Windows ডেস্কটপ শর্টকাট তৈরি করতে দেয়নি:&#10;{0}&#10;&#10;স্টার্ট মেনু থেকে KillerPDF খুলুন।</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallNoDesktopShortcut" xml:space="preserve">PDF Gilardi ইনস্টল হয়েছে, কিন্তু Windows ডেস্কটপ শর্টকাট তৈরি করতে দেয়নি:&#10;{0}&#10;&#10;স্টার্ট মেনু থেকে PDF Gilardi খুলুন।</sys:String>
     <sys:String x:Key="Str_Dlg_UninstallElevationFailed" xml:space="preserve">আনইনস্টলের জন্য প্রশাসকের অনুমতি চাওয়া যায়নি:&#10;{0}</sys:String>
-    <sys:String x:Key="Str_Dlg_UninstallConfirm">এই কম্পিউটার থেকে KillerPDF আনইনস্টল করবেন?</sys:String>
-    <sys:String x:Key="Str_Dlg_UninstallStillRunning" xml:space="preserve">KillerPDF এখনও চলছে।&#10;এটি বন্ধ করে আবার আনইনস্টল করার চেষ্টা করুন।</sys:String>
-    <sys:String x:Key="Str_Dlg_UninstallNotInstalled" xml:space="preserve">এই KillerPDF এখানে ইনস্টল করা হয়নি, তাই কিছুই সরানো হয়নি।&#10;আর না চাইলে ফোল্ডারটি নিজে মুছে ফেলুন।</sys:String>
+    <sys:String x:Key="Str_Dlg_UninstallConfirm">এই কম্পিউটার থেকে PDF Gilardi আনইনস্টল করবেন?</sys:String>
+    <sys:String x:Key="Str_Dlg_UninstallStillRunning" xml:space="preserve">PDF Gilardi এখনও চলছে।&#10;এটি বন্ধ করে আবার আনইনস্টল করার চেষ্টা করুন।</sys:String>
+    <sys:String x:Key="Str_Dlg_UninstallNotInstalled" xml:space="preserve">এই PDF Gilardi এখানে ইনস্টল করা হয়নি, তাই কিছুই সরানো হয়নি।&#10;আর না চাইলে ফোল্ডারটি নিজে মুছে ফেলুন।</sys:String>
     <sys:String x:Key="Str_Btn_Uninstall">আনইনস্টল করুন</sys:String>
     <!-- Measure tool: types, scale, units, report -->
     <sys:String x:Key="Str_Measure_Distance">দূরত্ব</sys:String>
@@ -1821,7 +1821,7 @@ Windows সেটিংস - ডিফল্ট অ্যাপ খুলবে�
     <sys:String x:Key="Str_Tray_Exit">প্রস্থান</sys:String>
     <sys:String x:Key="Str_Watch_Title">স্বয়ংক্রিয় ফোল্ডার</sys:String>
     <sys:String x:Key="Str_Watch_Intro">সংরক্ষিত ম্যাক্রো চালিয়ে আউটপুট ফোল্ডারে নতুন কপি সংরক্ষণ করতে ইনপুট ফোল্ডারে PDF রাখুন।</sys:String>
-    <sys:String x:Key="Str_Watch_RunningNote">KillerPDF খোলা থাকলে চলে, সিস্টেম ট্রেতে থাকলেও। মূল ফাইল ও বিদ্যমান আউটপুট অক্ষত থাকে।</sys:String>
+    <sys:String x:Key="Str_Watch_RunningNote">PDF Gilardi খোলা থাকলে চলে, সিস্টেম ট্রেতে থাকলেও। মূল ফাইল ও বিদ্যমান আউটপুট অক্ষত থাকে।</sys:String>
     <sys:String x:Key="Str_Watch_Input">ইনপুট ফোল্ডার</sys:String>
     <sys:String x:Key="Str_Watch_Output">আউটপুট ফোল্ডার</sys:String>
     <sys:String x:Key="Str_Watch_Filter">ফাইলের নামের ফিল্টার</sys:String>
@@ -1929,11 +1929,11 @@ Windows সেটিংস - ডিফল্ট অ্যাপ খুলবে�
     <sys:String x:Key="Str_CmpRpt_Summary">পরিবর্তিত পৃষ্ঠা: {0}, অনুপস্থিত পৃষ্ঠা: {1}, মিলে যাওয়া পৃষ্ঠা: {2}</sys:String>
     <sys:String x:Key="Str_Read_Comment">মন্তব্য: {0}</sys:String>
     <sys:String x:Key="Str_Read_CommentBy">{0}-এর মন্তব্য: {1}</sys:String>
-    <sys:String x:Key="Str_Dlg_RenderRecovered">উইন্ডোটি আর দেখাতে না পারায় KillerPDF আবার চালু হয়েছে। আপনার অসংরক্ষিত পরিবর্তনগুলো পুনরুদ্ধার করে আবার খোলা হয়েছে, সংরক্ষণের জন্য প্রস্তুত।&#10;&#10;কপিগুলো {0}-এও রাখা আছে। এই সেশনে সফটওয়্যার রেন্ডারিং ব্যবহৃত হচ্ছে।</sys:String>
+    <sys:String x:Key="Str_Dlg_RenderRecovered">উইন্ডোটি আর দেখাতে না পারায় PDF Gilardi আবার চালু হয়েছে। আপনার অসংরক্ষিত পরিবর্তনগুলো পুনরুদ্ধার করে আবার খোলা হয়েছে, সংরক্ষণের জন্য প্রস্তুত।&#10;&#10;কপিগুলো {0}-এও রাখা আছে। এই সেশনে সফটওয়্যার রেন্ডারিং ব্যবহৃত হচ্ছে।</sys:String>
     <sys:String x:Key="Str_Dlg_RenderRecoveryIncomplete">কিছু নথি সম্পূর্ণ পুনরুদ্ধার করা যায়নি:&#10;{0}&#10;&#10;উপলব্ধ পুনরুদ্ধার ফাইল এখানে রাখা হয়েছে: {1}। সংরক্ষণের আগে পুনরুদ্ধার করা কপিগুলো পর্যালোচনা করুন।</sys:String>
     <sys:String x:Key="Str_Dlg_RenderRecoveryNotReopened">কিছু নথি সম্পূর্ণ পুনরুদ্ধার করা যায়নি:&#10;{0}&#10;&#10;উপলব্ধ পুনরুদ্ধার ফাইল এখানে রাখা হয়েছে: {1}।</sys:String>
     <sys:String x:Key="Str_Dlg_RenderRecoveryNoFolder">রিকভারি কপির জন্য কোনো ফোল্ডার পাওয়া যায়নি, তাই অসংরক্ষিত পরিবর্তনগুলো রাখা যায়নি।</sys:String>
-    <sys:String x:Key="Str_Dlg_RenderRestarted">উইন্ডোটি আর দেখাতে না পারায় KillerPDF আবার চালু হয়েছে। আপনার খোলা ডকুমেন্টগুলো আবার খোলা হয়েছে। এই সেশনে সফটওয়্যার রেন্ডারিং ব্যবহৃত হচ্ছে।</sys:String>
+    <sys:String x:Key="Str_Dlg_RenderRestarted">উইন্ডোটি আর দেখাতে না পারায় PDF Gilardi আবার চালু হয়েছে। আপনার খোলা ডকুমেন্টগুলো আবার খোলা হয়েছে। এই সেশনে সফটওয়্যার রেন্ডারিং ব্যবহৃত হচ্ছে।</sys:String>
     <sys:String x:Key="Str_Read_MarkedText">চিহ্নিত লেখা: &quot;{0}&quot;</sys:String>
     <sys:String x:Key="Str_Read_MarkedNoText">চিহ্নিত লেখা</sys:String>
     <sys:String x:Key="Str_Read_Drawing">আঁকা</sys:String>
@@ -1947,7 +1947,7 @@ Windows সেটিংস - ডিফল্ট অ্যাপ খুলবে�
     <sys:String x:Key="Str_Color_Yellow">হলুদ</sys:String>
     <sys:String x:Key="Str_Color_Magenta">ম্যাজেন্টা</sys:String>
     <sys:String x:Key="Str_CertCatalog_Title">সার্টিফিকেট</sys:String>
-    <sys:String x:Key="Str_CertCatalog_Hint">Windows সার্টিফিকেটগুলো শুধু পড়া যায়। আমদানি করা সার্টিফিকেট শুধু KillerPDF-এ সংরক্ষিত থাকে। আমদানি করলেই কোনো সার্টিফিকেট বিশ্বস্ত হয় না।</sys:String>
+    <sys:String x:Key="Str_CertCatalog_Hint">Windows সার্টিফিকেটগুলো শুধু পড়া যায়। আমদানি করা সার্টিফিকেট শুধু PDF Gilardi-এ সংরক্ষিত থাকে। আমদানি করলেই কোনো সার্টিফিকেট বিশ্বস্ত হয় না।</sys:String>
     <sys:String x:Key="Str_CertCatalog_Search">সার্টিফিকেট খুঁজুন</sys:String>
     <sys:String x:Key="Str_CertCatalog_Empty">আপনার অনুসন্ধানের সঙ্গে কোনো সার্টিফিকেট মেলেনি।</sys:String>
     <sys:String x:Key="Str_CertCatalog_Import">সার্টিফিকেট আমদানি করুন</sys:String>
@@ -1965,21 +1965,21 @@ Windows সেটিংস - ডিফল্ট অ্যাপ খুলবে�
     <sys:String x:Key="Str_CertCatalog_WindowsMachineRoots">Windows: কম্পিউটারের রুট সার্টিফিকেট</sys:String>
     <sys:String x:Key="Str_CertCatalog_WindowsUserIntermediates">Windows: বর্তমান ব্যবহারকারীর মধ্যবর্তী সার্টিফিকেট</sys:String>
     <sys:String x:Key="Str_CertCatalog_WindowsMachineIntermediates">Windows: কম্পিউটারের মধ্যবর্তী সার্টিফিকেট</sys:String>
-    <sys:String x:Key="Str_CertCatalog_Local">KillerPDF</sys:String>
+    <sys:String x:Key="Str_CertCatalog_Local">PDF Gilardi</sys:String>
     <sys:String x:Key="Str_CertCatalog_Trusted">বিশ্বস্ত রুট</sys:String>
     <sys:String x:Key="Str_CertCatalog_Untrusted">বিশ্বস্ত নয়</sys:String>
     <sys:String x:Key="Str_CertCatalog_Expired">মেয়াদ শেষ</sys:String>
     <sys:String x:Key="Str_CertCatalog_NotYetValid">এখনও বৈধ নয়</sys:String>
-    <sys:String x:Key="Str_CertCatalog_TrustPrompt">KillerPDF-এ "{0}"-কে রুট হিসেবে বিশ্বাস করবেন? তাহলে এর ইস্যু করা সার্টিফিকেটগুলো স্বাক্ষর যাচাইয়ের জন্য গ্রহণ করা যেতে পারে। Windows-এর বিশ্বাসের সেটিংস অপরিবর্তিত থাকবে।</sys:String>
-    <sys:String x:Key="Str_CertCatalog_RemovePrompt">KillerPDF সার্টিফিকেট ক্যাটালগ থেকে "{0}" সরাবেন?</sys:String>
+    <sys:String x:Key="Str_CertCatalog_TrustPrompt">PDF Gilardi-এ "{0}"-কে রুট হিসেবে বিশ্বাস করবেন? তাহলে এর ইস্যু করা সার্টিফিকেটগুলো স্বাক্ষর যাচাইয়ের জন্য গ্রহণ করা যেতে পারে। Windows-এর বিশ্বাসের সেটিংস অপরিবর্তিত থাকবে।</sys:String>
+    <sys:String x:Key="Str_CertCatalog_RemovePrompt">PDF Gilardi সার্টিফিকেট ক্যাটালগ থেকে "{0}" সরাবেন?</sys:String>
     <sys:String x:Key="Str_CertCatalog_Error">সার্টিফিকেট ক্যাটালগ হালনাগাদ করা যায়নি:</sys:String>
     <sys:String x:Key="Str_CertCatalog_LoadError">সার্টিফিকেট তালিকা পড়া যায়নি:</sys:String>
     <sys:String x:Key="Str_CertCatalog_WrongFileType">একটি পাবলিক সার্টিফিকেট ফাইল বেছে নিন (.cer, .crt বা .pem)।</sys:String>
     <sys:String x:Key="Str_CertCatalog_NotACertificate">ফাইলটিতে পড়ার যোগ্য কোনো পাবলিক সার্টিফিকেট নেই।</sys:String>
     <sys:String x:Key="Str_CertCatalog_PrivateKey">প্রাইভেট কী ও PFX ফাইল গ্রহণযোগ্য নয়। শুধু পাবলিক সার্টিফিকেট ইমপোর্ট করুন।</sys:String>
     <sys:String x:Key="Str_CertCatalog_TooLarge">সার্টিফিকেট ফাইলটি খালি বা খুব বড়।</sys:String>
-    <sys:String x:Key="Str_CertCatalog_Full">KillerPDF সর্বোচ্চ {0}টি ইমপোর্ট করা সার্টিফিকেট রাখতে পারে।</sys:String>
-    <sys:String x:Key="Str_CertCatalog_Damaged">KillerPDF সার্টিফিকেট ক্যাটালগ পড়া যায়নি এবং এটি অপরিবর্তিত রাখা হয়েছে। স্বাক্ষর শুধু Windows ট্রাস্ট দিয়ে যাচাই করা হচ্ছে। নতুন করে শুরু করতে {0} মুছে ফেলুন।</sys:String>
+    <sys:String x:Key="Str_CertCatalog_Full">PDF Gilardi সর্বোচ্চ {0}টি ইমপোর্ট করা সার্টিফিকেট রাখতে পারে।</sys:String>
+    <sys:String x:Key="Str_CertCatalog_Damaged">PDF Gilardi সার্টিফিকেট ক্যাটালগ পড়া যায়নি এবং এটি অপরিবর্তিত রাখা হয়েছে। স্বাক্ষর শুধু Windows ট্রাস্ট দিয়ে যাচাই করা হচ্ছে। নতুন করে শুরু করতে {0} মুছে ফেলুন।</sys:String>
     <sys:String x:Key="Str_CertCatalog_Imported">{0}টি সার্টিফিকেট আমদানি করা হয়েছে। রুট হিসেবে বিশ্বাস করুন বেছে নেওয়ার আগে রুট সার্টিফিকেটটি পর্যালোচনা করুন।</sys:String>
     <sys:String x:Key="Str_CertCatalog_ReadOnly">Windows দ্বারা পরিচালিত।</sys:String>
     <sys:String x:Key="Str_CertCatalog_Type">সার্টিফিকেটের ধরন</sys:String>
@@ -2013,7 +2013,7 @@ Windows সেটিংস - ডিফল্ট অ্যাপ খুলবে�
     <sys:String x:Key="Str_Filter_Json">JSON ডকুমেন্ট</sys:String>
     <sys:String x:Key="Str_Dlg_RepairAskOpen">"{0}" খোলা যায়নি, কারণ এর কাঠামো ক্ষতিগ্রস্ত হতে পারে।
 
-KillerPDF কি মেরামতের চেষ্টা করবে? একটি মেরামত করা কপি তৈরি হবে। মূল ফাইল বদলাবে না।
+PDF Gilardi কি মেরামতের চেষ্টা করবে? একটি মেরামত করা কপি তৈরি হবে। মূল ফাইল বদলাবে না।
 
 দ্রষ্টব্য: মেরামত করা ফাইলে বুকমার্ক, ফর্ম ও অন্যান্য ইন্টারঅ্যাক্টিভ বৈশিষ্ট্য নাও থাকতে পারে।</sys:String>
     <sys:String x:Key="Str_Dlg_OpenedReadOnlyXRef">"{0}"-এর কাঠামো অ-মানক, তাই এটি শুধুমাত্র পঠনযোগ্য মোডে খোলা হয়েছে।

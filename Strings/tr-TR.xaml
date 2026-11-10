@@ -3,7 +3,7 @@
                     xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
     <!-- ================================================================
-         KillerPDF  -  Türkçe (tr-TR) metinleri
+         PDF Gilardi  -  Türkçe (tr-TR) metinleri
          ================================================================ -->
 
     <!-- ── Araç çubuğu ipuçları ─────────────────────────────────────── -->
@@ -123,7 +123,7 @@ Sayfa, işaretli alanları karartılmış kendi görüntüsüyle değiştirilebi
     <sys:String x:Key="Str_TT_CollapseSidebar">Kenar çubuğunu daralt (F9)</sys:String>
     <sys:String x:Key="Str_TT_ExpandSidebar">Kenar çubuğunu genişlet (F9)</sys:String>
     <sys:String x:Key="Str_TT_KeyboardShortcuts">Klavye kısayolları (F1)</sys:String>
-    <sys:String x:Key="Str_TT_About">KillerPDF Hakkında (F12)</sys:String>
+    <sys:String x:Key="Str_TT_About">PDF Gilardi Hakkında (F12)</sys:String>
 
     <!-- ── Hakkında katmanı ──────────────────────────────────────────── -->
     <sys:String x:Key="Str_About_Version">SÜRÜM</sys:String>
@@ -215,7 +215,7 @@ Sayfa, işaretli alanları karartılmış kendi görüntüsüyle değiştirilebi
     <sys:String x:Key="Str_Ready">Hazır</sys:String>
     <sys:String x:Key="Str_Status_Ready">Hazır</sys:String>
     <sys:String x:Key="Str_Portable">KURULUMSUZ</sys:String>
-    <sys:String x:Key="Str_InstallBtn">KillerPDF'i yükle</sys:String>
+    <sys:String x:Key="Str_InstallBtn">PDF Gilardi'i yükle</sys:String>
 
     <!-- ── Durum mesajları (biçim dizeleri - string.Format kullanır) ── -->
     <sys:String x:Key="Str_Opened">Açıldı {0} - {1} sayfa</sys:String>
@@ -233,18 +233,18 @@ Sayfa, işaretli alanları karartılmış kendi görüntüsüyle değiştirilebi
     <sys:String x:Key="Str_Print_LowQuality_Prompt">“{0}” yalnızca düşük kalitede yazdırmaya izin veriyor. Tam kalitede yazdırmak için sahip parolasını girin veya düşük kalitede yazdırmak için iptal edin.</sys:String>
     <sys:String x:Key="Str_Print_Refused_Certificate">Yazdırmaya izin verilmiyor. Bu PDF’nin şifrelendiği sertifika yazdırmaya izin vermiyor ve hiçbir parola bunu kaldırmaz.</sys:String>
     <sys:String x:Key="Str_Protection_Prompt">“{0}” sahibinin koyduğu sınırları taşıyor ve bu işlem onu bu sınırlar olmadan yazar. Devam etmek için sahip parolasını girin.</sys:String>
-    <sys:String x:Key="Str_Protection_Refused">Hiçbir şey yazılmadı. Sonuç, bu PDF’nin sahibinin koyduğu sınırları korumazdı; KillerPDF bunu yalnızca sahip parolasıyla yazar.</sys:String>
+    <sys:String x:Key="Str_Protection_Refused">Hiçbir şey yazılmadı. Sonuç, bu PDF’nin sahibinin koyduğu sınırları korumazdı; PDF Gilardi bunu yalnızca sahip parolasıyla yazar.</sys:String>
     <sys:String x:Key="Str_Protection_Refused_Certificate">Hiçbir şey yazılmadı. Sonuç, sertifikanız için konan sınırları korumazdı; bunları hiçbir parola kaldırmaz.</sys:String>
-    <sys:String x:Key="Str_Protection_Unreadable">KillerPDF bu PDF’nin korumasını okuyamadı, bu yüzden hiçbir şey kaydedilmedi veya yazdırılmadı. {0} Yeniden deneyin ya da sekmeyi kapatıp dosyayı yeniden açın.</sys:String>
-    <sys:String x:Key="Str_Print_Refused">Yazdırmaya izin verilmiyor. Bu PDF’nin sahibi yazdırmayı kısıtlamış; KillerPDF bunu yalnızca sahip parolasıyla yazdırır.</sys:String>
+    <sys:String x:Key="Str_Protection_Unreadable">PDF Gilardi bu PDF’nin korumasını okuyamadı, bu yüzden hiçbir şey kaydedilmedi veya yazdırılmadı. {0} Yeniden deneyin ya da sekmeyi kapatıp dosyayı yeniden açın.</sys:String>
+    <sys:String x:Key="Str_Print_Refused">Yazdırmaya izin verilmiyor. Bu PDF’nin sahibi yazdırmayı kısıtlamış; PDF Gilardi bunu yalnızca sahip parolasıyla yazdırır.</sys:String>
     <sys:String x:Key="Str_Restricted_UnlockFailed">Bu sahip parolası, ancak “{0}” kilidi açılamadı: {1}</sys:String>
     <sys:String x:Key="Str_St_SavedProtected">Korumasıyla kaydedildi - {0}</sys:String>
     <sys:String x:Key="Str_Form_TwinsKept">Aynı adı taşıyan alanların hepsi değeri alamadı, bu yüzden artık farklılar: {0}</sys:String>
-    <sys:String x:Key="Str_Restricted_OwnerRequired">“{0}” düzenlemeyi kısıtlıyor, bu yüzden KillerPDF’nin açmak için sahip parolasına ihtiyacı var.</sys:String>
+    <sys:String x:Key="Str_Restricted_OwnerRequired">“{0}” düzenlemeyi kısıtlıyor, bu yüzden PDF Gilardi’nin açmak için sahip parolasına ihtiyacı var.</sys:String>
     <sys:String x:Key="Str_OpenedReadOnlyXRef">Açıldı {0} (salt okunur - standart dışı XRef tablosu) - {1} sayfa</sys:String>
     <sys:String x:Key="Str_OpenedRepaired">Açıldı {0} (onarılmış kopya - değişiklikleri korumak için kaydedin) - {1} sayfa</sys:String>
     <sys:String x:Key="Str_Save_ReferenceRepairs">Bozuk başvurular onarılarak kaydedildi. Eksik içerik kurtarılmadı.</sys:String>
-    <sys:String x:Key="Str_Save_DamagedEncrypted">Bu PDF hasarlı ve parola korumalı olduğundan KillerPDF onu onaramaz veya kaydedemez. Özgün dosya değiştirilmedi.</sys:String>
+    <sys:String x:Key="Str_Save_DamagedEncrypted">Bu PDF hasarlı ve parola korumalı olduğundan PDF Gilardi onu onaramaz veya kaydedemez. Özgün dosya değiştirilmedi.</sys:String>
     <sys:String x:Key="Str_Save_DamagedSigned">Bu PDF hasarlı ve dijital imza içeriyor. Kaydetmek imzayı bozacağından dosya değiştirilmedi.</sys:String>
     <sys:String x:Key="Str_Save_DamagedCertified">Bu PDF hasarlı ve yazarı tarafından sertifikalandırılmış. Kaydetmek sertifikasyonu bozacağından dosya değiştirilmedi.</sys:String>
     <sys:String x:Key="Str_Save_DamagedUsageRights">Bu PDF hasarlı ve Reader kullanım haklarını içeriyor. Kaydetmek bu hakları bozacağından dosya değiştirilmedi.</sys:String>
@@ -278,39 +278,39 @@ Kaydetmek dosyayı değiştirir ve imzasını kaldırır. İmzalı dosyayı koru
 Şimdi kaydetmek dosyanın üzerine yazar ve bu değişiklikler kaybolur. Korumak istiyorsanız önce diğer bölmeyi kaydedin.</sys:String>
     <sys:String x:Key="Str_St_SplitOn">Bölünmüş görünüm açık - kapatmak için F10</sys:String>
     <sys:String x:Key="Str_St_SplitOff">Bölünmüş görünüm kapalı</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallTitle">KillerPDF'i Yükle</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallMsg">KillerPDF bu bilgisayara yüklensin mi?</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallTitle">PDF Gilardi'i Yükle</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallMsg">PDF Gilardi bu bilgisayara yüklensin mi?</sys:String>
     <sys:String x:Key="Str_Dlg_InstallBullets">Yükleme, daha hızlı başlatma için uygulamayı Programlar klasörünüze kopyalar ve bir Başlat Menüsü girdisi ekler. Bu taşınabilir dosyayı daha sonra saklayabilir veya silebilirsiniz.</sys:String>
-    <sys:String x:Key="Str_Install_AlreadyAllUsers">KillerPDF bu bilgisayarda tüm kullanıcılar için zaten yüklü, bu nedenle o kopya güncellenecek. Windows izin isteyecek.</sys:String>
+    <sys:String x:Key="Str_Install_AlreadyAllUsers">PDF Gilardi bu bilgisayarda tüm kullanıcılar için zaten yüklü, bu nedenle o kopya güncellenecek. Windows izin isteyecek.</sys:String>
     <sys:String x:Key="Str_Dlg_SaveBeforeInstall">Lütfen yüklemeden önce değişikliklerinizi kaydedin.</sys:String>
     <sys:String x:Key="Str_Btn_DoInstall">Yükle</sys:String>
     <sys:String x:Key="Str_Btn_DoUpdate">Güncelle</sys:String>
-    <sys:String x:Key="Str_Dlg_UpdateUserMsg" xml:space="preserve">Mevcut KillerPDF kurulumu güncellensin mi?
+    <sys:String x:Key="Str_Dlg_UpdateUserMsg" xml:space="preserve">Mevcut PDF Gilardi kurulumu güncellensin mi?
 
 Kurulu kopya, daha hızlı çok dosyalı sürümle değiştirilir. Bu taşınabilir dosyayı daha sonra saklayabilir veya silebilirsiniz.</sys:String>
-    <sys:String x:Key="Str_Dlg_UpdateMachineMsg" xml:space="preserve">KillerPDF'in tüm kullanıcılar için mevcut kurulumu güncellensin mi?
+    <sys:String x:Key="Str_Dlg_UpdateMachineMsg" xml:space="preserve">PDF Gilardi'in tüm kullanıcılar için mevcut kurulumu güncellensin mi?
 
-Program Files içindeki kopya, daha hızlı çok dosyalı sürümle değiştirilir. Eski kullanıcı başına kopya kaldırılır, böylece KillerPDF yalnızca bir kez görünür. Bu taşınabilir dosyayı daha sonra saklayabilir veya silebilirsiniz.</sys:String>
-    <sys:String x:Key="Str_Dlg_OneInstallOnly" xml:space="preserve">KillerPDF bu bilgisayarda zaten tüm kullanıcılar için kurulu. Kullanıcı başına kurulum seçmeden önce bu kurulumu güncelleyin veya kaldırın.
+Program Files içindeki kopya, daha hızlı çok dosyalı sürümle değiştirilir. Eski kullanıcı başına kopya kaldırılır, böylece PDF Gilardi yalnızca bir kez görünür. Bu taşınabilir dosyayı daha sonra saklayabilir veya silebilirsiniz.</sys:String>
+    <sys:String x:Key="Str_Dlg_OneInstallOnly" xml:space="preserve">PDF Gilardi bu bilgisayarda zaten tüm kullanıcılar için kurulu. Kullanıcı başına kurulum seçmeden önce bu kurulumu güncelleyin veya kaldırın.
 
-KillerPDF iki kurulu kopya oluşturmaz.</sys:String>
+PDF Gilardi iki kurulu kopya oluşturmaz.</sys:String>
     <sys:String x:Key="Str_Chk_Desktop">Masaüstü kısayolu ekle</sys:String>
     <sys:String x:Key="Str_Chk_AllUsers">Bu bilgisayardaki herkes için yükle (yönetici gerekir)</sys:String>
-    <sys:String x:Key="Str_Status_InstallFailed">Yükleme tamamlanmadı - KillerPDF hâlâ taşınabilir olarak çalışıyor.</sys:String>
-    <sys:String x:Key="Str_Status_RelaunchDeferred">Kurulum tamamlandı. Kurulum sırasında değiştirilen çalışmayı korumak için KillerPDF açık kaldı.</sys:String>
-    <sys:String x:Key="Str_Dlg_SetDefaultPdfMsg" xml:space="preserve">KillerPDF varsayılan PDF görüntüleyiciniz olarak ayarlansın mı?
+    <sys:String x:Key="Str_Status_InstallFailed">Yükleme tamamlanmadı - PDF Gilardi hâlâ taşınabilir olarak çalışıyor.</sys:String>
+    <sys:String x:Key="Str_Status_RelaunchDeferred">Kurulum tamamlandı. Kurulum sırasında değiştirilen çalışmayı korumak için PDF Gilardi açık kaldı.</sys:String>
+    <sys:String x:Key="Str_Dlg_SetDefaultPdfMsg" xml:space="preserve">PDF Gilardi varsayılan PDF görüntüleyiciniz olarak ayarlansın mı?
 
 Windows Ayarları - Varsayılan Uygulamalar bölümünü açar.</sys:String>
     <sys:String x:Key="Str_Dlg_UnsavedClose">Bu dosyada kaydedilmemiş değişiklikler var. Kapatılmadan önce kaydedilsin mi?</sys:String>
-    <sys:String x:Key="Str_Dlg_UnsavedExit">Kaydedilmemiş değişiklikleriniz var. KillerPDF kapatılmadan önce kaydedilsin mi?</sys:String>
+    <sys:String x:Key="Str_Dlg_UnsavedExit">Kaydedilmemiş değişiklikleriniz var. PDF Gilardi kapatılmadan önce kaydedilsin mi?</sys:String>
     <sys:String x:Key="Str_Dlg_PageOutOfRange" xml:space="preserve">Bu belgede Adobe Reader'ın desteklediği aralığın (kenar başına 3 - 14.400 punto) dışında boyutlandırılmış {0} sayfa var - Adobe bu sayfaları boş gösterir.
 
 Desteklenen bir boyuta ölçeklensin mi? Sayfaların görünümü ve oranları korunur.</sys:String>
     <sys:String x:Key="Str_Dlg_FailedOpen" xml:space="preserve">PDF açılamadı:
 {0}</sys:String>
-    <sys:String x:Key="Str_Dlg_AppTitle">KillerPDF</sys:String>
-    <sys:String x:Key="Str_Dlg_CloseAllDocs">{0} açık belgeniz var. Uygulamadan çıkarken KillerPDF hepsini kapatsın mı?</sys:String>
-    <sys:String x:Key="Str_Dlg_CloseAllDocsOne">1 açık belgeniz var. Uygulamadan çıkarken KillerPDF onu kapatsın mı?</sys:String>
+    <sys:String x:Key="Str_Dlg_AppTitle">PDF Gilardi</sys:String>
+    <sys:String x:Key="Str_Dlg_CloseAllDocs">{0} açık belgeniz var. Uygulamadan çıkarken PDF Gilardi hepsini kapatsın mı?</sys:String>
+    <sys:String x:Key="Str_Dlg_CloseAllDocsOne">1 açık belgeniz var. Uygulamadan çıkarken PDF Gilardi onu kapatsın mı?</sys:String>
     <sys:String x:Key="Str_Dlg_RememberChoice">Seçimimi hatırla</sys:String>
 
 
@@ -446,7 +446,7 @@ Desteklenen bir boyuta ölçeklensin mi? Sayfaların görünümü ve oranları k
     <sys:String x:Key="Str_Pos_TopLeft">Üst Sol</sys:String>
 
     <!-- ── Print dialog ───────────────────────────────────────────────── -->
-    <sys:String x:Key="Str_Print_Title">KillerPDF - Yazdır</sys:String>
+    <sys:String x:Key="Str_Print_Title">PDF Gilardi - Yazdır</sys:String>
     <sys:String x:Key="Str_Print_Rendering">Oluşturuluyor {0} / {1}</sys:String>
     <sys:String x:Key="Str_Print_IncompletePages">Bazı içerikler tam olarak çizilemedi. {0} sayfaları gösterildiği gibi yazdırılır.</sys:String>
     <sys:String x:Key="Str_Print_Printer">Yazıcı</sys:String>
@@ -704,7 +704,7 @@ Desteklenen bir boyuta ölçeklensin mi? Sayfaların görünümü ve oranları k
     <sys:String x:Key="Str_Drop_RepairFailed">Dosya onarılamadığı için hiçbir şey birleştirilmedi.</sys:String>
     <sys:String x:Key="Str_Import_NoPages">{0} dosyasında sayfa yok, bu yüzden birleştirilecek bir şey yok.</sys:String>
     <sys:String x:Key="Str_Drop_ManyTabs">Bu, {0} ayrı sekme açacak. Devam edilsin mi?</sys:String>
-    <sys:String x:Key="Str_Drop_TooMany">Bu klasör veya arşiv {0} dosya içeriyor. KillerPDF yalnızca ilk {1} tanesini açacak. Devam edilsin mi?</sys:String>
+    <sys:String x:Key="Str_Drop_TooMany">Bu klasör veya arşiv {0} dosya içeriyor. PDF Gilardi yalnızca ilk {1} tanesini açacak. Devam edilsin mi?</sys:String>
     <sys:String x:Key="Str_Status_Merged">{0} dosya birleştirildi - henüz kaydedilmedi</sys:String>
     <sys:String x:Key="Str_Drop_Merging">Dosyalar birleştiriliyor...</sys:String>
     <sys:String x:Key="Str_Drop_MergeCanceled">Birleştirme iptal edildi</sys:String>
@@ -913,14 +913,14 @@ Desteklenen bir boyuta ölçeklensin mi? Sayfaların görünümü ve oranları k
     <sys:String x:Key="Str_KS_FullScreen">Tam ekran</sys:String>
     <sys:String x:Key="Str_FullScreen_Hint">Tam ekrandan çıkmak için F11 veya Esc'e basın</sys:String>
     <!-- Quit prompt -->
-    <sys:String x:Key="Str_Dlg_QuitMsg">KillerPDF'den çıkılsın mı?</sys:String>
+    <sys:String x:Key="Str_Dlg_QuitMsg">PDF Gilardi'den çıkılsın mı?</sys:String>
     <sys:String x:Key="Str_Chk_CloseTabs">Açık sekmelerimi kapat</sys:String>
     <sys:String x:Key="Str_Btn_Quit">Çık</sys:String>
     <sys:String x:Key="Str_Btn_CancelDlg">İptal</sys:String>
 
 
     <!-- Status-bar + dialog strings (extracted from code) -->
-    <sys:String x:Key="Str_St_DataCleared">Tüm KillerPDF verileri temizlendi</sys:String>
+    <sys:String x:Key="Str_St_DataCleared">Tüm PDF Gilardi verileri temizlendi</sys:String>
     <sys:String x:Key="Str_St_OcrRegionCanceled">OCR bölgesi iptal edildi</sys:String>
     <sys:String x:Key="Str_St_Erased">Silindi</sys:String>
     <sys:String x:Key="Str_St_Ungrouped">Grup çözüldü</sys:String>
@@ -968,7 +968,7 @@ Desteklenen bir boyuta ölçeklensin mi? Sayfaların görünümü ve oranları k
     <sys:String x:Key="Str_St_PastedText">Metin yapıştırıldı - yeniden konumlandırmak için sürükleyin, kaldırmak için Delete</sys:String>
     <sys:String x:Key="Str_St_ClipEmpty">Panoda yapıştırılacak bir şey yok</sys:String>
     <sys:String x:Key="Str_Dlg_SaveBeforeUpdate">Lütfen güncellemeden önce değişikliklerinizi kaydedin.</sys:String>
-    <sys:String x:Key="Str_Dlg_Uninstalled">KillerPDF kaldırıldı.</sys:String>
+    <sys:String x:Key="Str_Dlg_Uninstalled">PDF Gilardi kaldırıldı.</sys:String>
     <sys:String x:Key="Str_Dlg_SelectExtract">Çıkarılacak sayfaları seçin.</sys:String>
     <sys:String x:Key="Str_Dlg_SelectDelete">Silinecek sayfaları seçin.</sys:String>
     <sys:String x:Key="Str_Dlg_NoPrinter">Kullanılabilir yazıcı yok.</sys:String>
@@ -1221,7 +1221,7 @@ Desteklenen bir boyuta ölçeklensin mi? Sayfaların görünümü ve oranları k
     <sys:String x:Key="Str_Err_DuplicateFailed">Çoğaltma başarısız oldu:</sys:String>
     <sys:String x:Key="Str_Err_RepairFailed">Onarım başarısız oldu:</sys:String>
     <sys:String x:Key="Str_Err_OpenProtected">Korumalı PDF açılamadı:</sys:String>
-    <sys:String x:Key="Str_Err_WorkingCopy">KillerPDF bu PDF'nin çalışma kopyasını yazamadı. Diskte boş alan olup olmadığını denetleyin:</sys:String>
+    <sys:String x:Key="Str_Err_WorkingCopy">PDF Gilardi bu PDF'nin çalışma kopyasını yazamadı. Diskte boş alan olup olmadığını denetleyin:</sys:String>
     <sys:String x:Key="Str_Err_NewDocFailed">Yeni belge oluşturulamadı:</sys:String>
     <sys:String x:Key="Str_Err_FileNotFound">Dosya bulunamadı:</sys:String>
     <sys:String x:Key="Str_Err_MergeFailed">Birleştirme başarısız oldu:</sys:String>
@@ -1329,7 +1329,7 @@ Desteklenen bir boyuta ölçeklensin mi? Sayfaların görünümü ve oranları k
     <sys:String x:Key="Str_ScanReview_Text">Metin</sys:String>
     <sys:String x:Key="Str_Dlg_Repaired" xml:space="preserve">"{0}" başarıyla onarıldı.&#10;&#10;Yer imleri, formlar ve diğer etkileşimli özellikler kaybolmuş olabilir. Onarılan dosyayı yeni bir konuma yazmak için Farklı Kaydet'i kullanın.</sys:String>
     <sys:String x:Key="Str_Dlg_RepairedRaster" xml:space="preserve">"{0}" sayfaları rasterleştirilerek onarıldı.&#10;&#10;Onarılan kopyada metin seçilemez. Yeni bir konuma yazmak için Farklı Kaydet'i kullanın.</sys:String>
-    <sys:String x:Key="Str_Dlg_RepairAsk" xml:space="preserve">"{0}" hasarlı bir yapıya sahip ve eklenemedi.&#10;&#10;KillerPDF onarmayı denesin mi? Onarılmış bir kopya oluşturulacak. Özgün dosya değiştirilmeyecek.&#10;&#10;Not: onarılan dosyalarda yer imleri, formlar ve diğer etkileşimli özellikler eksik olabilir.</sys:String>
+    <sys:String x:Key="Str_Dlg_RepairAsk" xml:space="preserve">"{0}" hasarlı bir yapıya sahip ve eklenemedi.&#10;&#10;PDF Gilardi onarmayı denesin mi? Onarılmış bir kopya oluşturulacak. Özgün dosya değiştirilmeyecek.&#10;&#10;Not: onarılan dosyalarda yer imleri, formlar ve diğer etkileşimli özellikler eksik olabilir.</sys:String>
     <sys:String x:Key="Str_Dlg_LangDownloadAsk" xml:space="preserve">OCR'nin çalışabilmesi için şimdi bir dil modeli ({0}) indirilecek.&#10;&#10;OCR menüsünden istediğiniz zaman başka diller ekleyebilir veya daha yüksek kaliteli modellere geçebilirsiniz.</sys:String>
     <sys:String x:Key="Str_Bar_More">Diğer ayarlar</sys:String>
     <sys:String x:Key="Str_Bar_TT_Level">Çizgiyi en yakın eksende tutar (yatay veya dikey)</sys:String>
@@ -1343,7 +1343,7 @@ Desteklenen bir boyuta ölçeklensin mi? Sayfaların görünümü ve oranları k
     <sys:String x:Key="Str_TT_SaveOptions">Kaydetme seçenekleri</sys:String>
     <sys:String x:Key="Str_TT_OcrOptions">OCR seçenekleri</sys:String>
     <sys:String x:Key="Str_RecentHeading">SON KULLANILANLAR</sys:String>
-    <sys:String x:Key="Str_KS_WindowTitle">KillerPDF - Klavye kısayolları</sys:String>
+    <sys:String x:Key="Str_KS_WindowTitle">PDF Gilardi - Klavye kısayolları</sys:String>
     <sys:String x:Key="Str_About_UpdateAvailable">Güncelleme var: {0}</sys:String>
     <sys:String x:Key="Str_About_Unsigned">(not signed or chain failed)</sys:String>
     <sys:String x:Key="Str_About_Downloading">İndiriliyor...</sys:String>
@@ -1355,11 +1355,11 @@ Desteklenen bir boyuta ölçeklensin mi? Sayfaların görünümü ve oranları k
     <sys:String x:Key="Str_About_NotNow">Şimdi değil</sys:String>
     <sys:String x:Key="Str_About_AlwaysCheckOnStartup">Başlangıçta her zaman güncellemeleri denetle</sys:String>
     <sys:String x:Key="Str_UpdateRestartPrepareFailed">Güncelleme hazırlanamadı. Kaydedilmiş PDF dosyalarınız değişmedi. Lütfen tekrar deneyin.</sys:String>
-    <sys:String x:Key="Str_UpdateRestartRestoreFailed">KillerPDF önceki çalışma oturumunuzu yeniden açamadı. Kaydedilmiş PDF dosyalarınız değişmedi.</sys:String>
+    <sys:String x:Key="Str_UpdateRestartRestoreFailed">PDF Gilardi önceki çalışma oturumunuzu yeniden açamadı. Kaydedilmiş PDF dosyalarınız değişmedi.</sys:String>
     <sys:String x:Key="Str_ClearAllData">Tüm verileri temizle</sys:String>
     <sys:String x:Key="Str_ClearDataConfirm" xml:space="preserve">Bu işlem kayıtlı tüm ayarları, indirilen OCR dil paketlerini ve geçici dosyaları siler.&#10;&#10;PDF dosyalarınız etkilenmez. Devam edilsin mi?</sys:String>
-    <sys:String x:Key="Str_ClearDataDone" xml:space="preserve">Ayarlar, dil paketleri ve geçici dosyalar temizlendi.&#10;&#10;Bu oturumda hâlâ kullanımda olan dosyaların temizlenmesini tamamlamak için KillerPDF'i yeniden başlatın.</sys:String>
-    <sys:String x:Key="Str_Crash_Title">KillerPDF - Beklenmeyen hata</sys:String>
+    <sys:String x:Key="Str_ClearDataDone" xml:space="preserve">Ayarlar, dil paketleri ve geçici dosyalar temizlendi.&#10;&#10;Bu oturumda hâlâ kullanımda olan dosyaların temizlenmesini tamamlamak için PDF Gilardi'i yeniden başlatın.</sys:String>
+    <sys:String x:Key="Str_Crash_Title">PDF Gilardi - Beklenmeyen hata</sys:String>
     <sys:String x:Key="Str_Crash_Log">Günlük: {0}</sys:String>
     <sys:String x:Key="Str_Crash_Copy">Raporu kopyala</sys:String>
     <sys:String x:Key="Str_Crash_OpenLogs">Günlükleri aç</sys:String>
@@ -1431,17 +1431,17 @@ Desteklenen bir boyuta ölçeklensin mi? Sayfaların görünümü ve oranları k
     <sys:String x:Key="Str_Compare_DetailsTitle">Kıyaslama Detayları</sys:String>
 
     <!-- ── Browser handoff refusals ────────────────────────────────────── -->
-    <sys:String x:Key="Str_Handoff_Failed">KillerPDF tarayıcı PDF&apos;sini açamadı.</sys:String>
-    <sys:String x:Key="Str_Handoff_UnknownCommand">Bu tarayıcı komutu KillerPDF&apos;nin bildiği bir komut değil.</sys:String>
+    <sys:String x:Key="Str_Handoff_Failed">PDF Gilardi tarayıcı PDF&apos;sini açamadı.</sys:String>
+    <sys:String x:Key="Str_Handoff_UnknownCommand">Bu tarayıcı komutu PDF Gilardi&apos;nin bildiği bir komut değil.</sys:String>
     <sys:String x:Key="Str_Handoff_MissingUrl">Devir teslimde PDF adresi yoktu.</sys:String>
     <sys:String x:Key="Str_Handoff_MalformedUrl">Devir teslimindeki PDF adresi okunamadı.</sys:String>
-    <sys:String x:Key="Str_Handoff_SchemeNotAllowed">KillerPDF yalnızca https üzerinden tarayıcı aktarımlarını açar.</sys:String>
+    <sys:String x:Key="Str_Handoff_SchemeNotAllowed">PDF Gilardi yalnızca https üzerinden tarayıcı aktarımlarını açar.</sys:String>
     <sys:String x:Key="Str_Handoff_Unusable">Tarayıcı devri kullanılamadı.</sys:String>
     <sys:String x:Key="Str_Handoff_TooLarge">PDF, 256 MB tarayıcı aktarım sınırından daha büyük.</sys:String>
     <sys:String x:Key="Str_Handoff_NotPdf">İndirilen dosya bir PDF değil.</sys:String>
-    <sys:String x:Key="Str_Handoff_DownloadFailed">KillerPDF PDF&apos;yi indiremedi.</sys:String>
+    <sys:String x:Key="Str_Handoff_DownloadFailed">PDF Gilardi PDF&apos;yi indiremedi.</sys:String>
     <sys:String x:Key="Str_Handoff_TimedOut">PDF indirme işlemi zaman aşımına uğradı.</sys:String>
-    <sys:String x:Key="Str_Handoff_FileError">KillerPDF indirilen PDF&apos;yi kaydedemedi veya okuyamadı.</sys:String>
+    <sys:String x:Key="Str_Handoff_FileError">PDF Gilardi indirilen PDF&apos;yi kaydedemedi veya okuyamadı.</sys:String>
     <sys:String x:Key="Str_St_FormFieldDrag">Doldurulabilir metin alanı oluşturmak için sürükleyin</sys:String>
     <sys:String x:Key="Str_St_FormFieldCanceled">Doldurulabilir metin alanı oluşturma iptal edildi</sys:String>
     <sys:String x:Key="Str_St_FormFieldCreateFailed">Doldurulabilir metin alanı oluşturulamadı</sys:String>
@@ -1586,7 +1586,7 @@ Desteklenen bir boyuta ölçeklensin mi? Sayfaların görünümü ve oranları k
     <sys:String x:Key="Str_Macro_DeleteConfirm">&quot;{0}&quot; makrosu silinsin mi?</sys:String>
     <sys:String x:Key="Str_Macro_ImportFailed">Makro içe aktarılamadı:</sys:String>
     <sys:String x:Key="Str_Macro_ExportFailed">Makro dışa aktarılamadı:</sys:String>
-    <sys:String x:Key="Str_Macro_Files">KillerPDF makrosu</sys:String>
+    <sys:String x:Key="Str_Macro_Files">PDF Gilardi makrosu</sys:String>
     <sys:String x:Key="Str_Macro_SelectOutput">Makro çıktısını seçin</sys:String>
     <sys:String x:Key="Str_Macro_Preview" xml:space="preserve">Makro: {0}&#10;Girdi: {1}&#10;Çıktı: {2}&#10;&#10;Adımlar:&#10;{3}&#10;&#10;Bu makro çalıştırılsın mı?</sys:String>
     <sys:String x:Key="Str_Macro_Running">Makro çalıştırılıyor...</sys:String>
@@ -1612,18 +1612,18 @@ Desteklenen bir boyuta ölçeklensin mi? Sayfaların görünümü ve oranları k
     <sys:String x:Key="Str_Sig_RemoveSignature">İmzayı kaldır</sys:String>
     <sys:String x:Key="Str_Sig_ChangeInitials">Baş harfleri değiştir</sys:String>
     <sys:String x:Key="Str_Sig_RemoveInitials">Baş harfleri kaldır</sys:String>
-    <sys:String x:Key="Str_Dlg_DuplicateInstallTitle">Yinelenen KillerPDF kurulumu</sys:String>
-    <sys:String x:Key="Str_Dlg_DuplicateInstallMachine" xml:space="preserve">KillerPDF bu bilgisayarda iki kurulu kopya buldu.&#10;&#10;Şu anda tüm kullanıcılar için yapılan kurulumu çalıştırıyorsunuz. Genellikle daha önceki bir güncelleme sırasında kullanımda olduğu için eski bir kullanıcı başına kopya da bulunuyor.&#10;&#10;Kullanılmayan kullanıcı başına kopya şimdi kaldırılsın mı? Ayarlarınız ve PDF dosyalarınız kaldırılmaz.</sys:String>
-    <sys:String x:Key="Str_Dlg_DuplicateInstallUser" xml:space="preserve">KillerPDF bu bilgisayarda iki kurulu kopya buldu.&#10;&#10;Şu anda kullanıcı başına kurulumu çalıştırıyorsunuz. Tüm kullanıcılar için bir kopya da bulunuyor.&#10;&#10;Kullanılmayan tüm kullanıcılar kopyası şimdi kaldırılsın mı? Windows yönetici izni isteyecek. Ayarlarınız ve PDF dosyalarınız kaldırılmaz.</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallUnsigned" xml:space="preserve">Kurulum reddedildi: çalışan EXE geçerli bir Authenticode imzası taşımıyor.&#10;&#10;Yalnızca imzalı KillerPDF derlemeleri kurulabilir.</sys:String>
+    <sys:String x:Key="Str_Dlg_DuplicateInstallTitle">Yinelenen PDF Gilardi kurulumu</sys:String>
+    <sys:String x:Key="Str_Dlg_DuplicateInstallMachine" xml:space="preserve">PDF Gilardi bu bilgisayarda iki kurulu kopya buldu.&#10;&#10;Şu anda tüm kullanıcılar için yapılan kurulumu çalıştırıyorsunuz. Genellikle daha önceki bir güncelleme sırasında kullanımda olduğu için eski bir kullanıcı başına kopya da bulunuyor.&#10;&#10;Kullanılmayan kullanıcı başına kopya şimdi kaldırılsın mı? Ayarlarınız ve PDF dosyalarınız kaldırılmaz.</sys:String>
+    <sys:String x:Key="Str_Dlg_DuplicateInstallUser" xml:space="preserve">PDF Gilardi bu bilgisayarda iki kurulu kopya buldu.&#10;&#10;Şu anda kullanıcı başına kurulumu çalıştırıyorsunuz. Tüm kullanıcılar için bir kopya da bulunuyor.&#10;&#10;Kullanılmayan tüm kullanıcılar kopyası şimdi kaldırılsın mı? Windows yönetici izni isteyecek. Ayarlarınız ve PDF dosyalarınız kaldırılmaz.</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallUnsigned" xml:space="preserve">Kurulum reddedildi: çalışan EXE geçerli bir Authenticode imzası taşımıyor.&#10;&#10;Yalnızca imzalı PDF Gilardi derlemeleri kurulabilir.</sys:String>
     <sys:String x:Key="Str_Dlg_InstallDowngrade" xml:space="preserve">Kurulu sürümün ({1}) üzerine daha eski bir sürüm ({0}) kurmak üzeresiniz.&#10;&#10;Yine de eski sürüme dönülsün mü?</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallWriteFailed" xml:space="preserve">Kurulu kopya şu konuma yazılamadı:&#10;{0}&#10;&#10;Açık KillerPDF pencerelerini kapatın (ve Görev Yöneticisi'nde KillerPDF.exe olup olmadığını denetleyin), ardından yükleyiciyi yeniden çalıştırın.</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallWriteFailed" xml:space="preserve">Kurulu kopya şu konuma yazılamadı:&#10;{0}&#10;&#10;Açık PDF Gilardi pencerelerini kapatın (ve Görev Yöneticisi'nde PDF Gilardi.exe olup olmadığını denetleyin), ardından yükleyiciyi yeniden çalıştırın.</sys:String>
     <sys:String x:Key="Str_Dlg_InstallFailed" xml:space="preserve">Kurulum başarısız oldu:&#10;{0}</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallNoDesktopShortcut" xml:space="preserve">KillerPDF yüklendi ancak Windows masaüstü kısayoluna izin vermedi:&#10;{0}&#10;&#10;KillerPDF'yi Başlat menüsünden açın.</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallNoDesktopShortcut" xml:space="preserve">PDF Gilardi yüklendi ancak Windows masaüstü kısayoluna izin vermedi:&#10;{0}&#10;&#10;PDF Gilardi'yi Başlat menüsünden açın.</sys:String>
     <sys:String x:Key="Str_Dlg_UninstallElevationFailed" xml:space="preserve">Kaldırma işlemi yönetici erişimi isteyemedi:&#10;{0}</sys:String>
-    <sys:String x:Key="Str_Dlg_UninstallConfirm">KillerPDF bu bilgisayardan kaldırılsın mı?</sys:String>
-    <sys:String x:Key="Str_Dlg_UninstallStillRunning" xml:space="preserve">KillerPDF hâlâ çalışıyor.&#10;Kapatın, ardından kaldırmayı yeniden deneyin.</sys:String>
-    <sys:String x:Key="Str_Dlg_UninstallNotInstalled" xml:space="preserve">Bu KillerPDF buraya kurulmamış, bu yüzden hiçbir şey kaldırılmadı.&#10;Artık istemiyorsanız klasörü kendiniz silin.</sys:String>
+    <sys:String x:Key="Str_Dlg_UninstallConfirm">PDF Gilardi bu bilgisayardan kaldırılsın mı?</sys:String>
+    <sys:String x:Key="Str_Dlg_UninstallStillRunning" xml:space="preserve">PDF Gilardi hâlâ çalışıyor.&#10;Kapatın, ardından kaldırmayı yeniden deneyin.</sys:String>
+    <sys:String x:Key="Str_Dlg_UninstallNotInstalled" xml:space="preserve">Bu PDF Gilardi buraya kurulmamış, bu yüzden hiçbir şey kaldırılmadı.&#10;Artık istemiyorsanız klasörü kendiniz silin.</sys:String>
     <sys:String x:Key="Str_Btn_Uninstall">Kaldır</sys:String>
     <!-- Measure tool: types, scale, units, report -->
     <sys:String x:Key="Str_Measure_Distance">Mesafe</sys:String>
@@ -1821,7 +1821,7 @@ Desteklenen bir boyuta ölçeklensin mi? Sayfaların görünümü ve oranları k
     <sys:String x:Key="Str_Tray_Exit">Çıkış</sys:String>
     <sys:String x:Key="Str_Watch_Title">Otomatik klasörler</sys:String>
     <sys:String x:Key="Str_Watch_Intro">Kayıtlı bir makroyu çalıştırıp çıktı klasörüne yeni kopyalar kaydetmek için PDF'leri girdi klasörüne bırakın.</sys:String>
-    <sys:String x:Key="Str_Watch_RunningNote">KillerPDF açıkken, sistem tepsisinde de çalışır. Özgün dosyalar ve mevcut çıktılar korunur.</sys:String>
+    <sys:String x:Key="Str_Watch_RunningNote">PDF Gilardi açıkken, sistem tepsisinde de çalışır. Özgün dosyalar ve mevcut çıktılar korunur.</sys:String>
     <sys:String x:Key="Str_Watch_Input">Girdi klasörü</sys:String>
     <sys:String x:Key="Str_Watch_Output">Çıktı klasörü</sys:String>
     <sys:String x:Key="Str_Watch_Filter">Dosya adı filtresi</sys:String>
@@ -1929,11 +1929,11 @@ Desteklenen bir boyuta ölçeklensin mi? Sayfaların görünümü ve oranları k
     <sys:String x:Key="Str_CmpRpt_Summary">Değişen sayfalar: {0}, eksik sayfalar: {1}, eşleşen sayfalar: {2}</sys:String>
     <sys:String x:Key="Str_Read_Comment">Yorum: {0}</sys:String>
     <sys:String x:Key="Str_Read_CommentBy">{0} yorumu: {1}</sys:String>
-    <sys:String x:Key="Str_Dlg_RenderRecovered">Pencere artık görüntüleyemediği için KillerPDF yeniden başlatıldı. Kaydedilmemiş değişiklikleriniz kurtarıldı ve kaydedilmeye hazır olarak yeniden açıldı.&#10;&#10;Kopyalar {0} içinde de saklanıyor. Bu oturum yazılım işlemeyi kullanıyor.</sys:String>
+    <sys:String x:Key="Str_Dlg_RenderRecovered">Pencere artık görüntüleyemediği için PDF Gilardi yeniden başlatıldı. Kaydedilmemiş değişiklikleriniz kurtarıldı ve kaydedilmeye hazır olarak yeniden açıldı.&#10;&#10;Kopyalar {0} içinde de saklanıyor. Bu oturum yazılım işlemeyi kullanıyor.</sys:String>
     <sys:String x:Key="Str_Dlg_RenderRecoveryIncomplete">Bazı belgeler tamamen kurtarılamadı:&#10;{0}&#10;&#10;Kullanılabilir kurtarma dosyaları {1} konumunda saklanır. Kaydetmeden önce kurtarılan kopyaları inceleyin.</sys:String>
     <sys:String x:Key="Str_Dlg_RenderRecoveryNotReopened">Bazı belgeler tamamen kurtarılamadı:&#10;{0}&#10;&#10;Kullanılabilir kurtarma dosyaları {1} konumunda saklanır.</sys:String>
     <sys:String x:Key="Str_Dlg_RenderRecoveryNoFolder">Kurtarma kopyası için kullanılabilir bir klasör yoktu, bu nedenle kaydedilmemiş değişiklikler korunamadı.</sys:String>
-    <sys:String x:Key="Str_Dlg_RenderRestarted">Pencere artık görüntüleyemediği için KillerPDF yeniden başlatıldı. Açık belgeleriniz yeniden açıldı. Bu oturum yazılım işlemeyi kullanıyor.</sys:String>
+    <sys:String x:Key="Str_Dlg_RenderRestarted">Pencere artık görüntüleyemediği için PDF Gilardi yeniden başlatıldı. Açık belgeleriniz yeniden açıldı. Bu oturum yazılım işlemeyi kullanıyor.</sys:String>
     <sys:String x:Key="Str_Read_MarkedText">İşaretli metin: &quot;{0}&quot;</sys:String>
     <sys:String x:Key="Str_Read_MarkedNoText">İşaretli metin</sys:String>
     <sys:String x:Key="Str_Read_Drawing">Çizim</sys:String>
@@ -1947,7 +1947,7 @@ Desteklenen bir boyuta ölçeklensin mi? Sayfaların görünümü ve oranları k
     <sys:String x:Key="Str_Color_Yellow">Sarı</sys:String>
     <sys:String x:Key="Str_Color_Magenta">Eflatun</sys:String>
     <sys:String x:Key="Str_CertCatalog_Title">Sertifikalar</sys:String>
-    <sys:String x:Key="Str_CertCatalog_Hint">Windows sertifikaları salt okunurdur. İçe aktarılan sertifikalar yalnızca KillerPDF'de saklanır. İçe aktarma, sertifikayı güvenilir yapmaz.</sys:String>
+    <sys:String x:Key="Str_CertCatalog_Hint">Windows sertifikaları salt okunurdur. İçe aktarılan sertifikalar yalnızca PDF Gilardi'de saklanır. İçe aktarma, sertifikayı güvenilir yapmaz.</sys:String>
     <sys:String x:Key="Str_CertCatalog_Search">Sertifika ara</sys:String>
     <sys:String x:Key="Str_CertCatalog_Empty">Aramanızla eşleşen sertifika yok.</sys:String>
     <sys:String x:Key="Str_CertCatalog_Import">Sertifika İçe Aktar</sys:String>
@@ -1965,21 +1965,21 @@ Desteklenen bir boyuta ölçeklensin mi? Sayfaların görünümü ve oranları k
     <sys:String x:Key="Str_CertCatalog_WindowsMachineRoots">Windows: Bilgisayarın kök sertifikaları</sys:String>
     <sys:String x:Key="Str_CertCatalog_WindowsUserIntermediates">Windows: Geçerli kullanıcının ara sertifikaları</sys:String>
     <sys:String x:Key="Str_CertCatalog_WindowsMachineIntermediates">Windows: Bilgisayarın ara sertifikaları</sys:String>
-    <sys:String x:Key="Str_CertCatalog_Local">KillerPDF</sys:String>
+    <sys:String x:Key="Str_CertCatalog_Local">PDF Gilardi</sys:String>
     <sys:String x:Key="Str_CertCatalog_Trusted">Güvenilen kök</sys:String>
     <sys:String x:Key="Str_CertCatalog_Untrusted">Güvenilmiyor</sys:String>
     <sys:String x:Key="Str_CertCatalog_Expired">Süresi dolmuş</sys:String>
     <sys:String x:Key="Str_CertCatalog_NotYetValid">Henüz geçerli değil</sys:String>
-    <sys:String x:Key="Str_CertCatalog_TrustPrompt">KillerPDF'de "{0}" sertifikasına kök olarak güvenilsin mi? Verdiği sertifikalar daha sonra imza doğrulaması için kabul edilebilir. Windows güven ayarları değişmez.</sys:String>
-    <sys:String x:Key="Str_CertCatalog_RemovePrompt">"{0}" KillerPDF sertifika kataloğundan kaldırılsın mı?</sys:String>
+    <sys:String x:Key="Str_CertCatalog_TrustPrompt">PDF Gilardi'de "{0}" sertifikasına kök olarak güvenilsin mi? Verdiği sertifikalar daha sonra imza doğrulaması için kabul edilebilir. Windows güven ayarları değişmez.</sys:String>
+    <sys:String x:Key="Str_CertCatalog_RemovePrompt">"{0}" PDF Gilardi sertifika kataloğundan kaldırılsın mı?</sys:String>
     <sys:String x:Key="Str_CertCatalog_Error">Sertifika kataloğu güncellenemedi:</sys:String>
     <sys:String x:Key="Str_CertCatalog_LoadError">Sertifika listesi okunamadı:</sys:String>
     <sys:String x:Key="Str_CertCatalog_WrongFileType">Ortak bir sertifika dosyası seçin (.cer, .crt veya .pem).</sys:String>
     <sys:String x:Key="Str_CertCatalog_NotACertificate">Dosya okunabilir bir ortak sertifika içermiyor.</sys:String>
     <sys:String x:Key="Str_CertCatalog_PrivateKey">Özel anahtarlar ve PFX dosyaları kabul edilmez. Yalnızca ortak sertifikaları içe aktarın.</sys:String>
     <sys:String x:Key="Str_CertCatalog_TooLarge">Sertifika dosyası boş veya çok büyük.</sys:String>
-    <sys:String x:Key="Str_CertCatalog_Full">KillerPDF en fazla {0} içe aktarılmış sertifika saklayabilir.</sys:String>
-    <sys:String x:Key="Str_CertCatalog_Damaged">KillerPDF sertifika kataloğu okunamıyor ve değiştirilmeden bırakıldı. İmzalar yalnızca Windows güvenine göre denetleniyor. Baştan başlamak için {0} dosyasını silin.</sys:String>
+    <sys:String x:Key="Str_CertCatalog_Full">PDF Gilardi en fazla {0} içe aktarılmış sertifika saklayabilir.</sys:String>
+    <sys:String x:Key="Str_CertCatalog_Damaged">PDF Gilardi sertifika kataloğu okunamıyor ve değiştirilmeden bırakıldı. İmzalar yalnızca Windows güvenine göre denetleniyor. Baştan başlamak için {0} dosyasını silin.</sys:String>
     <sys:String x:Key="Str_CertCatalog_Imported">{0} sertifika içe aktarıldı. Kök Olarak Güven seçeneğini kullanmadan önce kök sertifikayı inceleyin.</sys:String>
     <sys:String x:Key="Str_CertCatalog_ReadOnly">Windows tarafından yönetilir.</sys:String>
     <sys:String x:Key="Str_CertCatalog_Type">Sertifika türü</sys:String>
@@ -2013,7 +2013,7 @@ Desteklenen bir boyuta ölçeklensin mi? Sayfaların görünümü ve oranları k
     <sys:String x:Key="Str_Filter_Json">JSON belgesi</sys:String>
     <sys:String x:Key="Str_Dlg_RepairAskOpen">"{0}" açılamadı çünkü yapısı hasarlı olabilir.
 
-KillerPDF onarmayı denesin mi? Onarılmış bir kopya oluşturulacak. Özgün dosya değiştirilmeyecek.
+PDF Gilardi onarmayı denesin mi? Onarılmış bir kopya oluşturulacak. Özgün dosya değiştirilmeyecek.
 
 Not: onarılan dosyalarda yer imleri, formlar ve diğer etkileşimli özellikler eksik olabilir.</sys:String>
     <sys:String x:Key="Str_Dlg_OpenedReadOnlyXRef">"{0}" standart dışı bir yapıya sahip ve salt okunur olarak açıldı.

@@ -3,7 +3,7 @@
                     xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
     <!-- ================================================================
-         KillerPDF  -  Kazakh (kk-KZ) strings
+         PDF Gilardi  -  Kazakh (kk-KZ) strings
          ================================================================ -->
 
     <!-- ── Toolbar tooltips ─────────────────────────────────────────── -->
@@ -47,7 +47,7 @@
     <sys:String x:Key="Str_TT_CollapseSidebar">Бүйірлік панельді жиыру (F9)</sys:String>
     <sys:String x:Key="Str_TT_ExpandSidebar">Бүйірлік панельді жаю (F9)</sys:String>
     <sys:String x:Key="Str_TT_KeyboardShortcuts">Пернелер тіркесімі (F1)</sys:String>
-    <sys:String x:Key="Str_TT_About">KillerPDF туралы (F12)</sys:String>
+    <sys:String x:Key="Str_TT_About">PDF Gilardi туралы (F12)</sys:String>
 
     <!-- ── About overlay ─────────────────────────────────────────────── -->
     <sys:String x:Key="Str_About_Version">НҰСҚА</sys:String>
@@ -155,7 +155,7 @@
     <sys:String x:Key="Str_Ready">Дайын</sys:String>
     <sys:String x:Key="Str_Status_Ready">Дайын</sys:String>
     <sys:String x:Key="Str_Portable">ТАСЫМАЛДЫ</sys:String>
-    <sys:String x:Key="Str_InstallBtn">KillerPDF орнату</sys:String>
+    <sys:String x:Key="Str_InstallBtn">PDF Gilardi орнату</sys:String>
 
     <!-- ── Status messages (format strings - use string.Format) ─────── -->
     <sys:String x:Key="Str_Opened">{0} ашылды - {1} бет</sys:String>
@@ -173,18 +173,18 @@
     <sys:String x:Key="Str_Print_LowQuality_Prompt">«{0}» тек төмен сапада басып шығаруға рұқсат береді. Толық сапада басып шығару үшін иесінің құпиясөзін енгізіңіз немесе төмен сапада басып шығару үшін бас тартыңыз.</sys:String>
     <sys:String x:Key="Str_Print_Refused_Certificate">Басып шығаруға рұқсат жоқ. Бұл PDF шифрланған сертификат басып шығаруға рұқсат бермейді, бұл шектеуді ешбір құпиясөз алып тастамайды.</sys:String>
     <sys:String x:Key="Str_Protection_Prompt">«{0}» файлында иесі қойған шектеулер бар, ал бұл әрекет оны шектеулерсіз жазады. Жалғастыру үшін иесінің құпиясөзін енгізіңіз.</sys:String>
-    <sys:String x:Key="Str_Protection_Refused">Ештеңе жазылмады. Нәтижеде осы PDF иесі қойған шектеулер сақталмас еді, сондықтан KillerPDF оны тек иесінің құпиясөзімен жазады.</sys:String>
+    <sys:String x:Key="Str_Protection_Refused">Ештеңе жазылмады. Нәтижеде осы PDF иесі қойған шектеулер сақталмас еді, сондықтан PDF Gilardi оны тек иесінің құпиясөзімен жазады.</sys:String>
     <sys:String x:Key="Str_Protection_Refused_Certificate">Ештеңе жазылмады. Нәтижеде сертификатыңызға қойылған шектеулер сақталмас еді, оларды ешбір құпиясөз алып тастамайды.</sys:String>
-    <sys:String x:Key="Str_Protection_Unreadable">KillerPDF осы PDF қорғанысын оқи алмады, сондықтан ештеңе сақталмады да, басылмады да. {0} Қайталап көріңіз немесе қойындыны жауып, файлды қайта ашыңыз.</sys:String>
-    <sys:String x:Key="Str_Print_Refused">Басып шығаруға рұқсат жоқ. Бұл PDF иесі басып шығаруды шектеген, KillerPDF оны тек иесінің құпиясөзімен басып шығарады.</sys:String>
+    <sys:String x:Key="Str_Protection_Unreadable">PDF Gilardi осы PDF қорғанысын оқи алмады, сондықтан ештеңе сақталмады да, басылмады да. {0} Қайталап көріңіз немесе қойындыны жауып, файлды қайта ашыңыз.</sys:String>
+    <sys:String x:Key="Str_Print_Refused">Басып шығаруға рұқсат жоқ. Бұл PDF иесі басып шығаруды шектеген, PDF Gilardi оны тек иесінің құпиясөзімен басып шығарады.</sys:String>
     <sys:String x:Key="Str_Restricted_UnlockFailed">Бұл иесінің құпиясөзі, бірақ «{0}» файлының құлпын ашу мүмкін болмады: {1}</sys:String>
     <sys:String x:Key="Str_St_SavedProtected">Қорғанысымен сақталды - {0}</sys:String>
     <sys:String x:Key="Str_Form_TwinsKept">Аттас өрістердің бәрі мәнді қабылдай алмады, сондықтан енді олар әртүрлі: {0}</sys:String>
-    <sys:String x:Key="Str_Restricted_OwnerRequired">«{0}» өңдеуді шектейді, сондықтан KillerPDF оны ашу үшін иесінің құпиясөзін қажет етеді.</sys:String>
+    <sys:String x:Key="Str_Restricted_OwnerRequired">«{0}» өңдеуді шектейді, сондықтан PDF Gilardi оны ашу үшін иесінің құпиясөзін қажет етеді.</sys:String>
     <sys:String x:Key="Str_OpenedReadOnlyXRef">{0} ашылды (тек оқу - стандартты емес XRef кестесі) - {1} бет</sys:String>
     <sys:String x:Key="Str_OpenedRepaired">{0} ашылды (жөнделген көшірме - өзгерістерді сақтаңыз) - {1} бет</sys:String>
     <sys:String x:Key="Str_Save_ReferenceRepairs">Жарамсыз ішкі сілтемелер түзетіліп сақталды. Жетіспейтін мазмұн қалпына келтірілмеді.</sys:String>
-    <sys:String x:Key="Str_Save_DamagedEncrypted">Бұл PDF зақымдалған және құпиясөзбен қорғалған, сондықтан KillerPDF оны жөндей де, сақтай да алмайды. Бастапқы файл өзгертілген жоқ.</sys:String>
+    <sys:String x:Key="Str_Save_DamagedEncrypted">Бұл PDF зақымдалған және құпиясөзбен қорғалған, сондықтан PDF Gilardi оны жөндей де, сақтай да алмайды. Бастапқы файл өзгертілген жоқ.</sys:String>
     <sys:String x:Key="Str_Save_DamagedSigned">Бұл PDF зақымдалған және цифрлық қолтаңбасы бар. Сақтау қолтаңбаны бұзады, сондықтан файл өзгертілген жоқ.</sys:String>
     <sys:String x:Key="Str_Save_DamagedCertified">Бұл PDF зақымдалған және авторы сертификаттаған. Сақтау сертификаттауды бұзады, сондықтан файл өзгертілген жоқ.</sys:String>
     <sys:String x:Key="Str_Save_DamagedUsageRights">Бұл PDF зақымдалған және Reader пайдалану құқықтары бар. Сақтау оларды бұзады, сондықтан файл өзгертілген жоқ.</sys:String>
@@ -264,39 +264,39 @@
 Қазір сақтасаңыз, файл үстінен жазылады және сол өзгерістер жоғалады. Оларды қалдырғыңыз келсе, алдымен екінші панельді сақтаңыз.</sys:String>
     <sys:String x:Key="Str_St_SplitOn">Бөлінген панель қосулы - жабу үшін F10</sys:String>
     <sys:String x:Key="Str_St_SplitOff">Бөлінген панель өшірулі</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallTitle">KillerPDF орнату</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallMsg">KillerPDF-ті осы компьютерге орнату керек пе?</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallTitle">PDF Gilardi орнату</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallMsg">PDF Gilardi-ті осы компьютерге орнату керек пе?</sys:String>
     <sys:String x:Key="Str_Dlg_InstallBullets">Орнату қолданбаны Бағдарламалар қалтасына көшіреді (жылдам іске қосу үшін) және Бастау мәзіріне жазба қосады. Осы тасымалды файлды кейін қалдыра немесе жоя аласыз.</sys:String>
-    <sys:String x:Key="Str_Install_AlreadyAllUsers">KillerPDF осы компьютерде барлық пайдаланушылар үшін орнатылған, сондықтан сол көшірме жаңартылады. Windows рұқсат сұрайды.</sys:String>
+    <sys:String x:Key="Str_Install_AlreadyAllUsers">PDF Gilardi осы компьютерде барлық пайдаланушылар үшін орнатылған, сондықтан сол көшірме жаңартылады. Windows рұқсат сұрайды.</sys:String>
     <sys:String x:Key="Str_Dlg_SaveBeforeInstall">Орнатпас бұрын өзгерістерді сақтаңыз.</sys:String>
-    <sys:String x:Key="Str_Dlg_UpdateMachineMsg" xml:space="preserve">KillerPDF-тің барлық пайдаланушыларға арналған орнатылымын жаңарту керек пе?
+    <sys:String x:Key="Str_Dlg_UpdateMachineMsg" xml:space="preserve">PDF Gilardi-тің барлық пайдаланушыларға арналған орнатылымын жаңарту керек пе?
 
-Бұл Program Files ішіндегі көшірмені жылдамырақ көпфайлды нұсқамен ауыстырады. Ескі пайдаланушылық көшірме жойылады, сондықтан KillerPDF тек бір рет көрінеді. Осы тасымалды файлды кейін қалдыра немесе жоя аласыз.</sys:String>
-    <sys:String x:Key="Str_Dlg_UpdateUserMsg" xml:space="preserve">Қолданыстағы KillerPDF орнатылымын жаңарту керек пе?
+Бұл Program Files ішіндегі көшірмені жылдамырақ көпфайлды нұсқамен ауыстырады. Ескі пайдаланушылық көшірме жойылады, сондықтан PDF Gilardi тек бір рет көрінеді. Осы тасымалды файлды кейін қалдыра немесе жоя аласыз.</sys:String>
+    <sys:String x:Key="Str_Dlg_UpdateUserMsg" xml:space="preserve">Қолданыстағы PDF Gilardi орнатылымын жаңарту керек пе?
 
 Бұл орнатылған көшірмені жылдамырақ көпфайлды нұсқамен ауыстырады. Осы тасымалды файлды кейін қалдыра немесе жоя аласыз.</sys:String>
-    <sys:String x:Key="Str_Dlg_OneInstallOnly" xml:space="preserve">KillerPDF осы компьютердегі барлық пайдаланушылар үшін әлдеқашан орнатылған. Сол орнатылымды жаңартыңыз немесе пайдаланушылық орнатуды таңдамас бұрын оны жойыңыз.
+    <sys:String x:Key="Str_Dlg_OneInstallOnly" xml:space="preserve">PDF Gilardi осы компьютердегі барлық пайдаланушылар үшін әлдеқашан орнатылған. Сол орнатылымды жаңартыңыз немесе пайдаланушылық орнатуды таңдамас бұрын оны жойыңыз.
 
-KillerPDF екі орнатылған көшірме жасамайды.</sys:String>
+PDF Gilardi екі орнатылған көшірме жасамайды.</sys:String>
     <sys:String x:Key="Str_Btn_DoInstall">Орнату</sys:String>
     <sys:String x:Key="Str_Btn_DoUpdate">Жаңарту</sys:String>
     <sys:String x:Key="Str_Chk_Desktop">Жұмыс үстеліндегі төте жолды қосу</sys:String>
     <sys:String x:Key="Str_Chk_AllUsers">Осы компьютердегі барлық пайдаланушылар үшін орнату (әкімші құқығы керек)</sys:String>
-    <sys:String x:Key="Str_Status_InstallFailed">Орнату аяқталмады - KillerPDF әлі тасымалды түрде жұмыс істеп тұр.</sys:String>
-    <sys:String x:Key="Str_Status_RelaunchDeferred">Орнату аяқталды. Орнату кезінде өзгертілген жұмысты қорғау үшін KillerPDF ашық қалды.</sys:String>
-    <sys:String x:Key="Str_Dlg_SetDefaultPdfMsg" xml:space="preserve">KillerPDF-ті әдепкі PDF қарау құралы етіп орнатқыңыз келе ме?
+    <sys:String x:Key="Str_Status_InstallFailed">Орнату аяқталмады - PDF Gilardi әлі тасымалды түрде жұмыс істеп тұр.</sys:String>
+    <sys:String x:Key="Str_Status_RelaunchDeferred">Орнату аяқталды. Орнату кезінде өзгертілген жұмысты қорғау үшін PDF Gilardi ашық қалды.</sys:String>
+    <sys:String x:Key="Str_Dlg_SetDefaultPdfMsg" xml:space="preserve">PDF Gilardi-ті әдепкі PDF қарау құралы етіп орнатқыңыз келе ме?
 
 Windows параметрлері - Әдепкі қолданбалар ашылады.</sys:String>
     <sys:String x:Key="Str_Dlg_UnsavedClose">Бұл файлда сақталмаған өзгерістер бар. Жаппас бұрын оларды сақтау керек пе?</sys:String>
-    <sys:String x:Key="Str_Dlg_UnsavedExit">Сақталмаған өзгерістер бар. KillerPDF-ті жаппас бұрын оларды сақтау керек пе?</sys:String>
+    <sys:String x:Key="Str_Dlg_UnsavedExit">Сақталмаған өзгерістер бар. PDF Gilardi-ті жаппас бұрын оларды сақтау керек пе?</sys:String>
     <sys:String x:Key="Str_Dlg_PageOutOfRange" xml:space="preserve">Бұл құжатта Adobe Reader қолдайтын өлшемнен тыс (әр жағы 3-тен 14 400 нүктеге дейін) {0} бет бар - Adobe оларды бос бет ретінде көрсетеді.
 
 Оларды қолдау көрсетілетін өлшемге масштабтау керек пе? Беттер түрі мен пропорцияларын сақтайды.</sys:String>
     <sys:String x:Key="Str_Dlg_FailedOpen" xml:space="preserve">PDF ашылмады:
 {0}</sys:String>
-    <sys:String x:Key="Str_Dlg_AppTitle">KillerPDF</sys:String>
-    <sys:String x:Key="Str_Dlg_CloseAllDocs">{0} ашық құжатыңыз бар. Қолданбадан шыққанда KillerPDF олардың барлығын жапсын ба?</sys:String>
-    <sys:String x:Key="Str_Dlg_CloseAllDocsOne">1 ашық құжатыңыз бар. Қолданбадан шыққанда KillerPDF оны жапсын ба?</sys:String>
+    <sys:String x:Key="Str_Dlg_AppTitle">PDF Gilardi</sys:String>
+    <sys:String x:Key="Str_Dlg_CloseAllDocs">{0} ашық құжатыңыз бар. Қолданбадан шыққанда PDF Gilardi олардың барлығын жапсын ба?</sys:String>
+    <sys:String x:Key="Str_Dlg_CloseAllDocsOne">1 ашық құжатыңыз бар. Қолданбадан шыққанда PDF Gilardi оны жапсын ба?</sys:String>
     <sys:String x:Key="Str_Dlg_RememberChoice">Таңдауымды есте сақтау</sys:String>
 
 
@@ -442,7 +442,7 @@ Windows параметрлері - Әдепкі қолданбалар ашыл�
     <sys:String x:Key="Str_Pos_TopLeft">Жоғарғы сол</sys:String>
 
     <!-- ── Print dialog ───────────────────────────────────────────────── -->
-    <sys:String x:Key="Str_Print_Title">KillerPDF - Басып шығару</sys:String>
+    <sys:String x:Key="Str_Print_Title">PDF Gilardi - Басып шығару</sys:String>
     <sys:String x:Key="Str_Print_Rendering">Көрсету {0} / {1}</sys:String>
     <sys:String x:Key="Str_Print_IncompletePages">Кейбір мазмұнды дәл салу мүмкін болмады. {0} беттер көрсетілгендей басып шығарылады.</sys:String>
     <sys:String x:Key="Str_Print_Printer">Принтер</sys:String>
@@ -710,7 +710,7 @@ Windows параметрлері - Әдепкі қолданбалар ашыл�
     <sys:String x:Key="Str_Drop_RepairFailed">Файлды жөндеу мүмкін болмады, сондықтан ештеңе біріктірілген жоқ.</sys:String>
     <sys:String x:Key="Str_Import_NoPages">{0} файлында беттер жоқ, сондықтан біріктіретін ештеңе жоқ.</sys:String>
     <sys:String x:Key="Str_Drop_ManyTabs">Бұл {0} бөлек қойынды ашады. Жалғастыру керек пе?</sys:String>
-    <sys:String x:Key="Str_Drop_TooMany">Бұл қалтада немесе мұрағатта {0} файл бар. KillerPDF тек алғашқы {1} файлды ашады. Жалғастыру керек пе?</sys:String>
+    <sys:String x:Key="Str_Drop_TooMany">Бұл қалтада немесе мұрағатта {0} файл бар. PDF Gilardi тек алғашқы {1} файлды ашады. Жалғастыру керек пе?</sys:String>
     <sys:String x:Key="Str_Status_Merged">{0} файл біріктірілді - әлі сақталмаған</sys:String>
     <sys:String x:Key="Str_Drop_Merging">Файлдар біріктірілуде...</sys:String>
     <sys:String x:Key="Str_Drop_MergeCanceled">Біріктіру болдырылмады</sys:String>
@@ -897,14 +897,14 @@ Windows параметрлері - Әдепкі қолданбалар ашыл�
     <sys:String x:Key="Str_KS_FullScreen">Толық экран</sys:String>
     <sys:String x:Key="Str_FullScreen_Hint">Толық экраннан шығу үшін F11 немесе Esc басыңыз</sys:String>
     <!-- Quit prompt (family standard) -->
-    <sys:String x:Key="Str_Dlg_QuitMsg">KillerPDF-тен шығу керек пе?</sys:String>
+    <sys:String x:Key="Str_Dlg_QuitMsg">PDF Gilardi-тен шығу керек пе?</sys:String>
     <sys:String x:Key="Str_Chk_CloseTabs">Ашық қойындыларымды жабу</sys:String>
     <sys:String x:Key="Str_Btn_Quit">Шығу</sys:String>
     <sys:String x:Key="Str_Btn_CancelDlg">Болдырмау</sys:String>
 
 
     <!-- Status-bar messages (extracted from code) -->
-    <sys:String x:Key="Str_St_DataCleared">KillerPDF-тің барлық деректері тазаланды</sys:String>
+    <sys:String x:Key="Str_St_DataCleared">PDF Gilardi-тің барлық деректері тазаланды</sys:String>
     <sys:String x:Key="Str_St_OcrRegionCanceled">OCR аймағы болдырылмады</sys:String>
     <sys:String x:Key="Str_St_Erased">Өшірілді</sys:String>
     <sys:String x:Key="Str_St_Ungrouped">Топтан шығарылды</sys:String>
@@ -954,7 +954,7 @@ Windows параметрлері - Әдепкі қолданбалар ашыл�
 
     <!-- Dialog / message-box strings (extracted from code) -->
     <sys:String x:Key="Str_Dlg_SaveBeforeUpdate">Жаңарту алдында өзгерістерді сақтаңыз.</sys:String>
-    <sys:String x:Key="Str_Dlg_Uninstalled">KillerPDF жойылды.</sys:String>
+    <sys:String x:Key="Str_Dlg_Uninstalled">PDF Gilardi жойылды.</sys:String>
     <sys:String x:Key="Str_Dlg_SelectExtract">Шығаратын беттерді таңдаңыз.</sys:String>
     <sys:String x:Key="Str_Dlg_SelectDelete">Жоятын беттерді таңдаңыз.</sys:String>
     <sys:String x:Key="Str_Dlg_NoPrinter">Принтер қолжетімсіз.</sys:String>
@@ -1131,7 +1131,7 @@ Windows параметрлері - Әдепкі қолданбалар ашыл�
     <sys:String x:Key="Str_Err_DuplicateFailed">Көшірме жасау сәтсіз:</sys:String>
     <sys:String x:Key="Str_Err_RepairFailed">Жөндеу сәтсіз:</sys:String>
     <sys:String x:Key="Str_Err_OpenProtected">Қорғалған PDF ашылмады:</sys:String>
-    <sys:String x:Key="Str_Err_WorkingCopy">KillerPDF бұл PDF жұмыс көшірмесін жаза алмады. Дискіде бос орын бар-жоғын тексеріңіз:</sys:String>
+    <sys:String x:Key="Str_Err_WorkingCopy">PDF Gilardi бұл PDF жұмыс көшірмесін жаза алмады. Дискіде бос орын бар-жоғын тексеріңіз:</sys:String>
     <sys:String x:Key="Str_Err_NewDocFailed">Жаңа құжат жасау мүмкін болмады:</sys:String>
     <sys:String x:Key="Str_Err_FileNotFound">Файл табылмады:</sys:String>
     <sys:String x:Key="Str_Err_MergeFailed">Біріктіру сәтсіз:</sys:String>
@@ -1247,7 +1247,7 @@ Windows параметрлері - Әдепкі қолданбалар ашыл�
     <sys:String x:Key="Str_Dlg_RepairedRaster" xml:space="preserve">"{0}" беттерін растрлеу жолымен жөнделді.&#10;&#10;Жөнделген көшірмеде мәтін таңдалмайды. Оны жаңа орынға жазу үшін Басқаша сақтауды пайдаланыңыз.</sys:String>
     <sys:String x:Key="Str_Dlg_RepairAsk" xml:space="preserve">"{0}" құрылымы зақымдалған және қосылмады.
 
-KillerPDF жөндеуге әрекет жасасын ба? Жөнделген көшірме жасалады. Түпнұсқа файл өзгертілмейді.
+PDF Gilardi жөндеуге әрекет жасасын ба? Жөнделген көшірме жасалады. Түпнұсқа файл өзгертілмейді.
 
 Ескерту: жөнделген файлдарда бетбелгілер, пішіндер және басқа интерактивті мүмкіндіктер болмауы мүмкін.</sys:String>
     <sys:String x:Key="Str_Dlg_LangDownloadAsk" xml:space="preserve">OCR іске қосылуы үшін қазір тіл үлгісі ({0}) жүктеледі.&#10;&#10;OCR мәзірінен кез келген уақытта қосымша тілдер қоса немесе жоғары сапалы үлгілерге ауыса аласыз.</sys:String>
@@ -1263,7 +1263,7 @@ KillerPDF жөндеуге әрекет жасасын ба? Жөнделген 
     <sys:String x:Key="Str_TT_SaveOptions">Сақтау параметрлері</sys:String>
     <sys:String x:Key="Str_TT_OcrOptions">OCR параметрлері</sys:String>
     <sys:String x:Key="Str_RecentHeading">СОҢҒЫ</sys:String>
-    <sys:String x:Key="Str_KS_WindowTitle">KillerPDF - Пернелер тіркесімі</sys:String>
+    <sys:String x:Key="Str_KS_WindowTitle">PDF Gilardi - Пернелер тіркесімі</sys:String>
     <sys:String x:Key="Str_About_UpdateAvailable">Жаңарту қолжетімді: {0}</sys:String>
     <sys:String x:Key="Str_About_Unsigned">(not signed or chain failed)</sys:String>
     <sys:String x:Key="Str_About_Downloading">Жүктелуде...</sys:String>
@@ -1275,11 +1275,11 @@ KillerPDF жөндеуге әрекет жасасын ба? Жөнделген 
     <sys:String x:Key="Str_About_NotNow">Қазір емес</sys:String>
     <sys:String x:Key="Str_About_AlwaysCheckOnStartup">Іске қосылғанда жаңартуларды әрдайым тексеру</sys:String>
     <sys:String x:Key="Str_UpdateRestartPrepareFailed">Жаңартуды дайындау мүмкін болмады. Сақталған PDF файлдарыңыз өзгерген жоқ. Қайталап көріңіз.</sys:String>
-    <sys:String x:Key="Str_UpdateRestartRestoreFailed">KillerPDF алдыңғы жұмыс сеансын қайта аша алмады. Сақталған PDF файлдарыңыз өзгерген жоқ.</sys:String>
+    <sys:String x:Key="Str_UpdateRestartRestoreFailed">PDF Gilardi алдыңғы жұмыс сеансын қайта аша алмады. Сақталған PDF файлдарыңыз өзгерген жоқ.</sys:String>
     <sys:String x:Key="Str_ClearAllData">Барлық деректерді тазалау</sys:String>
     <sys:String x:Key="Str_ClearDataConfirm" xml:space="preserve">Бұл барлық сақталған параметрлерді, жүктелген OCR тіл бумаларын және уақытша файлдарды жояды.&#10;&#10;PDF файлдарыңызға әсер етпейді. Жалғастыру керек пе?</sys:String>
-    <sys:String x:Key="Str_ClearDataDone" xml:space="preserve">Параметрлер, тіл бумалары және уақытша файлдар тазаланды.&#10;&#10;Осы сеанста әлі қолданылып жатқан файлдарды аяқтау үшін KillerPDF-ті қайта іске қосыңыз.</sys:String>
-    <sys:String x:Key="Str_Crash_Title">KillerPDF - Күтпеген қате</sys:String>
+    <sys:String x:Key="Str_ClearDataDone" xml:space="preserve">Параметрлер, тіл бумалары және уақытша файлдар тазаланды.&#10;&#10;Осы сеанста әлі қолданылып жатқан файлдарды аяқтау үшін PDF Gilardi-ті қайта іске қосыңыз.</sys:String>
+    <sys:String x:Key="Str_Crash_Title">PDF Gilardi - Күтпеген қате</sys:String>
     <sys:String x:Key="Str_Crash_Log">Журнал: {0}</sys:String>
     <sys:String x:Key="Str_Crash_Copy">Есепті көшіру</sys:String>
     <sys:String x:Key="Str_Crash_OpenLogs">Журналдарды ашу</sys:String>
@@ -1454,17 +1454,17 @@ KillerPDF жөндеуге әрекет жасасын ба? Жөнделген 
     <sys:String x:Key="Str_Compare_BuildingReport">Әр бет тексерілуде...</sys:String>
     <sys:String x:Key="Str_Compare_DetailsTitle">PDF салыстыру мәліметтері</sys:String>
     <!-- ── Browser handoff refusals ────────────────────────────────────── -->
-    <sys:String x:Key="Str_Handoff_Failed">KillerPDF браузердегі PDF-ті аша алмады.</sys:String>
-    <sys:String x:Key="Str_Handoff_UnknownCommand">KillerPDF бұл браузер пәрменін танымайды.</sys:String>
+    <sys:String x:Key="Str_Handoff_Failed">PDF Gilardi браузердегі PDF-ті аша алмады.</sys:String>
+    <sys:String x:Key="Str_Handoff_UnknownCommand">PDF Gilardi бұл браузер пәрменін танымайды.</sys:String>
     <sys:String x:Key="Str_Handoff_MissingUrl">Тасымалдауда PDF мекенжайы көрсетілмеген.</sys:String>
     <sys:String x:Key="Str_Handoff_MalformedUrl">Тасымалдаудағы PDF мекенжайын оқу мүмкін болмады.</sys:String>
-    <sys:String x:Key="Str_Handoff_SchemeNotAllowed">KillerPDF браузер тасымалын тек https арқылы ашады.</sys:String>
+    <sys:String x:Key="Str_Handoff_SchemeNotAllowed">PDF Gilardi браузер тасымалын тек https арқылы ашады.</sys:String>
     <sys:String x:Key="Str_Handoff_Unusable">Браузер тасымалын пайдалану мүмкін болмады.</sys:String>
     <sys:String x:Key="Str_Handoff_TooLarge">PDF браузер тасымалының 256 МБ шегінен асады.</sys:String>
     <sys:String x:Key="Str_Handoff_NotPdf">Жүктеп алынған файл PDF емес.</sys:String>
-    <sys:String x:Key="Str_Handoff_DownloadFailed">KillerPDF PDF-ті жүктеп ала алмады.</sys:String>
+    <sys:String x:Key="Str_Handoff_DownloadFailed">PDF Gilardi PDF-ті жүктеп ала алмады.</sys:String>
     <sys:String x:Key="Str_Handoff_TimedOut">PDF жүктеу уақыты аяқталды.</sys:String>
-    <sys:String x:Key="Str_Handoff_FileError">KillerPDF жүктеп алынған PDF-ті сақтай да, оқи да алмады.</sys:String>
+    <sys:String x:Key="Str_Handoff_FileError">PDF Gilardi жүктеп алынған PDF-ті сақтай да, оқи да алмады.</sys:String>
     <sys:String x:Key="Str_St_FormFieldDrag">Толтырылатын мәтін өрісін жасау үшін сүйреңіз</sys:String>
     <sys:String x:Key="Str_St_FormFieldCanceled">Толтырылатын мәтін өрісін жасау тоқтатылды</sys:String>
     <sys:String x:Key="Str_St_FormFieldCreateFailed">Толтырылатын мәтін өрісін жасау мүмкін болмады</sys:String>
@@ -1609,7 +1609,7 @@ KillerPDF жөндеуге әрекет жасасын ба? Жөнделген 
     <sys:String x:Key="Str_Macro_DeleteConfirm">«{0}» макросы жойылсын ба?</sys:String>
     <sys:String x:Key="Str_Macro_ImportFailed">Макросты импорттау мүмкін болмады:</sys:String>
     <sys:String x:Key="Str_Macro_ExportFailed">Макросты экспорттау мүмкін болмады:</sys:String>
-    <sys:String x:Key="Str_Macro_Files">KillerPDF макросы</sys:String>
+    <sys:String x:Key="Str_Macro_Files">PDF Gilardi макросы</sys:String>
     <sys:String x:Key="Str_Macro_SelectOutput">Макрос шығысын таңдаңыз</sys:String>
     <sys:String x:Key="Str_Macro_Preview" xml:space="preserve">Макрос: {0}&#10;Кіріс: {1}&#10;Шығыс: {2}&#10;&#10;Қадамдар:&#10;{3}&#10;&#10;Осы макрос іске қосылсын ба?</sys:String>
     <sys:String x:Key="Str_Macro_Running">Макрос орындалуда...</sys:String>
@@ -1635,18 +1635,18 @@ KillerPDF жөндеуге әрекет жасасын ба? Жөнделген 
     <sys:String x:Key="Str_Sig_RemoveSignature">Қолтаңбаны жою</sys:String>
     <sys:String x:Key="Str_Sig_ChangeInitials">Инициалдарды өзгерту</sys:String>
     <sys:String x:Key="Str_Sig_RemoveInitials">Инициалдарды жою</sys:String>
-    <sys:String x:Key="Str_Dlg_DuplicateInstallTitle">KillerPDF екі рет орнатылған</sys:String>
-    <sys:String x:Key="Str_Dlg_DuplicateInstallMachine" xml:space="preserve">KillerPDF осы компьютерде екі орнатылған көшірме тапты.&#10;&#10;Қазір барлық пайдаланушыларға арналған орнатылым іске қосылған. Бір пайдаланушыға арналған ескі көшірме де бар, әдетте ол бұрынғы жаңарту кезінде пайдаланылып тұрған.&#10;&#10;Пайдаланылмайтын бір пайдаланушылық көшірмені қазір жою керек пе? Параметрлеріңіз бен PDF файлдарыңыз жойылмайды.</sys:String>
-    <sys:String x:Key="Str_Dlg_DuplicateInstallUser" xml:space="preserve">KillerPDF осы компьютерде екі орнатылған көшірме тапты.&#10;&#10;Қазір бір пайдаланушыға арналған орнатылым іске қосылған. Барлық пайдаланушыларға арналған көшірме де бар.&#10;&#10;Барлық пайдаланушыларға арналған пайдаланылмайтын көшірмені қазір жою керек пе? Windows әкімші рұқсатын сұрайды. Параметрлеріңіз бен PDF файлдарыңыз жойылмайды.</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallUnsigned" xml:space="preserve">Орнатудан бас тартылды: іске қосылған EXE файлында жарамды Authenticode қолтаңбасы жоқ.&#10;&#10;Тек қолтаңбаланған KillerPDF жинақтарын орнатуға болады.</sys:String>
+    <sys:String x:Key="Str_Dlg_DuplicateInstallTitle">PDF Gilardi екі рет орнатылған</sys:String>
+    <sys:String x:Key="Str_Dlg_DuplicateInstallMachine" xml:space="preserve">PDF Gilardi осы компьютерде екі орнатылған көшірме тапты.&#10;&#10;Қазір барлық пайдаланушыларға арналған орнатылым іске қосылған. Бір пайдаланушыға арналған ескі көшірме де бар, әдетте ол бұрынғы жаңарту кезінде пайдаланылып тұрған.&#10;&#10;Пайдаланылмайтын бір пайдаланушылық көшірмені қазір жою керек пе? Параметрлеріңіз бен PDF файлдарыңыз жойылмайды.</sys:String>
+    <sys:String x:Key="Str_Dlg_DuplicateInstallUser" xml:space="preserve">PDF Gilardi осы компьютерде екі орнатылған көшірме тапты.&#10;&#10;Қазір бір пайдаланушыға арналған орнатылым іске қосылған. Барлық пайдаланушыларға арналған көшірме де бар.&#10;&#10;Барлық пайдаланушыларға арналған пайдаланылмайтын көшірмені қазір жою керек пе? Windows әкімші рұқсатын сұрайды. Параметрлеріңіз бен PDF файлдарыңыз жойылмайды.</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallUnsigned" xml:space="preserve">Орнатудан бас тартылды: іске қосылған EXE файлында жарамды Authenticode қолтаңбасы жоқ.&#10;&#10;Тек қолтаңбаланған PDF Gilardi жинақтарын орнатуға болады.</sys:String>
     <sys:String x:Key="Str_Dlg_InstallDowngrade" xml:space="preserve">Орнатылған нұсқаның ({1}) үстіне ескі нұсқаны ({0}) орнатқалы жатырсыз.&#10;&#10;Бәрібір ескі нұсқаға қайту керек пе?</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallWriteFailed" xml:space="preserve">Орнатылған көшірмені мына жерге жазу мүмкін болмады:&#10;{0}&#10;&#10;Ашық тұрған KillerPDF терезелерін жабыңыз (және Тапсырмалар реттеушісінде KillerPDF.exe бар-жоғын тексеріңіз), содан кейін орнатушыны қайта іске қосыңыз.</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallWriteFailed" xml:space="preserve">Орнатылған көшірмені мына жерге жазу мүмкін болмады:&#10;{0}&#10;&#10;Ашық тұрған PDF Gilardi терезелерін жабыңыз (және Тапсырмалар реттеушісінде PDF Gilardi.exe бар-жоғын тексеріңіз), содан кейін орнатушыны қайта іске қосыңыз.</sys:String>
     <sys:String x:Key="Str_Dlg_InstallFailed" xml:space="preserve">Орнату сәтсіз аяқталды:&#10;{0}</sys:String>
-    <sys:String x:Key="Str_Dlg_InstallNoDesktopShortcut" xml:space="preserve">KillerPDF орнатылды, бірақ Windows жұмыс үстеліндегі таңбашаға рұқсат бермеді:&#10;{0}&#10;&#10;KillerPDF-ті «Бастау» мәзірінен ашыңыз.</sys:String>
+    <sys:String x:Key="Str_Dlg_InstallNoDesktopShortcut" xml:space="preserve">PDF Gilardi орнатылды, бірақ Windows жұмыс үстеліндегі таңбашаға рұқсат бермеді:&#10;{0}&#10;&#10;PDF Gilardi-ті «Бастау» мәзірінен ашыңыз.</sys:String>
     <sys:String x:Key="Str_Dlg_UninstallElevationFailed" xml:space="preserve">Жою үшін әкімші рұқсатын сұрау мүмкін болмады:&#10;{0}</sys:String>
-    <sys:String x:Key="Str_Dlg_UninstallConfirm">KillerPDF бағдарламасын осы компьютерден жою керек пе?</sys:String>
-    <sys:String x:Key="Str_Dlg_UninstallStillRunning" xml:space="preserve">KillerPDF әлі жұмыс істеп тұр.&#10;Оны жауып, жоюды қайталап көріңіз.</sys:String>
-    <sys:String x:Key="Str_Dlg_UninstallNotInstalled" xml:space="preserve">Бұл KillerPDF осында орнатылмаған, сондықтан ештеңе жойылмады.&#10;Енді қажет болмаса, қалтаны өзіңіз жойыңыз.</sys:String>
+    <sys:String x:Key="Str_Dlg_UninstallConfirm">PDF Gilardi бағдарламасын осы компьютерден жою керек пе?</sys:String>
+    <sys:String x:Key="Str_Dlg_UninstallStillRunning" xml:space="preserve">PDF Gilardi әлі жұмыс істеп тұр.&#10;Оны жауып, жоюды қайталап көріңіз.</sys:String>
+    <sys:String x:Key="Str_Dlg_UninstallNotInstalled" xml:space="preserve">Бұл PDF Gilardi осында орнатылмаған, сондықтан ештеңе жойылмады.&#10;Енді қажет болмаса, қалтаны өзіңіз жойыңыз.</sys:String>
     <sys:String x:Key="Str_Btn_Uninstall">Жою</sys:String>
     <!-- Measure tool: types, scale, units, report -->
     <sys:String x:Key="Str_Measure_Distance">Қашықтық</sys:String>
@@ -1844,7 +1844,7 @@ KillerPDF жөндеуге әрекет жасасын ба? Жөнделген 
     <sys:String x:Key="Str_Tray_Exit">Шығу</sys:String>
     <sys:String x:Key="Str_Watch_Title">Автоматты қалталар</sys:String>
     <sys:String x:Key="Str_Watch_Intro">Сақталған макросты іске қосып, жаңа көшірмелерді шығыс қалтаға сақтау үшін PDF файлдарын кіріс қалтаға салыңыз.</sys:String>
-    <sys:String x:Key="Str_Watch_RunningNote">KillerPDF ашық тұрғанда, соның ішінде жүйелік науада да жұмыс істейді. Түпнұсқалар мен бар шығыс файлдар сақталады.</sys:String>
+    <sys:String x:Key="Str_Watch_RunningNote">PDF Gilardi ашық тұрғанда, соның ішінде жүйелік науада да жұмыс істейді. Түпнұсқалар мен бар шығыс файлдар сақталады.</sys:String>
     <sys:String x:Key="Str_Watch_Input">Кіріс қалта</sys:String>
     <sys:String x:Key="Str_Watch_Output">Шығыс қалта</sys:String>
     <sys:String x:Key="Str_Watch_Filter">Файл атауының сүзгісі</sys:String>
@@ -1952,11 +1952,11 @@ KillerPDF жөндеуге әрекет жасасын ба? Жөнделген 
     <sys:String x:Key="Str_CmpRpt_Summary">Өзгерген беттер: {0}, жоқ беттер: {1}, сәйкес беттер: {2}</sys:String>
     <sys:String x:Key="Str_Read_Comment">Пікір: {0}</sys:String>
     <sys:String x:Key="Str_Read_CommentBy">{0} пікірі: {1}</sys:String>
-    <sys:String x:Key="Str_Dlg_RenderRecovered">Терезе енді көрсете алмағандықтан KillerPDF қайта іске қосылды. Сақталмаған өзгерістер қалпына келтіріліп, сақтауға дайын күйде қайта ашылды.&#10;&#10;Көшірмелер {0} ішінде де сақталды. Бұл сеанста бағдарламалық көрсету қолданылады.</sys:String>
+    <sys:String x:Key="Str_Dlg_RenderRecovered">Терезе енді көрсете алмағандықтан PDF Gilardi қайта іске қосылды. Сақталмаған өзгерістер қалпына келтіріліп, сақтауға дайын күйде қайта ашылды.&#10;&#10;Көшірмелер {0} ішінде де сақталды. Бұл сеанста бағдарламалық көрсету қолданылады.</sys:String>
     <sys:String x:Key="Str_Dlg_RenderRecoveryIncomplete">Кейбір құжаттарды толық қалпына келтіру мүмкін болмады:&#10;{0}&#10;&#10;Қолжетімді қалпына келтіру файлдары {1} ішінде сақталған. Сақтамас бұрын қалпына келтірілген көшірмелерді тексеріңіз.</sys:String>
     <sys:String x:Key="Str_Dlg_RenderRecoveryNotReopened">Кейбір құжаттарды толық қалпына келтіру мүмкін болмады:&#10;{0}&#10;&#10;Қолжетімді қалпына келтіру файлдары {1} ішінде сақталған.</sys:String>
     <sys:String x:Key="Str_Dlg_RenderRecoveryNoFolder">Қалпына келтіру көшірмесі үшін қалта болмады, сондықтан сақталмаған өзгерістерді сақтау мүмкін болмады.</sys:String>
-    <sys:String x:Key="Str_Dlg_RenderRestarted">Терезе енді көрсете алмағандықтан KillerPDF қайта іске қосылды. Ашық құжаттар қайта ашылды. Бұл сеанста бағдарламалық көрсету қолданылады.</sys:String>
+    <sys:String x:Key="Str_Dlg_RenderRestarted">Терезе енді көрсете алмағандықтан PDF Gilardi қайта іске қосылды. Ашық құжаттар қайта ашылды. Бұл сеанста бағдарламалық көрсету қолданылады.</sys:String>
     <sys:String x:Key="Str_Read_MarkedText">Белгіленген мәтін: &quot;{0}&quot;</sys:String>
     <sys:String x:Key="Str_Read_MarkedNoText">Белгіленген мәтін</sys:String>
     <sys:String x:Key="Str_Read_Drawing">Сызба</sys:String>
@@ -1970,7 +1970,7 @@ KillerPDF жөндеуге әрекет жасасын ба? Жөнделген 
     <sys:String x:Key="Str_Color_Yellow">Сары</sys:String>
     <sys:String x:Key="Str_Color_Magenta">Күлгін қызыл</sys:String>
     <sys:String x:Key="Str_CertCatalog_Title">Сертификаттар</sys:String>
-    <sys:String x:Key="Str_CertCatalog_Hint">Windows сертификаттарын тек оқуға болады. Импортталған сертификаттар тек KillerPDF ішінде сақталады. Импорттау сертификатты сенімді етпейді.</sys:String>
+    <sys:String x:Key="Str_CertCatalog_Hint">Windows сертификаттарын тек оқуға болады. Импортталған сертификаттар тек PDF Gilardi ішінде сақталады. Импорттау сертификатты сенімді етпейді.</sys:String>
     <sys:String x:Key="Str_CertCatalog_Search">Сертификаттарды іздеу</sys:String>
     <sys:String x:Key="Str_CertCatalog_Empty">Іздеу сұрауыңызға сәйкес сертификаттар жоқ.</sys:String>
     <sys:String x:Key="Str_CertCatalog_Import">Сертификатты импорттау</sys:String>
@@ -1988,21 +1988,21 @@ KillerPDF жөндеуге әрекет жасасын ба? Жөнделген 
     <sys:String x:Key="Str_CertCatalog_WindowsMachineRoots">Windows: компьютердің түбірлік сертификаттары</sys:String>
     <sys:String x:Key="Str_CertCatalog_WindowsUserIntermediates">Windows: ағымдағы пайдаланушының аралық сертификаттары</sys:String>
     <sys:String x:Key="Str_CertCatalog_WindowsMachineIntermediates">Windows: компьютердің аралық сертификаттары</sys:String>
-    <sys:String x:Key="Str_CertCatalog_Local">KillerPDF</sys:String>
+    <sys:String x:Key="Str_CertCatalog_Local">PDF Gilardi</sys:String>
     <sys:String x:Key="Str_CertCatalog_Trusted">Сенімді түбірлік сертификат</sys:String>
     <sys:String x:Key="Str_CertCatalog_Untrusted">Сенім білдірілмеген</sys:String>
     <sys:String x:Key="Str_CertCatalog_Expired">Мерзімі өткен</sys:String>
     <sys:String x:Key="Str_CertCatalog_NotYetValid">Әлі жарамды емес</sys:String>
-    <sys:String x:Key="Str_CertCatalog_TrustPrompt">KillerPDF ішінде "{0}" сертификатына түбірлік сертификат ретінде сену керек пе? Ол берген сертификаттар қолтаңбаларды тексеру кезінде қабылдануы мүмкін. Windows сенімділік параметрлері өзгермейді.</sys:String>
-    <sys:String x:Key="Str_CertCatalog_RemovePrompt">"{0}" сертификатын KillerPDF сертификаттар каталогынан жою керек пе?</sys:String>
+    <sys:String x:Key="Str_CertCatalog_TrustPrompt">PDF Gilardi ішінде "{0}" сертификатына түбірлік сертификат ретінде сену керек пе? Ол берген сертификаттар қолтаңбаларды тексеру кезінде қабылдануы мүмкін. Windows сенімділік параметрлері өзгермейді.</sys:String>
+    <sys:String x:Key="Str_CertCatalog_RemovePrompt">"{0}" сертификатын PDF Gilardi сертификаттар каталогынан жою керек пе?</sys:String>
     <sys:String x:Key="Str_CertCatalog_Error">Сертификаттар каталогын жаңарту мүмкін болмады:</sys:String>
     <sys:String x:Key="Str_CertCatalog_LoadError">Сертификаттар тізімін оқу мүмкін болмады:</sys:String>
     <sys:String x:Key="Str_CertCatalog_WrongFileType">Ашық сертификат файлын таңдаңыз (.cer, .crt немесе .pem).</sys:String>
     <sys:String x:Key="Str_CertCatalog_NotACertificate">Файлда оқылатын ашық сертификат жоқ.</sys:String>
     <sys:String x:Key="Str_CertCatalog_PrivateKey">Жабық кілттер мен PFX файлдары қабылданбайды. Тек ашық сертификаттарды импорттаңыз.</sys:String>
     <sys:String x:Key="Str_CertCatalog_TooLarge">Сертификат файлы бос немесе тым үлкен.</sys:String>
-    <sys:String x:Key="Str_CertCatalog_Full">KillerPDF ең көбі {0} импортталған сертификатты сақтай алады.</sys:String>
-    <sys:String x:Key="Str_CertCatalog_Damaged">KillerPDF сертификаттар каталогын оқу мүмкін емес, ол өзгертілмей қалдырылды. Қолтаңбалар тек Windows сеніміне қарай тексеріледі. Қайта бастау үшін {0} жойыңыз.</sys:String>
+    <sys:String x:Key="Str_CertCatalog_Full">PDF Gilardi ең көбі {0} импортталған сертификатты сақтай алады.</sys:String>
+    <sys:String x:Key="Str_CertCatalog_Damaged">PDF Gilardi сертификаттар каталогын оқу мүмкін емес, ол өзгертілмей қалдырылды. Қолтаңбалар тек Windows сеніміне қарай тексеріледі. Қайта бастау үшін {0} жойыңыз.</sys:String>
     <sys:String x:Key="Str_CertCatalog_Imported">{0} сертификат импортталды. Түбірлік сертификатқа сенім білдірмес бұрын оны тексеріңіз.</sys:String>
     <sys:String x:Key="Str_CertCatalog_ReadOnly">Windows басқарады.</sys:String>
     <sys:String x:Key="Str_CertCatalog_Type">Сертификат түрі</sys:String>
@@ -2036,7 +2036,7 @@ KillerPDF жөндеуге әрекет жасасын ба? Жөнделген 
     <sys:String x:Key="Str_Filter_Json">JSON құжаты</sys:String>
     <sys:String x:Key="Str_Dlg_RepairAskOpen">"{0}" құрылымы зақымдалған болуы мүмкін болғандықтан, ашылмады.
 
-KillerPDF жөндеуге әрекет жасасын ба? Жөнделген көшірме жасалады. Түпнұсқа файл өзгертілмейді.
+PDF Gilardi жөндеуге әрекет жасасын ба? Жөнделген көшірме жасалады. Түпнұсқа файл өзгертілмейді.
 
 Ескерту: жөнделген файлдарда бетбелгілер, пішіндер және басқа интерактивті мүмкіндіктер болмауы мүмкін.</sys:String>
     <sys:String x:Key="Str_Dlg_OpenedReadOnlyXRef">"{0}" стандартты емес құрылымға ие, сондықтан тек оқу режимінде ашылды.
