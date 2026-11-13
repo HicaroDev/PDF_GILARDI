@@ -289,6 +289,7 @@ namespace KillerPDF.Shell
         private readonly Button _toolShapeBtn = null!;
         private readonly Button _toolSignatureBtn = null!;
         private readonly Button _toolImageBtn = null!;
+        private readonly Button _toolSignatureLibraryBtn = null!;
         private readonly Button _saveAsBtnRef = null!;
         private readonly Button _closeFileBtnRef = null!;
         private readonly ComboBox _zoomBox = null!;
@@ -366,6 +367,7 @@ namespace KillerPDF.Shell
             _toolShapeBtn = (Button)FindName("ToolShapeBtn")!;
             _toolSignatureBtn = (Button)FindName("ToolSignatureBtn")!;
             _toolImageBtn = (Button)FindName("ToolImageBtn")!;
+            _toolSignatureLibraryBtn = (Button)FindName("ToolSignatureLibraryBtn")!;
             _toolCropBtn = (Button)FindName("ToolCropBtn")!;
             _toolRotateBtn = (Button)FindName("ToolRotateBtn")!;
             _toolMeasureBtn = (Button)FindName("ToolMeasureBtn")!;

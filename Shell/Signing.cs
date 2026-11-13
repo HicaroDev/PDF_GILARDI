@@ -1089,5 +1089,12 @@ namespace KillerPDF.Shell
             win.ShowDialog();
             return result;
         }
+
+        /// <summary>Opens the saved-signatures library popup directly from the toolbar button,
+        /// making the existing signature library more visible and accessible.</summary>
+        private void ToolSignatureLibrary_Click(object sender, RoutedEventArgs e)
+        {
+            ShowSignaturePopup();
+        }
     }
 }

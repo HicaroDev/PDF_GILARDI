@@ -34,7 +34,7 @@ namespace KillerPDF.Shell
         internal static readonly ToolbarLayout DefaultToolbarLayout = new(
             ["new", "close", "open", "save", "ocr", "flatten", "print", "undo", "redo", "compare", "-", "merge", "extract",
              "-", "delete", "moveup", "movedown"],
-            ["select", "text", "highlight", "line", "shape", "draw", "image", "signature", "crop", "transform",
+            ["select", "text", "highlight", "line", "shape", "draw", "image", "signature", "signaturelibrary", "crop", "transform",
              "colorcorrection", "measure", "redact", "stamp", "-", "formfield", "-", "clear",
              "-", "search"],
             []);
@@ -105,6 +105,7 @@ namespace KillerPDF.Shell
             Add("draw", ToolDrawBtn, ToolDrawBtn, MiDraw, "\uED63", "Str_Lbl_Draw", "D", ToolDraw_Click);
             Add("image", ToolImageBtn, ToolImageBtn, MiImage, "\uEB9F", "Str_Lbl_Image", "I", ToolImage_Click);
             Add("signature", ToolSignatureBtn, ToolSignatureBtn, MiSignature, "\uEE56", "Str_Lbl_Signature", "G", ToolSignature_Click);
+            Add("signaturelibrary", ToolSignatureLibraryBtn, ToolSignatureLibraryBtn, null, "\uE8B8", "Str_Lbl_SignatureLibrary", null, ToolSignatureLibrary_Click);
             Add("crop", ToolCropBtn, ToolCropBtn, MiCrop, "\uE7A8", "Str_Lbl_Crop", "C", ToolCrop_Click);
             Add("transform", ToolRotateBtn, ToolRotateBtn, null, TransformGlyph, "Str_Lbl_Rotate", "R", ToolRotate_Click);
             Add("colorcorrection", ToolColorCorrectionBtn, ToolColorCorrectionBtn, MiColorCorrection, "\uE790", "Str_ColorCorrection", "E", ToolColorCorrection_Click);
