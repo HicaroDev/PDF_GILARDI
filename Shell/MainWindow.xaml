@@ -1734,6 +1734,7 @@
                     <Button x:Name="ToolDrawBtn" Content="&#xED63;" Style="{StaticResource ToolbarButton}" Click="ToolDraw_Click" ToolTip="{DynamicResource Str_TT_DrawTool}"/>
                     <Button x:Name="ToolImageBtn" Content="&#xEB9F;" Style="{StaticResource ToolbarButton}" Click="ToolImage_Click" ToolTip="{DynamicResource Str_TT_ImageTool}"/>
                     <Button x:Name="ToolSignatureBtn" Content="&#xEE56;" Style="{StaticResource ToolbarButton}" Click="ToolSignature_Click" ToolTip="{DynamicResource Str_TT_SignatureTool}"/>
+                    <Button x:Name="ToolSignatureLibraryBtn" Content="&#xE8B8;" Style="{StaticResource ToolbarButton}" Click="ToolSignatureLibrary_Click" ToolTip="{DynamicResource Str_TT_SignatureLibrary}"/>
                     <Button x:Name="ToolCropBtn" Content="&#xE7A8;" Style="{StaticResource ToolbarButton}" Click="ToolCrop_Click" ToolTip="{DynamicResource Str_TT_CropTool}"/>
                     <Button x:Name="ToolRotateBtn" Style="{StaticResource ToolbarButton}" Click="ToolRotate_Click" ToolTip="{DynamicResource Str_TT_RotateTool}">
                         <Grid Width="16" Height="16">

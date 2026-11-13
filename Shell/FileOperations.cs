@@ -1273,6 +1273,14 @@ namespace KillerPDF.Shell
                 menu.Items.Add(MakeMenuItem(Loc("Str_Menu_SaveAs"), (s2, e2) => SaveAs_Click(s2, e2), GestureFor("CtrlShift:S"), ""));
                 menu.Items.Add(MakeMenuItem(Loc("Str_Menu_ReduceSize"), (s2, e2) => ReduceFileSize_Click(s2, e2)));   // #433
                 menu.Items.Add(MakeMenuItem(Loc("Str_Menu_CompressZip"), (s2, e2) => CompressToZip_Click(s2, e2), null, ""));
+                var autoZip = MakeMenuItem(Loc("Str_Menu_AutoZipAfterMerge"), (s2, e2) =>
+                {
+                    var current = App.GetSetting("AutoZipAfterMerge") ?? "1";
+                    App.SetSetting("AutoZipAfterMerge", current == "1" ? "0" : "1");
+                    autoZip.IsChecked = current != "1";
+                });
+                autoZip.IsChecked = App.GetSetting("AutoZipAfterMerge") != "0";
+                menu.Items.Add(autoZip);
                 menu.Items.Add(MakeMenuItem(Loc("Str_Menu_ExportImages"), (s2, e2) => ExportImages_Click(s2, e2), null, ""));   // #132
                 menu.Items.Add(MakeMenuItem(Loc("Str_Menu_ExportDocument"), (s2, e2) => ExportDocument_Click(s2, e2), GestureFor("CtrlShift:E"), ""));
                 menu.Items.Add(MakeMenuItem(Loc("Str_TableExport_Title"), (_, _) => ExportTable(PageList.SelectedIndex)));
@@ -1659,6 +1667,26 @@ namespace KillerPDF.Shell
 
                 AcceptSavedCheckpoint();
                 ReportSaved(saveTarget, keptProtection, "Str_St_Saved");
+
+                // Automatic ZIP after a merge: deliver the merged PDF already compressed,
+                // unless AutoZipAfterMerge has been turned off.
+                if (_mergePendingZip)
+                {
+                    _mergePendingZip = false;
+                    if (App.GetSetting("AutoZipAfterMerge") != "0")
+                    {
+                        try
+                        {
+                            string zipPath = saveTarget + ".zip";
+                            Services.PdfZipExport.Write(saveTarget, zipPath);
+                            SetStatus(string.Format(Loc("Str_Status_ZippedAuto"), Path.GetFileName(zipPath)));
+                        }
+                        catch (Exception ex)
+                        {
+                            SetStatus(Loc("Str_Err_ZipFailed") + "\n" + ex.Message);
+                        }
+                    }
+                }
             }
             catch (Exception ex)
             {

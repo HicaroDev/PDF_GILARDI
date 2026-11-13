@@ -4,6 +4,14 @@ All notable changes to KillerPDF are documented here.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.9.3] - Unreleased
+
+### Added
+- **Splash screen:** a simple startup splash showing the KillerPDF name and version while the app boots, so the user sees visual feedback immediately instead of a blank window.
+- **Signature library exposed on the toolbar:** a new "Signature Library" button (folder icon) opens the saved-signatures popup directly, making the existing signature library (draw, import image/SVG, create initials, delete) more visible and accessible without needing to activate the signature tool first.
+- **Auto-zip after merge:** after merging PDFs and saving the result, KillerPDF now automatically creates a .zip copy alongside the saved file. Controlled by a new "Auto-zip after merge" menu item on the Save menu (on by default; turn it off to deliver the merged PDF uncompressed).
+- **New "Adobe" theme:** a modern, Adobe-like dark theme (slate blue surfaces, blue accent, lighter than the gray-paper Dark theme) added alongside the existing 13 themes. The Dark theme is unchanged; Adobe is selectable from the theme picker.
+
 ## [1.9.2] - 2026-11-02
 
 1.9.2 follows a PDF owner's limits when saving, printing and exporting, lets you edit recognized text on scans, fixes rendering, signatures, comments, forms, zoom, text selection and update relaunches, and adds reverse-order and binding-edge printing.

@@ -1,0 +1,109 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:po="http://schemas.microsoft.com/winfx/2006/xaml/presentation/options"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <SolidColorBrush x:Key="TextFieldBrush" Color="#0f172a" po:Freeze="True"/>
+
+    <sys:Double x:Key="GrainOpacity">0.10</sys:Double>
+    <sys:Double x:Key="IconShadowOpacity">0.85</sys:Double>
+
+    <DropShadowEffect x:Key="TextStroke"     Color="Black" BlurRadius="3" ShadowDepth="0.8" Direction="270" Opacity="0.65"/>
+    <DropShadowEffect x:Key="TextStrokeSoft" Color="Black" BlurRadius="2" ShadowDepth="0.6" Direction="270" Opacity="0.4"/>
+
+    <!-- Adobe-like accent: a modern, legible blue instead of the family green. -->
+    <SolidColorBrush x:Key="PrimaryBrush" Color="#3b82f6" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+    <SolidColorBrush x:Key="PrimaryHoverBrush" Color="#2563eb" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+    <SolidColorBrush x:Key="PrimaryPressedBrush" Color="#1d4ed8" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+    <SolidColorBrush x:Key="HeaderLineBrush" Color="#3b82f6" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+    <SolidColorBrush x:Key="OnPrimaryBrush" Color="#ffffff" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+    <SolidColorBrush x:Key="OutlineBtnBrush" Color="#3b82f6" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+    <SolidColorBrush x:Key="InputHoverBrush" Color="#475569" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+    <SolidColorBrush x:Key="TextFooter"          Color="#94a3b8" po:Freeze="True"/>
+
+    <!-- Surface tiers: lighter than Dark's gray-paper, closer to Adobe's dark slate. -->
+    <SolidColorBrush x:Key="BackgroundBrush" Color="#0f172a" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+    <SolidColorBrush x:Key="SurfaceBrush" Color="#1e293b" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+    <SolidColorBrush x:Key="PaneBrush" Color="#334155" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+    <SolidColorBrush x:Key="TableHeaderBrush" Color="#1e293b" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+    <SolidColorBrush x:Key="CardBorderBrush" Color="#475569" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+    <SolidColorBrush x:Key="TreeLineBrush"       Color="#334155" po:Freeze="True"/>
+    <SolidColorBrush x:Key="WarnBrush"           Color="#f59e0b" po:Freeze="True"/>
+    <SolidColorBrush x:Key="OkBrush"             Color="#22c55e" po:Freeze="True"/>
+    <SolidColorBrush x:Key="PaneBorderBrush" Color="#475569" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+
+    <!-- Text -->
+    <SolidColorBrush x:Key="TextBrush" Color="#f8fafc" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+    <SolidColorBrush x:Key="MutedTextBrush" Color="#94a3b8" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+    <SolidColorBrush x:Key="ChromeTextBrush" Color="#cbd5e1" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+    <SolidColorBrush x:Key="DimTextBrush" Color="#64748b" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+
+    <!-- Grid rows -->
+    <SolidColorBrush x:Key="RowAltBrush" Color="#1e293b" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+    <SolidColorBrush x:Key="RowHoverBrush" Color="#475569" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+    <SolidColorBrush x:Key="RowSelectedBrush"    Color="#1e3a8a" po:Freeze="True"/>
+    <LinearGradientBrush x:Key="SelectionBg" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  StartPoint="0,0" EndPoint="0,1"><GradientStop Color="#3b82f6" Offset="0"/><GradientStop Color="#1e40af" Offset="1"/></LinearGradientBrush>
+    <SolidColorBrush x:Key="SelectionFg" Color="#ffffff" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+
+    <!-- Inputs / menus / scrollbar -->
+    <SolidColorBrush x:Key="InputBorderBrush" Color="#475569" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+    <SolidColorBrush x:Key="MenuBackgroundBrush" Color="#0f172a" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+    <SolidColorBrush x:Key="TerminalBackgroundBrush" Color="#1e293b" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+    <SolidColorBrush x:Key="MenuBorderBrush" Color="#334155" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+    <SolidColorBrush x:Key="MenuTextBrush"       Color="#94a3b8" po:Freeze="True"/>
+    <SolidColorBrush x:Key="MenuHoverBrush" Color="#334155" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+    <SolidColorBrush x:Key="OutlinePressedBrush" Color="#1e3a8a" po:Freeze="True"/>
+    <SolidColorBrush x:Key="ScrollThumbBrush"    Color="#3b82f6" po:Freeze="True"/>
+    <SolidColorBrush x:Key="ScrollThumbHoverBrush" Color="#60a5fa" po:Freeze="True"/>
+
+    <!-- Device-type label colors -->
+    <SolidColorBrush x:Key="TypeRouter"     Color="#f59e0b" po:Freeze="True"/>
+    <SolidColorBrush x:Key="TypeWindows"    Color="#3b82f6" po:Freeze="True"/>
+    <SolidColorBrush x:Key="TypePrinter"    Color="#d946ef" po:Freeze="True"/>
+    <SolidColorBrush x:Key="TypeSwitch"     Color="#94a3b8" po:Freeze="True"/>
+    <SolidColorBrush x:Key="TypeHypervisor" Color="#ef4444" po:Freeze="True"/>
+    <SolidColorBrush x:Key="TypeNas"        Color="#10b981" po:Freeze="True"/>
+    <SolidColorBrush x:Key="TypeIot"        Color="#8b5cf6" po:Freeze="True"/>
+    <SolidColorBrush x:Key="TypeServer"     Color="#f97316" po:Freeze="True"/>
+    <SolidColorBrush x:Key="TypeLinux"      Color="#d97706" po:Freeze="True"/>
+    <SolidColorBrush x:Key="TypeDns"        Color="#06b6d4" po:Freeze="True"/>
+    <SolidColorBrush x:Key="TypeHa"         Color="#14b8a6" po:Freeze="True"/>
+    <SolidColorBrush x:Key="TypeMobile"     Color="#a855f7" po:Freeze="True"/>
+    <SolidColorBrush x:Key="TypeCamera"     Color="#eab308" po:Freeze="True"/>
+    <SolidColorBrush x:Key="TypeSmarttv"    Color="#d946ef" po:Freeze="True"/>
+    <SolidColorBrush x:Key="TypeMedia"      Color="#22d3ee" po:Freeze="True"/>
+
+    <!-- Shortcut categories -->
+    <SolidColorBrush x:Key="KsCatFile"      Color="#22d3ee" po:Freeze="True"/>
+    <SolidColorBrush x:Key="KsCatNav"       Color="#8b5cf6" po:Freeze="True"/>
+    <SolidColorBrush x:Key="KsCatView"      Color="#d946ef" po:Freeze="True"/>
+    <SolidColorBrush x:Key="KsCatSearch"    Color="#3b82f6" po:Freeze="True"/>
+    <SolidColorBrush x:Key="KsCatEdit"      Color="#f472b6" po:Freeze="True"/>
+    <SolidColorBrush x:Key="KsCatTabs"      Color="#f59e0b" po:Freeze="True"/>
+    <SolidColorBrush x:Key="KsCatHelp"      Color="#4ade80" po:Freeze="True"/>
+
+    <CornerRadius x:Key="WindowCornerRadius" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">7</CornerRadius>
+    <CornerRadius x:Key="PanelCornerRadius" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">6</CornerRadius>
+    <CornerRadius x:Key="ControlCornerRadius" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">4</CornerRadius>
+    <CornerRadius x:Key="SmallCornerRadius" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">3</CornerRadius>
+    <CornerRadius x:Key="FlyoutCornerRadius">4</CornerRadius>
+    <CornerRadius x:Key="AccentSwatchCornerRadius" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">9</CornerRadius>
+
+    <SolidColorBrush x:Key="TitleBarBrush" Color="#0f172a" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+    <SolidColorBrush x:Key="AppBorderBrush" Color="#334155" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+    <SolidColorBrush x:Key="ComboHighlightTextBrush" Color="#f8fafc"/>
+    <SolidColorBrush x:Key="AccentLogo"     Color="#3b82f6" po:Freeze="True"/>
+    <SolidColorBrush x:Key="RadioAccent"    Color="#3b82f6" po:Freeze="True"/>
+    <SolidColorBrush x:Key="SelectionAccent" Color="#3b82f6" po:Freeze="True"/>
+    <sys:Double x:Key="PaneShadowOpacity" xmlns:sys="clr-namespace:System;assembly=mscorlib">0.55</sys:Double>
+    <SolidColorBrush x:Key="SurfaceHoverBrush" Color="#334155" po:Freeze="True"/>
+    <sys:Double x:Key="TitleBarHeight" xmlns:sys="clr-namespace:System;assembly=mscorlib">32</sys:Double>
+    <sys:Double x:Key="BarShadowOpacity" xmlns:sys="clr-namespace:System;assembly=mscorlib">0.35</sys:Double>
+    <SolidColorBrush x:Key="DialogTitleBarBrush" Color="Transparent" po:Freeze="True"/>
+    <SolidColorBrush x:Key="FooterBackgroundBrush" Color="#0f172a" po:Freeze="True"/>
+    <sys:Double x:Key="FlyoutShadowOpacity" xmlns:sys="clr-namespace:System;assembly=mscorlib">0.5</sys:Double>
+    <sys:Double x:Key="WordmarkShadowOpacity" xmlns:sys="clr-namespace:System;assembly=mscorlib">0.4</sys:Double>
+    <SolidColorBrush x:Key="MenuSeparatorBrush" Color="#334155" po:Freeze="True"/>
+    <sys:Double x:Key="TitleWordmarkBoldSize" xmlns:sys="clr-namespace:System;assembly=mscorlib">22.52</sys:Double>
+    <sys:Double x:Key="TitleWordmarkSize" xmlns:sys="clr-namespace:System;assembly=mscorlib">15</sys:Double>
+    <SolidColorBrush x:Key="FileDialogPaneBrush" Color="#1e293b" po:Freeze="True"/>
+</ResourceDictionary>

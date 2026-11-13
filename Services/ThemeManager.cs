@@ -14,7 +14,7 @@ namespace KillerPDF.Services
     public enum Theme
     {
         Dark, Light, Black, SE98, Blood, Greed, Cyanotic, Ectoplasm, Decay,
-        Mourning, Sepulchre, Delirium, Malaise
+        Mourning, Sepulchre, Delirium, Malaise, Adobe
     }
     public enum Accent { Green, Red, Blue, Purple, Orange, Teal, Yellow, Magenta }
 

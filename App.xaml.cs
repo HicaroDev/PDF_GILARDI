@@ -269,9 +269,14 @@ namespace KillerPDF
             LocaleManager.Initialize();
             StartupTrace.Mark("Locale initialized");
             LoadPendingUpdateRestart();
+            // Show a simple splash while the main window boots, so the user sees
+            // visual feedback immediately instead of a blank or delayed window.
+            var splash = new Controls.SplashWindow();
+            splash.Show();
             var mainWindow = new MainWindow();
             StartupTrace.Mark("MainWindow constructed");
             mainWindow.Show();
+            splash.Close();
             StartupTrace.Mark("MainWindow.Show returned");
             // After Show: under OnLastWindowClose, a prompt shown before the main window is the app's
             // only window, and answering it closed KillerPDF instead of opening it.

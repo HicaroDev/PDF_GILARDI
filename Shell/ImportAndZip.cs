@@ -16,6 +16,9 @@ namespace KillerPDF.Shell
     // Strings/*.xaml) so the feature is fully localized.
     public partial class MainWindow
     {
+        // When true, the next successful save of the merged document should also produce a .zip
+        // copy alongside it, unless AutoZipAfterMerge is disabled.
+        private bool _mergePendingZip;
         // ----- Import images as a single PDF -------------------------------------------------
 
         private void ImportImages_Click(object sender, RoutedEventArgs e)
@@ -206,6 +209,7 @@ namespace KillerPDF.Shell
                 adopted = true;
                 _originalFile = null;   // unsaved -> Save routes to Save As
                 MarkDirty(true);
+                _mergePendingZip = App.GetSetting("AutoZipAfterMerge") != "0";
                 string merged = string.Format(Loc("Str_Status_Merged"), found.Count - leftOut);
                 SetStatus(leftOut > 0
                     ? merged + " " + string.Format(Loc("Str_Drop_SkippedFiles"), leftOut) : merged);

@@ -768,6 +768,7 @@ Scale them to a supported size? The pages keep their look and proportions.</sys:
     <!-- Import images as PDF / Compress to ZIP -->
     <sys:String x:Key="Str_Menu_Import">Import images as PDF</sys:String>
     <sys:String x:Key="Str_Menu_CompressZip">Compress to ZIP</sys:String>
+    <sys:String x:Key="Str_Menu_AutoZipAfterMerge">Auto-zip after merge</sys:String>
     <sys:String x:Key="Str_Menu_ReduceSize">Reduce File Size...</sys:String>
     <sys:String x:Key="Str_Reduce_Title">Reduce File Size</sys:String>
     <sys:String x:Key="Str_Reduce_Hint">Saves a smaller copy. Unused objects are removed and the file is compressed either way; the open document stays as it is.</sys:String>
@@ -800,6 +801,7 @@ Scale them to a supported size? The pages keep their look and proportions.</sys:
     <sys:String x:Key="Str_Msg_OpenFirst">Open a PDF first.</sys:String>
     <sys:String x:Key="Str_Dlg_SaveBeforeZip">Save changes before compressing to ZIP?</sys:String>
     <sys:String x:Key="Str_Status_Zipped">Zipped to {0}: {1} (was {2})</sys:String>
+    <sys:String x:Key="Str_Status_ZippedAuto">Zipped to {0} automatically</sys:String>
     <sys:String x:Key="Str_Err_ZipFailed">Compress to ZIP failed:</sys:String>
     <sys:String x:Key="Str_Sig_Title">Signatures</sys:String>
     <sys:String x:Key="Str_Sig_None">No saved signatures</sys:String>
@@ -848,6 +850,8 @@ Scale them to a supported size? The pages keep their look and proportions.</sys:
     <sys:String x:Key="Str_Bar_MoreColors">More colors...</sys:String>
     <sys:String x:Key="Str_Bar_ShapeFill">Fill</sys:String>
     <sys:String x:Key="Str_Sig_Signatures">Signatures</sys:String>
+    <sys:String x:Key="Str_Lbl_SignatureLibrary">Signature Library</sys:String>
+    <sys:String x:Key="Str_TT_SignatureLibrary">Open saved signatures library</sys:String>
     <sys:String x:Key="Str_Sig_Initials">Initials</sys:String>
     <sys:String x:Key="Str_Sig_Pen">Pen</sys:String>
     <sys:String x:Key="Str_Sig_Thin">Thin</sys:String>
