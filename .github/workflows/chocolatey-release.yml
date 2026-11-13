@@ -37,7 +37,7 @@ jobs:
         run: |
           $releaseTag = $env:RELEASE_TAG
           $version = $releaseTag.TrimStart('v')
-          $exeUrl  = "https://github.com/SteveTheKiller/KillerPDF/releases/download/$releaseTag/KillerPDF.exe"
+          $exeUrl  = "https://github.com/${env:GITHUB_REPOSITORY}/releases/download/$releaseTag/KillerPDF.exe"
 
           # Download release EXE and compute hash
           Write-Host "Downloading $exeUrl..."

@@ -69,7 +69,7 @@ jobs:
 
       - uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '10.0.x'
+          global-json-file: global.json
 
       - name: Restore
         run: dotnet restore engine/KillerPdf.Engine.Tests/KillerPdf.Engine.Tests.csproj
