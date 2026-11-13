@@ -16,7 +16,7 @@ internal sealed class PageLabelsDialog : Window
 
     internal PageLabelsDialog(Window owner, int pageCount, IReadOnlyList<PdfPageLabelMacroRange>? ranges = null)
     {
-        Title = "KillerPDF - " + L("Str_DocumentTools_PageLabels");
+        Title = "PDF Gilardi - " + L("Str_DocumentTools_PageLabels");
         // As tall as the ranges need, up to most of the screen, where they start scrolling.
         Width = 720;
         SizeToContent = SizeToContent.Height;
@@ -126,7 +126,7 @@ internal sealed class PageLabelsDialog : Window
 
     private void ShowInvalid() => KillerDialog.Show(this,
         string.Format(L("Str_PageLabels_Invalid"), _pageCount),
-        "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Warning);
+        "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Warning);
 
     private static Grid Header()
     {

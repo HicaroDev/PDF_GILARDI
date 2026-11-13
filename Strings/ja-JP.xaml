@@ -1138,8 +1138,8 @@ Windows の設定 - 既定のアプリ を開きます。</sys:String>
     <sys:String x:Key="Str_Key_WheelLogo">ロゴ上でホイール</sys:String>
     <sys:String x:Key="Str_Key_MiddleDrag">中ボタンでドラッグ</sys:String>
     <sys:String x:Key="Str_Key_SpaceDrag">Space + ドラッグ</sys:String>
-    <sys:String x:Key="Str_Wordmark_A">Killer</sys:String>
-    <sys:String x:Key="Str_Wordmark_B">PDF</sys:String>
+    <sys:String x:Key="Str_Wordmark_A">PDF</sys:String>
+    <sys:String x:Key="Str_Wordmark_B">Gilardi</sys:String>
     <sys:String x:Key="Str_Btn_Open">開く</sys:String>
     <sys:String x:Key="Str_Btn_Select">フォルダーを選択</sys:String>
     <sys:String x:Key="Str_Btn_Replace">置き換え</sys:String>

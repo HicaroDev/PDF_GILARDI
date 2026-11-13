@@ -48,7 +48,7 @@ namespace KillerPDF.Shell
             {
                 AbortTabLoad(target, prev, createdNew);
                 KillerDialog.Show(this, Loc("Str_Err_ImportFailed") + "\n" + ex.Message,
-                    "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                    "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -91,12 +91,12 @@ namespace KillerPDF.Shell
                 string message = ex.Failure is DropImportFailure.Link or DropImportFailure.UnsafePath
                     ? Loc("Str_Drop_Unsafe")
                     : string.Format(Loc("Str_Drop_Limits"), 10_000, 64, 1, 2);
-                KillerDialog.Show(this, message, "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Warning);
+                KillerDialog.Show(this, message, "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Warning);
             }
             catch (Exception ex)
             {
                 KillerDialog.Show(this, Loc("Str_Err_ImportFailed") + "\n" + ex.Message,
-                    "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                    "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
             finally { HideBusyOverlay(busy); EndCancellableOp(ct); }
             if (batch is null) return;
@@ -115,7 +115,7 @@ namespace KillerPDF.Shell
                 if (found.Count > MaxDropFiles)
                 {
                     if (KillerDialog.Show(this, string.Format(Loc("Str_Drop_TooMany"), found.Count, MaxDropFiles),
-                        "KillerPDF", MessageBoxButton.OKCancel) != MessageBoxResult.OK) return;
+                        "PDF Gilardi", MessageBoxButton.OKCancel) != MessageBoxResult.OK) return;
                     found = found.GetRange(0, MaxDropFiles);
                 }
                 if (!batch.Expanded && found.Count == 1) { OpenDropped(found[0].Path); return; }
@@ -143,7 +143,7 @@ namespace KillerPDF.Shell
             if (found.Count > 30)
             {
                 var ok = KillerDialog.Show(this, string.Format(Loc("Str_Drop_ManyTabs"), found.Count),
-                    "KillerPDF", MessageBoxButton.OKCancel);
+                    "PDF Gilardi", MessageBoxButton.OKCancel);
                 if (ok != MessageBoxResult.OK) return;
             }
             foreach (var file in found)
@@ -231,7 +231,7 @@ namespace KillerPDF.Shell
                     prev = owner.Viewer.SessionsRef.FirstOrDefault(session => !ReferenceEquals(session, target));
                 AbortTabLoad(target, prev, createdNew);
                 KillerDialog.Show(this, Loc("Str_Err_ImportFailed") + "\n" + ex.Message,
-                    "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                    "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
             finally
             {
@@ -261,7 +261,7 @@ namespace KillerPDF.Shell
             {
                 AbortTabLoad(target, prev, createdNew);
                 KillerDialog.Show(this, Loc("Str_Err_ImportFailed") + "\n" + ex.Message,
-                    "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                    "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -288,7 +288,7 @@ namespace KillerPDF.Shell
             if (_isDirty || string.IsNullOrEmpty(_originalFile) || !File.Exists(_originalFile))
             {
                 var ask = KillerDialog.Show(this, Loc("Str_Dlg_SaveBeforeZip"),
-                    "KillerPDF", MessageBoxButton.OKCancel);
+                    "PDF Gilardi", MessageBoxButton.OKCancel);
                 if (ask != MessageBoxResult.OK) return;
                 SaveInPlace();
                 if (_isDirty || string.IsNullOrEmpty(_originalFile) || !File.Exists(_originalFile))
@@ -318,7 +318,7 @@ namespace KillerPDF.Shell
             catch (Exception ex)
             {
                 KillerDialog.Show(this, Loc("Str_Err_ZipFailed") + "\n" + ex.Message,
-                    "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                    "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 

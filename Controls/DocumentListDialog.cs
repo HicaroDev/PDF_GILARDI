@@ -11,7 +11,7 @@ internal sealed class DocumentListDialog : Window
 
     internal DocumentListDialog(Window owner, string title, IEnumerable<string> labels, bool reorder = false)
     {
-        Title = "KillerPDF - " + title;
+        Title = "PDF Gilardi - " + title;
         Width = 650; Height = 480; MinWidth = 400; MinHeight = 300;
         UseLayoutRounding = true;
         DialogFrame.Configure(this, owner);

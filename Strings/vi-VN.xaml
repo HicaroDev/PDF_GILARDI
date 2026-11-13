@@ -1138,8 +1138,8 @@ Thu phóng chúng về kích thước được hỗ trợ? Các trang vẫn gi�
     <sys:String x:Key="Str_Key_WheelLogo">Lăn chuột trên logo</sys:String>
     <sys:String x:Key="Str_Key_MiddleDrag">Kéo bằng nút giữa</sys:String>
     <sys:String x:Key="Str_Key_SpaceDrag">Space + kéo</sys:String>
-    <sys:String x:Key="Str_Wordmark_A">Killer</sys:String>
-    <sys:String x:Key="Str_Wordmark_B">PDF</sys:String>
+    <sys:String x:Key="Str_Wordmark_A">PDF</sys:String>
+    <sys:String x:Key="Str_Wordmark_B">Gilardi</sys:String>
     <sys:String x:Key="Str_Btn_Open">Mở</sys:String>
     <sys:String x:Key="Str_Btn_Select">Chọn thư mục</sys:String>
     <sys:String x:Key="Str_Btn_Replace">Thay thế</sys:String>

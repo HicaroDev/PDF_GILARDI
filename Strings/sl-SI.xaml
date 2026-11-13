@@ -1046,8 +1046,8 @@
     <sys:String x:Key="Str_Key_WheelLogo">Kolesce nad logotipom</sys:String>
     <sys:String x:Key="Str_Key_MiddleDrag">Vlečenje s srednjim gumbom</sys:String>
     <sys:String x:Key="Str_Key_SpaceDrag">Preslednica + vlečenje</sys:String>
-    <sys:String x:Key="Str_Wordmark_A">Killer</sys:String>
-    <sys:String x:Key="Str_Wordmark_B">PDF</sys:String>
+    <sys:String x:Key="Str_Wordmark_A">PDF</sys:String>
+    <sys:String x:Key="Str_Wordmark_B">Gilardi</sys:String>
     <sys:String x:Key="Str_Btn_Open">Odpri</sys:String>
     <sys:String x:Key="Str_Btn_Select">Izberi mapo</sys:String>
     <sys:String x:Key="Str_Btn_Replace">Zamenjaj</sys:String>

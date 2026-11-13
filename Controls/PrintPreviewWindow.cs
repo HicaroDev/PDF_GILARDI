@@ -1367,7 +1367,7 @@ namespace KillerPDF
         {
             if (_queue is null)
             {
-                KillerDialog.Show(this, S("Str_Dlg_NoPrinter"), "KillerPDF",
+                KillerDialog.Show(this, S("Str_Dlg_NoPrinter"), "PDF Gilardi",
                     MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
@@ -1408,7 +1408,7 @@ namespace KillerPDF
             catch (Exception ex)
             {
                 KillerDialog.Show(this, S("Str_Err_PrinterProperties") + "\n" + ex.Message,
-                    "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                    "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
             finally
@@ -1458,7 +1458,7 @@ namespace KillerPDF
             CancellationToken cancellationToken = _printCancellation.Token;
             if (_queue == null)
             {
-                KillerDialog.Show(this, S("Str_Dlg_NoPrinter"), "KillerPDF",
+                KillerDialog.Show(this, S("Str_Dlg_NoPrinter"), "PDF Gilardi",
                     MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
@@ -1468,7 +1468,7 @@ namespace KillerPDF
             var indices = SelectedIndices();
             if (indices.Count == 0)
             {
-                KillerDialog.Show(this, S("Str_Dlg_NoValidPages"), "KillerPDF",
+                KillerDialog.Show(this, S("Str_Dlg_NoValidPages"), "PDF Gilardi",
                     MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
@@ -1575,7 +1575,7 @@ namespace KillerPDF
                 // been retyped behind the scrim, and a range that now matches nothing must stay disabled.
                 UpdatePreview();
                 KillerDialog.Show(this, S("Str_Err_PrintFailed") + "\n" + ex.GetType().Name + ": " + ex.Message,
-                    "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                    "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 

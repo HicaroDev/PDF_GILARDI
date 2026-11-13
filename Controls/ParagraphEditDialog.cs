@@ -58,7 +58,7 @@ internal sealed class ParagraphEditDialog : Window
         _pixelsPerPoint = Math.Min(1000 / _page.Width, 1000 / _page.Height);
         _candidates = inspection.Candidates;
         _refusals = inspection.Refusals;
-        Title = "KillerPDF - " + L("Str_Paragraph_Title");
+        Title = "PDF Gilardi - " + L("Str_Paragraph_Title");
         scale = Math.Clamp(scale, .7, 2.5);
         Width = Math.Min(980 * scale, SystemParameters.WorkArea.Width - 40);
         Height = Math.Min(720 * scale, SystemParameters.WorkArea.Height - 40);

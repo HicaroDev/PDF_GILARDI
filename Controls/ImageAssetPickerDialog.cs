@@ -30,7 +30,7 @@ internal sealed class ImageAssetPickerDialog : Window
     internal ImageAssetPickerDialog(Window owner, string? title = null, bool allowVector = false)
     {
         _allowVector = allowVector;
-        Title = "KillerPDF - " + (title ?? L("Str_Dlg_InsertImage"));
+        Title = "PDF Gilardi - " + (title ?? L("Str_Dlg_InsertImage"));
         Width = 680;
         Height = 480;
         MinWidth = 560;
@@ -222,7 +222,7 @@ internal sealed class ImageAssetPickerDialog : Window
         catch (Exception ex)
         {
             KillerDialog.Show(this, L("Str_Err_ImportImageFailed") + "\n" + ex.Message,
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
         }
     }
 
@@ -247,7 +247,7 @@ internal sealed class ImageAssetPickerDialog : Window
         }
         catch (Exception ex)
         {
-            KillerDialog.Show(this, ex.Message, "KillerPDF",
+            KillerDialog.Show(this, ex.Message, "PDF Gilardi",
                 MessageBoxButton.OK, MessageBoxImage.Error);
         }
     }
@@ -257,7 +257,7 @@ internal sealed class ImageAssetPickerDialog : Window
         ImageAsset? asset = SelectedAsset;
         if (asset is null) return;
         if (KillerDialog.Show(this,
-                string.Format(L("Str_ImageAsset_DeleteConfirm"), asset.Name), "KillerPDF",
+                string.Format(L("Str_ImageAsset_DeleteConfirm"), asset.Name), "PDF Gilardi",
                 MessageBoxButton.YesNo, MessageBoxImage.Warning) != MessageBoxResult.Yes)
             return;
         try
@@ -267,7 +267,7 @@ internal sealed class ImageAssetPickerDialog : Window
         }
         catch (Exception ex)
         {
-            KillerDialog.Show(this, ex.Message, "KillerPDF",
+            KillerDialog.Show(this, ex.Message, "PDF Gilardi",
                 MessageBoxButton.OK, MessageBoxImage.Error);
         }
     }

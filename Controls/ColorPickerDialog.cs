@@ -51,7 +51,7 @@ namespace KillerPDF
         private static string L(string key) => Application.Current.TryFindResource(key) as string ?? key;
         public ColorPickerDialog(Window? owner, Color initial)
         {
-            Title = "KillerPDF - " + L("Str_Color_Name");
+            Title = "PDF Gilardi - " + L("Str_Color_Name");
             System.Windows.Automation.AutomationProperties.SetAutomationId(this, "ColorPickerDialog");
             Width = 300;
             SizeToContent = SizeToContent.Height;

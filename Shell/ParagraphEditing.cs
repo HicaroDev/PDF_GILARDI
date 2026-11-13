@@ -62,7 +62,7 @@ public partial class MainWindow
         catch (Exception error) when (error is not OutOfMemoryException)
         {
             KillerDialog.Show(this, Loc("Str_Paragraph_Unsupported") + "\n" + error.Message,
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
         }
         finally
         {

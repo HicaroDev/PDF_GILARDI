@@ -23,7 +23,7 @@ namespace KillerPDF
         {
             _info = info;
             _save = save;
-            Title = "KillerPDF - " + L("Str_DocInfo_Suffix");
+            Title = "PDF Gilardi - " + L("Str_DocInfo_Suffix");
             Width = 460;
             SizeToContent = SizeToContent.Height;
             UseLayoutRounding = true;
@@ -70,7 +70,7 @@ namespace KillerPDF
             row.Margin = new Thickness(0, 16, 0, 0);
             body.Children.Add(row);
 
-            Content = DialogFrame.Frame(this, Owner, "KillerPDF - " + L("Str_DocInfo_Suffix"),
+            Content = DialogFrame.Frame(this, Owner, "PDF Gilardi - " + L("Str_DocInfo_Suffix"),
                 () => { DialogResult = false; Close(); }, body);
 
             Loaded += (_, _2) => _title.Focus();

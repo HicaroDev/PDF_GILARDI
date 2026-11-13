@@ -18,7 +18,7 @@ namespace KillerPDF.Services
         internal const string ExeName = "KillerPDF.exe";
 
         /// <summary>Name shown in prompts.</summary>
-        internal const string DisplayName = "KillerPDF";
+        internal const string DisplayName = "PDF Gilardi";
 
         /// <summary>Certificate subject fragment that unlocks the alias line on the About card. The
         /// subject is a legal name, so the card ties it back to the publicly known alias. A build

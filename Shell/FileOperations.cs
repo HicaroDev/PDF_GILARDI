@@ -408,7 +408,7 @@ namespace KillerPDF.Shell
                     HideBusyOverlay(busy);
                     _asyncOpenPending = false;
                     KillerDialog.Show(this, Loc("Str_Repair_Unrecoverable"),
-                        "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                        "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
                     return;
                 }
 
@@ -427,7 +427,7 @@ namespace KillerPDF.Shell
                     raster
                         ? string.Format(Loc("Str_Dlg_RepairedRaster"), System.IO.Path.GetFileName(path))
                         : string.Format(Loc("Str_Dlg_Repaired"), System.IO.Path.GetFileName(path)),
-                    "KillerPDF", MessageBoxButton.OK, MessageBoxImage.None);
+                    "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.None);
             }
             catch (WorkingCopyUnavailableException copy)
             {
@@ -445,7 +445,7 @@ namespace KillerPDF.Shell
                 {
                     _asyncOpenPending = false;
                     AbandonFailedOpen();   // the finish step can throw after the repaired copy is assigned
-                    KillerDialog.Show(this, Loc("Str_Err_RepairFailed") + "\n" + ex.Message, "KillerPDF",
+                    KillerDialog.Show(this, Loc("Str_Err_RepairFailed") + "\n" + ex.Message, "PDF Gilardi",
                         MessageBoxButton.OK, MessageBoxImage.Error);
                 }
             }
@@ -514,7 +514,7 @@ namespace KillerPDF.Shell
             if (_isDirty || string.IsNullOrEmpty(_originalFile) || !File.Exists(_originalFile))
             {
                 var ask = KillerDialog.Show(this, Loc("Str_Dlg_SaveBeforeProtect"),
-                    "KillerPDF", MessageBoxButton.OKCancel);
+                    "PDF Gilardi", MessageBoxButton.OKCancel);
                 if (ask != MessageBoxResult.OK) return;
                 SaveInPlace();
                 if (_isDirty || string.IsNullOrEmpty(_originalFile) || !File.Exists(_originalFile))
@@ -611,7 +611,7 @@ namespace KillerPDF.Shell
                     AbandonFailedOpen();
                     owner.Viewer.AbortPendingTabLoadExt(owner.Session!);
                     KillerDialog.Show(this, Loc("Str_Err_OpenProtected") + "\n" + ex.Message,
-                        "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                        "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
                 }
                 EndCancellableOp(ct);
             }
@@ -751,7 +751,7 @@ namespace KillerPDF.Shell
 
         private string? AskForOwnerPassword(bool lastWasWrong)
         {
-            if (lastWasWrong) KillerDialog.Show(this, Loc("Str_Restricted_WrongPassword"), "KillerPDF",
+            if (lastWasWrong) KillerDialog.Show(this, Loc("Str_Restricted_WrongPassword"), "PDF Gilardi",
                 MessageBoxButton.OK, MessageBoxImage.Warning);
             return KillerDialog.PromptPassword(this, _originalFile ?? _currentFile ?? string.Empty,
                 Loc("Str_Protection_Prompt"), Loc("Str_Restricted_Unlock"));
@@ -764,7 +764,7 @@ namespace KillerPDF.Shell
             bool unreadable = !EnsureProtectionReadable();
             if (!unreadable) KillerDialog.Show(this, Loc(_protection.Access.Role == PdfAccessRole.Recipient
                     ? "Str_Protection_Refused_Certificate" : "Str_Protection_Refused"),
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Warning);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Warning);
             return false;
         }
 
@@ -773,7 +773,7 @@ namespace KillerPDF.Shell
         private bool EnsureProtectionReadable()
         {
             if (!_protection.IsUnreadable) return true;
-            KillerDialog.Show(this, string.Format(Loc("Str_Protection_Unreadable"), _protection.Access.Refusal), "KillerPDF",
+            KillerDialog.Show(this, string.Format(Loc("Str_Protection_Unreadable"), _protection.Access.Refusal), "PDF Gilardi",
                 MessageBoxButton.OK, MessageBoxImage.Warning);
             return false;
         }
@@ -786,7 +786,7 @@ namespace KillerPDF.Shell
             // Certificate encryption has no owner password, so the recipient's permissions stand.
             if (_restrictedByCertificate)
             {
-                KillerDialog.Show(this, Loc("Str_Restricted_CertificateNotice"), "KillerPDF",
+                KillerDialog.Show(this, Loc("Str_Restricted_CertificateNotice"), "PDF Gilardi",
                     MessageBoxButton.OK, MessageBoxImage.Information);
                 return false;
             }
@@ -805,7 +805,7 @@ namespace KillerPDF.Shell
                 KillerDialog.Show(this, unlock.Outcome == UnlockOutcome.WrongPassword
                         ? Loc("Str_Restricted_WrongPassword")
                         : string.Format(Loc("Str_Restricted_UnlockFailed"), System.IO.Path.GetFileName(displayPath), unlock.Reason),
-                    "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return false;
             }
 
@@ -965,7 +965,7 @@ namespace KillerPDF.Shell
             {
                 AbortTabLoad(target, prev, createdNew);
                 KillerDialog.Show(this, Loc("Str_Err_NewDocFailed") + "\n" + ex.Message,
-                    "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                    "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -1012,7 +1012,7 @@ namespace KillerPDF.Shell
                     var item = MakeMenuItem(System.IO.Path.GetFileName(path), (_, _) =>
                     {
                         if (System.IO.File.Exists(path)) OpenInNewTab(path);
-                        else KillerDialog.Show(this, Loc("Str_Err_FileNotFound") + "\n" + path, "KillerPDF",
+                        else KillerDialog.Show(this, Loc("Str_Err_FileNotFound") + "\n" + path, "PDF Gilardi",
                             MessageBoxButton.OK, MessageBoxImage.Warning);
                     });
                     item.ToolTip = path;
@@ -1248,7 +1248,7 @@ namespace KillerPDF.Shell
                     // through ActiveViewer. Clicking pane B's recents opened the file in pane A.
                     FocusPane(pane);
                     if (System.IO.File.Exists(path)) OpenInNewTab(path);
-                    else KillerDialog.Show(this, Loc("Str_Err_FileNotFound") + "\n" + path, "KillerPDF",
+                    else KillerDialog.Show(this, Loc("Str_Err_FileNotFound") + "\n" + path, "PDF Gilardi",
                         MessageBoxButton.OK, MessageBoxImage.Warning);
                 };
                 list.Items.Add(row);
@@ -1306,7 +1306,7 @@ namespace KillerPDF.Shell
             catch (Exception ex) when (ex is not OutOfMemoryException)
             {
                 // A bad date or title in an otherwise valid PDF is not worth a crash dialog.
-                KillerDialog.Show(this, ex.Message, "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Warning);
+                KillerDialog.Show(this, ex.Message, "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
             KillerPdf.Engine.Authoring.PdfDocumentMetadata? editedMetadata = null;
@@ -1326,7 +1326,7 @@ namespace KillerPDF.Shell
                 catch (Exception ex) when (ex is not OutOfMemoryException)
                 {
                     KillerDialog.Show(this, Loc("Str_Err_SaveFailed") + "\n" + ex.Message,
-                        "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                        "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
                     return;
                 }
                 SetStatus(Loc("Str_St_DocInfoUpdated"));
@@ -1412,7 +1412,7 @@ namespace KillerPDF.Shell
             }
             catch (Exception ex)
             {
-                KillerDialog.Show(this, Loc("Str_Err_MergeFailed") + "\n" + ex.Message, "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                KillerDialog.Show(this, Loc("Str_Err_MergeFailed") + "\n" + ex.Message, "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -1438,7 +1438,7 @@ namespace KillerPDF.Shell
                 session.Document, PdfImport.MinAdobePageDim, PdfImport.MaxAdobePageDim);
             if (pages.Count == 0) return;
             var res = KillerDialog.Show(this, string.Format(Loc("Str_Dlg_PageOutOfRange"), pages.Count),
-                "KillerPDF", MessageBoxButton.YesNo, MessageBoxImage.Warning);
+                "PDF Gilardi", MessageBoxButton.YesNo, MessageBoxImage.Warning);
             if (res != MessageBoxResult.Yes) return;
             // Every save calls this before its own try block, so a failed rescale must not escape it.
             try
@@ -1450,7 +1450,7 @@ namespace KillerPDF.Shell
             catch (Exception ex) when (ex is not OutOfMemoryException)
             {
                 KillerDialog.Show(this, string.Format(Loc("Str_Pages_Failed"), ex.Message),
-                    "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                    "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -1511,7 +1511,7 @@ namespace KillerPDF.Shell
             }
             catch (Exception ex) when (ex is not OutOfMemoryException)
             {
-                KillerDialog.Show(this, Loc("Str_Err_SaveFailed") + "\n" + ex.Message, "KillerPDF",
+                KillerDialog.Show(this, Loc("Str_Err_SaveFailed") + "\n" + ex.Message, "PDF Gilardi",
                     MessageBoxButton.OK, MessageBoxImage.Error);
                 // Still read-only on the unchanged original, with the typed values kept.
                 if (_doc is null)
@@ -1662,7 +1662,7 @@ namespace KillerPDF.Shell
             }
             catch (Exception ex)
             {
-                KillerDialog.Show(this, Loc("Str_Err_SaveFailed") + "\n" + ex.Message, "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                KillerDialog.Show(this, Loc("Str_Err_SaveFailed") + "\n" + ex.Message, "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -1773,7 +1773,7 @@ namespace KillerPDF.Shell
             if (dlg.ShowDialog(this) != true) return;
             if (App.IsCleanupOwnedPath(dlg.FileName))
             {
-                KillerDialog.Show(this, Loc("Str_Err_SaveFailed") + "\n" + dlg.FileName, "KillerPDF",
+                KillerDialog.Show(this, Loc("Str_Err_SaveFailed") + "\n" + dlg.FileName, "PDF Gilardi",
                     MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
@@ -1795,7 +1795,7 @@ namespace KillerPDF.Shell
                 try { SaveExactCopy(unchanged, dlg.FileName, openCopy); }
                 catch (Exception ex) when (ex is IOException or UnauthorizedAccessException)
                 {
-                    KillerDialog.Show(this, Loc("Str_Err_SaveFailed") + "\n" + ex.Message, "KillerPDF",
+                    KillerDialog.Show(this, Loc("Str_Err_SaveFailed") + "\n" + ex.Message, "PDF Gilardi",
                         MessageBoxButton.OK, MessageBoxImage.Error);
                 }
                 return;
@@ -1812,7 +1812,7 @@ namespace KillerPDF.Shell
                 catch (Exception ex)
                 {
                     KillerDialog.Show(this, Loc("Str_Err_SaveFailed") + "\n" + ex.Message,
-                        "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                        "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
                 }
                 return;
             }
@@ -1884,7 +1884,7 @@ namespace KillerPDF.Shell
             }
             catch (Exception ex)
             {
-                KillerDialog.Show(this, Loc("Str_Err_SaveFailed") + "\n" + ex.Message, "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                KillerDialog.Show(this, Loc("Str_Err_SaveFailed") + "\n" + ex.Message, "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -2000,7 +2000,7 @@ namespace KillerPDF.Shell
             }
             catch (Exception ex)
             {
-                try { KillerDialog.Show(this, Loc("Str_Err_FlattenFailed") + "\n" + ex.GetType().Name + ": " + ex.Message, "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error); }
+                try { KillerDialog.Show(this, Loc("Str_Err_FlattenFailed") + "\n" + ex.GetType().Name + ": " + ex.Message, "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error); }
                 catch { /* dialog failed; overlay still removed in finally */ }
             }
             finally
@@ -2042,7 +2042,7 @@ namespace KillerPDF.Shell
                 if (pages is null)
                 {
                     KillerDialog.Show(this, rangeError.Length > 0 ? rangeError : Loc("Str_InvalidRange"),
-                        "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Warning);
+                        "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Warning);
                     return;
                 }
             }
@@ -2106,7 +2106,7 @@ namespace KillerPDF.Shell
             catch (Exception ex)
             {
                 KillerDialog.Show(this, Loc("Str_Err_ExportFailed") + "\n" + ex.Message,
-                    "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                    "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
             finally
             {
@@ -2143,7 +2143,7 @@ namespace KillerPDF.Shell
                 if (selected is null)
                 {
                     KillerDialog.Show(this, rangeErr.Length > 0 ? rangeErr : Loc("Str_InvalidRange"),
-                                      "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Warning);
+                                      "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Warning);
                     return;
                 }
             }
@@ -2216,7 +2216,7 @@ namespace KillerPDF.Shell
             }
             catch (Exception ex)
             {
-                KillerDialog.Show(this, Loc("Str_Err_ExportFailed") + "\n" + ex.Message, "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                KillerDialog.Show(this, Loc("Str_Err_ExportFailed") + "\n" + ex.Message, "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
             finally
             {
@@ -2234,7 +2234,7 @@ namespace KillerPDF.Shell
             IReadOnlyList<int> pages = incomplete.Pages;
             if (pages.Count == 0) return;
             KillerDialog.Show(this, string.Format(Loc("Str_Export_IncompletePages"), IncompletePageLog.Describe(pages)),
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Warning);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Warning);
         }
 
         // ---- flatten progress overlay helpers ----
@@ -2306,7 +2306,7 @@ namespace KillerPDF.Shell
             switch (notice)
             {
                 case PrintNotice.WrongPassword:
-                    KillerDialog.Show(this, Loc("Str_Restricted_WrongPassword"), "KillerPDF",
+                    KillerDialog.Show(this, Loc("Str_Restricted_WrongPassword"), "PDF Gilardi",
                         MessageBoxButton.OK, MessageBoxImage.Warning);
                     break;
                 case PrintNotice.RefusedQuietly:
@@ -2314,7 +2314,7 @@ namespace KillerPDF.Shell
                     break;
                 case PrintNotice.Refused or PrintNotice.RefusedCertificate:
                     KillerDialog.Show(this, Loc(notice == PrintNotice.RefusedCertificate ? "Str_Print_Refused_Certificate" : "Str_Print_Refused"),
-                        "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Warning);
+                        "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Warning);
                     break;
             }
             return answer.MayPrint;
@@ -2372,7 +2372,7 @@ namespace KillerPDF.Shell
             {
                 DeletePrintTemp(printPath);
                 KillerDialog.Show(this, Loc("Str_Err_PrintFailed") + "\n" + ex.Message,
-                    "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                    "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
             finally { DeletePrintTemp(tempClean); }
@@ -2441,7 +2441,7 @@ namespace KillerPDF.Shell
             }
             catch (Exception ex)
             {
-                try { KillerDialog.Show(this, Loc("Str_Err_PrintFailed") + "\n" + ex.GetType().Name + ": " + ex.Message, "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error); }
+                try { KillerDialog.Show(this, Loc("Str_Err_PrintFailed") + "\n" + ex.GetType().Name + ": " + ex.Message, "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error); }
                 catch { }
             }
 

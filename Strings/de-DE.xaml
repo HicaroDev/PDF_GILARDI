@@ -1112,8 +1112,8 @@ Auf eine unterstützte Größe skalieren? Aussehen und Proportionen der Seiten b
     <sys:String x:Key="Str_Key_WheelLogo">Rad über Logo</sys:String>
     <sys:String x:Key="Str_Key_MiddleDrag">Mittlere Taste ziehen</sys:String>
     <sys:String x:Key="Str_Key_SpaceDrag">Leertaste + ziehen</sys:String>
-    <sys:String x:Key="Str_Wordmark_A">Killer</sys:String>
-    <sys:String x:Key="Str_Wordmark_B">PDF</sys:String>
+    <sys:String x:Key="Str_Wordmark_A">PDF</sys:String>
+    <sys:String x:Key="Str_Wordmark_B">Gilardi</sys:String>
     <sys:String x:Key="Str_Btn_Open">Öffnen</sys:String>
     <sys:String x:Key="Str_Btn_Select">Auswählen</sys:String>
     <sys:String x:Key="Str_Btn_Replace">Ersetzen</sys:String>

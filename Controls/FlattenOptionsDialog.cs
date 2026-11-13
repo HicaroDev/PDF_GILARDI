@@ -25,7 +25,7 @@ internal sealed class FlattenOptionsDialog : Window
 
     internal FlattenOptionsDialog(Window owner)
     {
-        Title = "KillerPDF - " + L("Str_Dlg_SaveFlattened");
+        Title = "PDF Gilardi - " + L("Str_Dlg_SaveFlattened");
         Width = 420;
         SizeToContent = SizeToContent.Height;
         UseLayoutRounding = true;

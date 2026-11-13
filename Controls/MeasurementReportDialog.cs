@@ -23,7 +23,7 @@ internal sealed class MeasurementReportDialog : Window
         _results = results;
         _baseName = baseName;
         _mayExport = mayExport;
-        Title = "KillerPDF - " + L("Str_MeasureReport_Title");
+        Title = "PDF Gilardi - " + L("Str_MeasureReport_Title");
         // The window fits the list: small for a few measurements, growing with the list until it
         // reaches most of the screen's height, after which the list scrolls.
         SizeToContent = SizeToContent.WidthAndHeight;
@@ -71,7 +71,7 @@ internal sealed class MeasurementReportDialog : Window
             catch (Exception ex) when (ex is System.Runtime.InteropServices.ExternalException)
             {
                 KillerDialog.Show(this, L("Str_DocumentTools_Failed") + "\n" + ex.Message,
-                    "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                    "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         };
         var csv = UiKit.Make(L("Str_MeasureReport_SaveCsv"), accent: false);
@@ -172,12 +172,12 @@ internal sealed class MeasurementReportDialog : Window
         {
             if (Services.GatedReportSave.Save(_mayExport, ChoosePath, content) is not string saved) return;
             KillerDialog.Show(this, string.Format(L("Str_MeasureReport_Saved"), Path.GetFileName(saved)),
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Information);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Information);
         }
         catch (Exception ex) when (ex is IOException or UnauthorizedAccessException)
         {
             KillerDialog.Show(this, L("Str_DocumentTools_Failed") + "\n" + ex.Message,
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
         }
     }
 

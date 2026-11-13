@@ -29,7 +29,7 @@ internal sealed class InitialViewDialog : Window
     {
         _current = current;
         _pageCount = pageCount;
-        Title = "KillerPDF - " + L("Str_DocumentTools_InitialView");
+        Title = "PDF Gilardi - " + L("Str_DocumentTools_InitialView");
         Width = 470;
         SizeToContent = SizeToContent.Height;
         UseLayoutRounding = true;
@@ -146,7 +146,7 @@ internal sealed class InitialViewDialog : Window
     };
 
     private void Invalid() => KillerDialog.Show(this, L("Str_InitialView_Invalid"),
-        "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Warning);
+        "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Warning);
 
     private static ComboBox AddCombo<T>(StackPanel host, string label,
         Choice<T>[] choices, System.Func<Choice<T>, bool> selected)

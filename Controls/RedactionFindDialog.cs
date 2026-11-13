@@ -41,7 +41,7 @@ internal sealed class RedactionFindDialog : Window
         _loadPages = loadPages;
         _loadDocument = loadDocument;
         _searchCurrent = searchCurrent;
-        Title = "KillerPDF - " + L("Str_RedactFind_Title");
+        Title = "PDF Gilardi - " + L("Str_RedactFind_Title");
         Width = 520;
         SizeToContent = SizeToContent.Height;
         MaxHeight = Math.Max(420, SystemParameters.WorkArea.Height * 0.85);

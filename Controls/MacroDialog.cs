@@ -36,7 +36,7 @@ internal sealed class MacroDialog : Window
         ArgumentNullException.ThrowIfNull(supportedOperations);
         ArgumentNullException.ThrowIfNull(addableOperations);
         _supported = [.. supportedOperations];
-        Title = "KillerPDF - " + L("Str_DocumentTools_Macros");
+        Title = "PDF Gilardi - " + L("Str_DocumentTools_Macros");
         Width = 900;
         Height = 610;
         MinWidth = 760;
@@ -187,7 +187,7 @@ internal sealed class MacroDialog : Window
         catch (Exception ex) when (Recoverable(ex))
         {
             KillerDialog.Show(this, L("Str_Macro_LoadFailed") + "\n" + ex.Message,
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
         }
     }
 
@@ -284,7 +284,7 @@ internal sealed class MacroDialog : Window
         catch (Exception ex) when (Recoverable(ex))
         {
             KillerDialog.Show(this, L("Str_Macro_SaveFailed") + "\n" + ex.Message,
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
             return false;
         }
     }
@@ -293,7 +293,7 @@ internal sealed class MacroDialog : Window
     {
         if (_saved.SelectedItem is not PdfMacro macro) return;
         if (KillerDialog.Show(this,
-                string.Format(L("Str_Macro_DeleteConfirm"), macro.Name), "KillerPDF",
+                string.Format(L("Str_Macro_DeleteConfirm"), macro.Name), "PDF Gilardi",
                 MessageBoxButton.YesNo, MessageBoxImage.Warning) != MessageBoxResult.Yes)
             return;
         _store.Remove(macro.Name);
@@ -318,7 +318,7 @@ internal sealed class MacroDialog : Window
         catch (Exception ex) when (Recoverable(ex))
         {
             KillerDialog.Show(this, L("Str_Macro_ImportFailed") + "\n" + ex.Message,
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
         }
     }
 
@@ -342,7 +342,7 @@ internal sealed class MacroDialog : Window
         catch (Exception ex) when (Recoverable(ex))
         {
             KillerDialog.Show(this, L("Str_Macro_ExportFailed") + "\n" + ex.Message,
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
         }
     }
 
@@ -360,7 +360,7 @@ internal sealed class MacroDialog : Window
         string name = _name.Text.Trim();
         if (name.Length == 0 || _currentSteps.Count == 0)
         {
-            KillerDialog.Show(this, L("Str_Macro_Invalid"), "KillerPDF",
+            KillerDialog.Show(this, L("Str_Macro_Invalid"), "PDF Gilardi",
                 MessageBoxButton.OK, MessageBoxImage.Warning);
             macro = null!;
             return false;

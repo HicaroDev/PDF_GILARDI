@@ -1169,6 +1169,15 @@ namespace KillerPDF.Controls
                         if (StampHitTest(pageIdx, pos)) { OpenStampTool(); e.Handled = true; return; }
                         ClearSelection();
                         ClearTextSelection();
+                        // Double-clicking the page's own text opens that line for editing, so the
+                        // Select tool edits text without a trip to the Text tool. Off the text, the
+                        // double click still selects the word under it.
+                        if (IsTextAtPosition(pageIdx, pos))
+                        {
+                            EditTextAtPosition(pos, pageIdx);
+                            e.Handled = true;
+                            return;
+                        }
                         TrySelectWordAtPosition(pageIdx, pos);
                         e.Handled = true;
                     }

@@ -94,7 +94,7 @@ namespace KillerPDF.Shell
             }
             catch (Exception ex)
             {
-                KillerDialog.Show(this, Loc("Str_Err_SplitFailed") + "\n" + ex.Message, "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                KillerDialog.Show(this, Loc("Str_Err_SplitFailed") + "\n" + ex.Message, "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
             finally
             {
@@ -115,7 +115,7 @@ namespace KillerPDF.Shell
                 KillerDialog.Show(this, Loc("Str_Dlg_KeepOnePage"));
                 return;
             }
-            var result = KillerDialog.Show(this, selected.Length == 1 ? Loc("Str_Dlg_DeletePage1") : string.Format(Loc("Str_Dlg_DeletePagesN"), selected.Length), "KillerPDF",
+            var result = KillerDialog.Show(this, selected.Length == 1 ? Loc("Str_Dlg_DeletePage1") : string.Format(Loc("Str_Dlg_DeletePagesN"), selected.Length), "PDF Gilardi",
                 MessageBoxButton.YesNo, MessageBoxImage.Warning);
             if (result != MessageBoxResult.Yes || !sourceCurrent()) return;
             try
@@ -161,7 +161,7 @@ namespace KillerPDF.Shell
             }
             catch (Exception ex)
             {
-                KillerDialog.Show(this, Loc("Str_Err_DeleteFailed") + "\n" + ex.Message, "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                KillerDialog.Show(this, Loc("Str_Err_DeleteFailed") + "\n" + ex.Message, "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -178,7 +178,7 @@ namespace KillerPDF.Shell
             List<int>? pages = Features.CliRunner.CliParsePageRange(dialog.Values[0], pageCount, out _);
             if (pages is null)
             {
-                KillerDialog.Show(this, Loc("Str_InvalidRange"), "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Warning);
+                KillerDialog.Show(this, Loc("Str_InvalidRange"), "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return null;
             }
             return [.. pages];
@@ -230,7 +230,7 @@ namespace KillerPDF.Shell
             }
             catch (Exception ex)
             {
-                KillerDialog.Show(this, Loc("Str_Err_InsertFailed") + "\n" + ex.Message, "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                KillerDialog.Show(this, Loc("Str_Err_InsertFailed") + "\n" + ex.Message, "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -263,7 +263,7 @@ namespace KillerPDF.Shell
             }
             catch (Exception ex)
             {
-                KillerDialog.Show(this, Loc("Str_Err_AddPageFailed") + "\n" + ex.Message, "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                KillerDialog.Show(this, Loc("Str_Err_AddPageFailed") + "\n" + ex.Message, "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 

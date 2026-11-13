@@ -1110,8 +1110,8 @@ PDF Gilardi 不会创建两个已安装的副本。</sys:String>
     <sys:String x:Key="Str_Key_WheelLogo">在徽标上滚动滚轮</sys:String>
     <sys:String x:Key="Str_Key_MiddleDrag">中键拖动</sys:String>
     <sys:String x:Key="Str_Key_SpaceDrag">空格 + 拖动</sys:String>
-    <sys:String x:Key="Str_Wordmark_A">Killer</sys:String>
-    <sys:String x:Key="Str_Wordmark_B">PDF</sys:String>
+    <sys:String x:Key="Str_Wordmark_A">PDF</sys:String>
+    <sys:String x:Key="Str_Wordmark_B">Gilardi</sys:String>
     <sys:String x:Key="Str_Btn_Open">打开</sys:String>
     <sys:String x:Key="Str_Btn_Select">选择文件夹</sys:String>
     <sys:String x:Key="Str_Btn_Replace">替换</sys:String>

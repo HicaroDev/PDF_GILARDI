@@ -282,7 +282,7 @@ namespace KillerPDF.Shell
                     if (!EnsureProtectionReadable()) return;
                     KillerDialog.Show(this, Loc(_protection.Access.Role == PdfAccessRole.Recipient
                             ? "Str_Protection_Refused_Certificate" : "Str_Protection_Refused"),
-                        "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Warning);
+                        "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Warning);
                     return;
                 case PageDragAnswer.AskOwner:
                     if (!EnsureMayWrite(PdfOutput.Printable, continueAfterUnlock: true)) return;
@@ -653,7 +653,7 @@ namespace KillerPDF.Shell
         {
             var ask = KillerDialog.Show(this,
                 string.Format(Loc("Str_Dlg_RepairAsk"), System.IO.Path.GetFileName(path)),
-                "KillerPDF", MessageBoxButton.YesNo, MessageBoxImage.Warning);
+                "PDF Gilardi", MessageBoxButton.YesNo, MessageBoxImage.Warning);
             if (ask != MessageBoxResult.Yes) return (null, true);
 
             var busy = ShowBusyOverlay(Loc("Str_Busy_Repairing"));
@@ -676,7 +676,7 @@ namespace KillerPDF.Shell
                     KillerDialog.Show(this,
                         string.Format(Loc("Str_Err_FileRepairFailed"),
                             System.IO.Path.GetFileName(path)),
-                        "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                        "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
                 return (repaired, false);
             }
             finally { HideBusyOverlay(busy); }

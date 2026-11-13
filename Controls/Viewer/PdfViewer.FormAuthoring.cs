@@ -83,6 +83,6 @@ namespace KillerPDF.Controls
         // An edit of a damaged file that cannot be saved shows a normal error, not the crash dialog.
         private void ReportEditFailure(Exception error) =>
             KillerDialog.Show(Window.GetWindow(this), string.Format(Loc("Str_Pages_Failed"), error.Message),
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
     }
 }

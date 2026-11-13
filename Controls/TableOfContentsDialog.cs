@@ -14,7 +14,7 @@ internal sealed class TableOfContentsDialog : Window
 
     internal TableOfContentsDialog(Window owner, int entryCount)
     {
-        Title = "KillerPDF - " + L("Str_DocumentTools_InsertToc");
+        Title = "PDF Gilardi - " + L("Str_DocumentTools_InsertToc");
         Width = 430;
         SizeToContent = SizeToContent.Height;
         UseLayoutRounding = true;
@@ -64,7 +64,7 @@ internal sealed class TableOfContentsDialog : Window
             || depth is < 1 or > 6)
         {
             KillerDialog.Show(this, L("Str_DocumentTools_TocInvalid"),
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Warning);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Warning);
             return;
         }
         ContentsTitle = title;

@@ -11,7 +11,7 @@ internal sealed class ImportReviewDialog : Window
     internal ImportReviewDialog(Window owner, string title, string report, string? optionLabel,
         string? actionLabel = null)
     {
-        Title = "KillerPDF - " + title;
+        Title = "PDF Gilardi - " + title;
         Width = 700;
         Height = 520;
         MinWidth = 460;

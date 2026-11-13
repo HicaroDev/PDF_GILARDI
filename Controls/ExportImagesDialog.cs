@@ -33,7 +33,7 @@ namespace KillerPDF
             _pageWidthPoints = pageWidthPoints;
             _pageHeightPoints = pageHeightPoints;
             _imagePixels = imagePixels;
-            Title = "KillerPDF - " + L("Str_ExportImg_Suffix");
+            Title = "PDF Gilardi - " + L("Str_ExportImg_Suffix");
             // Width follows the caption. "Export Pages as Images" is 22 characters in en-US and
             // up to 35 translated, which ran the title under the close button at a fixed 380 (#223).
             MinWidth = 380;
@@ -95,7 +95,7 @@ namespace KillerPDF
             row.Margin = new Thickness(0, 8, 0, 0);
             body.Children.Add(row);
 
-            Content = DialogFrame.Frame(this, Owner, "KillerPDF - " + L("Str_ExportImg_Suffix"),
+            Content = DialogFrame.Frame(this, Owner, "PDF Gilardi - " + L("Str_ExportImg_Suffix"),
                 () => { Confirmed = false; Close(); }, body);
 
             Loaded += (_, _2) => _dpi.Focus();

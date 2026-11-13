@@ -165,7 +165,7 @@ public partial class MainWindow
         {
             HideBusyOverlay(busy);
             KillerDialog.Show(this, Loc("Str_Macro_Failed") + "\n" + ex.Message,
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
         }
         finally
         {

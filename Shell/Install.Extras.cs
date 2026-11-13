@@ -25,7 +25,7 @@ namespace KillerPDF.Shell
             options.CanInstallAsync = () =>
             {
                 if (!((IAboutUpdateRestart)this).IsDirty) return Task.FromResult(true);
-                KillerDialog.Show(this, Loc("Str_Dlg_SaveBeforeInstall"), "KillerPDF",
+                KillerDialog.Show(this, Loc("Str_Dlg_SaveBeforeInstall"), "PDF Gilardi",
                     MessageBoxButton.OK, MessageBoxImage.Warning);
                 return Task.FromResult(false);
             };

@@ -17,7 +17,7 @@ namespace KillerPDF.Features.About
         {
             if (Restart is not { IsDirty: true }) return;
             KillerDialog.Show(_host.Window, _host.Loc("Str_Dlg_SaveBeforeUpdate"),
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Warning);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Warning);
             hold = true;
         }
 
@@ -56,11 +56,11 @@ namespace KillerPDF.Features.About
         {
             KillerPDF.CrashReporter.Capture(failure, "Update download refused");
             KillerDialog.Show(_host.Window, _host.Loc("Str_About_UpdateNotVerified"),
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Warning);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Warning);
         }
 
         private void PrepareFailed()
             => KillerDialog.Show(_host.Window, _host.Loc("Str_UpdateRestartPrepareFailed"),
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Warning);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Warning);
     }
 }

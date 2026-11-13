@@ -13,7 +13,7 @@ internal sealed class DocumentValuesDialog : Window
 
     internal DocumentValuesDialog(Window owner, string title, string confirmText, params (string Label, string Value)[] fields)
     {
-        Title = "KillerPDF - " + title;
+        Title = "PDF Gilardi - " + title;
         Width = 540;
         MaxHeight = Math.Max(300, SystemParameters.WorkArea.Height - 80);
         SizeToContent = SizeToContent.Height;

@@ -109,7 +109,7 @@ namespace KillerPDF
         public static MessageBoxResult Show(
             Window? owner,
             string message,
-            string title = "KillerPDF",
+            string title = "PDF Gilardi",
             MessageBoxButton buttons = MessageBoxButton.OK,
             MessageBoxImage image = MessageBoxImage.None,
             bool fadeClose = true,
@@ -254,7 +254,7 @@ namespace KillerPDF
             string message,
             string[] labels,
             int accentIndex = 0,
-            string title = "KillerPDF",
+            string title = "PDF Gilardi",
             bool fadeClose = true)
         {
             int result = -1;
@@ -354,7 +354,7 @@ namespace KillerPDF
             Window? owner,
             string message,
             string checkboxText,
-            string title = "KillerPDF",
+            string title = "PDF Gilardi",
             MessageBoxButton buttons = MessageBoxButton.OKCancel,
             MessageBoxResult? defaultResult = null,
             bool checkboxInitial = false)
@@ -430,7 +430,7 @@ namespace KillerPDF
             bool closeTabs = check1Initial;
             bool remember  = check2Initial;
 
-            var win = new Window { Title = "KillerPDF", Width = secondaryLabel is null ? 390 : 440, SizeToContent = SizeToContent.Height };
+            var win = new Window { Title = "PDF Gilardi", Width = secondaryLabel is null ? 390 : 440, SizeToContent = SizeToContent.Height };
             // fade:false - the app's own fade-out follows immediately on confirm; two fades
             // back-to-back read as lag (same reasoning as the unsaved-changes prompt).
             DialogFrame.Configure(win, owner, fade: false);
@@ -450,7 +450,7 @@ namespace KillerPDF
 
             // Every dialog title bar is the shared family chrome: wordmark, qualifier on its baseline,
             // the same lift as the main window, and the family close X.
-            var titleBar = DialogFrame.BuildTitleBar(win, owner, "KillerPDF", () => win.Close());
+            var titleBar = DialogFrame.BuildTitleBar(win, owner, "PDF Gilardi", () => win.Close());
             titleBar.Height = Application.Current.TryFindResource("DialogTitleBarHeight") is double titleHeight ? titleHeight : double.NaN;
             root.Children.Add(titleBar);
 
@@ -570,7 +570,7 @@ namespace KillerPDF
             // Enter anywhere in the field submits.
             pw.KeyDown += (_, e) => { if (e.Key == Key.Enter) { result = pw.Password; win.Close(); } };
 
-            win.Content = DialogFrame.Frame(win, owner, "KillerPDF", CloseCancel, body, scale: OwnerScale(owner));
+            win.Content = DialogFrame.Frame(win, owner, "PDF Gilardi", CloseCancel, body, scale: OwnerScale(owner));
             win.Loaded += (_, _2) => pw.Focus();
             win.ShowDialog();
             return result;

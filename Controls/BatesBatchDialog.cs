@@ -14,7 +14,7 @@ internal sealed class BatesBatchDialog : Window
     internal PdfBatesMacroOptions? Options { get; private set; }
     internal BatesBatchDialog(Window owner)
     {
-        Title = "KillerPDF - " + L("Str_Production_Bates"); Width = 620; Height = 420; MinWidth = 500; MinHeight = 360;
+        Title = "PDF Gilardi - " + L("Str_Production_Bates"); Width = 620; Height = 420; MinWidth = 500; MinHeight = 360;
         MaxHeight = Math.Max(400, SystemParameters.WorkArea.Height - 60);
         UseLayoutRounding = true; DialogFrame.Configure(this, owner);
         var body = new DockPanel { Margin = new Thickness(20, 6, 20, 16) };

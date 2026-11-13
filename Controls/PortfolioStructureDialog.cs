@@ -31,7 +31,7 @@ internal sealed class PortfolioStructureDialog : Window
         Window owner, PdfCollectionInfo? collection,
         IReadOnlyList<PdfEngineIntegration.PortfolioAttachmentItem> attachments)
     {
-        Title = "KillerPDF - " + L("Str_DocumentTools_EditPortfolioStructure");
+        Title = "PDF Gilardi - " + L("Str_DocumentTools_EditPortfolioStructure");
         // As tall as the sections need, up to most of the screen, where they start scrolling.
         Width = 1040;
         SizeToContent = SizeToContent.Height;
@@ -218,7 +218,7 @@ internal sealed class PortfolioStructureDialog : Window
         catch (FormatException)
         {
             KillerDialog.Show(this, L("Str_Portfolio_StructureInvalid"),
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Warning);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Warning);
         }
     }
 

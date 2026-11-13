@@ -1138,8 +1138,8 @@ Dimensioná-las para um tamanho aceito? As páginas mantêm a aparência e as pr
     <sys:String x:Key="Str_Key_WheelLogo">Roda sobre o logotipo</sys:String>
     <sys:String x:Key="Str_Key_MiddleDrag">Arrastar com o botão do meio</sys:String>
     <sys:String x:Key="Str_Key_SpaceDrag">Espaço + arrastar</sys:String>
-    <sys:String x:Key="Str_Wordmark_A">Killer</sys:String>
-    <sys:String x:Key="Str_Wordmark_B">PDF</sys:String>
+    <sys:String x:Key="Str_Wordmark_A">PDF</sys:String>
+    <sys:String x:Key="Str_Wordmark_B">Gilardi</sys:String>
     <sys:String x:Key="Str_Btn_Open">Abrir</sys:String>
     <sys:String x:Key="Str_Btn_Select">Selecionar pasta</sys:String>
     <sys:String x:Key="Str_Btn_Replace">Substituir</sys:String>

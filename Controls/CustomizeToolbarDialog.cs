@@ -44,7 +44,7 @@ internal sealed class CustomizeToolbarDialog : Window
         _glyph = glyph;
         _label = label;
         _active = _bar;
-        Title = "KillerPDF - " + L("Str_CustomizeToolbar_Title");
+        Title = "PDF Gilardi - " + L("Str_CustomizeToolbar_Title");
         Width = 640;
         Height = 560;
         MinWidth = 560;

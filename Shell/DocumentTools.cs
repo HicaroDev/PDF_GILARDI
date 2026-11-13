@@ -164,13 +164,13 @@ public partial class MainWindow
         catch (Exception ex)
         {
             KillerDialog.Show(this, Loc("Str_DataMerge_Failed") + "\n" + ex.Message,
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
             return;
         }
         if (records.Count == 0)
         {
             KillerDialog.Show(this, Loc("Str_DataMerge_NoRecords"),
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Information);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Information);
             return;
         }
 
@@ -202,7 +202,7 @@ public partial class MainWindow
         catch (Exception ex)
         {
             KillerDialog.Show(this, Loc("Str_DataMerge_Failed") + "\n" + ex.Message,
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
             return;
         }
         finally { if (snapshot is not null) File.Delete(snapshot); }
@@ -219,7 +219,7 @@ public partial class MainWindow
         int collisions = plan.OutputFileNames.Count(name =>
             File.Exists(Path.Combine(outputDirectory, name)));
         if (collisions > 0 && KillerDialog.Show(this,
-                string.Format(Loc("Str_DataMerge_Overwrite"), collisions), "KillerPDF",
+                string.Format(Loc("Str_DataMerge_Overwrite"), collisions), "PDF Gilardi",
                 MessageBoxButton.YesNo, MessageBoxImage.Warning) != MessageBoxResult.Yes)
             return;
 
@@ -256,7 +256,7 @@ public partial class MainWindow
         {
             HideBusyOverlay(busy);
             KillerDialog.Show(this, Loc("Str_DataMerge_Failed") + "\n" + ex.Message,
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
         }
         finally
         {
@@ -279,7 +279,7 @@ public partial class MainWindow
             if (initialPlan.Entries.Count == 0)
             {
                 KillerDialog.Show(this, Loc("Str_DocumentTools_TocNeedsBookmarks"),
-                    "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Information);
+                    "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Information);
                 return;
             }
 
@@ -322,7 +322,7 @@ public partial class MainWindow
         catch (Exception ex)
         {
             KillerDialog.Show(this, Loc("Str_DocumentTools_TocFailed") + "\n" + ex.Message,
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
         }
     }
 
@@ -341,7 +341,7 @@ public partial class MainWindow
             if (layers.Groups.Count == 0)
             {
                 KillerDialog.Show(this, Loc("Str_DocumentTools_NoLayers"),
-                    "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Information);
+                    "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Information);
                 return;
             }
 
@@ -359,7 +359,7 @@ public partial class MainWindow
         catch (Exception ex)
         {
             KillerDialog.Show(this, Loc("Str_DocumentTools_LayersFailed") + "\n" + ex.Message,
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
         }
     }
 
@@ -391,7 +391,7 @@ public partial class MainWindow
         catch (Exception ex)
         {
             KillerDialog.Show(this, Loc("Str_InitialView_Failed") + "\n" + ex.Message,
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
         }
     }
 
@@ -430,7 +430,7 @@ public partial class MainWindow
         catch (Exception ex)
         {
             KillerDialog.Show(this, Loc("Str_Portfolio_Failed") + "\n" + ex.Message,
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
         }
     }
 
@@ -462,7 +462,7 @@ public partial class MainWindow
         catch (Exception ex)
         {
             KillerDialog.Show(this, Loc("Str_Portfolio_StructureFailed") + "\n" + ex.Message,
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
         }
     }
 
@@ -482,7 +482,7 @@ public partial class MainWindow
             if (attachments.Count == 0)
             {
                 KillerDialog.Show(this, Loc("Str_Attachment_None"),
-                    "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Information);
+                    "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Information);
                 return;
             }
             var dialog = new AttachmentEditorDialog(this, attachments);
@@ -500,7 +500,7 @@ public partial class MainWindow
         catch (Exception ex)
         {
             KillerDialog.Show(this, Loc("Str_Attachment_Failed") + "\n" + ex.Message,
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
         }
     }
 
@@ -537,7 +537,7 @@ public partial class MainWindow
         catch (Exception ex)
         {
             KillerDialog.Show(this, Loc("Str_Navigation_Failed") + "\n" + ex.Message,
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
         }
     }
 
@@ -560,7 +560,7 @@ public partial class MainWindow
             {
                 KillerDialog.Show(this, Loc(PdfEngineIntegration.HasTextLayer(_currentFile, _protection)
                         ? "Str_AutoBookmarks_NoneFound" : "Str_AutoBookmarks_NoText"),
-                    "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Information);
+                    "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Information);
                 return;
             }
 
@@ -580,7 +580,7 @@ public partial class MainWindow
         catch (Exception ex)
         {
             KillerDialog.Show(this, Loc("Str_AutoBookmarks_Failed") + "\n" + ex.Message,
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
         }
     }
 
@@ -611,7 +611,7 @@ public partial class MainWindow
         catch (Exception ex)
         {
             KillerDialog.Show(this, Loc("Str_PageLabels_Failed") + "\n" + ex.Message,
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
         }
     }
 
@@ -627,7 +627,7 @@ public partial class MainWindow
         if (!IsSplit || string.IsNullOrWhiteSpace(left) || string.IsNullOrWhiteSpace(right))
         {
             KillerDialog.Show(this, Loc("Str_DocumentTools_ComparisonNeedsTwo"),
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Information);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Information);
             return;
         }
 
@@ -641,7 +641,7 @@ public partial class MainWindow
         catch (Exception ex)
         {
             KillerDialog.Show(this, Loc("Str_DocumentTools_Failed") + "\n" + ex.Message,
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
         }
     }
 
@@ -659,7 +659,7 @@ public partial class MainWindow
         if (string.IsNullOrWhiteSpace(path) || !File.Exists(path))
         {
             KillerDialog.Show(this, Loc("Str_DocumentTools_Failed"),
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
             return;
         }
 
@@ -670,7 +670,7 @@ public partial class MainWindow
         catch (Exception ex)
         {
             KillerDialog.Show(this, Loc("Str_DocumentTools_Failed") + "\n" + ex.Message,
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
         }
     }
 }

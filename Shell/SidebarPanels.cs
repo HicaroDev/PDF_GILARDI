@@ -259,7 +259,7 @@ namespace KillerPDF.Shell
             catch (Exception ex)
             {
                 KillerDialog.Show(this, Loc("Str_Attachment_Failed") + "\n" + ex.Message,
-                    "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                    "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -579,7 +579,7 @@ namespace KillerPDF.Shell
             catch (Exception ex) when (ex is IOException or UnauthorizedAccessException)
             {
                 KillerDialog.Show(this, Loc("Str_DocumentTools_Failed") + "\n" + ex.Message,
-                    "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                    "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -627,7 +627,7 @@ namespace KillerPDF.Shell
             {
                 check.IsChecked = !visible;
                 KillerDialog.Show(this, Loc("Str_DocumentTools_LayersFailed") + "\n" + ex.Message,
-                    "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                    "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 

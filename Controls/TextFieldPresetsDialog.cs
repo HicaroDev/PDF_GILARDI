@@ -33,7 +33,7 @@ internal sealed class TextFieldPresetsDialog : Window
     {
         _presets = presets;
         _pending = pending;
-        Title = "KillerPDF - " + L(pending is null ? "Str_FieldPreset_Title" : "Str_FieldPreset_SaveTitle");
+        Title = "PDF Gilardi - " + L(pending is null ? "Str_FieldPreset_Title" : "Str_FieldPreset_SaveTitle");
         Width = 520;
         Height = 460;
         MinWidth = 440;
@@ -209,7 +209,7 @@ internal sealed class TextFieldPresetsDialog : Window
         if (!string.Equals(name, selected.Name, StringComparison.OrdinalIgnoreCase)
             && _presets.Presets.Any(preset => string.Equals(preset.Name, name, StringComparison.OrdinalIgnoreCase)))
         {
-            KillerDialog.Show(this, string.Format(L("Str_FieldPreset_NameTaken"), name), "KillerPDF",
+            KillerDialog.Show(this, string.Format(L("Str_FieldPreset_NameTaken"), name), "PDF Gilardi",
                 MessageBoxButton.OK, MessageBoxImage.Information);
             return false;
         }
@@ -252,7 +252,7 @@ internal sealed class TextFieldPresetsDialog : Window
             if (existing is not null)
             {
                 if (KillerDialog.Show(this, string.Format(L("Str_FieldPreset_Replace"), existing.Name),
-                        "KillerPDF", MessageBoxButton.YesNo, MessageBoxImage.Question) != MessageBoxResult.Yes)
+                        "PDF Gilardi", MessageBoxButton.YesNo, MessageBoxImage.Question) != MessageBoxResult.Yes)
                     return;
                 _presets = _presets.Replace(existing.Name, preset);
             }

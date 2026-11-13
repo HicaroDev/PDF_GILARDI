@@ -11,7 +11,7 @@
         xmlns:ctrl="clr-namespace:KillerPDF.Controls"
         xmlns:snap="clr-namespace:KillerFamily.Windowing"
         mc:Ignorable="d"
-        Title="KillerPDF" Height="700" Width="1000" MinHeight="480" MinWidth="620"
+        Title="PDF Gilardi" Height="700" Width="1000" MinHeight="480" MinWidth="620"
         WindowStartupLocation="CenterScreen"
         WindowStyle="SingleBorderWindow"
         ResizeMode="CanResize"
@@ -1602,21 +1602,21 @@
                             <DropShadowEffect Color="Black" BlurRadius="4" ShadowDepth="2" Direction="270" Opacity="{DynamicResource IconShadowOpacity}"/>
                         </icons:AppIcon.Effect>
                     </icons:AppIcon>
-                    <TextBlock Text="KillerPDF" Visibility="{DynamicResource PlainTitleVisibility}"
+                    <TextBlock Text="PDF Gilardi" Visibility="{DynamicResource PlainTitleVisibility}"
                                FontFamily="{DynamicResource ChromeFontFamily}" FontSize="11" FontWeight="Bold"
                                Foreground="{DynamicResource ChromeTextBrush}" VerticalAlignment="Center"
                                Margin="{DynamicResource TitleTextMargin}"/>
                     <Grid VerticalAlignment="Center" Margin="0,-18,0,-22" Visibility="{DynamicResource WordmarkVisibility}">
                         <!-- Lacquer's drips give the line a deep descent, so the centered wordmark sits low; lift it so "PDF" reaches up toward the top edge. -->
-                        <Grid.RenderTransform><TranslateTransform Y="-5"/></Grid.RenderTransform>
+                        <Grid.RenderTransform><TranslateTransform Y="0"/></Grid.RenderTransform>
                         <!-- Soft drop shadow: a blurred, offset copy behind the crisp wordmark -->
-                        <StackPanel Orientation="Horizontal" Margin="1,2,0,0" Opacity="{DynamicResource WordmarkShadowOpacity}">
+                        <StackPanel Orientation="Horizontal" Margin="1,2,0,0" Visibility="Collapsed">
                             <StackPanel.Effect><BlurEffect Radius="3"/></StackPanel.Effect>
-                            <TextBlock><Run Text="Killer" FontFamily="{DynamicResource WordmarkFont}" FontSize="{DynamicResource TitleWordmarkSize}" Foreground="#D8000000"/><Run Text="PDF" FontFamily="{DynamicResource WordmarkFontPdf}" FontSize="{DynamicResource TitleWordmarkBoldSize}" Foreground="#D8000000"/></TextBlock>
+                            <TextBlock><Run Text="PDF " FontFamily="{DynamicResource BrandSansFont}" FontSize="{DynamicResource TitleWordmarkSize}" Foreground="#D8000000"/><Run Text="Gilardi" FontFamily="{DynamicResource BrandSansFont}" FontWeight="Bold" FontSize="{DynamicResource TitleWordmarkSize}" Foreground="#D8000000"/></TextBlock>
                         </StackPanel>
-                        <TextBlock Margin="1,2,0,0" Opacity="{DynamicResource WordmarkAccentShadowOpacity}" IsHitTestVisible="False"><TextBlock.Effect><BlurEffect Radius="3"/></TextBlock.Effect><Run Text="Killer" FontFamily="{DynamicResource WordmarkFont}" FontSize="{DynamicResource TitleWordmarkSize}" Foreground="Transparent"/><Run Text="PDF" FontFamily="{DynamicResource WordmarkFontPdf}" FontSize="{DynamicResource TitleWordmarkBoldSize}" Foreground="#D8000000"/></TextBlock>
+                        <TextBlock Margin="1,2,0,0" Visibility="Collapsed" IsHitTestVisible="False"><Run Text="PDF " FontFamily="{DynamicResource BrandSansFont}" FontSize="{DynamicResource TitleWordmarkSize}" Foreground="Transparent"/><Run Text="Gilardi" FontFamily="{DynamicResource BrandSansFont}" FontWeight="Bold" FontSize="{DynamicResource TitleWordmarkSize}" Foreground="#D8000000"/></TextBlock>
                         <StackPanel Orientation="Horizontal">
-                            <TextBlock theme:Bevel.Enabled="True"><Run Text="Killer" FontFamily="{DynamicResource WordmarkFont}" FontSize="{DynamicResource TitleWordmarkSize}" Foreground="{DynamicResource TextBrush}"/><Run Text="PDF" FontFamily="{DynamicResource WordmarkFontPdf}" FontSize="{DynamicResource TitleWordmarkBoldSize}" Foreground="{DynamicResource AccentLogo}"/></TextBlock>
+                            <TextBlock theme:Bevel.Enabled="True"><Run Text="PDF " FontFamily="{DynamicResource BrandSansFont}" FontSize="{DynamicResource TitleWordmarkSize}" Foreground="{DynamicResource TextBrush}"/><Run Text="Gilardi" FontFamily="{DynamicResource BrandSansFont}" FontWeight="Bold" FontSize="{DynamicResource TitleWordmarkSize}" Foreground="{DynamicResource AccentLogo}"/></TextBlock>
                         </StackPanel>
                     </Grid>
                 </StackPanel>
@@ -3079,7 +3079,7 @@
                 <Border Grid.Row="0" Height="{DynamicResource DialogTitleBarHeight}" Background="{DynamicResource DialogTitleBarBrush}"
                         Visibility="{DynamicResource AboutCaptionVisibility}">
                     <Grid Margin="5,0,2,0">
-                        <TextBlock Text="KillerPDF" VerticalAlignment="Center" FontFamily="{DynamicResource ChromeFontFamily}"
+                        <TextBlock Text="PDF Gilardi" VerticalAlignment="Center" FontFamily="{DynamicResource ChromeFontFamily}"
                                    FontSize="11" FontWeight="Bold" Foreground="{DynamicResource ChromeTextBrush}"/>
                         <Button Click="AboutClose_Click" HorizontalAlignment="Right" VerticalAlignment="Center"
                                 Width="{DynamicResource AboutCloseWidth}" Height="{DynamicResource AboutCloseHeight}"
@@ -3123,10 +3123,10 @@
                                 <TextBlock x:Name="AboutLogoShadowBlock"
                                            FontFamily="{DynamicResource WordmarkFont}" FontSize="16.43"
                                            Margin="1,1,0,0" IsHitTestVisible="False"
-                                           Opacity="{DynamicResource WordmarkShadowOpacity}">
+                                           Visibility="Collapsed">
                                     <TextBlock.Effect><BlurEffect Radius="2"/></TextBlock.Effect>
                                 </TextBlock>
-                                <TextBlock FontFamily="{DynamicResource WordmarkFont}" FontSize="16.43" Margin="1,2,0,0" IsHitTestVisible="False" Opacity="{DynamicResource WordmarkAccentShadowOpacity}"><TextBlock.Effect><BlurEffect Radius="3"/></TextBlock.Effect><Run Text="Killer" FontFamily="{DynamicResource WordmarkFont}" FontSize="16.43" Foreground="Transparent"/><Run Text="PDF" FontFamily="{DynamicResource WordmarkFontPdf}" FontSize="24.68" Foreground="#D8000000"/></TextBlock>
+                                <TextBlock FontFamily="{DynamicResource WordmarkFont}" FontSize="16.43" Margin="1,2,0,0" IsHitTestVisible="False" Visibility="Collapsed"><Run Text="PDF " FontFamily="{DynamicResource BrandSansFont}" FontSize="16.43" Foreground="Transparent"/><Run Text="Gilardi" FontFamily="{DynamicResource BrandSansFont}" FontWeight="Bold" FontSize="16.43" Foreground="#D8000000"/></TextBlock>
                                 <TextBlock x:Name="AboutLogoBlock" theme:Bevel.Enabled="True"
                                            FontFamily="{DynamicResource WordmarkFont}" FontSize="16.43" Cursor="Hand"/>
                             </Grid>

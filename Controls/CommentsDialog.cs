@@ -49,7 +49,7 @@ internal sealed class CommentsDialog : Window
         foreach (PdfCommentThread thread in threads)
             if (Build(thread, null) is Node node) _roots.Add(node);
 
-        Title = "KillerPDF - " + L("Str_DocumentTools_Comments");
+        Title = "PDF Gilardi - " + L("Str_DocumentTools_Comments");
         Width = 640;
         Height = 560;
         MinWidth = 480;

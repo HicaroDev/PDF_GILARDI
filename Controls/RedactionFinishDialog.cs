@@ -24,7 +24,7 @@ internal sealed class RedactionFinishDialog : Window
 
     internal RedactionFinishDialog(Window owner, string copyName)
     {
-        Title = "KillerPDF - " + L("Str_RedactFinish_Title");
+        Title = "PDF Gilardi - " + L("Str_RedactFinish_Title");
         Width = 460;
         SizeToContent = SizeToContent.Height;
         UseLayoutRounding = true;

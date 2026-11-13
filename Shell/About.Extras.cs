@@ -216,22 +216,22 @@ namespace KillerPDF.Shell
             BuildAboutTagline();
         }
 
-        /// <summary>"Killer" in the text color, "PDF" in the brand green, the pair clickable.</summary>
+        /// <summary>"PDF " in the text color, "Gilardi" in the brand green, the pair clickable.</summary>
         private void BuildAboutWordmark()
         {
             AboutLogoBlock.Inlines.Clear();
             var hl = new Hyperlink { TextDecorations = null };
-            hl.Inlines.Add(new Run("Killer")
+            hl.Inlines.Add(new Run("PDF ")
             {
-                FontFamily = UiKit.WordmarkFont,
+                FontFamily = UiKit.BrandSansFont,
                 FontSize   = 16.43,
                 FontWeight = FontWeights.Normal,
                 Foreground = Res("TextBrush")
             });
-            hl.Inlines.Add(new Run("PDF")
+            hl.Inlines.Add(new Run("Gilardi")
             {
-                FontFamily = UiKit.WordmarkFontPdf,
-                FontSize   = 31.83,
+                FontFamily = UiKit.BrandSansFont,
+                FontSize   = 16.43,
                 FontWeight = FontWeights.Normal,
                 Foreground = Res("AccentLogo")
             });
@@ -245,17 +245,17 @@ namespace KillerPDF.Shell
             var shadowBrush = new System.Windows.Media.SolidColorBrush(
                 System.Windows.Media.Color.FromArgb(0xB0, 0, 0, 0));
             shadowBrush.Freeze();
-            AboutLogoShadowBlock.Inlines.Add(new Run("Killer")
+            AboutLogoShadowBlock.Inlines.Add(new Run("PDF ")
             {
-                FontFamily = UiKit.WordmarkFont,
+                FontFamily = UiKit.BrandSansFont,
                 FontSize   = 16.43,
                 FontWeight = FontWeights.Normal,
                 Foreground = shadowBrush
             });
-            AboutLogoShadowBlock.Inlines.Add(new Run("PDF")
+            AboutLogoShadowBlock.Inlines.Add(new Run("Gilardi")
             {
-                FontFamily = UiKit.WordmarkFontPdf,
-                FontSize   = 31.83,
+                FontFamily = UiKit.BrandSansFont,
+                FontSize   = 16.43,
                 FontWeight = FontWeights.Normal,
                 Foreground = shadowBrush
             });

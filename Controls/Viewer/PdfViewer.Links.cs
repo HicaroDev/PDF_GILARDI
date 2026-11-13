@@ -341,7 +341,7 @@ namespace KillerPDF.Controls
             }
             catch (Exception ex)
             {
-                KillerDialog.Show(Host!.Window, $"{Loc("Str_LinkRemoveFailed")}\n{ex.Message}", "KillerPDF",
+                KillerDialog.Show(Host!.Window, $"{Loc("Str_LinkRemoveFailed")}\n{ex.Message}", "PDF Gilardi",
                     MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }

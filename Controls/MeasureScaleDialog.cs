@@ -49,7 +49,7 @@ internal sealed class MeasureScaleDialog : Window
         _linePoints = linePoints;
         _measurementsHere = measurementsHere;
         _measurementsEverywhere = measurementsEverywhere;
-        Title = "KillerPDF - " + L("Str_MeasureScale_Title");
+        Title = "PDF Gilardi - " + L("Str_MeasureScale_Title");
         Width = 520;
         SizeToContent = SizeToContent.Height;
         UseLayoutRounding = true;

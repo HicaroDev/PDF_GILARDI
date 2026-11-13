@@ -9,7 +9,7 @@ internal sealed class DocumentCommandDialog : Window
 
     internal DocumentCommandDialog(Window owner, string title, params (string Label, Action Run)[] commands)
     {
-        Title = "KillerPDF - " + title;
+        Title = "PDF Gilardi - " + title;
         Width = 460;
         MaxHeight = Math.Max(300, SystemParameters.WorkArea.Height - 80);
         SizeToContent = SizeToContent.Height;

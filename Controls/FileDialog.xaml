@@ -9,7 +9,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:a11y="clr-namespace:KillerFamily.Accessibility"
         xmlns:kui="clr-namespace:KillerPDF.Controls"
-        Title="KillerPDF"
+        Title="PDF Gilardi"
         Width="720" Height="520" MinWidth="560" MinHeight="420"
         WindowStyle="None" ResizeMode="CanResize" ShowInTaskbar="False"
         AllowsTransparency="True"

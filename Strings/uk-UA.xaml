@@ -1138,8 +1138,8 @@ PDF Gilardi не створюватиме двох установлених ко
     <sys:String x:Key="Str_Key_WheelLogo">Колесо над логотипом</sys:String>
     <sys:String x:Key="Str_Key_MiddleDrag">Перетягування середньою кнопкою</sys:String>
     <sys:String x:Key="Str_Key_SpaceDrag">Пробіл + перетягування</sys:String>
-    <sys:String x:Key="Str_Wordmark_A">Killer</sys:String>
-    <sys:String x:Key="Str_Wordmark_B">PDF</sys:String>
+    <sys:String x:Key="Str_Wordmark_A">PDF</sys:String>
+    <sys:String x:Key="Str_Wordmark_B">Gilardi</sys:String>
     <sys:String x:Key="Str_Btn_Open">Відкрити</sys:String>
     <sys:String x:Key="Str_Btn_Select">Вибрати папку</sys:String>
     <sys:String x:Key="Str_Btn_Replace">Замінити</sys:String>

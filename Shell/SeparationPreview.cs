@@ -34,7 +34,7 @@ namespace KillerPDF.Shell
             }
             catch (Exception ex)
             {
-                KillerDialog.Show(this, string.Format(Loc("Str_Sep_Failed"), ex.Message), "KillerPDF",
+                KillerDialog.Show(this, string.Format(Loc("Str_Sep_Failed"), ex.Message), "PDF Gilardi",
                     MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }

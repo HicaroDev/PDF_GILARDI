@@ -22,7 +22,7 @@ internal sealed class FormRecognitionReviewDialog : Window
     {
         _document = document;
         _review = review;
-        Title = "KillerPDF - " + L("Str_FormTools_Recognize");
+        Title = "PDF Gilardi - " + L("Str_FormTools_Recognize");
         Width = 1000;
         Height = 660;
         MinWidth = 700;

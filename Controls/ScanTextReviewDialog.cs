@@ -18,7 +18,7 @@ internal sealed class ScanTextReviewDialog : Window
 
     internal ScanTextReviewDialog(Window owner, IReadOnlyList<OcrController.ScanTextReviewWord> words)
     {
-        Title = "KillerPDF - " + L("Str_ScanReview_Title");
+        Title = "PDF Gilardi - " + L("Str_ScanReview_Title");
         Width = 620;
         Height = 560;
         MinWidth = 480;

@@ -47,7 +47,7 @@ namespace KillerPDF.Shell
             }
             catch (Exception ex)
             {
-                KillerDialog.Show(this, string.Format(Loc("Str_Pages_Failed"), ex.Message), "KillerPDF",
+                KillerDialog.Show(this, string.Format(Loc("Str_Pages_Failed"), ex.Message), "PDF Gilardi",
                     MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
@@ -171,7 +171,7 @@ namespace KillerPDF.Shell
             }
             catch (Exception ex)
             {
-                KillerDialog.Show(this, string.Format(Loc("Str_Pages_Failed"), ex.Message), "KillerPDF",
+                KillerDialog.Show(this, string.Format(Loc("Str_Pages_Failed"), ex.Message), "PDF Gilardi",
                     MessageBoxButton.OK, MessageBoxImage.Error);
             }
             finally
@@ -298,7 +298,7 @@ namespace KillerPDF.Shell
             }
             catch (Exception ex)
             {
-                KillerDialog.Show(this, string.Format(Loc("Str_Pages_Failed"), ex.Message), "KillerPDF",
+                KillerDialog.Show(this, string.Format(Loc("Str_Pages_Failed"), ex.Message), "PDF Gilardi",
                     MessageBoxButton.OK, MessageBoxImage.Error);
             }
             finally

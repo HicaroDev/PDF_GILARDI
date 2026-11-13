@@ -1035,8 +1035,8 @@ Windows параметрлері - Әдепкі қолданбалар ашыл�
     <sys:String x:Key="Str_Key_WheelLogo">Логотиптегі дөңгелек</sys:String>
     <sys:String x:Key="Str_Key_MiddleDrag">Ортаңғы батырмамен сүйреу</sys:String>
     <sys:String x:Key="Str_Key_SpaceDrag">Бос орын + сүйреу</sys:String>
-    <sys:String x:Key="Str_Wordmark_A">Killer</sys:String>
-    <sys:String x:Key="Str_Wordmark_B">PDF</sys:String>
+    <sys:String x:Key="Str_Wordmark_A">PDF</sys:String>
+    <sys:String x:Key="Str_Wordmark_B">Gilardi</sys:String>
     <sys:String x:Key="Str_Btn_Open">Ашу</sys:String>
     <sys:String x:Key="Str_Btn_Select">Қалтаны таңдау</sys:String>
     <sys:String x:Key="Str_Btn_Replace">Ауыстыру</sys:String>

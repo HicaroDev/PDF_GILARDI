@@ -16,7 +16,7 @@ internal sealed class BookmarkReviewDialog : Window
     internal BookmarkReviewDialog(
         Window owner, IReadOnlyList<PdfBookmarkProposal> proposals)
     {
-        Title = "KillerPDF - " + L("Str_AutoBookmarks_Review");
+        Title = "PDF Gilardi - " + L("Str_AutoBookmarks_Review");
         // As tall as the list needs, up to most of the screen, where the list starts scrolling.
         Width = 680;
         SizeToContent = SizeToContent.Height;
@@ -108,20 +108,20 @@ internal sealed class BookmarkReviewDialog : Window
             .Any(row => string.IsNullOrWhiteSpace(row.Title.Text)))
         {
             KillerDialog.Show(this, L("Str_AutoBookmarks_InvalidTitle"),
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Warning);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Warning);
             return;
         }
         if (_rows.Where(row => row.Include.IsChecked == true)
             .Any(row => !TryLevel(row.Level.Text, out _)))
         {
             KillerDialog.Show(this, L("Str_AutoBookmarks_InvalidLevel"),
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Warning);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Warning);
             return;
         }
         if (_rows.All(row => row.Include.IsChecked != true))
         {
             KillerDialog.Show(this, L("Str_AutoBookmarks_NoneSelected"),
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Warning);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Warning);
             return;
         }
 

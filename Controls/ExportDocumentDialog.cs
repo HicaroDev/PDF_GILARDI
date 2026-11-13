@@ -22,7 +22,7 @@ internal sealed class ExportDocumentDialog : Window
 
     internal ExportDocumentDialog(Window owner, PdfStructuredExportFormat format, PdfOfficeExportMode mode, bool showRange)
     {
-        Title = "KillerPDF - " + L("Str_ExportDoc_Suffix");
+        Title = "PDF Gilardi - " + L("Str_ExportDoc_Suffix");
         MinWidth = 320;
         MaxWidth = Math.Max(320, SystemParameters.WorkArea.Width - 40);
         MaxHeight = Math.Max(260, SystemParameters.WorkArea.Height - 40);

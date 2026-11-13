@@ -169,5 +169,5 @@ public partial class MainWindow
 
     private void ShowExchangeError(Exception error) => KillerDialog.Show(this,
         Loc("Str_DocumentTools_Failed") + "\n" + error.Message,
-        "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+        "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
 }

@@ -34,7 +34,7 @@ internal static class InstalledShortcuts
                 var shortcut = (IShellLink)instance;
                 shortcut.SetPath(targetPath);
                 shortcut.SetWorkingDirectory(Path.GetDirectoryName(targetPath)!);
-                shortcut.SetDescription("KillerPDF");
+                shortcut.SetDescription("PDF Gilardi");
                 shortcut.SetIconLocation(targetPath, 0);
                 ((IPersistFile)instance).Save(temporary, true);
             }

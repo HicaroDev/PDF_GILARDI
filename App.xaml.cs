@@ -30,6 +30,9 @@ namespace KillerPDF
         // ============================================================
 
         private static readonly string AppName   = "KillerPDF";
+        // Visible product name. AppName above stays "KillerPDF" because it names install
+        // folders, shortcuts and registry keys; only what the user reads changes.
+        private static readonly string DisplayName = Services.AppInfo.DisplayName;
         // The public portable file is KillerPDF-Portable.exe. Once installed, shortcuts launch the
         // loose-file application directly so installed startup never pays launcher/extraction cost.
         private static readonly string ExeName   = "KillerPDF.App.exe";
@@ -1186,7 +1189,7 @@ namespace KillerPDF
                 var res = KillerDialog.Show(null,
                     Current.TryFindResource("Str_Dlg_SetDefaultPdfMsg") as string
                         ?? "Would you like to set KillerPDF as your default PDF viewer?",
-                    AppName, MessageBoxButton.YesNo);
+                    DisplayName, MessageBoxButton.YesNo);
                 if (res == MessageBoxResult.Yes)
                     Process.Start(new ProcessStartInfo("ms-settings:defaultapps")
                         { UseShellExecute = true });
@@ -1550,7 +1553,7 @@ namespace KillerPDF
 
             var win = new Window
             {
-                Title                 = AppName,
+                Title                 = DisplayName,
                 Width                 = 400,
                 Height                = 280,
                 WindowStartupLocation = WindowStartupLocation.CenterScreen,
@@ -1618,7 +1621,7 @@ namespace KillerPDF
             // App label in title bar
             titleBar.Children.Add(new TextBlock
             {
-                Text              = AppName,
+                Text              = DisplayName,
                 Foreground        = dimText,
                 FontSize          = 12,
                 VerticalAlignment = VerticalAlignment.Center,
@@ -1633,7 +1636,7 @@ namespace KillerPDF
 
             content.Children.Add(new TextBlock
             {
-                Text       = AppName,
+                Text       = DisplayName,
                 FontSize   = 26,
                 FontWeight = FontWeights.Bold,
                 Foreground = accent
@@ -1825,7 +1828,7 @@ namespace KillerPDF
                     SetupText("Str_Dlg_InstallUnsigned",
                         "Installation refused: the running EXE does not carry a valid Authenticode " +
                         "signature.\n\nOnly signed builds of KillerPDF can be installed."),
-                    AppName, MessageBoxButton.OK, MessageBoxImage.Error);
+                    DisplayName, MessageBoxButton.OK, MessageBoxImage.Error);
                 return false;
             }
 
@@ -1841,7 +1844,7 @@ namespace KillerPDF
                             "You are about to install an older version ({0}) " +
                             "over the currently installed version ({1}).\n\n" +
                             "Downgrade anyway?"), runVer, instVer),
-                        AppName, MessageBoxButton.YesNo, MessageBoxImage.Warning);
+                        DisplayName, MessageBoxButton.YesNo, MessageBoxImage.Warning);
                     if (res != MessageBoxResult.Yes) return false;
                 }
             }
@@ -1869,7 +1872,7 @@ namespace KillerPDF
                             "Couldn't write the installed copy at:\n{0}" +
                             "\n\nClose any open KillerPDF window (and check Task Manager for KillerPDF.exe), " +
                             "then run the installer again."), InstallExe),
-                        AppName, MessageBoxButton.OK, MessageBoxImage.Warning);
+                        DisplayName, MessageBoxButton.OK, MessageBoxImage.Warning);
                     return false;
                 }
                 try { File.SetAttributes(InstallExe, FileAttributes.Normal); } catch { }
@@ -1879,13 +1882,13 @@ namespace KillerPDF
                         string.Format(SetupText("Str_Dlg_InstallNoDesktopShortcut",
                             "KillerPDF is installed, but Windows did not allow the desktop shortcut:\n{0}\n\n" +
                             "Open KillerPDF from the Start menu."), desktopProblem),
-                        AppName, MessageBoxButton.OK, MessageBoxImage.Warning);
+                        DisplayName, MessageBoxButton.OK, MessageBoxImage.Warning);
                 return true;
             }
             catch (Exception ex)
             {
                 KillerDialog.Show(Current.MainWindow,
-                    string.Format(SetupText("Str_Dlg_InstallFailed", "Installation failed:\n{0}"), ex.Message), AppName,
+                    string.Format(SetupText("Str_Dlg_InstallFailed", "Installation failed:\n{0}"), ex.Message), DisplayName,
                     MessageBoxButton.OK, MessageBoxImage.Error);
                 return false;
             }
@@ -1939,7 +1942,7 @@ namespace KillerPDF
             {
                 string applicationKey = @"Software\Classes\Applications\" + application;
                 using (var k = root.CreateSubKey(applicationKey))
-                    k.SetValue("FriendlyAppName", AppName);
+                    k.SetValue("FriendlyAppName", DisplayName);
                 using (var k = root.CreateSubKey(applicationKey + @"\shell\open\command"))
                     k.SetValue("", $"\"{exePath}\" \"%1\"");
                 using (var k = root.CreateSubKey(applicationKey + @"\SupportedTypes"))
@@ -1955,7 +1958,7 @@ namespace KillerPDF
             using (var k = root.CreateSubKey(
                 @"Software\KillerPDF\Capabilities"))
             {
-                k.SetValue("ApplicationName",        AppName);
+                k.SetValue("ApplicationName",        DisplayName);
                 k.SetValue("ApplicationDescription", "Lightweight PDF viewer and editor");
             }
             using (var k = root.CreateSubKey(
@@ -2040,7 +2043,7 @@ namespace KillerPDF
                     KillerDialog.Show(null,
                         string.Format(SetupText("Str_Dlg_UninstallElevationFailed",
                             "Uninstall could not request administrator access:\n{0}"), ex.Message),
-                        AppName, MessageBoxButton.OK, MessageBoxImage.Error);
+                        DisplayName, MessageBoxButton.OK, MessageBoxImage.Error);
                 return 1;
             }
         }
@@ -2076,7 +2079,7 @@ namespace KillerPDF
 
             using (var key = registryRoot.CreateSubKey(uninstallKey))
             {
-                key.SetValue("DisplayName", AppName);
+                key.SetValue("DisplayName", DisplayName);
                 key.SetValue("Publisher", "Steve the Killer");
                 key.SetValue("InstallLocation", installDirectory);
                 key.SetValue("DisplayIcon", $"{exePath},0");
@@ -2163,7 +2166,7 @@ namespace KillerPDF
                     KillerDialog.Show(null,
                         SetupText("Str_Dlg_UninstallNotInstalled",
                             "This KillerPDF was not installed here, so nothing was removed.\nDelete the folder yourself if you no longer want it."),
-                        AppName, MessageBoxButton.OK, MessageBoxImage.Warning);
+                        DisplayName, MessageBoxButton.OK, MessageBoxImage.Warning);
                 return 1;
             }
 
@@ -2172,7 +2175,7 @@ namespace KillerPDF
                 var res = KillerDialog.Show(
                     null,
                     SetupText("Str_Dlg_UninstallConfirm", "Uninstall KillerPDF from this computer?"),
-                    AppName,
+                    DisplayName,
                     MessageBoxButton.YesNo,
                     MessageBoxImage.Question,
                     confirmLabel: Application.Current.TryFindResource("Str_Btn_Uninstall") as string ?? "Uninstall",
@@ -2186,7 +2189,7 @@ namespace KillerPDF
                     KillerDialog.Show(null,
                         SetupText("Str_Dlg_UninstallStillRunning",
                             "KillerPDF is still running.\nClose it, then try uninstalling again."),
-                        AppName, MessageBoxButton.OK, MessageBoxImage.Warning);
+                        DisplayName, MessageBoxButton.OK, MessageBoxImage.Warning);
                 return 1618;
             }
 
@@ -2244,7 +2247,7 @@ namespace KillerPDF
             if (!silent)
             {
                 KillerDialog.Show(null,
-                    Application.Current.TryFindResource("Str_Dlg_Uninstalled") as string ?? "KillerPDF has been uninstalled.", AppName,
+                    Application.Current.TryFindResource("Str_Dlg_Uninstalled") as string ?? "PDF Gilardi has been uninstalled.", DisplayName,
                     MessageBoxButton.OK, MessageBoxImage.Information);
             }
             return 0;

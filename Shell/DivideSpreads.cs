@@ -32,7 +32,7 @@ namespace KillerPDF.Shell
             // Markup the user placed on a divided page is drawn into it first, so each half keeps
             // whatever sits on it. Ask before that makes it permanent.
             var marked = pages.Where(page => _annotations.TryGetValue(page, out var list) && list.Count > 0).ToHashSet();
-            if (marked.Count > 0 && KillerDialog.Show(this, Loc("Str_Divide_MarkupWarn"), "KillerPDF",
+            if (marked.Count > 0 && KillerDialog.Show(this, Loc("Str_Divide_MarkupWarn"), "PDF Gilardi",
                     MessageBoxButton.YesNo, MessageBoxImage.Question) != MessageBoxResult.Yes)
                 return;
 
@@ -74,7 +74,7 @@ namespace KillerPDF.Shell
             }
             catch (Exception ex)
             {
-                KillerDialog.Show(this, string.Format(Loc("Str_Divide_Failed"), ex.Message), "KillerPDF",
+                KillerDialog.Show(this, string.Format(Loc("Str_Divide_Failed"), ex.Message), "PDF Gilardi",
                     MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }

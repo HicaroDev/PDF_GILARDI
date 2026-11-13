@@ -1106,8 +1106,8 @@ Desteklenen bir boyuta ölçeklensin mi? Sayfaların görünümü ve oranları k
     <sys:String x:Key="Str_Key_WheelLogo">Logo üzerinde tekerlek</sys:String>
     <sys:String x:Key="Str_Key_MiddleDrag">Orta tuşla sürükleme</sys:String>
     <sys:String x:Key="Str_Key_SpaceDrag">Boşluk + sürükleme</sys:String>
-    <sys:String x:Key="Str_Wordmark_A">Killer</sys:String>
-    <sys:String x:Key="Str_Wordmark_B">PDF</sys:String>
+    <sys:String x:Key="Str_Wordmark_A">PDF</sys:String>
+    <sys:String x:Key="Str_Wordmark_B">Gilardi</sys:String>
     <sys:String x:Key="Str_Btn_Open">Aç</sys:String>
     <sys:String x:Key="Str_Btn_Select">Klasör seç</sys:String>
     <sys:String x:Key="Str_Btn_Replace">Değiştir</sys:String>

@@ -1349,7 +1349,7 @@ namespace KillerPDF.Controls
                 string family = Services.FontCoverage.PickFamily(want, ta.Content);
                 string missing = Services.FontCoverage.UncoveredChars(family, ta.Content);
                 if (missing.Length == 0) return;
-                KillerDialog.Show(Host!.Window, string.Format(Loc("Str_Font_NoGlyphs"), missing), "KillerPDF",
+                KillerDialog.Show(Host!.Window, string.Format(Loc("Str_Font_NoGlyphs"), missing), "PDF Gilardi",
                     MessageBoxButton.OK, MessageBoxImage.Warning);
             }
             catch { /* the warning must never be the thing that breaks placing text */ }

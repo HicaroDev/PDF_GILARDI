@@ -20,7 +20,7 @@ internal sealed class ProductionPreviewDialog : Window
             return PdfPageInformation.Read(document).Select((page, index) =>
                 (Document: document, Page: page, Index: index, Label: item.Name + ": " + L("Str_AutoBookmarks_Page") + " " + (index + 1)));
         }).ToArray();
-        Title = "KillerPDF - " + title; Width = 950; Height = 720; MinWidth = 500; MinHeight = 400;
+        Title = "PDF Gilardi - " + title; Width = 950; Height = 720; MinWidth = 500; MinHeight = 400;
         UseLayoutRounding = true; DialogFrame.Configure(this, owner);
         var body = new DockPanel { Margin = new Thickness(20, 6, 20, 16) };
         var cancel = UiKit.Make(L("Str_Btn_Cancel"), accent: false);

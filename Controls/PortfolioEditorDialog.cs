@@ -17,7 +17,7 @@ internal sealed class PortfolioEditorDialog : Window
     internal PortfolioEditorDialog(
         Window owner, PdfCollectionInfo? collection, IReadOnlyList<string> attachmentNames)
     {
-        Title = "KillerPDF - " + L("Str_DocumentTools_EditPortfolio");
+        Title = "PDF Gilardi - " + L("Str_DocumentTools_EditPortfolio");
         Width = 470;
         SizeToContent = SizeToContent.Height;
         UseLayoutRounding = true;

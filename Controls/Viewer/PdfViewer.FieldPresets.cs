@@ -27,7 +27,7 @@ namespace KillerPDF.Controls
 
         private void ShowFieldPresetError(Exception error) =>
             KillerDialog.Show(Window.GetWindow(this), Loc("Str_FieldPreset_Failed") + "\n" + error.Message,
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
 
         /// <summary>Opens the preset list. With <paramref name="pending"/>, the user names that new
         /// preset; otherwise they rename, reorder or delete the saved ones.</summary>

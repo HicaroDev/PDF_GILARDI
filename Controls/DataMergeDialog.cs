@@ -32,7 +32,7 @@ internal sealed class DataMergeDialog : Window
         _targets = PdfFormDataExporter.Export(template, includeAnnotations: false).Fields.Select(item => item.Name).ToArray();
         try { _mappings = [.. PdfDataMergeWorkflow.CreatePlan(template, records, outputName).Profile.Mappings]; }
         catch (InvalidOperationException) { }
-        Title = "KillerPDF - " + L("Str_DocumentTools_DataMerge");
+        Title = "PDF Gilardi - " + L("Str_DocumentTools_DataMerge");
         Width = 850; Height = 560; MinWidth = 650; MinHeight = 380;
         UseLayoutRounding = true;
         DialogFrame.Configure(this, owner);

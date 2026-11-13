@@ -879,7 +879,7 @@ namespace KillerPDF.Shell
             {
                 if (strokes.Count == 0)
                 {
-                    KillerDialog.Show(this, Loc("Str_Dlg_DrawSignatureFirst"), "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    KillerDialog.Show(this, Loc("Str_Dlg_DrawSignatureFirst"), "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Warning);
                     return;
                 }
 
@@ -919,7 +919,7 @@ namespace KillerPDF.Shell
             btnPanel.Margin = new Thickness(12, 4, 12, 12);
             contentArea.Children.Add(btnPanel);
 
-            win.Content = DialogFrame.Frame(win, this, "KillerPDF - " + Loc("Str_Sig_Create"), () => win.Close(), contentArea);
+            win.Content = DialogFrame.Frame(win, this, "PDF Gilardi - " + Loc("Str_Sig_Create"), () => win.Close(), contentArea);
             win.ShowDialog();
         }
 
@@ -969,7 +969,7 @@ namespace KillerPDF.Shell
             }
             catch (Exception ex)
             {
-                KillerDialog.Show(this, Loc("Str_Err_ImportImageFailed") + "\n" + ex.Message, "KillerPDF",
+                KillerDialog.Show(this, Loc("Str_Err_ImportImageFailed") + "\n" + ex.Message, "PDF Gilardi",
                     MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
@@ -1084,7 +1084,7 @@ namespace KillerPDF.Shell
             btnPanel.Children.Add(saveBtn);
             contentArea.Children.Add(btnPanel);
 
-            win.Content = DialogFrame.Frame(win, this, "KillerPDF - " + Loc("Str_Sig_AdjustImage"), () => win.Close(), contentArea);
+            win.Content = DialogFrame.Frame(win, this, "PDF Gilardi - " + Loc("Str_Sig_AdjustImage"), () => win.Close(), contentArea);
             win.Loaded += (s, e) => sensitivitySlider.Focus();
             win.ShowDialog();
             return result;

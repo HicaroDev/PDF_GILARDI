@@ -778,7 +778,7 @@ namespace KillerPDF.Shell
             }
             catch (Exception ex)
             {
-                KillerDialog.Show(this, Loc("Str_Err_LoadImageFailed") + "\n" + ex.Message, "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                KillerDialog.Show(this, Loc("Str_Err_LoadImageFailed") + "\n" + ex.Message, "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -859,7 +859,7 @@ namespace KillerPDF.Shell
             }
             catch (Exception ex)
             {
-                KillerDialog.Show(this, Loc("Str_Err_PasteFailed") + "\n" + ex.Message, "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                KillerDialog.Show(this, Loc("Str_Err_PasteFailed") + "\n" + ex.Message, "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 

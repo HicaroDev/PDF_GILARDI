@@ -31,7 +31,7 @@ internal sealed class RasterizeRegionDialog : Window
         _describe = describe;
         _pixelWidth = preview.PixelWidth;
         _pixelHeight = preview.PixelHeight;
-        Title = "KillerPDF - " + L("Str_Raster_Title");
+        Title = "PDF Gilardi - " + L("Str_Raster_Title");
         Width = 560;
         SizeToContent = SizeToContent.Height;
         UseLayoutRounding = true;

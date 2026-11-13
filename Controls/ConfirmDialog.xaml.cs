@@ -150,9 +150,12 @@ namespace KillerPDF.Controls
         private void ApplyAppName()
         {
             string name = Services.AppInfo.DisplayName;
+            // "PDF Gilardi" splits at the space: "PDF " neutral, "Gilardi" in the accent colour.
+            int space = name.IndexOf(' ');
             bool killer = name.StartsWith("Killer") && name.Length > "Killer".Length;
-            string lead = killer ? "Killer" : "The ";
-            string accent = killer ? name.Substring("Killer".Length) : name;
+            string lead = space > 0 ? name.Substring(0, space + 1) : killer ? "Killer" : "The ";
+            string accent = space > 0 ? name.Substring(space + 1)
+                          : killer ? name.Substring("Killer".Length) : name;
             foreach (var run in new[] { WordLead0, WordLead1, WordLead2 }) run.Text = lead;
             foreach (var run in new[] { WordAccent0, WordAccent1, WordAccent2 }) run.Text = accent;
             PlainTitle.Text = name;

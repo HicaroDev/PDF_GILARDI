@@ -14,6 +14,8 @@ namespace KillerLauncher
     internal static class TaskbarIdentity
     {
         private const string AppName = "KillerPDF";
+        // Visible label; AppName above stays in the AppUserModelID.
+        private const string DisplayName = "PDF Gilardi";
         private const int WmDestroy = 0x0002;
 
         private static string? _label;
@@ -21,10 +23,10 @@ namespace KillerLauncher
         private static string _arguments = string.Empty;
 
         /// <summary>Labels the ownerless windows of this process as the uninstaller.</summary>
-        internal static void UseUninstall() => Use("Uninstall " + AppName, "Uninstall", "/uninstall");
+        internal static void UseUninstall() => Use("Uninstall " + DisplayName, "Uninstall", "/uninstall");
 
         /// <summary>Labels the ownerless windows of this process as the installer.</summary>
-        internal static void UseInstaller() => Use(AppName + " Installer", "Installer", string.Empty);
+        internal static void UseInstaller() => Use(DisplayName + " Installer", "Installer", string.Empty);
 
         private static void Use(string label, string role, string arguments)
         {

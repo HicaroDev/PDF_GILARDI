@@ -281,7 +281,7 @@ namespace KillerPDF.Shell
                 hold?.Hold();
                 try
                 {
-                    if (KillerDialog.Show(this, string.Format(Loc("Str_Dlg_CancelBusy"), _busyOpLabel), "KillerPDF",
+                    if (KillerDialog.Show(this, string.Format(Loc("Str_Dlg_CancelBusy"), _busyOpLabel), "PDF Gilardi",
                             MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
                         _busyCts?.Cancel();
                 }

@@ -19,7 +19,7 @@ internal sealed class ReduceSizeDialog : Window
 
     internal ReduceSizeDialog(Window owner)
     {
-        Title = "KillerPDF - " + L("Str_Reduce_Title");
+        Title = "PDF Gilardi - " + L("Str_Reduce_Title");
         Width = 420;
         SizeToContent = SizeToContent.Height;
         UseLayoutRounding = true;

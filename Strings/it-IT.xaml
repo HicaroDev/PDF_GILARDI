@@ -1138,8 +1138,8 @@ Vuoi ridimensionare le pagine a una dimensione supportata? Le pagine manterranno
     <sys:String x:Key="Str_Key_WheelLogo">Rotella nel logo</sys:String>
     <sys:String x:Key="Str_Key_MiddleDrag">Trascinamento medio</sys:String>
     <sys:String x:Key="Str_Key_SpaceDrag">Spazio + trascina</sys:String>
-    <sys:String x:Key="Str_Wordmark_A">Killer</sys:String>
-    <sys:String x:Key="Str_Wordmark_B">PDF</sys:String>
+    <sys:String x:Key="Str_Wordmark_A">PDF</sys:String>
+    <sys:String x:Key="Str_Wordmark_B">Gilardi</sys:String>
     <sys:String x:Key="Str_Btn_Open">Apri</sys:String>
     <sys:String x:Key="Str_Btn_Select">Seleziona cartella</sys:String>
     <sys:String x:Key="Str_Btn_Replace">Sostituisci</sys:String>

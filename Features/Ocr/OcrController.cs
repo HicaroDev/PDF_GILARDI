@@ -115,7 +115,7 @@ namespace KillerPDF.Features
             catch (Exception ex)
             {
                 _host.HideBusy();
-                KillerDialog.Show(_host.Window, _host.Loc("Str_Err_OcrFailed") + "\n" + ex.Message, "KillerPDF",
+                KillerDialog.Show(_host.Window, _host.Loc("Str_Err_OcrFailed") + "\n" + ex.Message, "PDF Gilardi",
                     MessageBoxButton.OK, MessageBoxImage.Error);
             }
             finally
@@ -187,7 +187,7 @@ namespace KillerPDF.Features
             catch (Exception ex)
             {
                 _host.HideBusy();
-                KillerDialog.Show(_host.Window, _host.Loc("Str_Err_OcrFailed") + "\n" + ex.Message, "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                KillerDialog.Show(_host.Window, _host.Loc("Str_Err_OcrFailed") + "\n" + ex.Message, "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
             finally
             {
@@ -226,7 +226,7 @@ namespace KillerPDF.Features
             try { _host.SaveDocumentTo(src); }
             catch (Exception ex)
             {
-                KillerDialog.Show(_host.Window, _host.Loc("Str_Err_PrepareDoc") + "\n" + ex.Message, "KillerPDF",
+                KillerDialog.Show(_host.Window, _host.Loc("Str_Err_PrepareDoc") + "\n" + ex.Message, "PDF Gilardi",
                     MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
@@ -246,7 +246,7 @@ namespace KillerPDF.Features
                 _host.SetStatus(string.Format(_host.Loc("Str_St_SearchableSaved"), pages, words));
                 KillerDialog.Show(_host.Window,
                     string.Format(_host.Loc("Str_Dlg_SearchableSaved"), outPath, pages, words),
-                    "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Information);
+                    "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Information);
             }
             catch (OperationCanceledException) when (ct.IsCancellationRequested)
             {
@@ -256,7 +256,7 @@ namespace KillerPDF.Features
             catch (Exception ex)
             {
                 _host.HideBusy();
-                KillerDialog.Show(_host.Window, _host.Loc("Str_Err_SearchableFailed") + "\n" + ex.Message, "KillerPDF",
+                KillerDialog.Show(_host.Window, _host.Loc("Str_Err_SearchableFailed") + "\n" + ex.Message, "PDF Gilardi",
                     MessageBoxButton.OK, MessageBoxImage.Error);
             }
             finally
@@ -350,7 +350,7 @@ namespace KillerPDF.Features
             try { _host.SaveDocumentTo(src); }
             catch (Exception ex)
             {
-                KillerDialog.Show(_host.Window, _host.Loc("Str_Err_PrepareDoc") + "\n" + ex.Message, "KillerPDF",
+                KillerDialog.Show(_host.Window, _host.Loc("Str_Err_PrepareDoc") + "\n" + ex.Message, "PDF Gilardi",
                     MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
@@ -370,7 +370,7 @@ namespace KillerPDF.Features
                 if (ct.IsCancellationRequested || summary.Canceled) { _host.SetStatus(_host.Loc("Str_St_ScanTextCanceled")); return; }
                 if (summary.ScannedPages == 0)
                 {
-                    KillerDialog.Show(_host.Window, _host.Loc("Str_Dlg_ScanTextNone"), "KillerPDF",
+                    KillerDialog.Show(_host.Window, _host.Loc("Str_Dlg_ScanTextNone"), "PDF Gilardi",
                         MessageBoxButton.OK, MessageBoxImage.Information);
                     return;
                 }
@@ -379,7 +379,7 @@ namespace KillerPDF.Features
                 KillerDialog.Show(_host.Window,
                     string.Format(_host.Loc("Str_Dlg_ScanTextSaved"), outPath,
                         summary.ScannedPages, summary.ConvertedWords, summary.KeptWords),
-                    "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Information);
+                    "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Information);
             }
             catch (OperationCanceledException) when (ct.IsCancellationRequested)
             {
@@ -389,7 +389,7 @@ namespace KillerPDF.Features
             catch (Exception ex)
             {
                 _host.HideBusy();
-                KillerDialog.Show(_host.Window, _host.Loc("Str_Err_ScanTextFailed") + "\n" + ex.Message, "KillerPDF",
+                KillerDialog.Show(_host.Window, _host.Loc("Str_Err_ScanTextFailed") + "\n" + ex.Message, "PDF Gilardi",
                     MessageBoxButton.OK, MessageBoxImage.Error);
             }
             finally
@@ -644,7 +644,7 @@ namespace KillerPDF.Features
             try { _host.SaveDocumentTo(src); pageCount = _host.PageCount; }
             catch (Exception ex)
             {
-                KillerDialog.Show(_host.Window, _host.Loc("Str_Err_PrepareDoc") + "\n" + ex.Message, "KillerPDF",
+                KillerDialog.Show(_host.Window, _host.Loc("Str_Err_PrepareDoc") + "\n" + ex.Message, "PDF Gilardi",
                     MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
@@ -671,7 +671,7 @@ namespace KillerPDF.Features
             catch (Exception ex)
             {
                 _host.HideBusy();
-                KillerDialog.Show(_host.Window, _host.Loc("Str_Err_ExtractFailed") + "\n" + ex.Message, "KillerPDF",
+                KillerDialog.Show(_host.Window, _host.Loc("Str_Err_ExtractFailed") + "\n" + ex.Message, "PDF Gilardi",
                     MessageBoxButton.OK, MessageBoxImage.Error);
             }
             finally

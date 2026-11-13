@@ -58,7 +58,7 @@ namespace KillerPDF
         // Builds the title bar.
         //   win       - the window being chromed (used for DragMove on the whole bar)
         //   owner      - supplies the themed brushes + the ChromeCloseButton style (pass the window's owner)
-        //   fullTitle  - the complete title, e.g. "KillerPDF - Transform"; the "KillerPDF" part becomes the
+        //   fullTitle  - the complete title, e.g. "KillerPDF - Transform"; the "PDF Gilardi" part becomes the
         //                wordmark and the remainder (" - Transform") is rendered in the courier title font
         //   onClose    - invoked when the red close button is clicked (e.g. set a result then Close())
         private sealed class CaptionBorder : Border
@@ -108,16 +108,16 @@ namespace KillerPDF
                 Brush primary   = shadow ? Brushes.Black : Brush(owner, "ChromeTextBrush", Brushes.White);
                 Brush logo      = shadow ? Brushes.Black : Brush(owner, "AccentLogo", Brushes.LimeGreen);
                 Brush secondary = shadow ? Brushes.Black : Brush(owner, "ChromeTextBrush", Brushes.White);
-                int kp = fullTitle?.IndexOf("KillerPDF", StringComparison.Ordinal) ?? -1;
+                int kp = fullTitle?.IndexOf("PDF Gilardi", StringComparison.Ordinal) ?? -1;
                 if (kp >= 0)
                 {
                     // Killer + PDF in one TextBlock so the two sizes share a baseline (cohesive wordmark).
                     var logoTb = new TextBlock { VerticalAlignment = VerticalAlignment.Center };
-                    logoTb.Inlines.Add(new System.Windows.Documents.Run("Killer") { FontFamily = wordmark, FontWeight = FontWeights.Normal, FontSize = Value(owner, "TitleWordmarkSize", 15.0), Foreground = primary });
-                    logoTb.Inlines.Add(new System.Windows.Documents.Run("PDF") { FontFamily = wordmarkPdf, FontWeight = FontWeights.Normal, FontSize = Value(owner, "TitleWordmarkBoldSize", 22.52), Foreground = logo });
+                    logoTb.Inlines.Add(new System.Windows.Documents.Run("PDF ") { FontFamily = UiKit.BrandSansFont, FontWeight = FontWeights.Normal, FontSize = Value(owner, "TitleWordmarkSize", 15.0), Foreground = primary });
+                    logoTb.Inlines.Add(new System.Windows.Documents.Run("Gilardi") { FontFamily = UiKit.BrandSansFont, FontWeight = FontWeights.Bold, FontSize = Value(owner, "TitleWordmarkSize", 15.0), Foreground = logo });
                     // The qualifier ("- Transform") rides in the same TextBlock so it shares the
                     // wordmark's baseline instead of centring on its own and floating high.
-                    string after = fullTitle![(kp + "KillerPDF".Length)..];
+                    string after = fullTitle![(kp + "PDF Gilardi".Length)..];
                     if (!string.IsNullOrEmpty(after))
                         logoTb.Inlines.Add(new System.Windows.Documents.Run("  " + after.TrimStart()) { FontFamily = UiKit.BrandSansFont, FontWeight = FontWeights.Normal, FontSize = Value(owner, "TitleSubtitleSize", 18.0), Foreground = secondary });
                     sp.Children.Add(logoTb);
@@ -133,9 +133,9 @@ namespace KillerPDF
                     foreach (var run in text.Inlines.OfType<System.Windows.Documents.Run>())
                     {
                         run.SetResourceReference(System.Windows.Documents.TextElement.FontSizeProperty,
-                            run.Text == "Killer" ? "TitleWordmarkSize" : run.Text == "PDF" ? "TitleWordmarkBoldSize" : "TitleSubtitleSize");
+                            run.Text == "PDF " || run.Text == "Gilardi" ? "TitleWordmarkSize" : "TitleSubtitleSize");
                         if (!shadow) run.SetResourceReference(System.Windows.Documents.TextElement.ForegroundProperty,
-                            run.Text == "PDF" ? "AccentLogo" : "ChromeTextBrush");
+                            run.Text == "Gilardi" ? "AccentLogo" : "ChromeTextBrush");
                     }
                 }
                 return sp;
@@ -145,7 +145,7 @@ namespace KillerPDF
             // plain-title/wordmark resources used by the main window and family reference.
             var plain = new TextBlock
             {
-                Text = fullTitle ?? "KillerPDF", FontSize = 11, FontWeight = FontWeights.Bold,
+                Text = fullTitle ?? "PDF Gilardi", FontSize = 11, FontWeight = FontWeights.Bold,
                 VerticalAlignment = VerticalAlignment.Center
             };
             plain.SetResourceReference(TextBlock.FontFamilyProperty, "ChromeFontFamily");
@@ -171,7 +171,7 @@ namespace KillerPDF
                 title.Children.Add(accentShadow);
                 title.Children.Add(BuildWordmark(false));
                 // Same lift as the main title bar: Lacquer's deep descent makes the centred line sit low.
-                if (fullTitle?.Contains("KillerPDF", StringComparison.Ordinal) == true)
+                if (fullTitle?.Contains("PDF Gilardi", StringComparison.Ordinal) == true)
                     title.RenderTransform = new TranslateTransform(0, -5);
             }
             // The app icon leads the caption, at the main title bar's size and spacing.

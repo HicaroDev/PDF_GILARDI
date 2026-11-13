@@ -82,7 +82,7 @@ namespace KillerPDF.Shell
             };
             KillerDialog.Show(this,
                 Loc("Str_Handoff_Failed") + "\n\n" + reason,
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Warning);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Warning);
         }
 
         /// <summary>Replay whatever arrived during startup. No-op in the normal case.</summary>
@@ -153,7 +153,7 @@ namespace KillerPDF.Shell
             };
             KillerDialog.Show(this,
                 Loc("Str_Handoff_Failed") + "\n\n" + reason,
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Warning);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Warning);
         }
 
         public void RestoreAndActivate()

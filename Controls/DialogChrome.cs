@@ -168,13 +168,14 @@ namespace KillerPDF.Controls
             // shows the wordmark.
             var tb = new TextBlock { VerticalAlignment = VerticalAlignment.Center };
             tb.SetResourceReference(TextBlock.FontSizeProperty, "TitleWordmarkSize");
-            if (wf != null) tb.FontFamily = wf;
+            tb.SetResourceReference(TextBlock.FontFamilyProperty, "BrandSansFont");
 
             int cut = WordmarkSplit > 0 && WordmarkSplit < AppName.Length ? WordmarkSplit : AppName.Length;
             var neutral = new Run(AppName.Substring(0, cut));
             var accent = new Run(AppName.Substring(cut));
-            accent.SetResourceReference(TextElement.FontFamilyProperty, "WordmarkAccentFont");
-            accent.SetResourceReference(TextElement.FontSizeProperty, "TitleWordmarkBoldSize");
+            accent.SetResourceReference(TextElement.FontFamilyProperty, "BrandSansFont");
+            accent.FontWeight = FontWeights.Bold;
+            accent.SetResourceReference(TextElement.FontSizeProperty, "TitleWordmarkSize");
             var sub = new Run(subtitle.Length > 0 ? "  " + subtitle : "");
             sub.SetResourceReference(TextElement.FontFamilyProperty, "BrandSansFont");
             sub.SetResourceReference(TextElement.FontSizeProperty, "TitleSubtitleSize");

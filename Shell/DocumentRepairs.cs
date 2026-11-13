@@ -32,7 +32,7 @@ public partial class MainWindow
             or UnauthorizedAccessException)
         {
             KillerDialog.Show(this, Loc("Str_Err_PreflightProfile") + "\n" + error.Message,
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
             return;
         }
         ShowDocumentReport(Loc("Str_DocumentTools_PreflightProfile"),

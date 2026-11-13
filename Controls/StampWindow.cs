@@ -96,7 +96,7 @@ namespace KillerPDF
             _spec = existing?.Clone() ?? new StampSpec { NumbersEnabled = true };
             Result = _spec;
 
-            Title = "KillerPDF - " + S("Str_Stamp_Suffix");
+            Title = "PDF Gilardi - " + S("Str_Stamp_Suffix");
             System.Windows.Automation.AutomationProperties.SetAutomationId(this, "StampDialog");
             Width = 980;
             Height = 720;
@@ -217,7 +217,7 @@ namespace KillerPDF
             // Family shadow under the content pane, like the main window (flat on 98SE).
             root.Children.Add(UiKit.PaneWithShadow(previewWrap));
 
-            Content = DialogFrame.Frame(this, Owner, "KillerPDF - " + S("Str_Stamp_Suffix"), () => { Applied = false; Close(); }, root);
+            Content = DialogFrame.Frame(this, Owner, "PDF Gilardi - " + S("Str_Stamp_Suffix"), () => { Applied = false; Close(); }, root);
 
             // Esc-to-close is wired by DialogFrame.Frame; Enter commits.
             KeyDown += (_, e) => { if (e.Key == Key.Enter) CommitAndClose(); };

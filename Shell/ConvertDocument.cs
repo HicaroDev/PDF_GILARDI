@@ -28,14 +28,14 @@ namespace KillerPDF.Shell
             catch (OfficeNotInstalledException ex)
             {
                 SetStatus("");
-                KillerDialog.Show(this, string.Format(Loc("Str_Convert_NeedsOffice"), ex.Application), "KillerPDF",
+                KillerDialog.Show(this, string.Format(Loc("Str_Convert_NeedsOffice"), ex.Application), "PDF Gilardi",
                     MessageBoxButton.OK, MessageBoxImage.Information);
                 return;
             }
             catch (Exception ex)
             {
                 SetStatus("");
-                KillerDialog.Show(this, Loc("Str_Convert_Failed") + "\n" + ex.Message, "KillerPDF",
+                KillerDialog.Show(this, Loc("Str_Convert_Failed") + "\n" + ex.Message, "PDF Gilardi",
                     MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
@@ -57,7 +57,7 @@ namespace KillerPDF.Shell
             catch (Exception ex)
             {
                 AbortTabLoad(target, prev, createdNew);
-                KillerDialog.Show(this, Loc("Str_Convert_Failed") + "\n" + ex.Message, "KillerPDF",
+                KillerDialog.Show(this, Loc("Str_Convert_Failed") + "\n" + ex.Message, "PDF Gilardi",
                     MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }

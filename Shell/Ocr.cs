@@ -197,13 +197,13 @@ namespace KillerPDF.Shell
                 OcrLanguages.TryDeleteFile(dest + ".part");
                 if (ct.IsCancellationRequested) SetStatus(string.Format(Loc("Str_St_LangCanceled"), name));
                 else KillerDialog.Show(this, string.Format(Loc("Str_Dlg_DownloadTimeout"), name),
-                    "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                    "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
             catch (Exception ex)
             {
                 HideBusyOverlay(busy);
                 OcrLanguages.TryDeleteFile(dest + ".part");
-                KillerDialog.Show(this, string.Format(Loc("Str_Err_LangDataFailed"), name) + "\n" + ex.Message, "KillerPDF",
+                KillerDialog.Show(this, string.Format(Loc("Str_Err_LangDataFailed"), name) + "\n" + ex.Message, "PDF Gilardi",
                     MessageBoxButton.OK, MessageBoxImage.Error);
             }
             finally
@@ -270,7 +270,7 @@ namespace KillerPDF.Shell
             catch (Exception ex)
             {
                 HideBusyOverlay(busy);
-                KillerDialog.Show(this, Loc("Str_Err_HqDownloadFailed") + "\n" + ex.Message, "KillerPDF",
+                KillerDialog.Show(this, Loc("Str_Err_HqDownloadFailed") + "\n" + ex.Message, "PDF Gilardi",
                     MessageBoxButton.OK, MessageBoxImage.Error);
             }
             finally
@@ -296,7 +296,7 @@ namespace KillerPDF.Shell
             string names = string.Join(", ", missing.ConvertAll(OcrLanguages.NameForCode));
             var choice = KillerDialog.Show(owner ?? this,
                 string.Format(Loc("Str_Dlg_LangDownloadAsk"), names),
-                "KillerPDF", MessageBoxButton.OKCancel, MessageBoxImage.Information);
+                "PDF Gilardi", MessageBoxButton.OKCancel, MessageBoxImage.Information);
             if (choice != MessageBoxResult.OK) return false;
 
             var ct = BeginCancellableOp(Loc("Str_Op_LangDownload"));
@@ -329,7 +329,7 @@ namespace KillerPDF.Shell
             catch (Exception ex)
             {
                 KillerDialog.Show(owner ?? this, Loc("Str_Err_ModelDownloadFailed") + "\n" + ex.Message,
-                    "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                    "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
                 return false;
             }
             finally

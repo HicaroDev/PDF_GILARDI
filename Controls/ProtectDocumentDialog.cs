@@ -53,7 +53,7 @@ namespace KillerPDF
         {
             _sourcePdf = sourcePdf;
             _displayPath = displayPath;
-            Title = "KillerPDF - " + L("Str_Protect_Name");
+            Title = "PDF Gilardi - " + L("Str_Protect_Name");
             Width = 620;
             MaxHeight = 860;
             SizeToContent = SizeToContent.Height;
@@ -185,7 +185,7 @@ namespace KillerPDF
                 VerticalScrollBarVisibility = ScrollBarVisibility.Auto,
                 HorizontalScrollBarVisibility = ScrollBarVisibility.Disabled
             };
-            Content = DialogFrame.Frame(this, Owner, "KillerPDF - " + L("Str_Protect_Name"),
+            Content = DialogFrame.Frame(this, Owner, "PDF Gilardi - " + L("Str_Protect_Name"),
                 () => { DialogResult = false; Close(); }, scroll);
         }
 

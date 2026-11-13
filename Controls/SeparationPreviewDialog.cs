@@ -31,7 +31,7 @@ internal sealed class SeparationPreviewDialog : Window
         _plates = plates;
         _pageCount = pageCount;
         _page = Math.Clamp(startPage, 0, Math.Max(0, pageCount - 1));
-        Title = "KillerPDF - " + L("Str_DocumentTools_Separations");
+        Title = "PDF Gilardi - " + L("Str_DocumentTools_Separations");
         Width = 760;
         Height = 620;
         MinWidth = 560;

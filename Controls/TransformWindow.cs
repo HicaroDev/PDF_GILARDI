@@ -124,7 +124,7 @@ namespace KillerPDF
             _imagePixels = pages[0].ImagePixels;
             string toolName = S(mode == TransformWindowMode.Transform
                 ? "Str_Tf_Suffix" : "Str_ColorCorrection");
-            Title = "KillerPDF - " + toolName;
+            Title = "PDF Gilardi - " + toolName;
             Width = 980;
             Height = 720;
             MinWidth = 640;
@@ -633,7 +633,7 @@ namespace KillerPDF
             previewColumn.Children.Add(UiKit.PaneWithShadow(previewWrap));
             root.Children.Add(previewColumn);
 
-            Content = DialogFrame.Frame(this, Owner, "KillerPDF - " + toolName, () => { Applied = false; Close(); }, root);
+            Content = DialogFrame.Frame(this, Owner, "PDF Gilardi - " + toolName, () => { Applied = false; Close(); }, root);
             UpdatePreview();   // populate the output-size readout at the original dimensions
             UpdatePageNavigation();
 

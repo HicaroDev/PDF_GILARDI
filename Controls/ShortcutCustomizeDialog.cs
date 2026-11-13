@@ -22,7 +22,7 @@ internal sealed class ShortcutCustomizeDialog : Window
     internal ShortcutCustomizeDialog(Window owner, ShortcutRemap current)
     {
         _remap = ShortcutRemap.Parse(current.Serialize());
-        Title = "KillerPDF - " + L("Str_KS_CustomizeTitle");
+        Title = "PDF Gilardi - " + L("Str_KS_CustomizeTitle");
         Width = 560;
         Height = 640;
         UseLayoutRounding = true;

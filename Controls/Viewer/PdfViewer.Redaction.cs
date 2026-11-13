@@ -446,7 +446,7 @@ namespace KillerPDF.Controls
             }
             string skipped = Search.SkippedPagesMessage(unreadable);
             SetStatus(marked + " " + skipped);
-            KillerDialog.Show(Window.GetWindow(this), skipped, "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Warning);
+            KillerDialog.Show(Window.GetWindow(this), skipped, "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Warning);
         }
 
         // The Redact bar's Find: words, phrases or patterns across the whole document, reviewed in a
@@ -503,7 +503,7 @@ namespace KillerPDF.Controls
                 : Features.CliRunner.CliParsePageRange(range, session.PageCount, out _);
             if (pages is null || pages.Count == 0)
             {
-                KillerDialog.Show(owner, Loc("Str_InvalidRange"), "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Warning);
+                KillerDialog.Show(owner, Loc("Str_InvalidRange"), "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
             int added = 0;

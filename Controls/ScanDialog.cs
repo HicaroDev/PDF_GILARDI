@@ -15,7 +15,7 @@ internal sealed class ScanDialog : Window
 
     internal ScanDialog(Window owner, IReadOnlyList<string> scanners, string? lastScanner, bool showSettings)
     {
-        Title = "KillerPDF - " + L("Str_Scan_Title");
+        Title = "PDF Gilardi - " + L("Str_Scan_Title");
         Width = 440;
         SizeToContent = SizeToContent.Height;
         UseLayoutRounding = true;

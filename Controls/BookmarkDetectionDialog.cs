@@ -19,7 +19,7 @@ internal sealed class BookmarkDetectionDialog : Window
 
     internal BookmarkDetectionDialog(Window owner)
     {
-        Title = "KillerPDF - " + L("Str_DocumentTools_AutoBookmarks");
+        Title = "PDF Gilardi - " + L("Str_DocumentTools_AutoBookmarks");
         Width = 470;
         SizeToContent = SizeToContent.Height;
         UseLayoutRounding = true;
@@ -61,7 +61,7 @@ internal sealed class BookmarkDetectionDialog : Window
             || maximumDepth is < 1 or > 256)
         {
             KillerDialog.Show(this, L("Str_AutoBookmarks_Invalid"),
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Warning);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Warning);
             return;
         }
 
@@ -86,7 +86,7 @@ internal sealed class BookmarkDetectionDialog : Window
         catch (ArgumentException)
         {
             KillerDialog.Show(this, L("Str_AutoBookmarks_InvalidPattern"),
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Warning);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Warning);
             return;
         }
         DialogResult = true;

@@ -39,7 +39,7 @@ internal sealed class RedactionPropertiesDialog : Window
     internal RedactionPropertiesDialog(Window owner, Color fill, string? overlayText, int existingMarks)
     {
         Fill = fill;
-        Title = "KillerPDF - " + L("Str_RedactProps_Title");
+        Title = "PDF Gilardi - " + L("Str_RedactProps_Title");
         Width = 440;
         SizeToContent = SizeToContent.Height;
         UseLayoutRounding = true;

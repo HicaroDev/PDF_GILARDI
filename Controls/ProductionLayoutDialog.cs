@@ -25,7 +25,7 @@ internal sealed class ProductionLayoutDialog : Window
             : new PdfImpositionPreset("Desktop", operation == PdfMacroOperation.ImposePoster ? 1 : 2, 1,
                 842, 595, margin: 18, gutter: 12, duplex: operation == PdfMacroOperation.ImposeBooklet);
         _presetName = preset.Name;
-        Title = "KillerPDF - " + L(TitleKey(operation));
+        Title = "PDF Gilardi - " + L(TitleKey(operation));
         Width = 800;
         Height = operation is PdfMacroOperation.ImposeStepAndRepeat or PdfMacroOperation.ImposePoster ? 490 : 440;
         MinWidth = 700; MinHeight = 400;

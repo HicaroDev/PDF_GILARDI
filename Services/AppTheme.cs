@@ -47,7 +47,7 @@ namespace KillerPDF.Services
         /// <summary>The first-run theme and the token hooks, without touching saved settings.</summary>
         internal static void ConfigureTokens()
         {
-            ThemeManager.SetDefaults(Theme.Dark, dark: Accent.Green, light: Accent.Green, black: Accent.Green, se98: Accent.Blue);
+            ThemeManager.SetDefaults(Theme.Light, dark: Accent.Green, light: Accent.Green, black: Accent.Green, se98: Accent.Blue);
             ThemeManager.AppTokens = null;
             ThemeManager.AppDerivedTokens = AppDerivedTokens;
         }
@@ -56,8 +56,8 @@ namespace KillerPDF.Services
         internal static void ConfigureKit()
         {
             // Kit dialog captions (Controls/DialogChrome.cs): title icon and wordmark.
-            Controls.DialogChrome.AppName = "KillerPDF";
-            Controls.DialogChrome.WordmarkSplit = 6;
+            Controls.DialogChrome.AppName = "PDF Gilardi";
+            Controls.DialogChrome.WordmarkSplit = 4;
             Controls.DialogChrome.IconUri = new Uri("pack://application:,,,/Resources/kp-icon.ico");
         }
 

@@ -8,7 +8,7 @@ internal sealed class DocumentReportDialog : Window
 {
     internal DocumentReportDialog(Window owner, string title, string report)
     {
-        Title = "KillerPDF - " + title;
+        Title = "PDF Gilardi - " + title;
         Width = 720;
         Height = 620;
         MinWidth = 460;
@@ -44,7 +44,7 @@ internal sealed class DocumentReportDialog : Window
             catch (Exception ex)
             {
                 KillerDialog.Show(this, L("Str_DocumentTools_Failed") + "\n" + ex.Message,
-                    "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                    "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         };
         var close = UiKit.Make(L("Str_DocumentTools_Close"), accent: true);

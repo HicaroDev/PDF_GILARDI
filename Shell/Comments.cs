@@ -24,7 +24,7 @@ namespace KillerPDF.Shell
             catch (Exception ex)
             {
                 KillerDialog.Show(this, Loc("Str_Comments_ReadFailed") + "\n" + ex.Message,
-                    "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                    "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
 
@@ -48,7 +48,7 @@ namespace KillerPDF.Shell
             catch (Exception ex)
             {
                 KillerDialog.Show(this, Loc("Str_Comments_Failed") + "\n" + ex.Message,
-                    "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Error);
+                    "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
     }

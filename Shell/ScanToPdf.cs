@@ -16,7 +16,7 @@ namespace KillerPDF.Shell
         {
             if (!TwainScan.ManagerInstalled)
             {
-                KillerDialog.Show(this, Loc("Str_Scan_NoManager"), "KillerPDF",
+                KillerDialog.Show(this, Loc("Str_Scan_NoManager"), "PDF Gilardi",
                     MessageBoxButton.OK, MessageBoxImage.Information);
                 return;
             }
@@ -30,7 +30,7 @@ namespace KillerPDF.Shell
                 IReadOnlyList<NTwain.DataSource> sources = scan.Sources;
                 if (sources.Count == 0)
                 {
-                    KillerDialog.Show(this, Loc("Str_Scan_NoScanners"), "KillerPDF",
+                    KillerDialog.Show(this, Loc("Str_Scan_NoScanners"), "PDF Gilardi",
                         MessageBoxButton.OK, MessageBoxImage.Information);
                     return;
                 }
@@ -47,7 +47,7 @@ namespace KillerPDF.Shell
             catch (Exception ex)
             {
                 SetStatus("");
-                KillerDialog.Show(this, Loc("Str_Scan_Failed") + "\n" + ex.Message + ScanRecoveryMessage(folder), "KillerPDF",
+                KillerDialog.Show(this, Loc("Str_Scan_Failed") + "\n" + ex.Message + ScanRecoveryMessage(folder), "PDF Gilardi",
                     MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
@@ -62,7 +62,7 @@ namespace KillerPDF.Shell
                 SetStatus(completion);
                 KillerDialog.Show(this, completion + "\n"
                     + string.Join("\n", result.Errors.Select(error => error.Message))
-                    + ScanRecoveryMessage(folder), "KillerPDF", MessageBoxButton.OK,
+                    + ScanRecoveryMessage(folder), "PDF Gilardi", MessageBoxButton.OK,
                     result.Errors.Count > 0 ? MessageBoxImage.Warning : MessageBoxImage.Information);
             }
             if (pages.Count == 0)
@@ -91,7 +91,7 @@ namespace KillerPDF.Shell
             catch (Exception ex)
             {
                 AbortTabLoad(target, prev, createdNew);
-                KillerDialog.Show(this, Loc("Str_Scan_Failed") + "\n" + ex.Message + ScanRecoveryMessage(folder), "KillerPDF",
+                KillerDialog.Show(this, Loc("Str_Scan_Failed") + "\n" + ex.Message + ScanRecoveryMessage(folder), "PDF Gilardi",
                     MessageBoxButton.OK, MessageBoxImage.Error);
             }
             finally

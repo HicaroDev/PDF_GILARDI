@@ -15,7 +15,7 @@ internal sealed class LayerEditorDialog : Window
 
     internal LayerEditorDialog(Window owner, PdfOptionalContentInfo layers)
     {
-        Title = "KillerPDF - " + L("Str_DocumentTools_EditLayers");
+        Title = "PDF Gilardi - " + L("Str_DocumentTools_EditLayers");
         Width = 560;
         SizeToContent = SizeToContent.Height;
         MaxHeight = 640;
@@ -80,7 +80,7 @@ internal sealed class LayerEditorDialog : Window
             || names.Distinct(System.StringComparer.Ordinal).Count() != names.Length)
         {
             KillerDialog.Show(this, L("Str_DocumentTools_LayerInvalid"),
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Warning);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Warning);
             return;
         }
 

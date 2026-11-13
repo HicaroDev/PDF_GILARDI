@@ -16,7 +16,7 @@ internal sealed class AttachmentEditorDialog : Window
     internal AttachmentEditorDialog(
         Window owner, IReadOnlyList<PdfEngineIntegration.AttachmentEditorItem> attachments)
     {
-        Title = "KillerPDF - " + L("Str_DocumentTools_EditAttachments");
+        Title = "PDF Gilardi - " + L("Str_DocumentTools_EditAttachments");
         Width = 940;
         SizeToContent = SizeToContent.Height;
         MaxHeight = 680;
@@ -103,7 +103,7 @@ internal sealed class AttachmentEditorDialog : Window
                     && string.Equals(other.FileName, edit.FileName, System.StringComparison.OrdinalIgnoreCase))))
         {
             KillerDialog.Show(this, L("Str_Attachment_Invalid"),
-                "KillerPDF", MessageBoxButton.OK, MessageBoxImage.Warning);
+                "PDF Gilardi", MessageBoxButton.OK, MessageBoxImage.Warning);
             return;
         }
 

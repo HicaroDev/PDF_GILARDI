@@ -15,7 +15,7 @@ internal sealed class NavigationRepairDialog : Window
     internal NavigationRepairDialog(
         Window owner, string report, bool hasUnsafeLinks, bool hasUnresolvedLinks)
     {
-        Title = "KillerPDF - " + L("Str_DocumentTools_NavigationAudit");
+        Title = "PDF Gilardi - " + L("Str_DocumentTools_NavigationAudit");
         // As tall as the report needs, up to most of the screen, where it starts scrolling.
         Width = 760;
         SizeToContent = SizeToContent.Height;

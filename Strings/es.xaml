@@ -1106,8 +1106,8 @@ Abre Configuración de Windows - Aplicaciones predeterminadas.</sys:String>
     <sys:String x:Key="Str_Key_WheelLogo">Rueda sobre el logotipo</sys:String>
     <sys:String x:Key="Str_Key_MiddleDrag">Arrastrar con el botón central</sys:String>
     <sys:String x:Key="Str_Key_SpaceDrag">Espacio + arrastrar</sys:String>
-    <sys:String x:Key="Str_Wordmark_A">Killer</sys:String>
-    <sys:String x:Key="Str_Wordmark_B">PDF</sys:String>
+    <sys:String x:Key="Str_Wordmark_A">PDF</sys:String>
+    <sys:String x:Key="Str_Wordmark_B">Gilardi</sys:String>
     <sys:String x:Key="Str_Btn_Open">Abrir</sys:String>
     <sys:String x:Key="Str_Btn_Select">Seleccionar</sys:String>
     <sys:String x:Key="Str_Btn_Replace">Reemplazar</sys:String>

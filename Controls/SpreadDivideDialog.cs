@@ -32,7 +32,7 @@ internal sealed class SpreadDivideDialog : Window
 
     internal SpreadDivideDialog(Window owner, BitmapSource? preview, int selectedCount, int pageCount)
     {
-        Title = "KillerPDF - " + L("Str_Divide_Title");
+        Title = "PDF Gilardi - " + L("Str_Divide_Title");
         Width = 560;
         SizeToContent = SizeToContent.Height;
         UseLayoutRounding = true;
